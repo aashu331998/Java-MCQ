@@ -1,0 +1,602 @@
+[[
+[{
+q: "1.Which of the following is not ArrayList Constructor ?",
+
+opt1:"ArrayList()"
+opt2:"ArrayList(int capacity)"
+opt3:"ArrayList(int capacity,Collection<? extends E>c)"
+opt4:"ArrayList(Collection<? extends E>c)"
+ans:"3"
+}]
+
+[{  
+q: "2. Which of the following method is not declared by Iterator ?",
+
+opt1:"hasNext()"
+opt2:"hasPrevious"
+opt3:"forEachRemaining(Consumer<? super E>action)"
+opt4:"remove"
+ans:"2"
+}]
+
+[{
+
+q: "3.Which of the following is incorrect",
+
+opt1:"List<Integer> a = new ArrayList<Integer>()"
+opt2:"ArrayList<Integer> a = new ArrayList<Integer>()"
+opt3:"ArrayList<Integer> a = new List<Integer>()"
+opt4:"ArrayList a = new ArrayList()"
+ans:"3"
+}]
+
+[{
+q:"What is NavigableMap",
+opt1:"Describe an element(key/ value pair) in map"
+opt2:"Handle the retrieval of entries based on closest match searches"
+opt3:"Keys are maintain in ascending order"
+opt4:"None of the above"
+ans:"2"
+}]
+
+[{
+q:"5.Which constructor is correct",
+
+opt1:"Vector(int size)"
+opt2:"Vector(int size,int incr"
+opt3:"Vector(Collection<? extends E>c)"
+opt4:"All of the above"
+ans:"4"
+}]
+
+[{
+q:"6.Which of the following is a correct difference between the Iterator and ListIterator?"
+
+opt1:"Iterator traverses the elements only in forward direction whereas the ListIterator traverses back and forth."
+opt2:"Iterator traverses back and forth while the ListIterator traverses the elements in forward direction."
+opt3:"Iterator traverses the elements in backward direction while the ListIterator moves in forward direction."
+opt4:"None"
+ans:"1"
+}]
+
+[{
+q:"7.Which of the following is a correct difference between List and Set?"
+
+opt1:"List can hold duplicate elements while Set includes only unique elements."
+opt2:"List contain only unique elements whereas Set can contain duplicate elements"
+opt3:"List maintains no order whereas Set maintains ascending order"
+opt4:"None"
+ans:"1"
+}]
+[{
+q:"8.Which of the following is not true in case of a WeakHashMap?"
+
+opt1:"WeakHashMap is a Hash table based implementation of the Map interface with weak keys"
+opt2:"WeakHashMap doesn't allow null keys and null values"
+opt3:"WeakHashMap is a class present in java.util package"
+opt4:"An entry in WeakHashMap is automatically removed when it is no longer in use."
+ans:"2"
+}]
+
+[{
+q:"9.Fill in the blanks"
+
+Vector<Integer> v= new Vector<Integer>();
+v.add(1);
+v.add(3);
+v.add(5);
+Enumeration<Integer> enumr=v.__________;
+while(enumr.hasMoreElements())
+{
+	System.out.println(enumr.nextElement());
+}
+
+opt1:"getClass()"
+opt2:"clone()"
+opt3:"elements()"
+opt4:"hashCode()"
+ans:"3"
+}]
+
+[{
+q:"10.What is the output of program"
+
+Vector v1= new Vector(3,2);
+v1.add(2);
+v1.add(4);
+v1.add(6);
+v1.add(null);
+System.out.println(v1.size());
+
+opt1: "3"
+opt2:  "5"
+opt3: "4."
+opt4: "None of above"
+ans:"3"
+}]
+
+[{
+q:"11.What is the output of program?"
+
+Vector v1= new Vector(3,2);
+v1.add(2);
+v1.add(4);
+v1.add(6);
+v1.add(null);
+System.out.println(v1.capacity());
+
+
+opt1: "3"
+opt2:  "5"
+opt3: "4."
+opt4: "None of above"
+ans:"2"
+}]
+
+[{
+q:"12.When would you choose to use ArrayList over LinkedList in an application?"
+
+opt1: "ArrayList is preferred when there is growing need of merging or sorting operations."
+opt2: "ArrayList is preferred when there are frequent insertions or deletions required in the application."
+opt3: "ArrayList is preferred when there is more demand for get via index operations."
+opt4: "None
+ans:"3"
+}]
+
+[{
+q:"13.Which one is not EnumSet method?"
+
+opt1:"allOf()"
+opt2:"range()"
+opt3:"add()"
+opt4:"noneOf()"
+ans:"3"
+}]
+
+[{
+q:"14.Which of the following is a correct difference between the Iterator and Enumeration?"
+
+opt1:"Iterator is faster than Enumeration"
+opt2:"Enumeration is fail-fast while Iterator is not fail-fast"
+opt3:"Iterator can traverse legacy and non-legacy containers whereas the Enumeration can traverse only legacy containers"
+opt4:"None"
+ans:"3"
+}]
+
+[{
+q:"15.When would you choose to use LinkedList over ArrayList in an application?"
+
+opt1:"LinkedList is preferred when applications needs to support insertions or deletions of elements."
+opt2:"LinkedList is preferred when application requires to perform merging or sorting operations"
+opt3:"LinkedList is preferred when application requires to perform frequent get or search operations"
+opt4:"None"
+ans:"1"
+}]
+
+[{
+q:"16.Which of the following method you need to override for using an object as key in a HashMap?"
+
+opt1:"hashKey()"
+opt2:"hashValue()"
+opt3:"hashCode()"
+opt4:"None"
+ans:"3"
+}]
+
+[{
+q:"17.What is the time complexity for add(index, element) in ArrayList?"
+
+opt1:"O(1)"
+opt2:"O(log(n))"
+opt3:"O(n)"
+opt4:"O(nlog(n))"
+ans:"3"
+}]
+
+[{
+q:"17.What is the time complexity for put() in TreeMap?"
+
+opt1:"O(1)"
+opt2:"O(log(n))"
+opt3:"O(n)"
+opt4:"O(nlog(n))"
+ans:"2"
+}]
+
+[{
+q:"19.The default capacity of a Vector is"
+
+opt1:"5"
+opt2:"15"
+opt3:"10"
+opt4:"7"
+ans:"3"
+}]
+
+[{
+q:"20.The default capacity of a ArrayList is:"
+
+opt1:"5"
+opt2:"15"
+opt3:"10"
+opt4:"7"
+ans:"3"
+}]
+
+[{
+q:"21.An unordered array has a search time complexity of:"
+
+opt1:"O(log n)"
+opt2:"O(n)"
+opt3:"O(n+1)"
+opt4:"O(log n)"
+ans:"2"
+}]
+
+[{
+q:"22.After resizing, size of ArrayList is increased by :"
+
+opt1:"200%"
+opt2:"50%"
+opt3:"100%"
+opt4:"75%"
+ans:"3"
+}]
+
+[{
+q:"23.HashSet internally uses?"
+
+opt1:"Set"
+opt2:"HashMap"
+opt3:"List"
+opt4:"Collection"
+ans:"2"
+}]
+
+[{
+q:"24.Which Map class must be preferred in multi-threading environment, considering performance constraint?"
+
+opt1:"Hashtable"
+opt2:"CopyOnWriteMap"
+opt3:"ConcurrentHashMap"
+opt4:"ConcurrentMap"
+ans:"3"
+}]
+
+[{
+q:"25.TreeMap implements?"
+
+opt1:"Dictionary"
+opt2:"HashMap"
+opt3:"AbstractMap"
+opt4:"NavigableMap"
+ans:"4"
+}]
+
+[{
+q:"26.Iterator returned by Vector is"
+
+opt1:"fail-fast"
+opt2:"None"
+opt3:"fail-safe"
+opt4:"Null"
+ans:"1"
+}]
+
+[{
+
+q:"27.Which of these class should be preferred to be used as a key in a HashMap?"
+
+opt1:"String"
+opt2:"Integer"
+opt3:"Double"
+opt4:"Any of these"
+ans:"4"
+}]
+
+[{
+q:"28.concurrentSkipListMap allows"
+
+opt1:"one null key"
+opt2:"many null key"
+opt3:"both of the above"
+opt4:"none of the above"
+ans:"4"
+}]
+
+[{
+q:"29.Which of these is synchronized and doesn't allow null elements?"
+
+opt1:"CopyOnWriteArraylist"
+opt2:"Vector"
+opt3:"CopyOnWriteArraySet"
+opt4:"ConcurrentSkipListSet"
+ans:"4"
+}]
+
+[{
+q:"30.An attempt to add null key to a TreeMap will result in:"
+
+opt1:"Compile time exception"
+opt2:"Error"
+opt3:"Runtime-NullPointerException"
+opt4:"None"
+ans:"3"
+}]
+
+[{
+q:"31.What does Collections.sort internally uses when number of elements are less than 7?"
+
+opt1:"Insertion Sort"
+opt2:"Merge Sort"
+opt3:"Quick sort"
+opt4:"Bubble sort"
+ans:"1"
+}]
+
+[{
+q:"32.Hashtable allows"
+
+opt1:"one null key"
+opt2:"many nul values"
+opt3:"none"
+opt4:"all"
+ans:"3"
+}]
+
+[{
+q:"33LinkedHashMap allows"
+
+opt1:"one null key"
+opt2:"many nul values"
+opt3:"none"
+opt4:"all"
+ans:"4"
+}]
+[{
+q:"34.A EnumSet"
+	
+opt1:"Can use enum and non enum type keys"
+opt2:"Cannot use enum type keys"
+opt3:"is specialized Set implementation for use with enum type keys only"
+opt4:"None"
+ans:"3"
+}]
+
+[{
+q:"35.Which Set is synchronized?"
+
+opt1:"CopyOnWriteArraySet"
+opt2:"ConcurrentSkipListSet"
+opt3:"All"
+opt4:"None"
+
+ans:"3"
+}]
+
+[{
+q:"36.What is significance of using instanceOf operator and getClass() in equals method"
+
+opt1:"instanceOf will return true for comparing current class with its subclass as well"
+opt2:"getClass() will return true only if exactly same class is compared"
+opt3:"getClass() will return false when compared with subclass"
+opt4:"All"
+ans:"4"
+}]
+
+[{
+q:"37.)What will be the output of following program?
+
+import java.util.*;
+public class LinkerHashSetDemo {
+    public static void main(String[] args) {
+        Set s = new LinkedHashSet();
+        s.add("1");
+        s.add(1);
+        s.add(2);
+        s.add(4);
+        s.add(3);
+        System.out.println(s);
+    }
+}"
+
+opt1:"[1,2,3,4]"
+opt2:"[1,1,2,4,3]"
+opt3:"[1,2,4,3]"
+opt4:"Error"
+ans:"2"
+}]
+
+[{
+q:"38.Methods such as reverse, shuffle and sort are available in:"
+
+opt1:"Object"
+opt2:"Collection"
+opt3:"Collections"
+opt4:"Apache Commons Collections"
+
+ans:"3"
+}]
+
+[{
+q:"39.What will be the output of the following program?
+
+import java.util.ArrayList;
+import java.util.List;
+public class MyClass {
+    public static void main(String args[]) {
+        List<Integer> l = new ArrayList<Integer>();
+        l.add(2);
+	m(l);
+    }
+    Static void m(List<?super Double> l)
+    {
+	System.out.println(l.get(0));
+	System.out.println(l.get(1));	
+}"
+
+opt1:"IndexOutOfBoundException"
+opt2:"23"
+opt3:"compile time error"
+opt4:"NullPointerException"
+ans:"3"
+}]
+
+[{
+q:"40.Which list is synchronized"
+
+opt1:"Vector"
+opt2:"CopyOnWriteArrayList"
+opt3:"All"
+opt4:"None"
+ans:"3"
+}]
+
+[{
+q:"41.)What will be the output of the following program?
+
+import java.util.*;
+public class ArrayListDemo{
+	public static void main(String[] args) {
+		List<String> al = new ArrayList<String>();
+		al.add("a");
+		al.add("b");
+		ListIterator<String> li = al.listiterator();
+		while(li.hasNext())
+		{
+			System.out.println(li.next());
+			li.previous();
+		}
+	}
+}"
+
+opt1:"a
+      b
+      a
+      b"
+opt2:"a
+      b"
+opt3:"Will print a infinite times"
+opt4:"a"
+
+ans:"3"
+}]
+[{
+q:"42.Deque and Queue are derived from:"
+opt1:"AbstractList"
+opt2:"Collection"
+opt3:"AbstractCollection"
+opt4:"List"
+ans:"2"
+}]
+[{
+q:"43.Vector extends which of these"
+opt1:"ArrayList"
+opt2:"LinkedList"
+opt3:"AbstractList"
+opt4:"None"
+ans:"3"
+}]
+
+[{
+q:"44.From Java 5 onwards, which one of these is recommended to replace Hashtable?"
+opt1:"ConcurrentHashMap"
+opt2:"HashMap"
+opt3:"ConcurrentHashTable"
+opt4:"None"
+ans:"1"
+}]
+
+[{
+q:"45.)What is the output of following Java Program?"
+import java.util.HashSet; 
+class HashSetDemo { 
+public static void main(String ar[]) 
+    { 
+        Set hs = new HashSet(); 
+        hs.add("1"); 
+        hs.add(1); 
+        hs.add(null);
+	hs.add("null"); 
+	System.out.println(hs) 
+    } 
+} "
+opt1:"[null,1]"
+opt2:"[1]"
+opt3:"[null,1,1,null]"
+opt4:"Runtime Exception"
+
+ans:"3"
+}]
+
+[{
+q:"46.How can you sort given HashMap on basis of values"
+opt1:"Implement Comparator interface and override its compare method"
+opt2:"It's not possible"
+opt3:"Implement Comparator interface and override its compareTo method"
+opt4:"Implement Comparator and Comparable interface"
+
+ans:"1"
+}]
+
+[{
+q:"47.Which of these is synchronized and isn't sorted by natural order?"
+
+opt1:"EnumSet"
+opt2:"LinkedList"
+opt3:"ConcurrentSkipListSet"
+opt4:"Vector"
+ans:"4"
+}]
+[{
+q:"48.Which of these is synchronized and doesn't allow null elements?"
+
+opt1:"Vector"
+opt2:"CopyOnWriteArraySet"
+opt3:"CopyOnWriteArrayList"
+opt4:"ConcurrentSkipListSet"
+ans:"4"
+}]
+[{
+q:"49.Which of these is synchronized and doesn't allow null elements?"
+
+opt1:"Hashtable"
+opt2:"HashMap"
+opt3:"Both"
+opt4:"None"
+
+ans:"2"
+}]
+
+[{
+q:"50.What is the Output of following Java Program?
+import java.util.*;
+public class sortedset{
+	public static void main(String[] args) {
+		Collection<Integer> c = new HashSet<Integer>();
+		c.add(3);
+		c.add(1);
+		c.add(2);
+		Set<Integer> ts = new TreeSet<Integer>(collection);
+		System.out.println(ts);
+	}
+}
+
+"
+opt1:"[3,2,1]"
+opt2:"Runtime Exception- NullPointerException"
+opt3:"[1,2,3]"
+opt4:"Runtim Exception- classCastException"
+
+ans:"2"
+}]
+]]
+IT-2k17-08
+
+
+
+
+
+
+
+

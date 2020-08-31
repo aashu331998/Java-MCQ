@@ -1,0 +1,591 @@
+demo input formate for Questions,
+[[
+[{
+q:"1 Which of these classes is not part of Java’s collection framework?",
+opt1:"Maps",
+opt2:"Array",
+opt3:"Stack",
+opt4:"Queue",
+ans:"1"
+}],
+  [{
+q:"2 To obtain the last element, from a LinkedList which method should be used ?",
+opt1:"getLast( )",
+opt2:"peekLast( )",
+opt3:"Both 1 and 2",
+opt4:"None of the above",
+ans:"3"
+}],
+[{
+q:"3 Which of these packages contain all the collection classes?",
+opt1:"java.lang",
+opt2:"java.util",
+opt3:"java.net",
+opt4:"java.awt",
+ans:"2"
+}],
+[{
+q:"4 What is Collection in Java?",
+opt1:"A group of objects",
+opt2:"A group of classes",
+opt3:"A group of interfaces",
+opt4:"None of the mentioned",
+ans:"1"
+}],
+[{
+q:"5 Which of these methods deletes all the elements from invoking collection?",
+opt1:"clear()",
+opt2:"reset()",
+opt3:"delete()",
+opt4:"refresh()",
+ans:"1"
+}],
+[{
+q:"6 Which of these interface declares core method that all collections will have?",
+opt1:"set",
+opt2:"EventListner",
+opt3:"Comparator",
+opt4:"Collection",
+ans:"4"
+}],
+[{
+q:"7 Which of these interface handle sequences?",
+opt1:"List",
+opt2:"Set",
+opt3:"SortedMap",
+opt4:"SortedList",
+ans:"1"
+}],
+[{
+q:"8 Which of these interface must contain a unique element?",
+opt1:"Set",
+opt2:"List",
+opt3:"SortedMap",
+opt4:"Collection",
+ans:"1"
+}],
+[{
+q:"9 Which of these is static variable defined in Collections?",
+opt1:"EMPTY_SET",
+opt2:"EMPTY_MAP",
+opt3:"EMPTY_LIST",
+opt4:"All of the above",
+ans:"4"
+}],
+[{
+q:"10 Which of these methods sets every element of a List to a specified object?",
+opt1:"set()",
+opt2:"fill()",
+opt3:"Complete()",
+opt4:"add()",
+ans:"2"
+}],
+[{
+q:"11 Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?",
+opt1:"java.util.HashSet",
+opt2:"java.util.LinkedHashSet",
+opt3:"java.util.List",
+opt4:"java.util.ArrayList",
+ans:"4"
+}],
+[{
+q:"12 Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO sequence?",
+opt1:"ArrayList",
+opt2:"Set",
+opt3:"LinkedHashMap",
+opt4:"TreeMap",
+ans:"3"
+}],
+[{
+q:"13 What is the output of this program?    
+			import java.util.*;
+    			class Array {
+        			public static void main(String args[]) {
+            		int array[] = new int [5];
+            		for (int i = 5; i > 0; i--)
+                	array[5-i] = i;
+            		Arrays.fill(array, 1, 4, 8);
+            		for (int i = 0; i < 5 ; i++)
+                	System.out.print(array[i]);
+        }
+    }",
+opt1:"12885",
+opt2:"12845",
+opt3:"58881",
+opt4:"54881",
+ans:"3"
+}],
+[{
+q:"14 What is the output of this program?
+    import java.util.*;
+    class stack {
+        public static void main(String args[]) {
+            Stack obj = new Stack();
+            obj.push(new Integer(6));
+            obj.push(new Integer(4));
+            obj.pop();
+            obj.push(new Integer(9));
+          System.out.println(obj);
+        }
+    }",
+opt1:"[6,4,9]",
+opt2:"[4,9]",
+opt3:"[6,4]",
+opt4:"[6,9]",
+ans:"4"
+}],
+[{
+q:"15 Which of the following is true about TreeSet?",
+opt1:"TreeSet is a generic class",
+opt2:"TreeSet extends AbstractSet",
+opt3:"Objects are stored in sorted, ascending order",
+opt4:"All 3",
+ans:"4"
+}],
+[{
+q:"16 Which of the following will you use to insert elements at any position in the collection ?",
+opt1:"Set",
+opt2:"ArrayList",
+opt3:"SortedMap",
+opt4:"LinkedList",
+ans:"4"
+}],
+[{
+q:"17 Set allows at most one null element ?",
+opt1:"True",
+opt2:"Anything is possible",
+opt3:"False",
+opt4:"Both 2 and 3",
+ans:"1"
+}],
+[{
+q:"18 If you want to use a List implementation,but you are not sure of its requirement. Which one should you prefer ?",
+opt1:"Set",
+opt2:"Vector",
+opt3:"ArrayList",
+opt4:"Tree",
+ans:"3"
+}],
+[{
+q:"19 What is the data structure that a Set uses to store its elements  ?",
+opt1:"Set",
+opt2:"SortedSet",
+opt3:"Map",
+opt4:"Hashtable",
+ans:"3"
+}],
+[{
+q:"20 Which implementation of Set should be used to get the objects in the order it were inserted, by the iterator of the set ?",
+opt1:"HashSet",
+opt2:"SortedSet",
+opt3:"TreeSet",
+opt4:"LinkedHashSet",
+ans:"4"
+}],
+[{
+q:"21 What is the outputof the following program ?
+import java.util.*; 
+  
+public class linkedList 
+{ 
+    public static void main(String[] args) 
+    { 
+        List<String> list1 = new LinkedList<>(); 
+        list1.add("Hello"); 
+        list1.add("World"); 
+        list1.add("How"); 
+        list1.add("are"); 
+        list1.add("you ?"); 
+  
+        List<String> list2 = new LinkedList<>(); 
+        list2.add("Hello"); 
+  
+        list1.removeAll(list2); 
+  
+        for (String i : list1) 
+            System.out.printf(i + " "); 
+  
+        System.out.println(); 
+    } 
+} ",
+opt1:"Hello",
+opt2:"World How are you ?",
+opt3:"How are you ?",
+opt4:"None of the above",
+ans:"2"
+}],
+[{
+q:"22 What is the output of the following program?
+import java.util.*;  
+public class stack 
+{ 
+    public static void main(String[] args) 
+    { 
+        List<String> list = new LinkedList<>(); 
+        list.add("Happy"); 
+        list.add("Birthday"); 
+        list.add("Roy"); 
+        list.add("Best Wishes ! "); 
+        Iterator<Integer> iter = list.iterator(); 
+  
+        while (iter.hasNext()) 
+            System.out.printf(iter.next() + " "); 
+  
+        System.out.println(); 
+    } 
+} ",
+opt1:"Runtime Error",
+opt2:"Happy Birthday",
+opt3:"Happy Birthday Roy Best Wishes !",
+opt4:"Compile Time Error",
+ans:"4"
+}],
+[{
+q:"23 It extends AbstractQueue and implements the Queue interface. It creates a queue
+that is prioritized based on the queue’s comparator.",
+opt1:"Deque",
+opt2:"ArrayList",
+opt3:"PriorityQueue",
+opt4:"None of the above",
+ans:"3"
+}],
+[{
+q:"24 Iterator and ListIterator can traverse over",
+opt1:"Set",
+opt2:"Lists",
+opt3:"SortedSet",
+opt4:"Map",
+ans:"2"
+}],
+[{
+q:"25 Which among the following stores element in ascending order?",
+opt1:"Set",
+opt2:"SortedSet",
+opt3:"TreeSet",
+opt4:"LinkedList",
+ans:"3"
+}],
+[{
+q:"26 HashSet extends which of the following ",
+opt1:"Set",
+opt2:"SortedSet",
+opt3:"AbstractSet",
+opt4:"Hashtable",
+ans:"3"
+}],
+[{
+q:"27 Which method of LinkedList class is used to add elements to the start of the list ?",
+opt1:"addLast()",
+opt2:"add()",
+opt3:"addFirst()",
+opt4:"addStart()",
+ans:"3"
+}],
+[{
+q:"28 By using which objector you can access each element in the collection, one element at a time",
+opt1:"iterator",
+opt2:"comparator",
+opt3:"collection",
+opt4:"array",
+ans:"1"
+}],
+[{
+q:"29 It is an object that stores associations between keys and values, or key/value pairs",
+opt1:"set",
+opt2:"iterator",
+opt3:"map",
+opt4:"None of the above",
+ans:"3"
+}],
+[{
+q:"30 The methods compare() and equals() belong to which interface ?",
+opt1:"Set",
+opt2:"Comparator",
+opt3:"Map",
+opt4:"All of the above",
+ans:"2"
+}],
+[{
+q:"31 This class is the super class of Stack class that implements a standard last-in, first out stack.",
+opt1:"Set",
+opt2:"SortedSet",
+opt3:"Vector",
+opt4:"Hashtable",
+ans:"3"
+}],
+[{
+q:"32 This class creates a special type of array that holds bit values. This array can increase in size as needed",
+opt1:"Set",
+opt2:"SortedSet",
+opt3:"BitSet",
+opt4:"Hashtable",
+ans:"3"
+}],
+[{
+q:"33 It is an abstract class that represents a key/value storage repository and operates like Map. Once the value is stored, you can retrieve it by using its key.",
+opt1:"Dictionary",
+opt2:"SortedSet",
+opt3:"LinkedList",
+opt4:"Hashtable",
+ans:"1"
+}],
+[{
+q:"34 It extends Collection and declares the behaviour of a collection that stores a sequence of elements ",
+opt1:"Set",
+opt2:"SortedSet",
+opt3:"List",
+opt4:"Hashtable",
+ans:"3"
+}],
+[{
+q:"35 It extends SortedSet to handle retrieval of elements based on closest match searches?",
+opt1:"Set",
+opt2:"NavigableSet",
+opt3:"HashSet",
+opt4:"TressSet",
+ans:"2"
+}],
+[{
+q:"36 Collection extends ______ interface.",
+opt1:"Set",
+opt2:"NavigableSet",
+opt3:"Iterable",
+opt4:"Comparator",
+ans:"3"
+}],
+[{
+q:"37 You can remove all elements except those of a specified group by calling which method",
+opt1:"clear()",
+opt2:"remove()",
+opt3:"retainAll()",
+opt4:"removeAll()",
+ans:"3"
+}],
+[{
+q:"38 This method return an array that contains the elements stored in the invoking collection.",
+opt1:"toArray()",
+opt2:"Array()",
+opt3:"iterator()",
+opt4:"Arrays()",
+ans:"2"
+}],
+[{
+q:"39 The correct declaration of Queue generic interface.",
+opt1:"class Queue<E>",
+opt2:"interface Queue<E>",
+opt3:"interface Queue<>",
+opt4:"class Queue<>",
+ans:"2"
+}],
+[{
+q:"40 It can function as standard, first-in, first-out queues or last-in, first-out stacks.",
+opt1:"Set",
+opt2:"PriorityQueue",
+opt3:"Deque",
+opt4:"TreeSet",
+ans:"3"
+}],
+[{
+q:"41 What is the output of the following ?
+import java.util.*;
+class HashSetDemo
+{
+	public static void main(String arg[])
+	{
+		HashSet hs = new HashSet<>();
+		hs.add("A");
+		hs.add("B");
+		hs.add("C");
+		hs.add("D");
+		System.out.println(hs);
+	}
+} ",
+opt1:"[A, B, C, D]",
+opt2:"[D, A, C, B]",
+opt3:"Compilation Error",
+opt4:"Runtime Error",
+ans:"3"
+}],
+[{
+q:"42 What is the output of the following ?
+import java.util.*;
+class TreesSetDemo
+{
+	public static void main(String arg[])
+	{
+		TreeSet<String> t = new TreeSet<String>();
+		t.add("B");
+		t.add("A");
+		t.add("D");
+		t.add("C");
+		t.add("E");
+		System.out.println(t);
+	}
+} ",
+opt1:"[A, B, C, D, E]",
+opt2:"[B, A, D, C, E]",
+opt3:"[E, C, D, A, B]",
+opt4:"Runtime Error",
+ans:"1"
+}],
+[{
+q:"43 What is the output of the following ?
+import java.util.*;
+class ArrayListDemo
+{
+	public static void main(String ag[])
+	ArrayList<String> a1 = new ArrayList<String>();
+	System.out.println(a1.size());
+	a1.add("A");
+	a1.add("F");
+	a1.add("C");
+	a1.add("X");
+	a1.add("R");
+	System.out.println(al.size());
+	al.remove("F");
+	al.remove(2);
+	System.out.println(al.size());
+}",
+opt1:"0
+	  5
+	  3",
+opt2:"0
+	  3
+	  5",
+opt3:"0
+	  5
+	  2",
+opt4:"Error",
+ans:"1"
+}],
+[{
+q:"44 What is the output of the program
+import java.util.*;
+class ArrayListToArray {
+public static void main(String args[]) {
+ArrayList<Integer> al = new ArrayList<Integer>();
+al.add(1);
+al.add(2);
+al.add(3);
+al.add(4);
+a1.remove(2);
+Integer ia[] = new Integer[al.size()];
+ia = al.toArray(ia);
+int sum = 0;
+for(int i : ia)
+{
+	sum += i;
+}
+System.out.println("Sum is: " + sum);
+}
+}",
+opt1:"Sum is: 10",
+opt2:"Sum is: 8",
+opt3:"Sum is: 7",
+opt4:"Sum is: 0",
+ans:"2"
+}],
+[{
+q:"45 What is the output of the following program
+import java.util.*;
+class ArrayDequeDemo {
+public static void main(String args[]) {
+ArrayDeque<String> ad = new ArrayDeque<String>();
+ad.push("A");
+ad.push("B");
+ad.push("D");
+ad.push("E");
+ad.push("F");
+System.out.print("Popping the stack: ");
+while(ad.peek() != null)
+System.out.print(ad.pop() + " ");
+System.out.println();
+}
+}",
+opt1:"Popping the stack:  F E D B A",
+opt2:"Popping the stack:  A B D E F",
+opt3:"Popping the stack:  F E B D A",
+opt4:"Popping the stack:  F E D A B",
+ans:"1"
+}],
+[{
+q:"46 Will the following program run ?
+class Demo {
+public static void main(String args[]) {
+ArrayList<String> al = new ArrayList<String>();
+al.add("C");
+al.add("A");
+al.add("E");
+al.add("B");
+al.add("D");
+al.add("F");
+System.out.print("Original contents of al: ");
+for(String i : a1)
+{
+	System.out.println(i);
+}",
+opt1:"Yes",
+opt2:"Compilation Error",
+opt3:"Runtime Error",
+opt4:"None of the above",
+ans:"2"
+}],
+[{
+q:"47   ArrayList<String> al = new ArrayList<String>();
+		al.add("Hello ");
+		al.add("World ");
+		al.add("Welcome ");
+		al.add("to ");
+		al.add("IIPS");
+
+Which among the following is the correct way to display the given output :
+Output :
+Hello World Welcome to IIPS
+
+a)	Iterator<String> itr = al.iterator();
+	while(itr.hasNext()) {
+	String a = itr.next();
+	System.out.print(a);
+
+b)	for(String i : a1)
+	{
+		System.out.print(a);
+	}
+
+c)	for(String i : a1)
+	{
+		System.out.print(i);
+	}
+"
+opt1:"Only a",
+opt2:"Only c",
+opt3:"Both a and c",
+opt4:"All 3",
+ans:"2"
+}],
+[{
+q:"48 Which is the correct declaration for a HashMap class with keys of type String and value type Double ?",
+opt1:"class HashMap<String, Double>",
+opt2:"class HashMap<>",
+opt3:"class HashMap<Key>",
+opt4:"class HashMap<Double, String>",
+ans:"1"
+}],
+[{
+q:"49 If you want to order elements a different way, then specify a _______ when you construct the set or map. ",
+opt1:"SortedSet",
+opt2:"Iterator",
+opt3:"Comparator",
+opt4:"HashMap",
+ans:"3"
+}],
+[{
+q:"50 Which is the correct way of using a Comparator in a user defined class MyClass",
+opt1:"class MyComp implements Comparator<String>",
+opt2:"class MyComp implements Comparator",
+opt3:"class MyComp extends Comparator<String>",
+opt4:"class MyComp extends Comparator<>",
+ans:"1"
+}],
+  ],
+[{rollNum:"IT2K17 - 09"}]]

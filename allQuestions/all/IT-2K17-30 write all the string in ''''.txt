@@ -1,0 +1,634 @@
+[JAVA M.C.Q's
+[{rollNum:"IT2K17 - 30"}]
+
+[{
+Q.1 Which of these methods deletes all the elements from invoking collection?
+opt1: clear(),
+
+opt2: reset(),
+
+opt3: delete(),
+
+opt4: refresh(),
+
+ans:"opt1"
+}],
+
+
+[{
+Q.2 What is Collection in Java?
+opt1: A group of objects,
+
+opt2: A group of classes,
+
+opt3: A group of interfaces,
+
+opt4: None of the mentioned,
+
+ans:"opt1"
+}],
+
+
+[{
+Q.3 Which allows the removal of elements from a collection?
+opt1: Enumeration,
+
+opt2: Iterator,
+
+opt3: Both,
+
+opt4: None,
+
+ans:"opt2"
+}],
+
+
+[{
+Q.4 Which of these is synchronized?
+opt1: TreeMap,
+
+opt2: HashMap,
+
+opt3: Hashtable,
+
+opt4: All,
+
+ans:"opt3"
+}],
+
+
+[{
+Q.5 What guarantees type-safety in a collection?
+opt1: Generics,
+
+opt2: Abstract classes,
+
+opt3: Interfaces,
+
+opt4: Collection,
+
+ans:"opt1"
+}],
+
+
+[{
+Q.6 HashSet internally uses?
+opt1: Set,
+
+opt2: HashMap,
+
+opt3: List,
+
+opt4: Collection,
+
+ans:"opt2"
+}],
+
+
+[{
+Q.7 The most used interfaces from the Collection framework are?
+opt1: List,
+
+opt2: Map,
+
+opt3: Set,
+
+opt4: (All of these),
+
+ans:"opt4"
+}],
+
+
+[{
+Q.8 The root interface of Java Collection framework hierarchy is -
+opt1: Collection,
+
+opt2: Root,
+
+opt3: Collections,
+
+opt4: List/Set,
+
+ans:"opt1"
+}],
+
+
+[{
+Q.9 Which of these is synchronized?
+opt1: ArrayList,
+
+opt2: LinkedList,
+
+opt3: Vector,
+
+opt4: (None of these),
+
+ans:"opt3"
+}],
+
+
+[{
+Q.10 Which interface must be implemented for sorting on basis many criterias?
+opt1:Comparator,
+
+opt2: Comparable,
+
+opt3: Serializable,
+
+opt4: None,
+
+ans:"opt1"
+}],
+
+
+[{
+Q.11 Which of these is synchronized and doesn't allow null elements?
+opt1: Vector,
+
+opt2: CopyOnWriteArraySet,
+
+opt3: CopyOnWriteArrayList,
+
+opt4: ConcurrentSkipListSet,
+
+ans:"opt4"
+}],
+
+
+[{
+Q.12 LinkedHashMap allows?
+opt1: one null key,
+
+opt2: CopyOnWriteArraySet,
+
+opt3: CopyOnWriteArrayList,
+
+opt4: ConcurrentSkipListSet,
+
+ans:"opt4"
+}],
+
+[{
+Q.13 An EnumSet?
+opt1: Can use enum and non enum type keys,
+
+opt2: Cannot use enum type keys,
+
+opt3: is specialized Set implementation for use with enum type keys only,
+
+opt4: None,
+
+ans:"opt3"
+}],
+
+[{
+Q.14 Iterator returned by HashSet is?
+opt1: Fail-fast,
+
+opt2: Fail-safe
+
+,opt3: none,
+ans:"opt1"
+}],
+
+[{
+Q.15 Iterator returned by CopyOnWriteArraySet is?
+opt1: Fail-fast,
+
+opt2: Fail-safe,
+opt3: none,
+ans:"opt2"
+}],
+
+[{
+Q.16 Iterator returned by TreeSet is?
+opt1: Fail-fast,
+
+opt2: Fail-safe,
+
+opt3: none,
+ans:"opt1"
+}],
+
+[{
+Q.17 Iterator returned by LinkedHashSet is?
+opt1: Fail-fast,
+
+opt2: Fail-safe,
+
+opt3: none,
+ans:"opt1"
+}],
+
+[{
+Q.18 Iterator returned by ConcurrentSkipListSet is
+opt1: Fail-fast,
+
+opt2: Fail-safe,
+
+opt3: none,
+ans:"opt2"
+}],
+
+[{
+Q.19 What should we use get operations are more?
+opt1: ArrayList,
+
+opt2: LinkedList,
+
+opt3: Any,
+ans:"opt1"
+}],
+
+[{
+Q.20 Complexity of ArrayList get method
+opt1: O(n-1),
+
+opt2: O(n),
+opt3: O(1),
+opt4: O(2n),
+ans:"opt3"
+}],
+
+[{
+Q.21 Which of the following option leads to the portability and security of Java?
+opt1: Bytecode is executed by JVM,
+
+opt2: The applet makes the Java code secure and portable,
+opt3: Use of exception handling,
+opt4: Dynamic binding between objects,
+ans:"opt1"
+}],
+
+[{
+Q.22 Which of the following is not a Java features?
+opt1: Dynamic,
+
+opt2: Architecture Neutral
+opt3: Use of pointers,
+opt4: Object-oriented
+ans:"opt3"
+}],
+
+[{
+Q.23 Which of the following is a valid long literal?
+opt1: ABH8097,
+
+opt2: L990023
+opt3: 904423,
+opt4: 0xnf029L,
+ans:"opt4"
+}],
+
+[{
+Q.24  What is the return type of the hashCode() method in the Object class?
+opt1: Object,
+
+opt2: int,
+opt3: long,
+opt4: void,
+ans:"opt2"
+}],
+
+[{
+Q.25 Which of the following is a valid declaration of a char?
+opt1: char ch = '\utea';,
+
+opt2: char ca = 'tea';,
+opt3: char cr = \u0223;,
+opt4: char cc = '\itea';,
+ans:"opt1"
+}],
+
+[{
+Q.26 What does the expression float a = 35 / 0 return?
+opt1: 0,
+
+opt2: Not a Number,
+opt3: Infinity,
+opt4: Run time exception,
+ans:"opt3"
+}],
+
+[{
+Q.27 _____ is used to find and fix bugs in the Java programs.
+opt1: JVM,
+
+opt2: JRE,
+opt3: JDK,
+opt4: JDB,
+ans:"opt4"
+}],
+
+[{
+Q.28  The \u0021 article referred to as a:-
+opt1: Unicode escape sequence,
+
+opt2: Octal escape,
+opt3: Hexadecimal,
+opt4: Line feed,
+ans:"opt1"
+}],
+
+[{
+Q.29 Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?
+opt1: javap tool,
+
+opt2: javaw command,
+opt3: Javadoc tool,
+opt4: javah command,
+ans:"opt3"
+}],
+
+[{
+Q.30 Which of the following creates a List of 3 visible items and multiple selections abled?
+opt1: new List(false, 3),
+
+opt2: new List(3, true),
+opt3: new List(true, 3),
+opt4: new List(3, false),
+ans:"opt2"
+}],
+
+[{
+Q.31 Which of the following for loop declaration is not valid?
+opt1: for ( int i = 99; i >= 0; i / 9 ),
+opt2: for ( int i = 7; i <= 77; i += 7 ),
+opt3: for ( int i = 20; i >= 2; - -i ),
+opt4: for ( int i = 2; i <= 20; i = 2* i ),
+ans:"opt1"
+}],
+
+[{
+Q.32 Which method of the Class.class is used to determine the name of a class represented by the class object as a String?
+opt1: getClass(),
+opt2: intern(),
+opt3: getName(),
+opt4: toString(),
+ans:"opt3"
+}],
+
+[{
+Q.33  The \u0021 article referred to as a:-
+opt1: Unicode escape sequence,
+
+opt2: Octal escape,
+opt3: Hexadecimal,
+opt4: Line feed,
+ans:"opt1"
+}],
+
+[{
+Q.34 What is the use of the intern() method?
+opt1: It returns the existing string from memory,
+opt2: It creates a new string in the database,
+opt3: It modifies the existing string in the database,
+opt4: None of the above,
+ans:"opt1"
+}],
+
+[{
+Q.35 In which memory a String is stored, when we create a string using new operator?
+opt1: Stack,
+
+opt2: String memory,
+opt3: Heap memory,
+opt4: Random storage space,
+ans:"opt3"
+}],
+
+[{
+Q.36  What do you mean by chained exceptions in Java?
+opt1: Exceptions occurred by the VirtualMachineError,
+opt2: An exception caused by other exceptions,
+opt3: Exceptions occur in chains with discarding the debugging information,
+opt4: None of the above,
+ans:"opt2"
+}],
+
+[{
+Q.37  Which of the following is a reserved keyword in Java?
+opt1: object,
+opt2: strictfp,
+opt3: main,
+opt4: system,
+ans:"opt2"
+}],
+
+[{
+Q.38 Which of these classes are the direct subclasses of the Throwable class?
+opt1: RuntimeException and Error class,
+opt2: Exception and VirtualMachineError class,
+opt3: Error and Exception class,
+opt4: IOException and VirtualMachineError class,
+ans:"opt3"
+}],
+
+[{
+Q.39  Which option is false about the final keyword?
+opt1: A final method cannot be overridden in its subclasses,
+opt2: A final class cannot be extended,
+opt3: A final class cannot extend other classes,
+opt4: A final method can be inherited,
+ans:"opt3"
+}],
+
+[{
+Q.40  Which of the following is an immediate subclass of the Panel class?
+opt1: Applet class,
+opt2: Window class,
+opt3: Frame class,
+opt4: Dialog class,
+ans:"opt1"
+}],
+
+[{
+Q.41 An interface with no fields or methods is known as a ______.
+opt1: Runnable Interface,
+opt2: Marker Interface,
+opt3: Abstract Interface,
+opt4: CharSequence Interface,
+ans:"opt2"
+}],
+
+[{
+Q.42 What do you mean by nameless objects?
+opt1: An object created by using the new keyword,
+opt2: An object of a superclass created in the subclass,
+opt3: An object without having any name but having a reference,
+opt4: An object that has no reference,
+ans:"opt4"
+}],
+
+[{
+Q.43 Which package contains the Random class?
+opt1: java.util package,
+opt2: java.lang package,
+opt3: java.awt package,
+opt4: java.io package,
+ans:"opt1"
+}],
+
+[{
+Q.44  The \u0021 article referred to as a:-
+opt1: Unicode escape sequence,
+
+opt2: Octal escape,
+opt3: Hexadecimal,
+opt4: Line feed,
+ans:"opt1"
+}],
+
+[{
+Q.45 Which of the following is true about the anonymous inner class?
+opt1: It has only methods,
+opt2: Objects can't be created,
+opt3: It has a fixed class name,
+opt4: It has no class name,
+ans:"opt4"
+}],
+
+[{
+Q.46 In which process, a local variable has the same name as one of the instance variables?
+opt1: Serialization,
+opt2: Variable Shadowing,
+opt3: Abstraction,
+opt4: Multi-threading,
+ans:"opt2"
+}],
+
+[{
+Q.47 What will be the output of the following program?
+
+public class MyFirst {  
+      public static void main(String[] args) {  
+         MyFirst obj = new MyFirst(n);  
+ }  
+ static int a = 10;  
+ static int n;  
+ int b = 5;  
+ int c;  
+ public MyFirst(int m) {  
+       System.out.println(a + ", " + b + ", " + c + ", " + n + ", " + m);  
+   }  
+// Instance Block  
+  {  
+     b = 30;  
+     n = 20;  
+  }   
+// Static Block  
+  static   
+{  
+          a = 60;  
+     }   
+ }  
+opt1: 10, 5, 0, 20, 0 ,
+opt2: 10, 30, 20 ,
+opt3: 60, 5, 0, 20 ,
+opt4: 60, 30, 0, 20, 0 ,
+ans:"opt4"
+}],
+
+[{
+Q.48 What should be the execution order, if a class has a method, static block, instance block, and constructor, as shown below?
+
+
+public class First_C {  
+      public void myMethod()   
+    {  
+    System.out.println("Method");  
+    }  
+      
+    {  
+    System.out.println(" Instance Block");  
+    }  
+          
+    public void First_C()  
+    {  
+    System.out.println("Constructor ");  
+    }  
+    static {  
+        System.out.println("static block");  
+    }  
+    public static void main(String[] args) {  
+    First_C c = new First_C();  
+    c.First_C();  
+    c.myMethod();  
+  }  
+}   
+opt1: Instance block, method, static block, and constructor,
+
+opt2: Method, constructor, instance block, and static block,
+opt3: Static block, method, instance block, and constructor,
+opt4: Static block, instance block, constructor, and method,
+ans:"opt"
+}],
+
+[{
+Q.49 What is the output of the following program?
+
+import java.util.*; 
+  
+public class Treeset 
+{ 
+    public static void main(String[] args) 
+    { 
+        TreeSet<String> treeSet = new TreeSet<>(); 
+  
+        treeSet.add("A"); 
+        treeSet.add("B"); 
+        treeSet.add("C"); 
+        treeSet.add("D"); 
+  
+        for (String temp : treeSet) 
+            System.out.printf(temp + " "); 
+  -
+        System.out.println("\n"); 
+    } 
+} 
+opt1: A B C D,
+
+opt2: B C D,
+
+opt3: C D A,
+
+opt4: B D A,
+
+ans:"opt3"
+}],
+
+
+[{Q.50 What is the output of the following program?
+
+filter_none
+edit
+play_arrow
+
+brightness_4
+import java.util.*; 
+  
+public class priorityQueue 
+{ 
+    public static void main(String[] args) 
+    { 
+        PriorityQueue<Integer> queue = 
+                            new PriorityQueue<>(); 
+        queue.add(11); 
+        queue.add(10); 
+        queue.add(22); 
+        queue.add(5); 
+        queue.add(12); 
+        queue.add(2); 
+  
+        while (queue.isEmpty() == false) 
+            System.out.printf("%d ", queue.remove()); 
+  
+        System.out.println("\n"); 
+    } 
+} 
+opt1. 11 10 22 5 12 2;
+opt2. 2 12 5 22 10 11;
+opt3. 2 5 10 11 12 22;
+opt4. 22 12 11 10 5 2;
+ans. opt3}]
+]

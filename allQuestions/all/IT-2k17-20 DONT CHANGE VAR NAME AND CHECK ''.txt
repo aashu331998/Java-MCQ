@@ -1,0 +1,517 @@
+[{
+[{
+1. What is the output of this program?
+    import javopt 3: "util.*;
+    class vector {
+        public static void main(String args[]) {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            obj.removeAll(obj);
+            System.out.println(obj.isEmpty());
+        }
+    }
+opt 1:  "0"
+opt 2:  "1"
+opt 3:  "true"
+opt 4:  "false"
+Ans : "opt 3"
+}],
+
+
+[{
+2.Vector extends which of these?
+
+opt 1: "ArrayList"
+opt 2: "LinkedList"
+opt 3: "AbstractList"
+opt 4: "None"
+Ans :"opt 3"
+}],
+[{
+
+3. Which of these packages contain all the collection classes?
+
+opt 1: : "javopt 1: "lang"
+opt 2:  "java: "util"
+opt 3: "javopt 1: "net"
+opt 4: "javopt 1: "awt"
+Ans : "opt 2"
+}],
+[{
+4. Which of these classes is not part of Java’s collection framework?
+
+opt 1:" Maps"
+opt 2:  "Array"
+opt 3:  "Stack"
+opt 4:  "Queue"
+Ans : "opt 1"
+
+}],
+[{
+5. Which of these interface is not a part of Java’s collection framework?
+
+opt 1:  "List"
+opt 2:  "Set"
+opt 3:  "SortedMap"
+opt 4: "SortedList"
+Ans : "opt 4"
+}],
+[{
+6. Which of these methods deletes all the elements from invoking collection?
+
+opt 1:  "clear()"
+opt 2:  "reset()"
+opt 3: "delete()"
+opt 4:  "refresh()"
+Ans : "opt 1"
+}],
+[{
+
+7. What is Collection in Java?
+
+opt 1:  "A group of objects"
+opt 2:  "A group of classes"
+opt 3:  "A group of interfaces"
+opt 4: "None of the mentioned"
+Ans : "opt 1"
+}],
+[{
+8. What is the output of this program?
+    import javopt 3: "util.*;
+    class Array {
+        public static void main(String args[]) {
+            int array[] = new int [5];
+            for (int i = 5; i > 0; i--)
+                array[5-i] = i;
+            Arrays.fill(array, 1, 4, 8);
+            for (int i = 0; i < 5 ; i++)
+                System.out.print(array[i]);
+        }
+    }
+opt 1:  "12885"
+opt 2:  "12845"
+opt 3:  "58881"
+opt 4:  "54881"
+Ans : "opt 3"
+}],
+[{
+9. What is the output of this program?
+    import javopt 3: "util.*;
+    class stack {
+        public static void main(String args[]) {
+            Stack obj = new Stack();
+            obj.push(new Integer(3));
+            obj.push(new Integer(2));
+            obj.pop();
+            obj.push(new Integer(5));
+          System.out.println(obj);
+        }
+    }
+opt 1:  "[3, 5]"
+opt 2:  "[3, 2]" 
+opt 3:  "[3, 2, 5]" 
+opt 4:  "[3, 5, 2]" 
+
+Ans : "opt 1"
+}],
+[{
+10. What is the output of this program?
+    import javopt 3: "util.*;
+    class hashtable {
+        public static void main(String args[]) {
+            Hashtable obj = new Hashtable();
+            obj.put("opt 1", new Integer(3));
+            obj.put("opt 2", new Integer(2));
+            obj.put("opt 3", new Integer(8));
+            obj.remove(new String("opt 1"));
+            System.out.print(obj);
+        }
+    }
+opt 1:  "{C=8, B=2}"
+opt 2: "[C=8, B=2] "
+opt 3:  "{A=3, C=8, B=2}"
+opt 4:  "[A=3, C=8, B=2]" 
+
+Ans : "opt 2"
+[{
+11. What is the output of this program?
+    import javopt 3: "util.*;
+    class Bitset {
+        public static void main(String args[]) {
+            BitSet obj = new BitSet(5);
+            for (int i = 0; i < 5; ++i)
+                obj.set(i);
+            obj.clear(2);
+            System.out.print(obj);
+        }
+    }
+opt 1: "{0, 1, 3, 4}"
+opt 2:  "{0, 1, 2, 4}"
+opt 3:  "{0, 1, 2, 3, 4}"
+opt 4:  "{0, 0, 0, 3, 4}"
+Ans : "opt 1"
+}],
+[{
+12.Which allows the removal of elements from a collection?
+
+opt 1: "Enumeration"
+opt 2: "Iterator"
+opt 3: "Both"
+opt 4: "None"
+Ans : "opt 2"
+}],
+[{
+13.The Comparator interface contains the method?
+
+opt 1: "compareWith()"
+opt 2: "compareTo()"
+opt 3: "compare()"
+opt 4: "
+Ans : "opt 3"
+}],
+[{
+14.Which of these is synchronized?
+
+opt 1: "TreeMap"
+opt 2: "HashMap"
+opt 3: "Hashtable"
+opt 4: "All"
+Ans : "opt 3"
+}],
+[{
+15.Which is more offers best performance?
+
+opt 1: "TreeMap"
+opt 2: "HashMap"
+opt 3: "LinkedHashMap"
+opt 4: "All are equal"
+Ans : "opt 2"
+}],
+[{
+
+16.What should we use when add and remove operations are more frequent than get operations?
+
+opt 1: "LinkedList"
+opt 2: "ArrayList"
+opt 3: "Vector"
+opt 4: "All"
+Ans : "opt 1"
+}],
+[{
+17.Iterator returned by ArrayList is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+18.Iterator returned by LinkedList is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+19.Iterator returned by CopyOnWriteArrayList is ?
+
+opt 1: "Fail-fast
+opt 2: "Fail-safe
+opt 3: "none
+Ans : "opt 2"
+}],
+[{
+20.Iterator returned by HashMap on key, value and entry is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+21.Iterator returned by Hashtable on key, value and entry is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 2"
+}],
+[{
+22.Iterator returned by ConcurrentHashMap on key, value and entry is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+23.Iterator returned by LinkedHashMap on key, value and entry is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 2"
+}],
+[{
+24.Iterator returned by TreeMap on key, value and entry is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 2"
+}],
+[{
+25.Iterator returned by ConcurrentSkipListMap on key, value and entry is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+
+
+
+
+}],
+[{
+
+26.What implementation of Iterator can traverse a collection in both directions?
+
+opt 1: "Iterator"
+opt 2: "ListIterator"
+opt 3: "SetIterator"
+opt 4: "MapIterator"
+Ans : "opt 2"
+}],
+[{
+27.The Comparable interface contains which called?
+
+opt 1: "toCompare"
+opt 2: "compare"
+opt 3: "compareTo"
+opt 4: "compareWith"
+Ans : "opt 4"
+}],
+[{
+28.Which is faster and uses less memory?
+
+opt 1: "ListEnumeration"
+opt 2: "Iterator"
+opt 3: "Enumeration"
+opt 4: "ListIterator"
+Ans : "opt 1"
+}],
+[{
+29.What Iterator can throw a ConcurrentModificationException?
+
+opt 1: "Fail-fast Iterators"
+opt 2: "Fail-safe Iterators"
+opt 3: "(All of these)"
+opt 4: "(None of these)"
+Ans : "opt 2"
+}],
+[{
+30.What is the default number of Partitions/segments in Concurrent Hash Map?
+
+opt 1: "12"
+opt 2: "32"
+opt 3: "4"
+opt 4: "16"
+Ans : "opt 4"
+}],
+[{
+31.Which is best suited to a multi-threaded environment?
+
+opt 1: "WeakHashMap"
+opt 2: "Hashtable"
+opt 3: "HashMap"
+opt 4: "ConcurrentHashMap"
+Ans : "opt 2"
+}],
+[{
+32.The default capacity of a Vector is:
+
+opt 1: "10"
+opt 2: "12"
+opt 3: "8"
+opt 4: "16"
+Ans : "opt 2"
+}],
+[{
+33.Which does NOT implement the Collection interface?
+
+opt 1: "List"
+opt 2: "Map"
+opt 3: "Set"
+opt 4: "(None of these)"
+Ans : "opt 2"
+}],
+[{
+34.The default capacity of a ArrayList is:
+
+opt 1: "12"
+opt 2: "16"
+opt 3: "1"
+opt 4: "10"
+Ans : "opt 4"
+}],
+[{
+35.Which provides better performance for the insertion and removal from the middle of the list?
+
+opt 1: "Vector"
+opt 2: "ArrayList"
+opt 3: "LinkedList"
+opt 4: "(All of these)"
+Ans : "opt 4"
+}],
+[{
+36.What will be output of given code -
+
+
+
+opt 1: "compile time exception"
+opt 2: "3 2 1"
+opt 3: "1 2 3"
+opt 4: "2 3 1"
+Ans : "opt 1"
+}],
+[{
+37.What will be output of given code -
+
+
+
+opt 1: "1 2 3"
+opt 2: "1 followed by exception"
+opt 3: "Compile time exception"
+opt 4: "Runtime Exception - ClassCastException"
+Ans : "opt 1"
+}],
+[{
+38.What will be output of given code -
+
+
+
+opt 1: "a
+    followed by ConcurrentModificationException"
+opt 2: "a b c"
+opt 3: "a b"
+opt 4: "a c"
+Ans : "opt 1"
+}],
+[{
+39.An unordered array has a search time complexity of:
+
+opt 1: "O(log n)"
+opt 2: "O(n)"
+opt 3: "O(n + 1)"
+opt 4: "O(1)"
+
+Ans : "opt 1"
+}],
+[{
+40.The add and remove methods of TreeSet have a time complexity of:
+
+opt 1: "O(n)"
+opt 2: "O(n + 1)"
+opt 3: "O(1)"
+opt 4: "O(log n)"
+
+Ans : "opt 2"
+}],
+[{
+41.After resizing, size of ArrayList is increased by :
+
+opt 1: "200%"
+opt 2: "50%"
+opt 3: "100%"
+opt 4: "(None of these)"
+Ans : "opt 4"
+}],
+[{
+42.After resizing, size of Vector is increased by:
+
+opt 1: "200%"
+opt 2: "100%"
+opt 3: "50%"
+opt 4: "(None of these)"
+Ans : "opt 4"
+}],
+[{
+43.Deque and Queue are derived from:
+
+opt 1: "AbstractList"
+opt 2: "Collection"
+opt 3: "AbstractCollection"
+opt 4: "List"
+Ans : "opt 2"
+
+}],
+[{
+44.What guarantees type-safety in a collection?
+
+opt 1: "Generics"
+opt 2: "Abstract classes"
+opt 3: "Interfaces"
+opt 4: "Collection"
+Ans : "opt 1"
+}],
+[{
+45.HashSet internally uses?
+
+opt 1: "Set"
+opt 2: "HashMap"
+opt 3: "List"
+opt 4: "Collection"
+Ans : "opt 2"
+}],
+[{
+46.The most used interfaces from the Collection framework are?
+
+opt 1: "List"
+opt 2: "Map"
+opt 3: "Set"
+opt 4: "(All of these)"
+Ans : "opt 4"
+}],
+[{
+47.The root interface of Java Collection framework hierarchy is -
+
+opt 1:"Collection"
+opt 2: "Root"
+opt 3: "Collections"
+opt 4: "List/Set"
+Ans : "opt 1"
+}],
+[{
+48.Which of these is synchronized?
+
+opt 1: "ArrayList"
+opt 2: "LinkedList"
+opt 3: "Vector"
+opt 4: "(None of these)"
+Ans : "opt 3"
+}],
+[{
+49.ArrayList implements which of the following?
+
+opt 1: "List"
+opt 2: "RandomAccess"
+opt 3: "Cloneable"
+opt 4: "(All of these)"
+Ans : "opt 4"
+}],
+[{
+50.Which of these allows the storage of many null values?
+
+opt 1: "Set"
+opt 2: "List"
+opt 3: "(None of these)"
+opt 4: "(All of these)"
+Ans : "opt 2"
+}],
+]
+[{IT-2K17-20}]]
+
+

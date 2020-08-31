@@ -1,0 +1,797 @@
+[{
+q:"1. Which of the following is not true?"
+
+opt 1: "HashTable is a legacy class"
+opt 2: "HashTable can be traversed by enumerator"
+opt 3: "HashTable allows null key and values"
+opt 4: "HashTable inherits Dictionary class"
+Ans : "opt 3"
+}],
+
+[{
+q:"2. What is the return type of hashCode() method?
+
+opt 1: "String"
+opt 2: "long"
+opt 3: "void"
+opt 4: "int"
+Ans : "opt 4"
+}],
+
+[{ 
+
+q:"3. Which of these methods are member of Remote class? ",
+
+opt1:" checkIP() ",
+
+opt2:" addLocation() ",
+
+opt3:" AddServer() ",
+opt4:" None of the mentioned ", 
+
+Ans "4 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"4. Which of these Exceptions is thrown by remote method? ",
+
+opt1:" RemoteException ",
+
+opt2:" InputOutputException ",
+
+opt3:" RemoteAccessException ",
+
+opt4:" RemoteInputOutputException ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"5. Which of these class is used for creating a client for a server-client operations? ",
+
+opt1:" serverClientjava ",
+
+opt2:" Client.java ",
+
+opt3:" AddClient.java ",
+
+opt4:" ServerClient.java ",
+
+Ans "3 ",
+
+}], 
+
+[{ 
+
+q:"6. Which of these package is used for all the text related modifications? ",
+
+opt1:" java.text ",
+
+opt2:" java.awt ",
+
+opt3:" java.lang.text ",
+
+opt4:" java.text.modify ",
+
+Ans "1 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"7. What will be the output of the following Java code? ",
+
+  
+
+    import java.lang.reflect.*; 
+
+    class Additional_packages  
+
+    {	  
+
+         public static void main(String args[])  
+
+         { 
+
+	     try  
+
+             { 
+
+	         Class c = Class.forName("java.awt.Dimension"); 
+
+		 Constructor constructors[] = c.getConstructors(); 
+
+		 for (int i = 0; i < constructors.length; i++) 
+
+		     System.out.println(constructors[i]); 
+
+	     } 
+
+	     catch (Exception e) 
+
+             { 
+
+             System.out.print("Exception"); 
+
+             } 
+
+        } 
+
+    } 
+
+opt1:" Program prints all the constructors of ‘java.awt.Dimension’ package ",
+
+opt2:" Program prints all the possible constructors of class ‘Class’ ",
+
+opt3:" Program prints “Exception” ",
+
+opt4:" Runtime Error ",
+
+Ans "1 ",
+
+}], 
+
+q:"8. Which of these package is used for remote method invocation? ",
+
+opt1:" java.applet ",
+
+opt2:" java.rmi ",
+
+opt3:" java.lang.rmi ",
+
+opt4:" java.lang.reflect ",
+
+Ans "2 ",
+
+}],
+[{
+q:"9.Which of the following is not true about LinkedHashMap"
+
+opt 1: "It maintains insertion order"
+opt 2: "It contains unique elements"
+opt 3: "It cannot have null key"
+opt 4: "It is non synchronized"
+Ans : "opt 3"
+}],
+[{
+q:"10. Which of the following is not a map class"
+
+opt 1: "AbstractMap"
+opt 2: "IdentityHashMap"
+opt 3: "WeakHashMap"
+opt 4: "StrongMap"
+Ans : "opt 4"
+}], 
+
+
+[{
+q: "11. How to sort elements of ArrayList?",
+ opt:1” Collection.sort(listObj);",
+ opt:2” Collections.sort(listObj);",
+ opt:3” listObj.sort();",
+ opt:4” Sorter.sortAsc(listObj);",
+ ans: "b",
+}],
+[{ 
+q: "12. When two threads access the same ArrayList object what is the outcome of the program?",
+ opt:1” Both are able to access the object",
+ opt:2” ConcurrentModificationException is thrown",
+ opt:3” One thread is able to access the object and second thread gets Null Pointer         exception",
+ opt:4” One thread is able to access the object and second thread will wait till control is         passed to the second one",
+ ans: "b",
+}],
+[{
+q: "13. How is Arrays.asList() different than the standard way of initialising List?",
+ opt:1” Both are same",
+ opt:2” Arrays.asList() throws compilation error",
+ opt:3” Arrays.asList() returns a fixed length list and doesn’t allow to add or remove         elements",
+ opt:4” We cannot access the list returned using Arrays.asList()",
+ ans: "c",
+}],
+[{
+q: "14. What is the difference between length() and size() of ArrayList?",
+ opt:1” length() and size() return the same value",
+ opt:2” length() is not defined in ArrayList",
+ opt:3” size() is not defined in ArrayList",
+ opt:4” length() returns the capacity of ArrayList and size() returns the actual number of         elements stored in the list",
+ ans: "d",
+}],
+[{
+q:"15. The root interface of Java Collection framework hierarchy is -",
+opt1:"Collection",
+opt2:"Root",
+opt3:"Collections",
+opt4:"List/Set",
+ans:"A"
+}],
+[{
+q:"16. Which of these is synchronized?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Vector",
+opt4:"None of these",
+ans:"C"
+}],
+[{
+q:"17. ArrayList implements which of the following?",
+opt1:"List",
+opt2:"RandomAccess",
+opt3:"Cloneable",
+opt4:"All of these",
+ans:"D"
+}],
+[{
+q:"18. Which of these allows the storage of many null values?",
+opt1:"Set",
+opt2:"List",
+opt3:"None of these",
+opt4:"All of these",
+ans:"B"
+}],
+[{
+q:"19. nextIndex() and previousIndex() are methods of which interface?",
+opt1:"IndexIterator",
+opt2:"Iterator",
+opt3:"ListIterator",
+opt4:"NextPreviousIterator",
+ans:"C"
+}],
+[{
+q:"20. Vector extends which of these?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"AbstractList",
+opt4:"None",
+ans:"C"
+}],
+[{
+q:"21.What will be the output of the program: 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+ 
+class Sort implements Comparator<Map.Entry<Integer, Integer>>{
+    @Override
+    public int compare( Map.Entry<Integer, Integer> entry1, Map.Entry<Integer, Integer> entry2 ){
+        return (entry2.getValue()).compareTo( entry1.getValue() );
+    }
+}
+ 
+
+public class MyClass {
+    public static void main(String...a){
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        map.put(1, 2);
+        map.put(2, 1);
+        map.put(4, 8);
+     
+        Set<Entry<Integer, Integer>> set = map.entrySet();
+        List<Entry<Integer, Integer>> list = new ArrayList<Entry<Integer, Integer>>(set);
+ 
+        Collections.sort(list, new Sort());     
+ 
+        for(Map.Entry<Integer, Integer> entry:list)
+         System.out.print(entry.getKey());            
+    }
+}
+
+",
+opt1:"412",
+opt2:"214",
+opt3:"124",
+opt4:"421",
+Ans:"opt1"
+}],
+[{
+q:"22. Which of these return type of hasNext() method of an iterator?",
+opt1:"Integer",
+opt2:"Double",
+opt3:"Boolean",
+opt4:"Collections object",
+Ans:"opt-3"
+}],
+[{
+q:"23. Which of these is a method of ListIterator used to obtain index of previous element?",
+opt1:"previous()",
+ opt2:"previousIndex()",
+opt3:"back()",
+opt4:"goBack()",
+Ans:"opt-2"
+}],
+[{
+q:"24. What will be the output of the following Java program?
+    import java.util.*;
+    class Collection_iterators 
+    {
+        public static void main(String args[]) 
+        {
+            ListIterator a = list.listIterator();
+                if(a.previousIndex()! = -1)
+                    while(a.hasNext())
+	                System.out.print(a.next() + " ");
+                else
+                   System.out.print("EMPTY");
+        }
+    }",
+opt1:"0",
+opt2:"1",
+opt3:"-1",
+opt4:"EMPTY",
+Ans:"opt-4"
+}],
+[{
+q:"25 What will be the output of the program: 
+    import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+ 
+
+public class SortSet {
+    public static void main(String...a){
+        Collection<Integer> collection = new HashSet<Integer>();
+        collection.add(3);
+        collection.add(1);
+        collection.add(2);
+        collection.add(null);
+ 
+        Set<Integer> treeSet = new TreeSet<Integer>();
+        treeSet.addAll(collection);
+        System.out.println(treeSet);  
+    }
+}",
+opt1:"3 2 1",
+opt2:"3 2 1 null",
+opt3:"null",
+opt4:"Runtime Exception - NullPointerException",
+Ans:"opt-4"
+}],
+
+q:"26. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            System.out.print(obj.contains(new Integer(5))); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 1 ",
+
+opt3:" true ",
+
+opt4:" false ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"27. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            obj.clear(); 
+
+            System.out.print(obj.size()); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 1 ",
+
+opt3:" 2 ",
+
+opt4:" 3 ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"28. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            obj.remove(new String("A")); 
+
+            System.out.print(obj); 
+
+        } 
+
+    } 
+
+opt1:" {C=8, B=2} ",
+
+opt2:" [C=8, B=2] ",
+
+opt3:" {A=3, C=8, B=2} ",
+
+opt4:" [A=3, C=8, B=2] ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"29. What will be the output of the following Java code? ",
+
+  
+
+  
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            System.out.print(obj.toString()); 
+
+        } 
+
+    } 
+
+opt1:" {C=8, B=2} ",
+
+opt2:" [C=8, B=2] ",
+
+opt3:" {A=3, C=8, B=2} ",
+
+opt4:" [A=3, C=8, B=2] ",
+
+Ans "1 ",
+
+}], 
+
+[{
+q:"30. why is Generics are used with collection classes?"
+
+opt 1: "Provides type safety"
+opt 2: "Eliminates type Casting"
+opt 3: "Enable programmers to implement generic algorithm"
+opt 4: "All of the above"
+Ans : "opt 4"
+
+}],
+[{
+q:"31. In which version of java, collection framework was introduced?"
+
+opt 1:  "JDK 1.2"
+opt 2: 	"JDK 1.5"
+opt 3:  "JDK 1.8"
+opt 4:	"JDK 1.3"
+Ans : "opt 1"
+}],
+[{
+q:"32. Which of the following statements is not true"
+
+opt 1:  TreeSet implements List
+opt 2:  Stack extends Vector
+opt 3:	HashSet implements Set
+opt 4:  ArrayList implements List
+Ans : "opt 1"
+}],
+[{
+
+q:"33. What is the return type of clear() method defined in collecion"
+
+opt 1:  "float"
+opt 2:  "int"
+opt 3:  "void"
+opt 4:  "String"
+Ans : "opt 3"
+}],
+[{
+q:"34. What is return type of isEmpty() method defined in Collection"
+opt 1:  "short"
+opt 2:  "long"
+opt 3:  "int"
+opt 4:  "boolean"
+Ans : "opt 4"
+}],
+[{
+q:"35. Which of the following is not true about LinkedList class?"
+opt 1:  "It extends AbstractSequentialList"
+opt 2:  "implements Set"
+opt 3:  "implements Deque"
+opt 4:  "implements Queue"
+
+Ans : "opt 2"
+}],
+[{
+q:"36. When ClassCastException is thrown?"
+opt 1:  "When an object is incompatible with elements of collection"
+opt 2: "When illegal argument is used "
+opt 3:  "Removing element from empty collection"
+opt 4:  "Storing null object" 
+
+Ans : "opt 1"
+[{
+q:"11. Which of the following is not true?"
+opt 1:  "HashSet defines the order in which elements are stored"
+opt 2:  "HashSet extends AbstractSet"
+opt 3:  "HashSet is generic class"
+opt 4:  "HashSet implements Set"
+Ans : "opt 1"
+}],
+[{
+q:"37.Which of the following is a legacy class"
+
+opt 1: "HashMap"
+opt 2: "Queue"
+opt 3: "Stack"
+opt 4: "List"
+Ans : "opt 3"
+}],
+[{
+q:"37. Which of the following methods are not present in Iterator interface"
+
+opt 1: "public boolean hasNext()"
+opt 2: public void clear()"
+opt 3: "public void remove()"
+opt 4: "public Object next()"
+Ans : "opt 2"
+}],
+[{
+q:"38.Which of these is not synchronized?
+
+opt 1: "Stack"
+opt 2: "ArrayList"
+opt 3: "Vector"
+opt 4: "Dictionary"
+Ans : "opt 2"
+}],
+[{
+q:"39. Comparable interface is found in which package?"
+
+opt 1: "java.util"
+opt 2: "java.awt"
+opt 3: "java.io"
+opt 4: "java.lang"
+Ans : "opt 4"
+}],
+[{
+
+q:"40. Comparator interface is found in which package"
+
+opt 1: "java.util"
+opt 2: "java.io"
+opt 3: "java.lang"
+opt 4: "java.awt"
+Ans : "opt 1"
+}],
+
+[{
+q: "41. …………………….. method is used to remove any leading or trailing white space that may have inadvertently been entered by the user.",
+opt1: "trim()",
+opt2: "remove()",
+opt3:" replace()",
+opt4:" length() ",
+Ans: "opt1"
+}],
+[{
+q: "42. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Arraylist 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.add("B");
+            obj.add("C");
+            obj.add(1, "D");
+            System.out.println(obj);
+        }
+    }",
+opt1: " [A, B, C, D]",
+opt2:" [A, D, B, C]",
+opt3:"[A, D, C]",
+opt4:" [A, B, C] ",
+Ans: "opt2"
+}],
+[{
+
+q: "43. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.ensureCapacity(3);
+            System.out.println(obj.size());
+        }
+    }",
+opt1: "1 " ,
+opt2 :"2",
+opt3:" 3",
+opt4:" 4",
+Ans:  " a"
+}],
+[{
+q: "44. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.add(0, "B");
+            System.out.println(obj.size());
+        }
+    }",
+ opt:1” 0",
+ opt:2” 1",
+ opt:3” 2",
+ opt:4” Any Garbage Value",
+ ans: "c",
+}], 
+[{  
+q: "45. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.ensureCapacity(3);
+            System.out.println(obj.size());
+        }
+    }",
+ opt:1” 1",
+ opt:2” 2",
+ opt:3” 3",
+ opt:4” 4",
+ans: "a",
+}], 
+[{
+q: "46. What will be the output of the following Java program?
+
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.add("D");
+            obj.ensureCapacity(3);
+            obj.trimToSize();
+            System.out.println(obj.size());
+         }      
+    }",
+ opt:1” 1",
+ opt:2” 2",
+ opt:3” 3",
+ opt:4” 4",
+ ans: "b",
+}], 
+[{
+q: "47. Map implements collection interface?",
+ opt:1” True",
+ opt:2” False",
+ans:"b",
+}]
+[{
+q: "48. Which of the below does not implement Map interface?",
+ opt:1” HashMap",
+ opt:2” Hashtable",
+ opt:3” EnumMap",
+ opt:4” Vector",
+ ans: "d",  
+}], 
+[{
+q: "49. What is the premise of equality for IdentityHashMap?",
+ opt:1” Reference equality",
+ opt:2” Name equality",
+ opt:3” Hashcode equality",
+ opt:4” Length equality",
+ ans: "a",
+}], 
+[{ 
+q: "50. What happens if we put a key object in a HashMap which exists?",
+ opt:1” The new object replaces the older object",
+ opt:2” The new object is discardeda",
+ opt:3” The old object is removed from the map",
+ opt:4” It throws an exception as the key already exists in the map",
+ ans: "a",
+}],
+

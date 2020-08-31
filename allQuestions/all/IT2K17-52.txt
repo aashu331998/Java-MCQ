@@ -1,0 +1,401 @@
+[[
+[{
+q:"1 Which collection class allows you to access its elements by /n
+associating a key with an element’s value, and provides synchronization?",
+opt1:"java.util.SortedMap",
+opt2:"java.util.TreeMap",
+opt3:"java.util.TreeSet",
+opt4:"java.util.HashTable",
+ans:"4"
+}],
+  [{
+q:"2 Which of these is interface in the collection framework.",
+opt1:"Array",
+opt2:"Vector",
+opt3:"Linked List",
+opt4:"Set",
+ans:"4"
+}],
+ [{
+q:"3 Which of these packages contain all the collection classes?",
+opt1:"java.lang",
+opt2:"java.util",
+opt3:"java.net",
+opt4:"java.awt",
+ans:"2"
+}],
+ [{
+q:"4 Which of these interface is not a part of Java’s collection framework?",
+opt1:"List",
+opt2:"Set",
+opt3:"SortedMap",
+opt4:"SortedList",
+ans:"4"
+}],
+ [{
+q:"5 Which of these methods deletes all the elements from invoking collection?",
+opt1:"clear()",
+opt2:"reset()",
+opt3:"delete()",
+opt4:"refresh()",
+ans:"1"
+}],
+ [{
+q:"6 What is Collection in Java?",
+opt1:"A group of objects",
+opt2:"A group of classes",
+opt3:"A group of interfaces",
+opt4:"None of the mentioned",
+ans:"1"
+}],
+ [{
+q:"7 Which of these interface declares core method that all collections will have?",
+opt1:"set",
+opt2:"EventListner",
+opt3:"Comparator",
+opt4:"Collection",
+ans:"4"
+}],
+ [{
+q:"8  Which of these interface handle sequences",
+opt1:"Set",
+opt2:"List",
+opt3:"Comparator",
+opt4:"Collection",
+ans:"2"
+}],
+ [{
+q:"9 Which of these interface is not a part of Java’s collection framework?",
+opt1:"List",
+opt2:"Set",
+opt3:"SortedMap",
+opt4:"SortedList",
+ans:"4"
+}],
+ [{
+q:"10 Which of these is static variable defined in Collections?",
+opt1:"EMPTY_SET",
+opt2:"EMPTY_LIST",
+opt3:"EMPTY_MAP",
+opt4:"All of the mentioned",
+ans:"4"
+}],
+ [{
+q:"11 Which of these is an incorrect form of using method max() /n
+to obtain maximum element?",
+opt1:"max(Collection c)",
+opt2:"max(Collection c, Comparator comp)",
+opt3:"max(Comparator comp)",
+opt4:"max(List c)",
+ans:"3"
+}],
+[{
+q:"12 Which of these methods sets every element of a List to a specified object?",
+opt1:"set()",
+opt2:"fill()",
+opt3:"Complete()",
+opt4:"add()",
+ans:"2"
+}],
+[{
+q:"13 Which of these methods can randomize all elements in a list?",
+opt1:"rand()",
+opt2:"randomize()",
+opt3:"shuffle()",
+opt4:"ambigous()",
+ans:"3"
+}],
+[{
+q:"14 Which of these methods can convert an object into a List?",
+opt1:"SetList()",
+opt2:"ConvertList()",
+opt3:"singletonList()",
+opt4:"CopyList()",
+ans:"3"
+}],
+[{
+q:"15 Elements of which of the collection can be traversed using Enumeration?",
+opt1:"ArrayList",
+opt2:"Vector",
+opt3:"HashSet",
+opt4:"TreeMap",
+ans:"2"
+}],
+[{
+q:"16 Which method is used by the contains() method of a list to search an element?",
+opt1:"equals() )",
+opt2:"hashCode() ",
+opt3:"compareTo()",
+opt4:"Both equals() & hashCode()",
+ans:"1"
+}],
+[{
+q:"17  Which of the following collection is not of Iterable type?",
+opt1:"ArrayList",
+opt2:"Vector",
+opt3:"TreeSet ",
+opt4:"HashMap",
+ans:"4"
+}],
+[{
+q:"18 Each tree based collection assumes its elements to be of --- type?",
+opt1:"Serializable",
+opt2:"Comparable",
+opt3:"Comparator",
+opt4:"Sortable",
+ans:"2"
+}],
+[{
+q:"19 What does get(int index) method define by List interface do ?",
+opt1:"returns an object stored at the specified index",
+opt2:"stores an object at the specified index",
+opt3:"returns a list containing elements between specified index and end in the collection.",
+opt4:"none of the above.",
+ans:"1"
+}],
+[{
+q:"20 How sorting speed has been improved significantly on multi-core machines by using",
+opt1:"Arrays.parallelSort",
+opt2:"Arrays.sort",
+opt3:"Collection.parallelSort",
+opt4:"Arrays.sortParallelly",
+ans:"1"
+}],
+[{
+q:"21 Which Map is synchronized?",
+opt1:"Hashtable",
+opt2:"ConcurrentSkipListMap",
+opt3:"ConcurrentHashMap",
+opt4:"All of the above",
+ans:"4"
+}],
+[{
+q:"22 Which of these helps insert elements at a specific position in a collection?",
+opt1:"ArrayList ",
+opt2:"LinkedList",
+opt3:"TreeSet ",
+opt4:"Any",
+ans:"2"
+}],
+[{
+q:"23 Complexity of ArrayList get method",
+opt1:"O(n-1)",
+opt2:"O(n)",
+opt3:"O(1)",
+opt4:"O(2n)",
+ans:"3"
+}],
+[{
+q:"24 Which of these is sorted by default",
+opt1:LinkedHashSet",
+opt2:"TreeSet",
+opt3:"HashSet",
+opt4:"None of the above",
+ans:"2"
+}],
+[{
+q:"25 Which maintains insertion order?",
+opt1:"TreeSet",
+opt2:"HashSet",
+opt3:"LinkedHashSet",
+opt4:"All of the above",
+ans:"3"
+}],
+[{
+q:"26  In Iterator, hasMoreElements() method of Enumeration has been changed to:",
+opt1:"hasNextElement()",
+opt2:"isNext()",
+opt3:"hasNext()",
+opt4:"name remains same",
+ans:"3"
+}],
+[{
+q:"27 An attempt to add the null key to a TreeSet will result in:",
+opt1:"Will compile",
+opt2:"Compile time Exception",
+opt3:"Error",
+opt4:"Runtime - NullPointerException",
+ans:"4"
+}],
+[{
+q:"28 TreeSet maintains which order?",
+opt1:"Ascending Order",
+opt2:"Descending Order",
+opt3:"None of the above",
+ans:"1"
+}],
+[{
+q:"29 LinkedHashMap permits",
+opt1:"One null key",
+opt2:"Many null values",
+opt3:"Both the above",
+ans:"3"
+}],
+[{
+q:"30 What will Collections.sort internally uses when number of elements are less than 7?",
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"Selection sort",
+ans:"1"
+}],
+[{
+q:"31 What do Collections.sort internally uses once a number of elements are greater than 7?",
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"Selection sort",
+ans:"2"
+}],
+[{
+q:"32 Which of those is synchronized and does not allow null elements?",
+opt1:"Vector",
+opt2:"CopyOnWriteArraySet",
+opt3:"CopyOnWriteArrayList",
+opt4:"ConcurrentSkipListSet",
+ans:"4"
+}],
+[{
+q:"33 Which of these is synchronised and isn't sorted by natural order?",
+opt1:"EnumSet",
+opt2:"LinkedList",
+opt3:"ConcurrentSkipListSet",
+opt4:"Vector",
+ans:"4"
+}],
+[{  
+q:"34 Which of these method can be used to increase the capacity of ArrayList object manually?",
+ opt1:"Capacity()",
+ opt2:"increaseCapacity()",
+ opt3:"increasecapacity()",
+ opt4:"ensureCapacity()",
+ ans: "4",
+}],
+[{
+q:"35 To obtain the last element, from a LinkedList which method should be used ?",
+opt1:"getLast( )",
+opt2:"peekLast( )",
+opt3:"Both 1 and 2",
+opt4:"None of the above",
+ans:"3"
+}],
+[{
+q:"36 This class is the super class of Stack class that implements a /n
+standard last-in, first out stack.",
+opt1:"Set",
+opt2:"SortedSet",
+opt3:"Vector",
+opt4:"Hashtable",
+ans:"3"
+}],
+[{
+q:"37 Iterator returned by HashMap on key, value and entry is?",
+opt 1:"Fail-fast",
+opt 2:"Fail-safe",
+opt 3:"none",
+ans:"1"
+}],
+[{
+q:"38 Only operation permitted on the view returned by asList is?",
+opt1:"Set",
+opt2:"Queue",
+opt3:"List",
+opt4:"all of these",
+ans:"1"
+}],
+[{
+q:"39 The correct declaration of Queue generic interface.",
+opt1:"class Queue<E>",
+opt2:"interface Queue<E>",
+opt3:"interface Queue<>",
+opt4:"class Queue<>",
+ans:"2"
+}],
+[{
+q:"40 Which is the correct way of using a Comparator in a user defined class MyClass",
+opt1:"class MyComp implements Comparator<String>",
+opt2:"class MyComp implements Comparator",
+opt3:"class MyComp extends Comparator<String>",
+opt4:"class MyComp extends Comparator<>",
+ans:"1"
+}],
+[{
+q:"41 Methods such as reverse, shuffle are offered in:",
+opt1:"Object",
+opt2:"Collections",
+opt3:"Collection",
+opt4:"Apache Commons Collections",
+ans:"2"
+}],
+[{
+q:"42 Which offers the best performance?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"LinkedHashMap",
+ans:"2"
+}],
+[{
+q:"43 HashSet internally uses?",
+opt1:"LinkedHashMap",
+opt2:"HashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"2"
+}],
+[{
+q:"44 What is initial capacity of LinkedList?",
+opt1:"8",
+opt2:"10",
+opt3:"16",
+ans:"2"
+}],
+[{
+q:"45 In WeakHashMap",
+opt1:"An entry are automatically removed by garbage collector",
+opt2:"Behaves normally like HashMap",
+opt3:"An entry are never removed by garbage collector",
+opt4:"None",
+ans:"1"
+}],
+[{
+q:"46 A EnumSet",
+opt1:"Can use enum and non enum type keys",
+opt2:"Cannot use enum type keys",
+opt3:"is specialized Set implementation for use with enum type keys only",
+opt4:"None",
+ans:"3"
+}],
+[{
+q:"47 which of the following are false about Collections and Collection ?",
+opt1:"Both Collections and Collection entity belongs to java.util package.",
+opt2:"Collection is an interface to Set and List",
+opt3:"Collections is a utility class",
+opt4:"Collections is a special type of collection which holds Set of collections",
+ans:"4"
+}],
+[{
+q:"48 What is the default capacity of java.util.Hash Map?",
+opt1:"16",
+opt2:"10",
+opt3:"20",
+opt4:"11",
+ans:"1"
+}],
+[{
+q:"49 Which of the following statements are true regarding a dictionary?",
+opt1:"It is an abstract class that represents a key/value storage repository",
+opt2:"Operates like map thereby storing list of key/value pairs",
+opt3:"Both 1 and 2",
+opt4:"Map is superceded by dictionary",
+ans:"3"
+}],
+[{
+q:"50 ClassCastException is generated when:",
+opt1:"When an incompatible object is added to the collection"',
+opt2:"When an object being added is not defined",
+opt3:"When class is not defined",
+opt4:"None of the above",
+ans:"1"
+}],
+  ],
+[{rollNum:"IT2K17-52"}]]

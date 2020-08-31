@@ -1,0 +1,596 @@
+[JAVA M.C.Q's
+[{rollNo.:"IT2K17 - 40"}]
+
+[{
+Q.1 Multiple null values are allowed in?
+opt1: " Queue ",
+
+opt2: " List ",
+
+opt3: " Set ",
+
+opt4: " Map ",
+
+ans:"opt3"
+}],
+
+
+[{
+Q.2 Method used to sort a list??
+opt1: " Collection.sort() ",
+
+opt2: " Collections.sort() ",
+
+opt3: " Collection.compareTo() ",
+
+opt4: " Collections.compareTo() ",
+
+ans:"opt2"
+}],
+
+
+[{
+Q.3 Which of the following statement is correct for ArrayList?
+opt1: " ArrayList class is synchronized ",
+
+opt2: " ArrayList does not maintain insertion order ",
+
+opt3: " ArrayList inherits AbstractList class and implements List interface ",
+
+opt4: " None ",
+
+ans:"opt3"
+}],
+
+
+[{
+Q.4 Duplicate objects are not allowed in?
+opt1: " List ",
+
+opt2: " Queue ",
+
+opt3: " Map ",
+
+opt4: " Set ",
+
+ans:"opt4"
+}],
+
+
+[{
+Q.5 Insertion order is maintained by?
+opt1: " HashSet ",
+
+opt2: " TreeSet ",
+
+opt3: " LinkedHashSet ",
+
+opt4: " Set ",
+
+ans:"opt3"
+}],
+
+
+[{
+Q.6 Comparator interface contains the method?
+opt1: " compareTo() ",
+
+opt2: " compare() ",
+
+opt3: " sort() ",
+
+opt4: " Compare() ",
+
+ans:"opt2"
+}],
+
+
+[{
+Q.7 What does poll() method do?
+opt1: " retrieves first element of list ",
+
+opt2: "retrieves last element of list",
+
+opt3: " removes first element of list",
+
+opt4: "  retrieves and removes the first element of a list ",
+
+ans:"opt4"
+}],
+
+
+[{
+Q.8 What is the default capacity of Vector class?
+opt1: " 5 ",
+
+opt2: " 10 ",
+
+opt3: " 0 ",
+
+opt4: " 16 ",
+
+ans:"opt2"
+}],
+
+
+[{
+Q.9 Which of these is synchronized?
+opt1: ArrayList,
+
+opt2: LinkedList,
+
+opt3: Vector,
+
+opt4: (None of these),
+
+ans:"opt3"
+}],
+
+
+[{
+Q.10 ArrayList is better than linkedList in?
+opt1:" storing and accessing data ",
+
+opt2: " manipulating data ",
+
+opt3: " sorting data ",
+
+opt4: None,
+
+ans:"opt1"
+}],
+
+
+[{
+Q.11 Which of the folowing characteristic is not common between LinkedHashSet and HashSet ?
+opt1: " contains unique element only ",
+
+opt2: " is non synchronized " ,
+
+opt3: " implements Set interface ",
+
+opt4: " maintains insertion order ",
+
+ans:"opt4"
+}],
+
+
+[{
+Q.12 which of the following maintains data in ascending order?
+opt1: " LinkedList ",
+
+opt2: " LinkedHashSet ",
+
+opt3: " Stack ",
+
+opt4: " TreeSet ",
+
+ans:"opt4"
+}],
+
+[{
+Q.13 Which of these method is used to make a bit zero specified by the index ?
+opt1: " put() ",
+
+opt2: " set() ",
+
+opt3: " remove() "
+
+opt4: " clear() ",
+
+ans:"opt4"
+}],
+
+[{
+Q.14 Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO sequence?
+opt1: " ArrayList ",
+
+opt2: " LinkedHashMap ",
+
+opt3: " HashMap ",
+
+opt4:  " TreeMap ",
+ans:"opt2"
+}],
+
+[{
+Q.15 Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+opt1: " java.lang.String ",
+
+opt2: " java.lang.StringBuffer ",
+
+opt3: " java.lang.Double ",
+
+opt4: " java.lang.Character "
+ans:"opt2"
+}],
+
+[{
+Q.16 Iterator returned by TreeSet is?
+opt1: Fail-fast,
+
+opt2: Fail-safe,
+
+opt3: none,
+
+opt4: fail-slow,
+ans:"opt1"
+}],
+
+[{
+Q.17 Which of these methods deletes all the elements from invoking collection?
+opt1: " reset() ",
+
+opt2: " delete() ",
+
+opt3: " clear() ",
+
+opt4: " retainAll() ",
+ans:"opt3"
+}],
+
+[{
+Q.18 Which of these packages contain all the collection classes?
+opt1: " java.lang " ,
+
+opt2: " java.util ",
+
+opt3: " java.awt ",
+
+opt4: " java.io ",
+ans:"opt2"
+}],
+
+[{
+Q.19 Parent Interface of all Interface is?
+opt1: 'Set",
+
+opt2: "List",
+
+opt3: "Collection",
+
+opt4: "Collections",
+ans:"opt3"
+}],
+
+[{
+Q.20 Which of these classes provide implementation of map interface?", 
+
+opt1:" ArrayList", 
+
+opt2:" HashMap", 
+
+opt3:" LinkedList", 
+
+opt4:" DynamicList", 
+
+ans: "2", 
+}],
+
+[{
+Q.21 Which of these return type of hasNext() method of an iterator ?
+opt1: " Integer ",
+
+opt2: " Double ",
+opt3: " Boolean ",
+opt4: " Collections Object ",
+ans:"opt3"
+}],
+
+[{
+Q.22 Which of the following are Java reserved words?
+"run",
+"import",
+"default",
+"implement",
+
+
+opt1:"1 and 2",
+opt2: "2 and 3",
+opt3: "3 and 4",
+opt4: "2 and 4",
+ans: "opt2"
+}],
+
+[{
+Q.23 Which of these method is used add an element and corresponding key to a map?, 
+
+opt1: " put() ",
+
+opt2: " set() ",
+
+opt3: " redo() ",
+
+opt4: " add() ",
+
+ans: " opt1 ",
+}],
+
+[{
+Q.24 Which method is used to retrieves and removes the head of the queue, or returns null if the queue is empty?
+
+opt1: " peek() ",
+
+opt2: " remove() ",
+
+opt3: " poll() ",
+
+opt4: " put() ",
+
+ans: "opt3"
+}],
+
+[{
+Q.25 Which of these standard collection classes implements a dynamic array?
+opt1: " AbstractList ",
+
+opt2: " LinkedList ",
+
+opt3: " ArrayList ",
+
+opt4: " AbstractSet ",
+ans:"opt3"
+}],
+
+[{
+Q.26 which of these method can be used to increase the capacity of ArrayList object manually?
+opt1: " Capacity() ",
+
+opt2: " increaseCapacity ",
+
+opt3: " increasecapacity() ",
+
+opt4: " ensureCapacity() ",
+
+ans:"opt4"
+}],
+
+[{
+Q.27 Which of these methods are used to reduce the capacity of an ArrayList object?
+opt1: " trim() ",
+
+opt2: " trimSize() ",
+
+opt3: " trimeToSize() ",
+
+opt4: " trimTosize() ",
+
+ans:"opt4"
+}],
+
+[{
+Q.28  What happens if we put a key object in a HashMap which exists?
+opt1: " The new object replaces the older object ",
+
+opt2: " The new object is discarded ",
+
+opt3: " The old object is removed from Map  ",
+
+opt4: " it throws an Exception ",
+ans:"opt1"
+}],
+
+[{
+Q.29 Which of the method is used to obtain an iterator to the start of collection?
+opt1: " start() ",
+
+opt2: " begin() ",
+
+opt3: " iteratorSet() ",
+
+opt4: " iterator ",
+ans:"opt4"
+}],
+
+[{
+Q.30 Which of these methods can be used to obtain a static array from an ArrayList object?
+opt1: " Array() ",
+
+opt2: " convertArray() ",
+
+opt3: " toArray() ",
+
+opt4: " converttoArray() ",
+
+ans:"opt3"
+}],
+
+[{
+Q.31 While finding the correct location for saving key value pair, how many times the key is hashed?
+opt1: " 2 ",
+
+opt2: " 3 ",
+
+opt3: " 1 ",
+
+opt4: " unlimited till bucket is found ",
+
+ans:"opt1"
+}],
+
+[{
+Q.32 Is HashMap an ordered Collection?
+opt1: " True ",
+opt2: " False ",
+opt3: " Nothing can be said ",
+opt4: " None of the above ",
+ans:"opt2"
+}],
+
+[{
+Q.33 If two threads access the same hashmap at the same time, what would happen?
+opt1: " ConcurrentModificationException ",
+
+opt2: " NullPointerException ",
+opt3: " ClassNotFoundException ",
+opt4: " RuntimeException ",
+ans:"opt1"
+}],
+
+[{
+Q.34 How to sort elements of ArrayList?
+opt1: " Collection.sort(listObj) ",
+opt2: " Collections.sort(listObj) ",
+opt3: " listObj.sort() ",
+opt4: " Sorter.sort(listObj) ",
+ans:"opt2"
+}],
+
+[{
+Q.35 What is difference between length() and size() of ArrayList?
+opt1: " both are same ",
+
+opt2: " length() is not defined in ArrayList ",
+
+opt3: " size() is not defined in ArrayList ",
+
+opt4: " length() returns the capacity of ArrayList and size returns the actual number of elements stored in that list ",
+ans:"opt4"
+}],
+
+[{
+Q.36  What is the default clone of HashSet?
+opt1: " Deep clone ",
+opt2: " Shallow clone ",
+opt3: " Plain clone ",
+opt4: " Hollow clone ",
+ans:"opt2"
+}],
+
+[{
+Q.37  What does Collections.emptySet() return?
+opt1: "Immutable Set ",
+opt2: " Mutable Set ",
+opt3: " Empty Set ",
+opt4: " Null object ",
+ans:"opt1"
+}],
+
+[{
+Q.38 What is the initial capacity and load factor of HashSet?
+opt1: " 10,0.1 ",
+opt2: " 32,1.5 ",
+opt3: " 16,0.75 ",
+opt4: " 32,1.0 ",
+ans:"opt3"
+}],
+
+[{
+Q.39  What is the relation between hashset and hashmap?
+opt1: " HashSet internally implements HashMap ",
+opt2: " HashMap internally implements HashSet ",
+opt3: " HashMap is the interface,HashSet is the concrete class ",
+opt4: " HashSet is the interface,HashMap is the concrete class ",
+ans:"opt1"
+}],
+
+[{
+Q.40  What is the difference between TreeSet and SortedSet?
+opt1: " TreeSet is more efficient than SortedSet ",
+opt2: " SortedSet is more efficient than TreeSet ",
+opt3: " TreeSet is an interface ,SortedSet is a concrete class ",
+opt4: " SortedSet is an interface ,TreeSet is a concrete class ",
+ans:"opt4"
+}],
+
+[{
+Q.41 What is the unique feature of LinkedHashSet?
+opt1: " It is not a valid class ",
+opt2: " It maintains the insertion order and guarantees uniqueness ",
+opt3: " It provides a way to store key values with uniqueness ",
+opt4: " The elements in the collection are linked to each other ",
+ans:"opt2"
+}],
+
+[{
+Q.42 Which of the method is used to add an element to the start of a LinkedList object?
+opt1: " add() ",
+opt2: " first() ",
+opt3: " AddFirst() ",
+opt4: " addFirst ",
+ans:"opt4"
+}],
+
+[{
+Q.43 Which of the method is used to change an element in a LinkedList Object?
+opt1: " change() ",
+opt2: " set() ",
+opt3: " redo() ",
+opt4: " add() ",
+ans:"opt2"
+}],
+
+[{
+Q.44  Which of these methods can be used to obtain set of all keys in a map?
+opt1: " getAll() ",
+
+opt2: " getKeys() ",
+opt3: " keyall() ",
+opt4: " keySet() ",
+ans:"opt4"
+}],
+
+[{
+Q.45  Which of these are legacy class?
+opt1: " Stack ",
+opt2: " HashTable ",
+opt3: " Vector ",
+opt4: " All of the mentioned ",
+ans:"opt4"
+}],
+
+[{
+Q.46 Which of the below is not a subinterface of Queue?
+opt1: " BlockingQueue ",
+opt2: " BlockingEnque ",
+opt3: " TransferQueue ",
+opt4: " BlockingQueue ",
+ans:"opt2"
+}],
+
+[{
+Q.47 Which of these is the interface of lagacy?
+
+
+opt1: " Map " ,
+opt2:  " Enumeration ",
+opt3: " HashMap " ,
+opt4: " Hashtable " ,
+ans:"opt2"
+}],
+
+[{
+Q.48 What is the name of a data member of class Vector which is used to store a number of elements in the vector?
+
+opt1: "length",
+
+opt2: " elements ",
+opt3: " elementCount ",
+opt4: " capacity ",
+ans:"opt3"
+}],
+
+[{
+Q.49 Which of these class object uses the key to store value ?
+
+
+opt1: " Dictionary ",
+
+opt2: " Map ",
+
+opt3: " Hashtable ",
+
+opt4: " All of the mentioned above ",
+
+ans:"opt4"
+}],
+
+
+[{
+Q.50 Which of these is the interface of lagacy is implemented by Hashtable and Dictionary classes?
+opt1. " Map ";
+opt2. " Enumeration ";
+opt3. " HashMap ";
+opt4. " Hashtable ";
+ans. opt1}]
+]

@@ -1,0 +1,631 @@
+[[
+[{
+q:"1. Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?  ",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"LinkedHashMap",
+opt4:"The answer depends on the implementation of the existing instance",
+ans:"Option 3"
+}],
+[{
+q:"2.Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object? ",
+opt1:"java.lang.String",
+opt2:"java.lang.Double",
+opt3:"java.lang.StringBuilder",
+opt4:"java.lang.Character",
+ans:"Option 3"
+}],
+[{
+q:"3.Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?  ",
+opt1:"java.utli.HashSet",
+opt2:"java.util.LinkedHashSet",
+opt3:"java.util.List",
+opt4:"java.util.ArrayList",
+ans:""
+}],
+[{
+q:"4.You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?  ",
+opt1:"java.util.Map",
+opt2:"java.util.Set",
+opt3:"java.util.List",
+opt4:"java.util.Collection",
+ans:"option 2"
+}],
+[{
+q:"5.Which option does java.util.HashTable implements? ",
+opt1:"java.util.Map",
+opt2:"java.util.List",
+opt3:"java.util.HashTable",
+opt4:"java.util.Collection",
+ans:"Option 1"
+}],
+[{
+q:"6.Which interface provides the capability to store objects using the key-value pairr?",
+opt1:"java.util.Map",
+opt2:"java.util.Set",
+opt3:"java.util.List",
+opt4:"java.util.Collection",
+ans:"Option 1"
+}],
+[{
+q:"7.Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?  ",
+opt1:"java.util.ArrayList",
+opt2:"java.util.LinkedHashMap",
+opt3:"java.util.HashMap",
+opt4:"java.util.TreeMap",
+ans:"Option 2"
+}],
+[{
+q:"8.Which collection class allows you to access its elements by associating a key with an element's value, and provides synchronization?  ",
+opt1:"java.util.SortedMap",
+opt2:"java.util.TreeMap",
+opt3:"java.util.TreeMap",
+opt4:"java.util.HashTable",
+ans:"Option  4"
+}],
+[{
+q:"9.Which is valid declaration of a float?",
+opt1:"float f = 1F;",
+opt2:"float f = 1.0;",
+opt3:"float f = ""1";,
+opt4:"float f = 1.0d;",
+ans:"Option 1"
+}],
+[{
+q:"10.Given class is :
+public class foo 
+{
+    public static void main(String[]args)throws Exception 
+    {
+        java.io.PrintWriter out = new java.io.PrintWriter(); 
+        new java.io.OutputStreamWriter(System.out,true); 
+        out.println("Hello"); 
+    } 
+}
+What line of code should replace the missing statement to make this program compile?",
+opt1:"No statement required",
+opt2:"import java.io.*;",
+opt3:"include java.io.*;",
+opt4:"import java.io.PrintWriter;",
+ans:"Option 1"
+}],
+[{
+q:"11.What will be the output of the program?
+
+TreeSet map = new TreeSet();
+map.add("one");
+map.add("two");
+map.add("three");
+map.add("four");
+map.add("one");
+Iterator it = map.iterator();
+while (it.hasNext() ) 
+{
+    System.out.print( it.next() + " " );
+} ",
+
+opt1:"one two three four",
+opt2:"four three two one",
+opt3:"four one three two",
+opt4:"one two three four one",
+ans:"Option 3"
+}],
+[{
+q:"12.What will be the output of the program?
+
+public static void main(String[] args) 
+{
+    Object obj = new Object() 
+    {
+        public int hashCode() 
+        {
+            return 42;
+        }
+    }; 
+    System.out.println(obj.hashCode()); 
+} ",
+opt1:"42",
+opt2:"Runtime Exception",
+opt3:"Compile Error at line 2",
+opt4:"Compile Error at line 5",
+ans:"Option 1"
+}],
+[{
+q:"13.
+class Test1 
+{
+    public int value;
+    public int hashCode() { return 42; }
+}
+class Test2 
+{
+    public int value;
+    public int hashcode() { return (int)(value^5); }
+}  
+Which statement is true?",
+opt1:"class Test1 will not compile.",
+opt2:"The Test1 hashCoe() method is more efficient than the Test2 hashCode method.",
+opt3:"The Test1 hashCoe() method is less efficient than the Test2 hashCode method.",
+opt4:"class Test2 will not compile.",
+ans:"Option 3"
+}],
+[{
+q:"14.What will be the output of the program?
+
+import java.util.*; 
+class H 
+{
+    public static void main (String[] args) 
+    { 
+        Object x = new Vector().elements(); 
+        System.out.print((x instanceof Enumeration)+","); 
+        System.out.print((x instanceof Iterator)+","); 
+        System.out.print(x instanceof ListIterator); 
+    } 
+} ",
+opt1:"Prints:false,false,false",
+opt2:"Prints:false,false,true",
+opt3:"Prints:false,true.false",
+opt4:"Prints:true,false,false",
+ans:"Option 4"
+}],
+[{
+q:"15.What will be the output of the program?
+import java.util.*; 
+class I 
+{
+    public static void main (String[] args) 
+    {
+        Object i = new ArrayList().iterator(); 
+        System.out.print((i instanceof List)+","); 
+        System.out.print((i instanceof Iterator)+","); 
+        System.out.print(i instanceof ListIterator); 
+    } 
+} ",
+opt1:"Prints:false,false,false",
+opt2:"Prints:false,false,true",
+opt3:"Prints:false,true,false",
+opt4:"Prints:false,true,true",
+ans:"Option 3"
+}],
+[{
+q:"16.Which statement is true for the class java.util.HashSet?",
+opt1:"The elements in the collection are ordered.",
+opt2:"The collection is guaranteed to be immutable.",
+opt3:"The elements in the collection are guaranteed to be unique.",
+opt4:"The elements in the collection are accessed using a unique key.",
+ans:"Option 3"
+}],
+[{
+q:"17.Which of the following ststements about the hashCode() method are incorrect?
+1.The value returned by hashCode() is used in some collection classes to help locate objects.
+2:The hashCode() method is required to return a positive int value.
+3:The hashCode() method in the String class is the one inherited from Objects.
+4:Two new empty String objects will produce identical hashcodes.",
+opt1:"1 and 2",
+opt2:"2 and 3",
+opt3:"3 and 4",
+opt4"1 and 4",
+ans:"option 2",
+}],
+[{
+q:"18.What two statements are true about properly overridden hashCode() and equals() methods?
+
+1.hashCode() doesn't have to be overridden if equals() is.
+2.equals() doesn't have to be overridden if hashCode() is.
+3.hashCode() can always return the same value, regardless of the object that invoked it.
+4.equals() can be true even if it's comparing different objects.  ",
+opt1:"1 and 2",
+opt2:"2 and 3",
+opt3:"3 and 4",
+opt4:"1 and 3",
+ans:"Option 3"
+}],
+[{
+q:"19.Which two statements are true about comparing two instances of the same class, given that the equals() and hashCode() methods have been properly overridden?
+
+1.If the equals() method returns true, the hashCode() comparison == must return true.
+2.If the equals() method returns false, the hashCode() comparison != must return true.
+3.If the hashCode() comparison == returns true, the equals() method must return true.
+4.If the hashCode() comparison == returns true, the equals() method might return true.  ",
+opt1:"1 and 4",
+opt2:"2 and 3",
+opt3:"3 and 4",
+opt4:"1 and 3",
+ans:"Option 1"
+}],
+[{
+q:"20.
+x = 0;
+if (x1.hashCode() != x2.hashCode() )  x = x + 1;
+if (x3.equals(x4) )  x = x + 10;
+if (!x5.equals(x6) ) x = x + 100;
+if (x7.hashCode() == x8.hashCode() )  x = x + 1000;
+System.out.println("x = " + x);
+and assuming that the equals() and hashCode() methods are properly implemented, if the output is "x = 1111", which of the following statements will always be true?  ",
+opt1:"x2.equals(x1)",
+opt2:"x3.hashCode()==x4.hashCodde()",
+opt3:"x5.hashCode()!=x6.hashCode()",
+opt4:"x8.equals(x7)",
+ans:"Option 2"
+}],
+[{
+q:"21.Which of the following are true statements?
+
+1.The Iterator interface declares only three methods: hasNext, next and remove.
+2.The ListIterator interface extends both the List and Iterator interfaces.
+3.The ListIterator interface provides forward and backward iteration capabilities.
+4.The ListIterator interface provides the ability to modify the List during iteration.
+5.The ListIterator interface provides the ability to determine its position in the List.",
+opt1:"2,3,4 and 5",
+opt2:"1,3,4 and 5",
+opt3:"3,4 and 5",
+opt4:"1,2 and 3",
+ans:"Option 2"
+}],
+[{
+q:"22.Which statement is true for the class java.util.ArrayList?",
+opt1:"The elements in the collection are ordered.",
+opt2:"The collection is guaranteed to be immutable",
+opt3:"The elements in the collection are guaranteed to be unique",
+opt4:"The elements in the collection are accessed using a unique key.",
+ans:"Option 1"
+}],
+[{
+q:"23.Which of these method is used to reduce the capacity of an ArrayList object?",
+opt1:"trim()",
+opt2:"trimSize()",
+opt3:"trimTOSize()",
+opt4:"trimToSize()",
+ans:"Option 4"
+}],
+[{
+q:"24.Which of these method of ArrayList class is used to obtain present size of an object?",
+opt1:"Array()",
+opt2:"covertArray()",
+opt3:"toArray()",
+opt4:"covertToArray()",
+ans:"Option 3"
+}],
+[{
+q:"25. Which of these methods sets every element of a List to a specified object?",
+opt1:"set()",
+opt2:"fill()",
+opt3:"Complete()",
+opt4:"add()",
+ans:"Option 2"
+}],
+[{
+q:"26.Which of these methods can randomize all elements in a list?",
+opt1:"rand()",
+opt2:"randomize()",
+opt3:"shuffle()",
+opt4:"ambiguous()",
+ans:"Option 3"
+}],
+[{
+q:"27.Which of these method can convert Object into List?",
+opt1:"SetList()",
+opt2:"ConvertList()",
+opt3:"singletonList()",
+opt4:"CopyList()",
+ans:"Option 3"
+}],
+[{
+q:"28.Which of these is true about unmodifiableCollection() method?",
+opt1:"unmodifiableCollection() returns a collection that cannot be modified",
+opt2:"unmodifiableCollection() method is available only for List and Set",
+opt3:"unmodifiableCollection() is defined in Collection class",
+opt4:"none of the mentioned",
+ans:"Option 2"
+}],
+[{
+q:"29.What will be the output of the following Java program?
+
+    import java.util.*;
+    class Collection_Algos 
+    {
+        public static void main(String args[]) 
+        {
+            LinkedList list = new LinkedList();
+            list.add(new Integer(2));
+            list.add(new Integer(8));
+            list.add(new Integer(5));
+            list.add(new Integer(1));
+            Iterator i = list.iterator();
+	    while(i.hasNext())
+	        System.out.print(i.next() + " ");
+        }
+    }",
+opt1:"2 8 5 1",
+opt2:"1 5 8  2",
+opt3:"2",
+opt4:"2 1 8 5",
+ans:"Option 1"
+}],
+[{
+q:"30. Which of these method is used add an element and corresponding key to a map",
+opt1:"put()",
+opt2:"set()",
+opt3:"redo",
+opt4:"add()",
+ans:"Option 1"
+}],
+[{
+q:"31. Which of these methods can be used to obtain set of all keys in a map?",
+opt1:"getAll()",
+opt2:"getKeys()",
+opt3:"keyAll()",
+opt4:"keySet()",
+ans:"Option 4"
+}],
+[{
+q:"32. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Maps 
+    {
+        public static void main(String args[]) 
+        {
+            HashMap obj = new HashMap();
+            obj.put("A", new Integer(1));
+            obj.put("B", new Integer(2));
+            obj.put("C", new Integer(3));
+            System.out.println(obj);
+        }
+    }",
+opt1:"{A 1,B 1,C 1}",
+opt2:"{A,B,C}",
+opt3:"A-1,B-1,C-1",
+opt4:"A=1,B=2,C=3",
+ans:"Option 4"
+}],
+[{
+q:"33.What will be the output of the following Java program?
+
+    import java.util.*;
+    class Maps 
+    {
+        public static void main(String args[]) 
+        {
+            HashMap obj = new HashMap();
+            obj.put("A", new Integer(1));
+            obj.put("B", new Integer(2));
+            obj.put("C", new Integer(3));
+            System.out.println(obj.get("B"));
+        }
+    }",
+opt1:"1",
+opt2:"2",
+opt3:"3",
+opt4:"null",
+ans:"Option 2"
+}],
+[{
+q:"34.What will be the output of the following Java program?
+
+    import java.util.*;
+    class Maps 
+    {
+        public static void main(String args[]) 
+        {
+            TreeMap obj = new TreeMap();
+            obj.put("A", new Integer(1));
+            obj.put("B", new Integer(2));
+            obj.put("C", new Integer(3));
+            System.out.println(obj.entrySet());
+        }
+    }",
+opt1:"[A,B,C]",
+opt2:"[1,2,3]",
+opt3:"{A=1,B=2,C=3}",
+opt4:"[A=1,B=2,C=3]",
+ans:"Option 4"
+}],
+[{
+q:"35.Which of these is the interface of legacy is implemented by Hashtable and Dictionary classes?",
+opt1:"Map",
+opt2:"Enumeration",
+opt3:"HashMap",
+opt4:"HashTable",
+ans:"Option 1"
+}],
+[{
+q:"36.Which of these is a class which uses String as a key to store the value in object?",
+opt1:"Array",
+opt2:"ArrayList",
+opt3:"Dictionary",
+opt4:"Properties",
+ans:"Option 4"
+}],
+[{
+q:"37.Which of these methods is used to retrieve the elements in properties object at specific location?",
+opt1:"get()",
+opt2:"Elementat()",
+opt3:"ElementAt()",
+opt4:"getProperty()",
+ans:"Option 4"
+}],
+[{
+q:"38. What will be the output of the following Java code?
+
+    import java.util.*;
+    class hashtable 
+    {
+        public static void main(String args[]) 
+        {
+            Hashtable obj = new Hashtable();
+            obj.put("A", new Integer(3));
+            obj.put("B", new Integer(2));
+            obj.put("C", new Integer(8));
+            System.out.print(obj.contains(new Integer(5)));
+        }
+    }",
+opt1:"0",
+opt2:"1",
+opt3:"true",
+opt4:"false",
+ans:"Option 4"
+}],
+[{
+q:"39.import java.util.*;
+    class hashtable 
+    {
+        public static void main(String args[]) 
+        {
+            Hashtable obj = new Hashtable();
+            obj.put("A", new Integer(3));
+            obj.put("B", new Integer(2));
+            obj.put("C", new Integer(8));
+            System.out.print(obj.toString());
+        }
+    }",
+opt1:"{C=8,B=2}",
+opt2:"{C=8,B=2}",
+opt3:"{A=3,C=8,B=2}",
+opt4:"{A=3,C=2,B=8}",
+ans:"Option 3"
+}],
+[{
+q:"40.What will be the output of the following Java program?
+
+    import java.util.*;
+    class Array 
+    {
+        public static void main(String args[]) 
+        {
+            int array[] = new int [5];
+            for (int i = 5; i > 0; i--)
+                array[5-i] = i;
+            Arrays.fill(array, 1, 4, 8);
+            for (int i = 0; i < 5 ; i++)
+                System.out.print(array[i]);
+        }
+    }",
+opt1:"12885",
+opt2:"12845",
+opt3:"58881",
+opt4:"54881",
+ans:"Option 3"
+}],
+[{
+q:"41.What will be the output of the following Java program?
+import java.util.*;
+    class Bitset 
+    {
+        public static void main(String args[]) 
+        {
+            BitSet obj = new BitSet(5);
+            for (int i = 0; i < 5; ++i)
+                obj.set(i);
+            obj.clear(2);
+            System.out.print(obj);
+        }
+    }",
+opt1:"{0,1,3,4}",
+opt2:"{0,1,2,4}",
+opt3:"{0,1,2,3,4}",
+opt4:"{0,0,0,3,4}",
+ans:"Option 1"
+}],
+[{
+q:"42.Which of these method of Array class is used sort an array or its subset?",
+opt1:"binarysort()",
+opt2:"bubblesort()",
+opt3:"sort()",
+opt4:"insert()",
+ans:"Option 3"
+}],
+[{
+q:"43. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Array
+    {
+        public static void main(String args[]) 
+        {
+            int array[] = new int [5];
+            for (int i = 5; i > 0; i--)
+                array[5 - i] = i;
+            Arrays.sort(array);
+            for (int i = 0; i < 5; ++i)
+            	System.out.print(array[i]);;
+        }
+    }",
+opt1:"12345",
+opt2:"54321",
+opt3:"1234",
+opt4:"5432",
+ans:"Option 1"
+}],
+[{
+q:"44.What is the default clone of HashSet?",
+opt1:"Deep clone",
+opt2:"Shallow clone",
+opt3:"Plain clone",
+opt4:"Hollow clone",
+ans:"Option 2"
+}],
+[{
+q:"45.Do we have get(Object o) method in HashSet?",
+opt1:"True",
+opt2:"False",
+ans:"Option 2"
+}],
+[{
+q:"46.What does Collections.emptySet() return?",
+opt1:"Immutable Set",
+opt2:"Mutable Set",
+opt3:"The type or Set depends on the particular passed to the emptySet() method",
+opt4:"Null object",
+ans:"Option 1"
+}],
+[{
+q:"47.What are the initial capacity and the load factor of HashSet?",
+opt1:"10,1.0",
+opt2:"32,0.75",
+opt3:"16,0.75",
+opt4:"32,1.0",
+ans:"Option 3"
+}],
+[{
+q:"48.What is the relation between hashset and hashmap?",
+opt1:"HashSet internally implements HashMap",
+opt2:"HashMap internally implements HashSet",
+opt3:"HashMap is the interface,HashSet is the concrete class",
+opt4:"HashSet is the interface,HashMap is the concrete class",
+ans:"Option 1"
+}],
+[{
+q:"49.What will be the output of the following Java code snippet?
+
+public class Test 
+{
+	public static void main(String[] args) 
+        {
+		Set s = new HashSet();
+		s.add(new Long(10));
+		s.add(new Integer(10));
+		for(Object object : s)
+                {
+		    System.out.println("test - "+object);
+		}
+	}
+}",
+opt1:"  Test - 10
+            Test - 10",
+opt2:"Runtime Exception",
+opt3:"Compilation Failure",
+opt4:"Test -10",
+ans:"Option 1"
+}],
+[{
+q:"50.What is the difference between TreeSet and SortedSet?",
+opt1:" TreeSet is more efficient than SortedSet",
+opt2:"SortedSet is more efficient than TreeSet",
+opt3:"TreeSet is an interface; SortedSet is a concrete class",
+opt4:"SortedSet is an interface; TreeSet is a concrete class",
+ans:"Option D"
+}],
+],
+[{rollNum:"IT2k17-60"}]]

@@ -1,0 +1,1479 @@
+[[ 
+
+[{ 
+
+q:"1. Which of these object stores association between keys and values?", 
+
+opt1:" Hash table ",
+
+opt2:" Map ",
+
+opt3:" Array ",
+
+opt4:" String ",
+
+Ans "2", 
+
+}], 
+
+[{ 
+
+q:"2. Which of these classes provide implementation of map interface?", 
+
+opt1:" ArrayList", 
+
+opt2:" HashMap", 
+
+opt3:" LinkedList", 
+
+opt4:" DynamicList", 
+
+Ans "2", 
+
+}], 
+
+  
+
+[{ 
+
+q:"3. Which of these method is used to remove all keys/values pair from the invoking map?", 
+
+opt1:" delete()", 
+
+opt2:" remove() ",
+
+opt3:" clear() ", 
+
+opt4:" removeAll() ",
+
+Ans "2 ", 
+
+}], 
+
+[{ 
+
+q:"4. Which of these method Map class is used to obtain an element in the map having specified key?", 
+
+opt1:" search() ",
+
+opt2:" get() ", 
+
+opt3:" set() ",
+
+opt4:" look() ", 
+
+Ans "2 ",
+
+}], 
+
+[{ 
+
+q:"5. Which of these methods can be used to obtain set of all keys in a map?", 
+
+opt1:" getAll() ",
+
+opt2:" getKeys() ",
+
+opt3:" keyall() ",
+
+opt4:" keySet() ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"6. Which of these method is used add an element and corresponding key to a map?", 
+
+opt1:" put() ",
+
+opt2:" set() ",
+
+opt3:" redo() ",
+
+opt4:" add() ",
+
+Ans "1 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"7. What will be the output of the following Java program?", 
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            HashMap obj = new HashMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj); 
+
+        } 
+
+    } 
+
+opt1:" {A 1, B 1, C 1} ",
+
+opt2:" {A, B, C} ",
+
+opt3:" {A-1, B-1, C-1} ",
+
+opt4:" {A=1, B=2, C=3} ",
+
+Ans" 4 ",
+
+}], 
+
+[{ 
+
+q:"8. What will be the output of the following Java program?", 
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            HashMap obj = new HashMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj.keySet()); 
+
+        } 
+
+    } 
+
+opt1:" [A, B, C] ",
+
+opt2:" {A, B, C} ",
+
+opt3:" {1, 2, 3} ",
+
+opt4:" [1, 2, 3] ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"9. What will be the output of the following Java program? ",
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            HashMap obj = new HashMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj.get("B")); 
+
+        } 
+
+    } 
+
+opt1:" 1 ",
+
+opt2:" 2 ",
+
+opt3:" 3 ",
+
+opt4:" null ",
+
+Ans "2",
+
+}], 
+
+[{ 
+
+q:"10. What will be the output of the following Java program? ",
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            TreeMap obj = new TreeMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj.entrySet()); 
+
+        } 
+
+    } 
+
+opt1:" [A, B, C] ",
+
+opt2:" [1, 2, 3] ",
+
+opt3:" {A=1, B=2, C=3} ",
+
+opt4:" [A=1, B=2, C=3] ",
+
+Ans "4 ",
+
+}], 
+
+  
+
+[{ 
+
+q:"11.Which of these class object can be used to form a dynamic array? ",
+
+opt1:" ArrayList ",
+
+opt2:" Map ",
+
+opt3:" Vector ",
+
+opt4:" ArrayList & Vector ",
+
+Ans "4", 
+
+  
+
+  
+
+}],  
+
+[{ 
+
+q:"12. Which of these are legacy classes? ",
+
+opt1:" Stack  ",
+
+opt2:" Hashtable ",
+
+opt3:" Vector ",
+
+opt4:" All of the mentioned ",
+
+Ans "4",
+
+}], 
+
+[{ 
+
+q:"13. Which of these is the interface of legacy? ",
+opt1:" Map ",
+
+opt2:" Enumeration ",
+
+opt3:" HashMap ",
+
+opt4:" Hashtable ",
+
+Ans "2 ",
+
+}], 
+
+[{ 
+
+q:"14. What is the name of a data member of class Vector which is used to store a number of elements in the vector? ",
+
+opt1:" length ",
+
+opt2:" elements ",
+
+opt3:" elementCount ",
+
+opt4:" capacity ",
+
+Ans "3",
+
+}], 
+
+[{ 
+
+q:"15. Which of these methods is used to add elements in vector at specific location? ",
+
+opt1:" add() ",
+
+opt2:" set() ",
+
+opt3:" AddElement() ",
+
+opt4:" addElement() ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"16. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class vector  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Vector obj = new Vector(4,2); 
+
+            obj.addElement(new Integer(3)); 
+
+            obj.addElement(new Integer(2)); 
+
+            obj.addElement(new Integer(5)); 
+
+            System.out.println(obj.elementAt(1)); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 3 ",
+
+opt3:" 2 ",
+
+opt4:" 5 ",
+
+Ans "3 ",
+
+}], 
+
+[{ 
+
+q:"17. What will be the output of the following Java code? ",
+
+  
+
+  
+
+  
+
+    import java.util.*; 
+
+    class vector  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Vector obj = new Vector(4,2); 
+
+            obj.addElement(new Integer(3)); 
+
+            obj.addElement(new Integer(2)); 
+
+            obj.addElement(new Integer(5)); 
+
+            System.out.println(obj.capacity()); 
+
+        } 
+
+    } 
+
+opt1:" 2 ",
+
+opt2:" 3 ",
+
+opt3:" 4 ",
+
+opt4:" 6",
+ Ans "3 ",
+
+}], 
+
+[{ 
+
+q:"18. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class vector  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Vector obj = new Vector(4,2); 
+
+            obj.addElement(new Integer(3)); 
+
+            obj.addElement(new Integer(2)); 
+
+            obj.addElement(new Integer(6)); 
+
+            obj.insertElementAt(new Integer(8), 2); 
+
+            System.out.println(obj); 
+
+        } 
+
+    } 
+
+opt1:" [3, 2, 6] ",
+
+opt2:" [3, 2, 8] ",
+
+opt3:" [3, 2, 6, 8] ",
+
+opt4:" [3, 2, 8, 6] ",
+
+  Ans "4",
+
+}], 
+
+[{ 
+
+q:"19. What will be the output of the following Java code? ",
+
+  
+
+  
+
+  
+
+    import java.util.*; 
+
+    class vector  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Vector obj = new Vector(4,2); 
+
+            obj.addElement(new Integer(3)); 
+
+            obj.addElement(new Integer(2)); 
+
+            obj.addElement(new Integer(5)); 
+
+            obj.removeAll(obj); 
+
+            System.out.println(obj.isEmpty()); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 1 ",
+
+opt3:" true ",
+
+opt4:" false ",
+
+Ans "3 ",
+
+}], 
+
+[{ 
+
+q:"20. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class stack  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Stack obj = new Stack(); 
+
+            obj.push(new Integer(3)); 
+
+            obj.push(new Integer(2)); 
+
+            obj.pop(); 
+
+            obj.push(new Integer(5)); 
+
+     	    System.out.println(obj); 
+
+        } 
+
+    } 
+
+opt1:" [3, 5] ",
+
+opt2:" [3, 2] ",
+
+opt3:" [3, 2, 5] ",
+
+opt4:" [3, 5, 2] ",
+
+Ans "1 ",
+
+}], 
+
+  
+
+  
+
+[{ 
+
+q:"21. Which of these class object uses the key to store value? ",
+
+opt1:" Dictionary ",
+
+opt2:" Map ",
+
+opt3:" Hashtable ",
+
+opt4:" All of the mentioned ",
+
+Ans "4 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"22. Which of these method is used to insert value and its key? ",
+
+opt1:" put() ",
+
+opt2:" set() ",
+
+opt3:" insertElement() ",
+
+opt4:" addElement() ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"23. Which of these is the interface of legacy is implemented by Hashtable and Dictionary classes? ",
+
+opt1:" Map", 
+
+opt2:" Enumeration ",
+
+opt3:" HashMap ",
+
+opt4:" Hashtable ",
+
+Ans "1", 
+
+}], 
+
+[{ 
+
+q:"24. Which of these is a class which uses String as a key to store the value in object? ",
+
+opt1:" Array", 
+
+opt2:" ArrayList ",
+
+opt3:" Dictionary ",
+
+opt4:" Properties ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"25. Which of these methods is used to retrieve the elements in properties object at specific location? ",
+
+opt1:" get()  ",
+
+opt2:" Elementat() ",
+
+opt3:" ElementAt() ",
+
+opt4:" getProperty() ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"26. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            System.out.print(obj.contains(new Integer(5))); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 1 ",
+
+opt3:" true ",
+
+opt4:" false ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"27. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            obj.clear(); 
+
+            System.out.print(obj.size()); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 1 ",
+
+opt3:" 2 ",
+
+opt4:" 3 ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"28. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            obj.remove(new String("A")); 
+
+            System.out.print(obj); 
+
+        } 
+
+    } 
+
+opt1:" {C=8, B=2} ",
+
+opt2:" [C=8, B=2] ",
+
+opt3:" {A=3, C=8, B=2} ",
+
+opt4:" [A=3, C=8, B=2] ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"29. What will be the output of the following Java code? ",
+
+  
+
+  
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            System.out.print(obj.toString()); 
+
+        } 
+
+    } 
+
+opt1:" {C=8, B=2} ",
+
+opt2:" [C=8, B=2] ",
+
+opt3:" {A=3, C=8, B=2} ",
+
+opt4:" [A=3, C=8, B=2] ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"30. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class properties  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Properties obj = new Properties(); 
+
+            obj.put("AB", new Integer(3)); 
+
+            obj.put("BC", new Integer(2)); 
+
+            obj.put("CD", new Integer(8)); 
+
+            System.out.print(obj.keySet()); 
+
+        } 
+
+    } 
+
+opt1:" {AB, BC, CD} ",
+
+opt2:" [AB, BC, CD] ",
+
+opt3:" [3, 2, 8] ",
+
+opt4:" {3, 2, 8} ",
+
+Ans "2 ",
+
+  
+
+  
+
+}], 
+
+[{ 
+
+q:"31. Which of these class object has an architecture similar to that of array? ",
+
+opt1:" Bitset ",
+
+opt2:" Map ",
+
+opt3:" Hashtable ",
+
+opt4:" All of the mentioned ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"32. Which of these method is used to make a bit zero specified by the index? ",
+
+opt1:" put() ",
+
+opt2:" set() ",
+
+opt3:" remove() ",
+
+opt4:" clear() ",
+
+Ans "4",
+
+}], 
+
+[{ 
+
+q:"33. Which of these method is used to calculate number of bits required to hold the BitSet object? ",
+
+opt1:" size() ",
+
+opt2:" length() ",
+
+opt3:" indexes() ",
+
+opt4:" numberofBits() ",
+
+Ans "2 ",
+
+}], 
+
+[{ 
+
+q:"34. Which of these is a method of class Date which is used to search whether object contains a date before the specified date? ",
+
+opt1:" after() ",
+
+opt2:" contains() ",
+
+opt3:" before() ",
+
+opt4:" compareTo() ",
+
+Ans "3 ",
+
+}], 
+
+[{ 
+
+q:"35. Which of these methods is used to retrieve elements in BitSet object at specific location? ",
+
+opt1:" get() ",
+
+opt2:" Elementat() ",
+
+opt3:" ElementAt()",
+ 
+opt4:" getProperty() ",
+
+Ans "1 ", 
+
+}], 
+
+[{ 
+
+q:"36. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class Bitset 
+
+    { 
+
+        public static void main(String args[]) 
+
+        { 
+
+            BitSet obj = new BitSet(5); 
+
+            for (int i = 0; i < 5; ++i) 
+
+                obj.set(i); 
+
+            obj.clear(2); 
+
+            System.out.print(obj); 
+
+        } 
+
+    } 
+
+opt1:" {0, 1, 3, 4} ",
+
+opt2:" {0, 1, 2, 4} ",
+
+opt3:" {0, 1, 2, 3, 4} ",
+
+opt4:" {0, 0, 0, 3, 4} ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"37. What will be the output of the following Java code? ",
+
+  
+
+  
+
+    import java.util.*; 
+
+    class Bitset  
+
+    { 
+
+        public static void main(String args[]) 
+
+        { 
+
+            BitSet obj = new BitSet(5); 
+
+            for (int i = 0; i < 5; ++i) 
+
+                obj.set(i); 
+
+            obj.clear(2); 
+
+            System.out.print(obj.length() + " " + obj.size()); 
+
+        } 
+
+    } 
+
+opt1:" 4 64 ",
+
+opt2:" 5 64 ",
+
+opt3:" 5 128 ",
+
+opt4:" 4 128 ",
+
+Ans "2 ",
+
+}], 
+
+[{ 
+
+q:"38. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class Bitset 
+
+    { 
+
+        public static void main(String args[]) 
+
+        { 
+
+            BitSet obj = new BitSet(5); 
+
+            for (int i = 0; i < 5; ++i) 
+
+                obj.set(i); 
+
+            System.out.print(obj.get(3)); 
+
+        } 
+
+    } 
+
+opt1:" 2 ",
+
+opt2:" 3 ",
+
+opt3:" 4 ",
+
+opt4:" 5 ",
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"39. What will be the output of the following Java code? ",
+
+  
+
+  
+
+    import java.util.*; 
+
+    class date 
+
+    { 
+
+        public static void main(String args[]) 
+
+        { 
+
+            Date obj = new Date(); 
+
+            System.out.print(obj); 
+
+        } 
+
+    } 
+
+opt1:" Prints Present Date ",
+
+opt2:" Runtime Error ",
+
+opt3:" Any Garbage Value ",
+
+opt4:" Prints Present Time & Date ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"40. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class Bitset 
+
+    { 
+
+        public static void main(String args[]) 
+
+        { 
+
+            BitSet obj1 = new BitSet(5); 
+
+            BitSet obj2 = new BitSet(10); 
+
+            for (int i = 0; i < 5; ++i) 
+
+                obj1.set(i); 
+
+            for (int i = 3; i < 13; ++i) 
+
+                obj2.set(i); 
+
+            obj1.and(obj2); 
+
+            System.out.print(obj1); 
+
+        } 
+
+    } 
+
+opt1:" {0, 1} ",
+opt2:" {2, 4} ",
+
+opt3:" {3, 4} ",
+
+opt4:" {3, 4, 5} ",
+
+Ans "3", 
+
+}], 
+
+  
+
+[{ 
+
+q:"41. What is Remote method invocation (RMI)? ",
+
+opt1:" RMI allows us to invoke a method of java object that executes on another machine ",
+
+opt2:" RMI allows us to invoke a method of java object that executes on another Thread in multithreaded programming ",
+
+opt3:" RMI allows us to invoke a method of java object that executes parallely in same machine ",
+
+opt4:" None of the mentioned ",
+
+Ans "1 ",
+
+  
+
+}], 
+
+  
+
+[{ 
+
+q:"42. Which of these package is used for remote method invocation? ",
+
+opt1:" java.applet ",
+
+opt2:" java.rmi ",
+
+opt3:" java.lang.rmi ",
+
+opt4:" java.lang.reflect ",
+
+Ans "2 ",
+
+}], 
+
+[{ 
+
+q:"43. Which of these methods are member of Remote class? ",
+
+opt1:" checkIP() ",
+
+opt2:" addLocation() ",
+
+opt3:" AddServer() ",
+opt4:" None of the mentioned ", 
+
+Ans "4 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"44. Which of these Exceptions is thrown by remote method? ",
+
+opt1:" RemoteException ",
+
+opt2:" InputOutputException ",
+
+opt3:" RemoteAccessException ",
+
+opt4:" RemoteInputOutputException ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"45. Which of these class is used for creating a client for a server-client operations? ",
+
+opt1:" serverClientjava ",
+
+opt2:" Client.java ",
+
+opt3:" AddClient.java ",
+
+opt4:" ServerClient.java ",
+
+Ans "3 ",
+
+}], 
+
+[{ 
+
+q:"46. Which of these package is used for all the text related modifications? ",
+
+opt1:" java.text ",
+
+opt2:" java.awt ",
+
+opt3:" java.lang.text ",
+
+opt4:" java.text.modify ",
+
+Ans "1 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"47. What will be the output of the following Java code? ",
+
+  
+
+    import java.lang.reflect.*; 
+
+    class Additional_packages  
+
+    {	  
+
+         public static void main(String args[])  
+
+         { 
+
+	     try  
+
+             { 
+
+	         Class c = Class.forName("java.awt.Dimension"); 
+
+		 Constructor constructors[] = c.getConstructors(); 
+
+		 for (int i = 0; i < constructors.length; i++) 
+
+		     System.out.println(constructors[i]); 
+
+	     } 
+
+	     catch (Exception e) 
+
+             { 
+
+             System.out.print("Exception"); 
+
+             } 
+
+        } 
+
+    } 
+
+opt1:" Program prints all the constructors of ‘java.awt.Dimension’ package ",
+
+opt2:" Program prints all the possible constructors of class ‘Class’ ",
+
+opt3:" Program prints “Exception” ",
+
+opt4:" Runtime Error ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"48. What will be the output of the following Java code? ",
+
+  
+
+    import java.lang.reflect.*; 
+
+    class Additional_packages  
+
+    {	  
+
+         public static void main(String args[]) 
+
+         { 
+
+	     try  
+
+             { 
+
+	         Class c = Class.forName("java.awt.Dimension"); 
+
+		 Field fields[] = c.getFields(); 
+
+		 for (int i = 0; i < fields.length; i++) 
+
+		     System.out.println(fields[i]); 
+
+	     } 
+
+	     catch (Exception e) 
+
+             { 
+
+             System.out.print("Exception"); 
+
+             } 
+
+        }     
+
+    } 
+
+opt1:" Program prints all the constructors of ‘java.awt.Dimension’ package ",
+
+opt2:" Program prints all the methods of ‘java.awt.Dimension’ package ",
+
+opt3:" Program prints all the data members of ‘java.awt.Dimension’ package ",
+
+opt4:" program prints all the methods and data member of ‘java.awt.Dimension’ package ",
+
+Ans "3 ",
+
+}], 
+
+[{ 
+
+q:"49. What is the length of the application box made in the following Java program? ",
+
+  
+
+    import java.awt.*; 
+
+    import java.applet.*; 
+
+    public class myapplet extends Applet  
+
+    { 
+
+        Graphic g; 
+
+        g.drawString("A Simple Applet",20,20);     
+
+    } 
+
+opt1:" 20 ",
+
+opt2:" Default value  ",
+
+opt3:" Compilation Error ",
+
+opt4:" Runtime Error ",
+
+Ans "3", 
+
+}], 
+
+[{ 
+
+q:"50. What will be the output of the following Java program? ",
+
+  
+
+    import java.lang.reflect.*; 
+
+    class Additional_packages 
+
+    {	  
+
+         public static void main(String args[]) 
+
+         { 
+
+	     try 
+
+             { 
+
+	         Class c = Class.forName("java.awt.Dimension"); 
+
+		 Method methods[] = c.getMethods(); 
+
+		 for (int i = 0; i < methods.length; i++) 
+
+		     System.out.println(methods[i]); 
+
+	     } 
+
+	     catch (Exception e) 
+
+             { 
+
+             System.out.print("Exception"); 
+
+             } 
+
+        } 
+
+    } 
+
+opt1:" Program prints all the constructors of ‘java.awt.Dimension’ package ",
+
+opt2:" Program prints all the methods of ‘java.awt.Dimension’ package ",
+
+opt3:" Program prints all the data members of ‘java.awt.Dimension’ package ",
+
+opt4:" program prints all the methods and data member of ‘java.awt.Dimension’ package ",
+
+Ans "2", 
+
+}]
+}]
+
+
+
+submitted by :it-2k17-28;

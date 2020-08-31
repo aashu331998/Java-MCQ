@@ -1,0 +1,628 @@
+[[
+[{
+q: "1.Do we have get(Object o) method in HashSet."
+opt1: "True",
+opt2: "False",
+ans: "2"
+ }],
+ 
+
+ 
+[{
+q: "2.What does Collections.emptySet() return?"
+opt1: "Immutable Set",
+opt2: "Mutable Set",
+opt3: "The type of Set depends on the parameter passed to the emptySet() method",
+opt4: "Null object",
+ans: "1"
+  }],,
+ 
+
+
+ 
+[{
+q: "3.What does Collections.emptySet() return?"
+opt1: "Immutable Set",
+opt2: "Mutable Set",
+opt3: "The type of Set depends on the parameter passed to the emptySet() method",
+opt4: "Null object",
+ans: "1"
+ }],
+ 
+
+
+ 
+[{
+q: "4. What is the initial capacity and load factor of HashSet in Java Collection?",
+ opt:1 ” 10, 1.0",
+ opt:2 ” 32, 0.75",
+ opt:3 ” 16, 0.75",
+ opt:4 ” 32, 1.0",
+ ans: "3", 
+ }], 
+ }],
+]
+
+
+[{ 
+q: "5. Which of the following defines the relation between hashset and hashmap?",
+ opt:1 ” HashSet internally implements HashMap",
+ opt:2 ” HashMap internally implements HashSet",
+ opt:3 ” HashMap is the interface; HashSet is the concrete class",
+ opt:4 ” HashSet is the interface; HashMap is the concrete class",
+ ans: "1", 
+ }],
+
+ 
+[{
+q: "6. Set has contains(Object o) method."
+opt1: "True",
+opt2: "False", 
+ans: "1"
+ }],
+ 
+
+ 
+[{
+q: "7. Difference between TreeSet and SortedSet is?",
+ opt:1” TreeSet is more productive than SortedSet", 
+ opt:2" SortedSet is more productive than TreeSet", 
+ opt:3" TreeSet is an interface; SortedSet is a solid class",
+ opt:4" SortedSet is an interface; TreeSet is a solid class",
+ ans: "4", 
+ }],
+ 
+
+ 
+[{
+q: "8."What happens if two threads simultaneously try to modify TreeSet?",
+opt1:"ConcurrentModificationException is tossed", 
+opt2:"Both strings can perform activity effectively", 
+opt3:"FailFastException is tossed", 
+opt4:"IteratorModificationException is tossed", 
+Ans:"1" 
+ }],
+ 
+
+ 
+[{
+q: "9.Name of the package containing all the collection classes?"
+opt1: "java.net",
+opt2: "java.awt",
+opt3: "java.lang",
+opt4: "java.util",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q: "10.Name of the class that is not a part of Java’s collection framework?"
+opt1: "Queue",
+opt2: "Array",
+opt3: "Stack",
+opt4: "Maps",
+ans:"1"
+ }],
+ 
+
+ 
+[{
+q: "11. Name of the interface which is not a part of Java’s collection framework?"
+opt1: "List",
+opt2: "SortedList",
+opt3: "SortedMap",
+opt4: "Set",
+ans:"2"
+ }],
+ 
+
+ 
+[{
+q: "12. Name the method that deletes all the elements from invoking collection?"
+opt1: "delete()",
+opt2: "reset()",
+opt3: "clear()",
+opt4: "refresh()",
+ans:"3"
+ }],
+ 
+
+ 
+[{
+q:"13. Define Collection in Java?"
+opt1: "A group of interfaces",
+opt2: "A group of classes",
+opt3: "A group of Instances",
+opt4: "None of the mentioned",
+ans: "3"
+ }],
+ 
+
+ 
+[{
+q:" 14. Name the interface that declares core method that all collections will have?"
+opt1: "set",
+opt2: "Event Listener",
+opt3: "Comparator",
+opt4: "Collection",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 15. What is the interesting element of LinkedHashSet?", 
+opt:1" It is anything but a substantial class", 
+opt:2" It keeps up the addition request and ensures uniqueness", 
+opt:3" It gives an approach to store key qualities with uniqueness", 
+opt:4" The components in the assortment are connected to one another", 
+ans: "2",
+ }],
+ 
+
+
+ 
+[{
+q:" 16. On the off chance that the quantity of components in the exhibit are more prominent than the quantity of components in the rundown at that point?", 
+opt1: "The elememts of rundown are overwriten by the cluster's components",  
+opt2: "Them two hold their equivalent qualities", 
+opt3: "The elememts of cluster are overwriten by the rundown's components",
+opt4: "None of these", 
+ans: "1"
+ }],
+ 
+
+ 
+[{
+q:" 17. For what reason were adhoc classes not solid?",
+opt1: "Couldn't be planned",
+opt2: "A and C",
+opt3: "Couldn't be expanded",
+opt4: "Non of above",
+ans:"2"
+ }],
+ 
+
+ 
+[{
+q:" 18. Which of these class object can be used to form a dynamic array?", 
+opt1: "ArrayList",
+opt2: "Map",
+opt3: "Vector",
+opt4: "ArrayList & Vector ",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 19.  Which of these are legacy classes?", 
+opt1: "Stack",
+opt2: "Hashtable",
+opt3: "Vector",
+opt4: "All of the mentioned",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 20.  Which of these is the interface of legacy?",
+opt1: "Map",
+opt2: "Enumeration",
+opt3: "HashMap",
+opt4: "Hashtable",
+ans: "2"
+ }],
+ 
+
+ 
+[{
+q:" 21.  What is the name of a data member of class Vector which is used to store a number of elements in the vector?",
+opt1: "length",
+opt2: "elements",
+opt3: "elementCount",
+opt4: "capacity",
+ans: "3"
+ }],
+ 
+
+ 
+[{
+q:" 22.  Which of these methods is used to add elements in vector at specific location?",
+opt1: "add()",
+opt2: "set()",
+opt3: "AddElement()",
+opt4: "addElement()",
+ans: "3"
+ }],
+ 
+
+ 
+[{
+q:" 23.  What will be the output of the following Java code?
+
+ import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            System.out.println(obj.elementAt(1));
+        }
+    }
+    ",
+opt1: "70",
+opt2: "1",
+opt3: "5",
+opt4: "2",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 24.  What will be the output of the following Java code?
+
+    import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            System.out.println(obj.capacity());
+        }
+    }
+    ",
+opt1: "4",
+opt2: "10",
+opt3: "1",
+opt4: "2",
+ans: "1"
+ }],
+ 
+
+ 
+[{
+q:" 25.  What will be the output of the following Java code?
+
+        import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(6));
+            obj.insertElementAt(new Integer(8), 2);
+            System.out.println(obj);
+        }
+    } 	
+    ",
+opt1: "[3, 2, 8, 6]",
+opt2: "[3, 2, 5, 6]",
+opt3: "[3, 8, 6]",
+opt4: "[2, 8, 6]",
+ans: "1"
+ }],
+ 
+
+
+ 
+[{
+q:" 26.  What will be the output of the following Java code?
+
+         import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            obj.removeAll(obj);
+            System.out.println(obj.isEmpty());
+        }
+    }
+    ",
+opt1: "0",
+opt2: "False",
+opt3: "1",
+opt4: "True",
+ans: "4"
+ }],
+ 
+
+[{
+q:" 27. Which of these class object has an engineering like that of cluster? ", 
+opt1: " Map ",
+opt2: " Bitset ",  
+opt3: " Hashtable ", 
+opt4: " All of the referenced ", 
+Ans "2 ",
+ }],
+ 
+
+[{
+q:" 28. Which of these methods is used to retrieve elements in BitSet object at specific location? ", 
+opt1: "get()","
+opt2: "Elementat()","
+opt3: "ElementAt()","
+opt4: "getProperty()","
+Ans "1 ",
+ }],
+ 
+
+[{
+q:" 29. Which of these is a method of class Date which is used to search whether object contains a date before the specified date?", 
+opt1: "after()",
+opt2: "contains()",
+opt3: "before()",
+opt4: "compareTo()",
+Ans "3 ",
+ }],
+ 
+
+[{
+q:" 30. What is Remote strategy summon (RMI)? ", 
+opt1: " RMI permits us to conjure a strategy for java object that executes parallely in same machine ", 
+opt2: " RMI permits us to conjure a strategy for java object that executes on another Thread in multithreaded programming ", 
+opt3: " RMI permits us to summon a strategy for java object that executes on another machine ",
+opt4: " None of the referenced ", 
+Ans "3 ",
+ }],
+ 
+
+
+[{
+q:" 31. Which of these package is used for all the text related modifications?",
+opt1: "java.text",
+opt2: "java.awt",
+opt3: "java.lang.text",
+opt4: "java.text.modify ",
+Ans "1 ",
+ }],
+ 
+
+ 
+[{
+q:" 32.  What will be the output of the following Java code?
+
+     import java.lang.reflect.*;
+    class Additional_packages 
+    {	 
+         public static void main(String args[]) 
+         {
+	     try 
+             {
+	         Class c = Class.forName("java.awt.Dimension");
+		 Constructor constructors[] = c.getConstructors();
+		 for (int i = 0; i < constructors.length; i++)
+		     System.out.println(constructors[i]);
+	     }
+	     catch (Exception e)
+             {
+             System.out.print("Exception");
+             }
+        }
+    }
+    ",
+opt1: "Program prints all the constructors of ‘java.awt.Dimension’ package",
+opt2: "Program prints all the possible constructors of class ‘Class’",
+opt3: "Program prints “Exception”",
+opt4: "Runtime Error",
+ans: "1"
+ }],
+ 
+
+ 
+[{
+q:" 33.  What will be the output of the following Java code?
+
+      import java.lang.reflect.*;
+    class Additional_packages 
+    {	 
+         public static void main(String args[])
+         {
+	     try 
+             {
+	         Class c = Class.forName("java.awt.Dimension");
+		 Field fields[] = c.getFields();
+		 for (int i = 0; i < fields.length; i++)
+		     System.out.println(fields[i]);
+	     }
+	     catch (Exception e)
+             {
+             System.out.print("Exception");
+             }
+        }    
+    }
+    ",
+opt1: "Program prints all the information individuals from 'java.awt.Dimension' bundle",  
+opt2: "Program prints all the techniques for 'java.awt.Dimension' bundle", 
+opt3: "Program prints all the constructors of 'java.awt.Dimension' bundle",
+opt4: "program prints all the strategies and information individual from 'java.awt.Dimension' bundle", 
+ans: "1"
+ }],
+ 
+
+[{
+q:" 34. In the event that we hit a container in hash table that is as of now filled, at that point ", 
+opt1: "hash crash happens ", 
+opt2: "hit crash happens",
+opt3: "bucket crash happens", 
+opt4: "none of these", 
+ans:"1"
+ }],
+ 
+
+[{
+q:" 35. Which articulation is valid for the class java.util.HashSet?", 
+opt1:"The components in the assortment are destined to be one of a kind.",
+opt2:"The assortment is destined to be unchanging.", 
+opt3: "The components in the assortment are requested.", 
+opt4:"The components in the assortment are gotten to utilizing a one of a kind key.", 
+ans:"1",
+ }],
+ 
+
+[{
+q:" 36."What is the connection among hashset and hashmap?", 
+opt1:"HashMap inside executes HashSet",
+opt2:"HashSet inside executes HashMap", 
+opt3:" HashMap is the interface; HashSet is the solid class", 
+opt4:"HashSet is the interface; HashMap is the solid class", 
+Ans:"2"
+ }],
+ 
+
+[{
+q:" 37.What occurs in the event that we put a key item in a HashMap which exists?", 
+opt1:"The old article is expelled from the guide",
+opt2:"The new article is disposed of", 
+opt3: "The new article replces the more established item",
+opt4:"It tosses a special case as the key as of now exists in the guide", 
+Ans:"3"
+ }],
+ 
+
+[{
+q:" 38.Which of these is valid about unmodifiableCollection() technique?", 
+opt1:"unmodifiableCollection() restores an assortment that can't be adjusted", 
+opt2:"unmodifiableCollection() is characterized in Collection class", 
+opt3:"unmodifiableCollection() technique is accessible just for List and Set",
+opt4:"none of the referenced", 
+Ans:"3"
+ }],
+ 
+
+[{
+q:" 39.Which of coming up next is valid about ListIterator and Iterator ?", 
+opt1:"Iterator can evacuate the components", 
+opt2:"Iterator can do activities like altering the things it holds.", 
+opt3:"ListIterator can navigate records in reverse bearing", 
+opt4:"ListIterator can navigate records both way", 
+Ans:"1"
+ }],
+ 
+
+[{
+q:" 40.Which choice is bogus about the last watchword?", 
+opt1: "A last class can't broaden different classes",
+opt2: "A last class can't be broadened", 
+opt3: "A last technique can't be abrogated in its subclasses", 
+opt4: "A last technique can be acquired", 
+ans:"1"
+ }],
+ 
+
+[{
+q:" 41.I don't get your meaning by anonymous instance?"," 
+opt1: "An article made by utilizing the new watchword",
+opt2: "An object of a superclass made in the subclass",
+opt3: "An article without having any name however having a reference",
+opt4: "An item that has no reference",
+ans:"4"
+ }],
+ 
+
+[{
+q:" 42.In which process, a nearby factor has a similar name as one of the occurrence factors?",
+opt1: "Serialization",
+opt2: "Multi-stringing",
+opt3: "Abstraction",
+opt4: "Variable Shadowing",
+ans:"4"
+ }],
+ 
+
+[{
+q:" 43.Name the interface that java.util.Hashtable actualizes?" 
+opt1: "Java.util.Map", 
+opt2: "Java.util.List",
+opt3: "Java.util.HashTable", 
+opt4: "Java.util.Collection", 
+ans: "1"
+ }],
+ 
+
+[{
+q:" 44.Which of these keywords is used to by the calling function to guard against the exception that is thrown by called function?", 
+opt1: "try",
+opt2: "throw",
+opt3: "throws",
+opt4: "catch",
+ans: "3"
+ }],
+ 
+
+[{
+q:" 45.Can 2 strings on same ConcurrentHashMap object get to it simultaneously" 
+opt1:"we need to add extra usefulness to accomplish the equivalent.", 
+opt2:"Its unrealistic", 
+opt3:"Different strings can get to various fragments simultaneously.", 
+opt4: "No", 
+ans:"3"
+ }],
+ 
+
+[{
+q:" 46.Which of this interface is implemented by Thread class?",
+opt1: "Runnable",
+opt2: "Connections",
+opt3: "Set",
+opt4: "MapConnections",
+ans:"1"
+ }],
+ 
+
+[{
+q:" 47.Which of these is an incorrect form of using method max() to obtain a maximum element?", 
+opt1: "max(Collection c)",
+opt2: "max(Collection c, Comparator comp)",
+opt3: "max(Comparator comp)",
+opt4: "max(List c)",
+ans:"3"
+ }],
+ 
+
+[{
+q:" 48.Which of these is a super class of all exceptional type classes?", 
+opt1: "String",
+opt2: "RuntimeExceptions",
+opt3: "Throwable",
+opt4: "Cacheable",
+ans:"3"
+ }],
+ 
+
+[{
+q:" 49.Which of these methods initiates garbage collection?", 
+opt1: "gc()",
+opt2: "garbage()",
+opt3: "garbagecollection()",
+opt4: "Systemgarbagecollection()",
+ans:"1"
+ }],
+ 
+
+[{
+q:" 50.Which of this method can be used to make the main thread to be executed last among all the threads?", 
+opt1: "stop()",
+opt2: "sleep()",
+opt3: "join()",
+opt4: "call()",
+ans:"2"
+ }],
+ [{[{rollNum:"IT2k17-12"}],
+ ]]
+ 

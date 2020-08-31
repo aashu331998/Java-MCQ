@@ -1,0 +1,471 @@
+
+[[
+[{
+q:"1:"Which of these does NOT have an index based structure?",
+opt1:"List",
+opt2:"Set",
+opt3:"Map",
+opt4:"none of the above",
+ans:" b",
+ }], 
+ [[  
+  
+
+q:"2.java.util.Collections is a:",
+opt1:"class",
+opt2:"interface",
+opt3:"object",
+opt4:"none",
+ans:"a ",
+ }], 
+ [[  
+  
+
+q:"3.Methods such as reverse, shuffle and sort are available in:",
+opt1:"Object",
+opt2:"Collection",
+opt3:"Collections",
+opt4:"Apache Commons Collections",
+ans:"c ",
+ }],  
+[[    
+
+q:"4.Which of these allows duplicate elements?",
+opt1:"Set"
+opt2:"List",
+opt3:"All",
+opt4:"None",
+ans:" b",
+ }], 
+ [[    
+
+q:"5.Which allows the storage of a null key and many null values?",
+opt1:"Hashtable",
+opt2:"HashMap",
+opt3:"Both",
+opt4:"None",
+ans:"b ",
+ }], 
+ [[    
+
+
+q:"6.In ConcurrentHashMap - When thread locks one segment for updation it does not block it for
+retrieval hence some other thread can read the same segment, but it will be able to read the
+data before locking?",
+opt1:"true",
+opt2:"false",
+opt3:"may be true/false",
+ans:" a",
+ }],
+  [[    
+
+
+q:"7.In ConcurrentHashMap - When thread locks one segment for updation it does not allow any
+other thread to perform updations in same segment until lock is not released on segment",
+opt1:"true",
+opt2:"false",
+opt3:"may be true/false",
+ans:" a",
+Answer a,a
+ }], 
+ [[    
+
+
+q:"8.Which interface must be implemented for sorting on basis many criterias",
+opt1:"Comparator",
+opt2:"Comparable",
+opt3:"Serializable",
+opt4:"None",
+ans:" b",
+ }],  [[    
+
+q:"9.Can 2 threads on same ConcurrentHashMap object access it concurrently",
+opt1:"we need to add additional functionality to achieve the same.",
+opt2:"Its not possible",
+opt3:"different threads can access different segments concurrently.",
+ans:" a",
+ }], 
+ [[    
+q:"10.Which of these provides a get(in index) method?",
+opt1:"Map",
+opt2:"Set",
+opt3:"List",
+opt4:"All",
+ans:"b ",
+ }],  
+[[    
+
+q:"11.LinkedHashSet implements:",
+opt1:"Set",
+opt2:"Cloneable",
+opt3:"Serializable",
+opt4:"All",
+ans:"b ",
+ }],
+  [[    
+
+q:"12.What should we use get operations are more?",                     
+
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Any", 
+ans:"a",
+
+ }], 
+ [[    
+
+
+q."13.Which is sorted by natural order?",
+opt1:"LinkedHashSet",
+opt2:"TreeSet",
+opt3:"HashSet",
+opt4:"None",  
+ans:"d",
+
+ }], 
+ [[    
+
+q:"14.Which of these maintains insertion order?",
+opt1:"List",
+opt2:"Set",
+opt3:"All",
+opt4:"none",
+ans:" c",
+
+
+q:"15.Which maintains insertion order?",
+opt1:"TreeSet",
+opt2:"HashSet",
+opt3:"LinkedHashSet",
+opt4:"None",   
+ans:"d ",
+
+ }], 
+ [[    
+
+16.In Iterator, hasMoreElements() method of Enumeration has been changed to:",
+opt1:"hasNextElement()",
+opt2:"isNext()",
+opt3:"hasNext()",
+opt4:"name remains same",    
+ans:" d",
+
+
+ }],  
+[[    
+q:"17.TreeSet internally uses which one to store elements?",
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"a ",
+
+ }], 
+ [[    
+
+q:"18.HashSet internally uses?",
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"c",
+ }],  
+[[    
+
+q:"19.An attempt to add null key to a TreeSet will result in:",
+opt1:"Will compile",
+opt2:"Compile time Exception",
+opt3:"Error",
+opt4:"Runtime - NullPointerException",
+ans:"a ",
+ }], 
+ [[    
+
+q:"20.What is initial capacity of LinkedList?",
+opt1:"8",
+opt2:"10",
+opt3:"16",
+opt4:"10",
+ans:"b",
+ }], 
+ [[    
+
+q:"21.Enumeration returned by ArrayList is",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"a",
+ }], 
+ [[    
+
+
+q:"22.LinkedHashMap allows",
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"a",
+ }], 
+ [[    
+
+
+q:"23.Hashtable allows",
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"b",
+ }], 
+ [[    
+
+
+q:"24:"How can you sort given HashMap on basis of values",
+opt1:"Implement Comparator interface and override its compare method",
+opt2:"It's not possible",
+opt3:"Implement Comparator interface and override its compareTo method",
+opt4:"Implement Comparator and Comparable interface",
+ans:"c",
+ }], 
+
+[{
+
+q:"25.Which allows the removal of elements from a collection?",
+opt1:"Enumeration",
+opt2:"Iterator",
+opt3:"Both",
+opt4:"None",
+ans:"b",
+
+ }],  
+[[    
+
+q:"26.The Comparator interface contains the method?",
+opt1:"compareWith()",
+opt2:"compareTo",()",
+opt3:"compare()",
+opt4:"none
+ans:" c",
+ }],
+  [[  
+
+
+q:"27.Which of these is synchronized?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"Hashtable",
+opt4:"All",
+ans:"c ",
+ }], 
+ [[
+
+q:"28.Which is more offers best performance?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"LinkedHashMap",
+opt4:"All are equal",
+ans:" b",
+ }], 
+ [[ 
+
+
+q:"29.Which of these class should be preferred to be used as a key in a HashMap?",
+opt1:"String",
+opt2:"Integer",
+opt3:"Double",
+opt4:"Any of these",
+ans:" d",
+ }], 
+ [[   
+
+
+30.What should we use when add and remove operations are more frequent than get operations?",
+opt1:"LinkedList",
+opt2:"ArrayList",
+opt3:"Vector",
+opt4:"All",
+ans:"a ",
+ }],
+  [[
+
+q:"31.Iterator returned by ArrayList is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"a ",
+ }],
+  [[ 
+
+
+q:"32.Iterator returned by LinkedList is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"a",
+ }], 
+ [[ 
+
+
+q:"33.Iterator returned by CopyOnWriteArrayList is ?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:" b",
+ }], 
+ [[  
+
+q:"34:"Iterator returned by HashMap on key, value and entry is?",
+opt1:"Fail-fast"
+opt2:"Fail-safe",
+opt3:"none",
+ans:"a ",
+ }],
+  [[ 
+
+
+q:"35.Complexity of ArrayList get method",
+opt1:"O(n-1)",
+opt2:"O(n)",
+opt3:"O(1)",
+ans:" c",
+ }], 
+ [[ 
+
+q:"36.Iterator returned by Hashtable on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"a",
+ }], 
+ [[ 
+
+
+q:"37.Iterator returned by ConcurrentHashMap on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"b",
+ }],
+  [[ 
+
+q:"38.Iterator returned by LinkedHashMap on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"a",
+ }],
+  [[
+
+q:"39.Iterator returned by TreeMap on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"a",
+
+ }], 
+ [[    
+
+q:"40.Iterator returned by ConcurrentSkipListMap on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"b",
+ }], 
+ [[ 
+
+q:"41.Which Set implementation is sorted and synchronized?",
+opt1:"LinkedHashSet",
+opt2:"ConcurrentSkipListSet",
+opt3:"TreeSet",
+opt4:"CopyOnWriteArraySet",
+ans:"b",
+ }],
+  [[ 
+
+
+q:"42.TreeMap -",
+opt1:"doesn't allow null key",
+opt2:"allow many null values",
+opt3:"All",
+opt4:"None",
+ans:"c",
+ }],
+  [[ 
+
+
+
+q:"43.What guarantees type-safety in a collection?",
+opt1:"Generics",
+opt2:"Abstract classes",
+opt3:"Interfaces",
+opt4:"Collection",
+ans:"b",
+ }], 
+ [[
+
+q:"44:"HashSet internally uses?"
+opt1:"Set",
+opt2:"HashMap",
+opt3:"List",
+opt4:"Collection",
+ans:"c",
+ }], 
+ [[ 
+
+q:"45.The most used interfaces from the Collection framework are?",
+opt1:"List",
+opt2:"Map",
+opt3:"Set",
+opt4:"(All of these)",
+ans:"c",
+ }], 
+ [[ 
+
+q:"46.The root interface of Java Collection framework hierarchy is -",
+opt1:"Collection",
+opt2:"Root",
+opt3:"Collections",
+opt4:"List/Set",
+ans:"b",
+ }], 
+ [[  
+
+
+q:"47.Which of these is synchronized?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Vector",
+opt4:"(None of these)",
+ans:"d",
+ }], 
+ [[
+
+q:"48.ArrayList implements which of the following?",
+opt1:"List",
+opt2:"RandomAccess",
+opt3:"Cloneable",
+opt4:"(All of these)",
+ans:"a ",
+ }],  [[    ,
+
+q:"49.Which of these allows the storage of many null values?",
+opt1:"Set",
+opt2:"List",
+opt3:"(None of these)",
+opt4:"(All of these)",
+ans:"a",
+ }], 
+ [[ 
+
+
+q:"50.nextIndex() and previousIndex() are methods of which interface?",
+opt1:"IndexIterator",
+opt2:"Iterator",
+opt3:"ListIterator",
+opt4:"NextPreviousIterator",
+ans:"a ",
+ }], 
+], 
+
+],
+
+[{rollNUM:"IT2K17-04"}]]

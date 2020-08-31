@@ -1,0 +1,546 @@
+[[
+[{
+q: "1. …………………….. method is used to remove any leading or trailing white space that may have inadvertently been entered by the user.",
+opt1: "trim()",
+opt2: "remove()",
+opt3:" replace()",
+opt4:" length() ",
+Ans: "opt1"
+}],
+[{
+q: "2. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Arraylist 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.add("B");
+            obj.add("C");
+            obj.add(1, "D");
+            System.out.println(obj);
+        }
+    }",
+opt1: " [A, B, C, D]",
+opt2:" [A, D, B, C]",
+opt3:"[A, D, C]",
+opt4:" [A, B, C] ",
+Ans: "opt2"
+}],
+[{
+
+q: "3. What will be the output of the following Java program?
+
+    import java.util.*;
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.ensureCapacity(3);
+            System.out.println(obj.size());
+        }
+    }",
+opt1: "1 " ,
+opt2 :"2",
+opt3:" 3",
+opt4:" 4",
+Ans:  " a"
+}],
+[{
+q:"4. What will be the output of the following Java program?
+
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.add("D");
+            obj.ensureCapacity(3);
+            obj.trimToSize();
+            System.out.println(obj.size());
+         }      
+    }",
+opt1:" 1",
+opt2 :"2",
+opt3:" 3",
+opt4:" 4",
+Ans:" opt2"
+}],
+[{
+q:"5. Map implements collection interface?",
+opt1: " True",
+opt2:" False",
+Ans:" opt2"
+}],
+[{
+q:"6. What is the premise of equality for IdentityHashMap?",
+opt1: " Reference equality",
+opt2:" Name equality",
+opt3:" Hashcode equality",
+opt4:" Length equality",
+Ans:" opt1"
+}],
+[{
+q:"7. What happens if we put a key object in  a HashMap which exists?",
+opt1: " The new object replaces the older object",
+opt2:" The new object is discarded",
+opt3:" The old object is removed from the map",
+opt4:" It throws an exception as the key already exists in the map",
+Ans:" opt1"
+}],
+[{
+q:"8. While finding the correct location for saving key value pair, how many times the key is hashed?",
+opt1: " 1",
+opt2:" 2",
+opt3:" 3",
+opt4:" unlimited till bucket is found",
+Ans:" opt2"
+}],
+[{
+q:"9. If two threads access the same hashmap at the same time, what would happen?",
+opt1: " ConcurrentModificationException",
+opt2:" NullPointerException",
+opt3:" ClassNotFoundException",
+opt4:" RuntimeException",
+Ans:" opt1"
+}],
+[{
+q:"10. How to externally synchronize hashmap?",
+opt1: " HashMap.synchronize(HashMap a)",
+opt2:"HashMap a= new HashMap() a.synchronize();",
+opt3:" Collections.synchronizedMap(new HashMap<String, String>());",
+opt4:" Collections.synchronize(new HashMap<String, String>());",
+Ans:" opt3"
+}],
+[{
+q:"11.What will be the output of the following Javacode snippet?
+
+advertisement
+public class Demo
+{
+  public static void main(String[] args)
+  {
+		Map<Integer, Object> sampleMap = new TreeMap<Integer, Object>();
+		sampleMap.put(1, null); 
+		sampleMap.put(5, null); 
+		sampleMap.put(3, null); 
+		sampleMap.put(2, null); 
+		sampleMap.put(4, null); 
+ 
+       System.out.println(sampleMap);
+   }
+}",
+opt1:  {1=null, 2=null, 3=null, 4=null, 5=null}",
+opt2:" {5=null}",
+opt3:" Exception is thrown",
+opt4:" {1=null, 5=null, 3=null, 2=null, 4=null}",
+Ans:" opt1"
+}],
+[{
+q:"12. If large number of items are stored in hash bucket, what happens to the internal structure?",
+opt1: " The bucket will switch from LinkedList to BalancedTree",
+opt2:" The bucket will increase its size by a factor of load size defined",
+opt3:" The LinkedList will be replaced by another hashmap",
+opt4:" Any further addition throws Overflow exception",
+Ans:" opt1"
+}],
+[{
+q:"13.Is hashmap an ordered collection.",
+opt1: "True",
+opt2:" False",
+Ans:" opt2"
+}],
+[{
+q:"14.How can we remove an object from ArrayList?",
+opt1: "remove() method",
+opt2:" using Iterator",
+opt3:" remove() method and using Iterator",
+opt4:" delete() method",
+Ans:" opt3"
+}],
+[{
+
+q:"15. . How to remove duplicates from List?",
+opt1: ":HashSet<String> listToSet = new HashSet<String>(duplicateList);",
+opt2:" HashSet<String> listToSet = duplicateList.toSet();",
+opt3:" HashSet<String> listToSet = Collections.convertToSet(duplicateList);",
+opt4:" HashSet<String> listToSet = duplicateList.getSet();",
+Ans:" opt1"
+}],
+[{
+q:"16. When two threads access the same ArrayList object what is the outcome of the program?",
+opt1: " Both are able to access the object",
+opt2:" ConcurrentModificationException is thrown",
+opt3:" One thread is able to access the object and second thread gets Null Pointer exception",
+opt4:" One thread is able to access the object and second thread will wait till control is passed to the second one",
+Ans:" opt2"
+}],
+[{
+q:"17. How is Arrays.asList() different than the standard way of initialising List?",
+opt1: ":Both are same",
+opt2:" Arrays.asList() throws compilation error",
+opt3:" Arrays.asList() returns  fixed length list and doesn’t allow to add or remove elements"',
+opt4:" We cannot access the list returned using Arrays.asList()",
+Ans:" opt3"
+}],
+[{
+q:"18. What is the difference between length() and size() of ArrayList?",
+opt1: "length() and size() return the same value",
+opt2:" length() is not defined in ArrayList",
+opt3:" size() is not defined in ArrayList",
+opt4:" length() returns the capacity of ArrayList and size() returns the actual number of elements stored in the list",
+Ans:" opt4"
+}],
+[{
+19.  Which class provides thread safe implementation of List?",
+opt1: " ArrayList",
+opt2:" CopyOnWriteArrayList",
+opt3:" HashList",
+opt4:" List",
+Ans:" opt2"
+}],
+[{
+q:"20.  Which of the below is not an implementation of List interface?",
+opt1: ": RoleUnresolvedList",
+opt2:" Stack",
+opt3:" AttibuteList",
+opt4:" SessionList",
+Ans:" opt4"
+}],
+[{
+q:"21. What is the worst case complexity of accessing an element in ArrayList?",
+opt1: " O(n)",
+opt2:" O(1)",
+opt3:" O(nlogn)",
+opt4:" O(2)",
+Ans:" opt2"
+}],
+[{
+q:"22.When an array is passed to opt1: "method, will the content of the array undergo changes with the actions carried within the function?",
+opt1: " True",
+opt2:" False",
+Ans:" opt1"
+}],
+[{
+q:"23. What is the default clone of HashSet?",
+opt1: " Deep clone",
+opt2:" Shallow clone",
+opt3:" Plain clone",
+opt4:" Hollow clone",
+Ans:" opt2"
+}],
+[{
+q:"24. . Do we have get(Object o) method in HashSet.",
+opt1: " True",
+opt2:" False",
+Ans:" opt2"
+}],
+[{
+q:"25.What does Collections.emptySet() return?",
+opt1: " Immutable Set",
+opt2:" Mutable Set",
+opt3:" The type of Set depends on the parameter passed to the emptySet() method",
+opt4:" Null object",
+Ans:" opt1"
+}],
+[{
+q:"26.What are the initial capacity and load factor of HashSet?",
+opt1: " 10, 1.0",
+opt2:" 32, 0.75",
+opt3:" 16, 0.75",
+opt4:" 32, 1.0",
+Ans:" opt3"
+}],
+[{
+q:"27.What is the relation between hashset and hashmap?",
+opt1: " HashSet internally implements HashMap",
+opt2:" HashMap internally implements HashSet",
+opt3:" HashMap is the interface; HashSet is the concrete class",
+opt4:" HashSet is the interface; HashMap is the concrete class",
+Ans:" opt1"
+}],
+[{
+q:"28. What will be the output of the following Java code snippet?
+
+public class Test 
+{
+	public static void main(String[] args) 
+        {
+		Set s = new HashSet();
+		s.add(new Long(10));
+		s.add(new Integer(10));
+		for(Object object : s)
+                {
+		    System.out.println("test - "+object);
+		}
+	}
+}",
+opt1: "   Test - 10
+   Test - 10",
+opt2:" Test – 10",
+opt3:" Runtime Exception",
+opt4:" Compilation Failure",
+Ans:" opt1"
+}],
+[{
+q:"29. Set has contains(Object o) method.",
+opt1: " True",
+opt2:" False",
+Ans:" opt1"
+}],
+[{
+q:"30. What is the difference between TreeSet and SortedSet?",
+opt1: " TreeSet is more efficient than SortedSet",
+opt2:" SortedSet is more efficient than TreeSet",
+opt3:" TreeSet is an interface; SortedSet  a concrete class",
+opt4:" SortedSet is an interface; TreeSet is a concrete class",
+Ans:" opt4"
+}],
+[{
+q:"31. What is the unique feature of LinkedHashSet?",
+opt1: " It is not opt1: "valid class",
+opt2:" It maintains the insertion order and guarantees uniqueness",
+opt3:" It provides opt1: "way to store key values with uniqueness",
+opt4:" The elements in the collection are linked to each other",
+Ans:" opt2"
+}],
+[{
+q:"32.Which of these standard collection classes implements a "linked list data structure?",
+opt1: " AbstractList",
+opt2:" LinkedList",
+opt3:" HashSet",
+opt4:" AbstractSet",
+Ans:" opt2"
+}],
+[{
+q:"33.Which of these classes implements Set interface?",
+opt1: " ArrayList",
+opt2:" HashSet",
+opt3:" LinkedList",
+opt4:" DynamicList",
+Ans:" opt2"
+}],
+[{
+q:"34. Which of these method of HashSet class is used to add elements to its object?",
+opt1: " add()",
+opt2:" Add()",
+opt3:" addFirst()",
+opt4:" insert()",
+Ans:" opt1"
+}],
+[{
+q:"35.Which of these classes provide implementation of map interface?",
+opt1: " ArrayList",
+opt2:" HashMap",
+opt3:" LinkedList",
+opt4:" DynamicList",
+Ans:" opt2"
+}],
+[{
+q:"36. Which of these method Map class is used to obtain an element in the map having specified key?",
+opt1: " search()",
+opt2:" get()",
+opt3:" set()",
+opt4:" look()",
+Ans:" opt2"
+}],
+[{
+q:"37.Which of these are legacy classes?",
+opt1: " Stack",
+opt2:" Hashtable",
+opt3:" Vector",
+opt4:" All of the mentioned",
+Ans:" opt4"
+}],
+[{
+q:"38.Which of these is the interface of legacy?",
+opt1: " Map",
+opt2:" Enumeration",
+opt3:" HashMap",
+opt4:" Hashtable",
+Ans:" opt2"
+}],
+[{
+q:"39.What is the name of a data member of class Vector which is used to store a number of elements in the vector?",
+opt1: " length",
+opt2:" elements",
+opt3:" elementCount",
+opt4:" capacity",
+Ans:" opt3"
+}],
+[{
+q:"40. What will be the output of the following Java code?
+
+    import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(6));
+            obj.insertElementAt(new Integer(8), 2);
+            System.out.println(obj);
+        }
+    }",
+opt1: " [3, 2, 6]",
+opt2:" [3, 2, 8]",
+opt3:" [3, 2, 6, 8]",
+opt4:" [3, 2, 8, 6]",
+Ans:" opt4"
+}],
+[{
+q:"41. Which of these classes is not part of Java’s collection framework?",
+opt1: " Maps",
+opt2:" Array",
+opt3:" Stack",
+opt4:" Queue",
+Ans:" opt1"
+}],
+[{
+q:"42.What will be the output of the following Java program?
+
+    import java.util.*;
+    class Array 
+    {
+        public static void main(String args[]) 
+        {
+            int array[] = new int [5];
+            for (int i = 5; i > 0; i--)
+                array[5-i] = i;
+            Arrays.fill(array, 1, 4, 8);
+            for (int i = 0; i < 5 ; i++)
+                System.out.print(array[i]);
+        }
+    }",
+opt1: " 12885",
+opt2:" 12845",
+opt3:" 58881",
+opt4:" 54881",
+Ans:" opt3"
+}],
+[{
+q:"43.Which of these exceptions is thrown by remover() method?",
+opt1: " IOException",
+opt2:" SystemException",
+opt3:" ObjectNotFoundExeception",
+opt4:" IllegalStateException.",
+Ans:" opt4"
+}],
+[{
+q:"44.What will be the output of the following Java program?",
+
+    import java.util.*;
+    class Collection_iterators 
+    {
+        public static void main(String args[]) 
+        {
+            ListIterator a "= list.listIterator();
+                if(a.previousIndex()! = -1)
+                    while(a.hasNext())
+	                System.out.print(a.next() + " ");
+                else
+                   System.out.print("EMPTY");
+        }
+    }",
+opt1: " 0",
+opt2:" 1",
+opt3:" -1",
+opt4:" EMPTY",
+Ans:" opt4"
+}],
+[{
+q:"45. Which of these interface handle sequences?",
+opt1: " Set",
+opt2:" List",
+opt3:" Comparator",
+opt4:" Collection",
+Ans:" opt2"
+}],
+[{
+q:"46.Which of these is static variable defined in Collections?",
+opt1: " EMPTY_SET",
+opt2:" EMPTY_LIST",
+opt3:" EMPTY_MAP",
+opt4:" All of the mentioned",
+Ans:" opt4"
+}],
+[{
+q:"47. .Which of the below is not opt1: "subinterface of Queue?",
+opt1: " BlockingQueue",
+opt2:" BlockingEnque",
+opt3:" TransferQueue",
+opt4:" BlockingQueue",
+Ans:" opt2"
+}],
+[{
+q:"48.What is the remaining capacity of BlockingQueue whose intrinsic capacity is not defined?",
+opt1: " Integer.MAX_VALUE",
+opt2:" BigDecimal.MAX_VALUE",
+opt3:" 99999999",
+opt4:" Integer.INFINITY",
+Ans:" opt1"
+}],
+[{
+q:"49.PriorityQueue is thread safe.",
+opt1: " True",
+opt2:" False",
+Ans:" opt1"
+}],
+[{
+q:"50.What is difference between dequeue() and peek() function of java?",
+opt1: " dequeue() and peek() remove and return the next time in line",
+opt2:" dequeue() and peek() return the next item in line",
+opt3:" dequeue() removes and returns the next item in line while peek() returns the next item in line",
+opt4:" peek() removes and returns the next item in line while dequeue() returns the next item in line.",
+Ans:" opt3"
+}],
+[{
+q:"51. What is the difference between Queue and Stack?",
+opt1: " Stack is LIFO; Queue is FIFO",
+opt2:" Queue is LIFO; Stack is FIFO",
+opt3:" Stack and Queue is FIFO",
+opt4:" Stack and Queue is LIFO",
+Ans:" opt1"
+}],
+[{
+q:"52.What are the use of front and rear pointers in CircularQueue implementation?",
+opt1: " Front pointer points to first element; rear pointer points to the last element",
+opt2:" Rear pointer points to first element; front pointer points to the last element",
+opt3:" Front and read pointers point to the first element",
+opt4:" Front pointer points to the first element; rear pointer points to null object.",
+Ans:" opt3"
+}],
+[{
+q:"53. What is the correct method used to insert and delete items from the queue?",
+opt1: " push and pop",
+opt2:" enqueue and dequeue",
+opt3:" enqueue and peek",
+opt4:" add and remove",
+Ans:" opt2"
+}],
+[{
+q:"54.Where does opt1: "new element be inserted in linked list implementation of opt1: "queue?",
+opt1: " Head of list",
+opt2:" Tail of list",
+opt3:" At the centre of list",
+opt4:" All the old entries are pushed and then the new element is inserted",
+Ans:" opt2"
+}],
+[{
+q:"55.If the size of the array used to implement opt1: "circular queue is MAX_SIZE. How rear moves to traverse inorder to insert an element in the queue?",
+opt1: " rear=(rear%1)+MAX_SIZE",
+opt2:" rear=(rear+1)%MAX_SIZE",
+opt3:" rear=rear+(1%MAX_SIZE)",
+opt4:" rear=rear%(MAX_SIZE+1)",
+Ans:" opt2"
+}],
+],
+[{rollNum:"IT2K17-17"}]]
+

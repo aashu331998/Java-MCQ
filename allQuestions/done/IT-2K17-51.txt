@@ -1,0 +1,486 @@
+[[
+
+[{
+q:"1.Which of these does NOT have an index based structure?",
+
+opt1:"List",
+opt2:"Set",
+opt3:"Map",
+opt4:"none of these",
+ans:"b"
+
+}],
+
+[{
+q:"2.java.util.Collections is a:",
+
+opt1:"class",
+opt2:"interface",
+opt3:"object",
+opt4:"none",
+ans:"a",
+}],
+[{
+q:"3.Methods such as reverse, shuffle and sort are available in:",
+
+opt1:"Object",
+opt2:"Collection",
+opt3:"Collections",
+opt4:"Apache Commons Collections",
+ans:"c",
+}],
+[{
+q:"4.Which of these allows duplicate elements?",
+
+opt1:"Set",
+opt2:"List",
+opt3:"All",
+opt4:"None",
+ans:"b",
+}]
+
+[{
+q:"5.Which allows the storage of a null key and many null values?",
+
+opt1:"Hashtable",
+opt2:"HashMap",
+opt3:"Both",
+opt4:"None",
+ans:"b",
+}],
+
+[{
+q:"6.Which interface must be implemented for sorting on basis many criterias",
+
+opt1:"Comparator",
+opt2:"Comparable",
+opt3:"Serializable",
+opt4:"None",
+ans:"a",
+}],
+[{
+q:"7.Can 2 threads on same ConcurrentHashMap object access it concurrently",
+
+opt1:"we need to add additional functionality to achieve the same.",
+opt2:"Its not possible",
+opt3:"different threads can access different segments concurrently.",
+opt4:"none of these",
+ans:"c",
+}],
+
+[{
+
+q:"8.Which of these provides a get(in index) method?",
+
+opt1:"Map",
+opt2:"Set",
+opt3:"List",
+opt4:"All",
+ans:"c",
+}]
+
+[{
+q:"9.LinkedHashSet implements:",
+
+opt1:"Set",
+opt2:"Cloneable",
+opt3:"Serializable",
+opt4:"All",
+ans:"4",
+}]
+
+[{
+q:"10.In WeakHashMap",
+
+opt1:"An entry are automatically removed by garbage collector:",
+opt2:"Behaves normally like HashMap",
+opt3:"An entry are never removed by garbage collector",
+opt4:"None",
+ans: "a",
+}],
+
+[{
+q:"11.A EnumSet",
+opt1:"Can use enum and non enum type keys",
+opt2:"Cannot use enum type keys",
+opt3:"is specialized Set implementation for use with enum type keys only",
+opt4:"None",
+ans:"c",
+}],
+
+[{
+q:"12. Which List is synchronizeds",
+opt1:"Vector",
+opt2:"CopyOnWriteArrayList",
+opt3:"All",
+opt4:"none",
+ans:"c",
+}],
+
+[{
+q:"13. Which Set is synchronized? ",
+
+opt1:"CopyOnWriteArraySet",
+opt2:"ConcurrentSkipListSet:,
+opt3:"All",
+opt4:"none",
+ans:"c",
+}],
+
+[{
+q:"14.  What is significance of using instanceOf operator and getClass() in equals method   ",
+
+opt1:"instanceOf will return true for comparing current class with its subclass as well",
+opt2:"getClass() will return true only if exactly same class is compared",
+opt3:"getClass() will return false when compared with subclass",
+opt4:"All",
+ans:"d",
+
+}],
+
+[{
+q:"15.  what should we use get operations are more?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Any",
+ans:"a",
+
+}],
+
+[{
+q:"16. complexity of ArrayList get method    ",
+
+opt1:"O(n-1)",
+opt2:"O(n)",
+opt3:"O(1)",
+opt4:"O(2n)",
+ans:"c",
+}],
+
+[{
+q:"17.  Which is sorted by natural order?   ",
+
+opt1:"LinkedHashSet",
+opt2:"TreeSet",
+opt3:"HashSet",
+opt4:"None",
+asn:"b",
+}],
+
+[{
+q:"18. Which of these maintains insertion order?   ",
+
+opt1:"List",
+opt2:"Set",
+opt3:"All",
+opt4:"None",
+ans:"a",
+}],
+
+[{
+
+q:"19.  Which maintains insertion order?   ",
+opt1:"TreeSet",
+opt2:"HashSet",
+opt3:"LinkedHashSet",
+opt4:"None",
+ans:"c",
+}],
+
+[{
+q:"20.  In Iterator, hasMoreElements() method of Enumeration has been changed to:  ",
+
+opt1:"hasNextElement()",
+opt2:"isNext()",
+opt3:"hasNext()",
+opt4:"name remains same",
+ans:"c",
+}],
+
+[{
+q:"21. TreeSet internally uses which one to store elements?",
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"c",
+}],
+
+[{
+q:"22. HashSet internally uses?",
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"a",
+
+}],
+
+[{
+q:"23.An attempt to add null key to a TreeSet will result in:  ",
+
+opt1:"Will compile",
+opt2:"Compile time Exception",
+opt3:"Error",
+opt4:"Runtime - NullPointerException",
+ans:"d",
+}],
+
+[{
+q:"24.  What is initial capacity of LinkedList?",
+opt1:"8",
+opt2:"10",
+opt3:"16",
+opt4:"10",
+ans:"b",
+}],
+
+
+[{
+q:"25. LinkedHashMap allows   ",
+
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"d",
+}],
+
+[{
+q:"26.  What is the default clone of HashSet?", 
+opt1:" Deep clone",
+opt2:" Shallow clone",
+opt3:" Plain clone",
+opt4:" Hollow clone",
+ans:"b",
+}],
+
+[{
+q:"27.  How can you sort given HashMap on basis of values  ",
+
+opt1:"Implement Comparator interface and override its compare method",
+opt2:"It's not possible",
+opt3:"Implement Comparator interface and override its compareTo method",
+opt4:"Implement Comparator and Comparable interface",
+ans:"a",
+}],
+
+[{
+q:"28. What does Collections.sort internally uses when number of elements are less than 7?   ",
+
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"None",
+ans:"a",
+}],
+
+[{
+q:"29. What does Collections.sort internally uses when number of elements are greater than 7?    ",
+
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"None",
+ans:"b",
+}],
+
+[{
+q:"30. An attempt to add null key to a TreeMap will result in:   ",
+
+opt1:"Compile time Exception",
+opt2:"Error",
+opt3:"Runtime - NullPointerException",
+opt4:"None",
+an,s:"c",
+}],
+
+[{
+q:"31. Which of these is synchronized and doesn't allow null elements?   ",
+
+opt1:"Vector",
+opt2:"CopyOnWriteArraySet",
+opt3:"CopyOnWriteArrayList",
+opt4:"ConcurrentSkipListSet",
+ans:"d",
+}],
+
+[{
+q:"32. Which of these is synchronized and isn't sorted by natural order?    ",
+
+opt1:"EnumSet",
+opt2:"LinkedList",
+opt3:"ConcurrentSkipListSet",
+opt4:"Vector",
+ans:"d",
+
+}],
+
+[{
+q:"33.  Which of these packages contain all the collection classes?   ",
+
+opt1:" javopt1:"lang",
+opt2:" javopt1:"util",
+opt3:" javopt1:"net",
+opt4:" javopt1:"awt",
+ans:"b",
+}],
+
+[{
+q:"34. Which of these classes is not part of Java’s collection framework?   ",
+
+opt1:" Maps",
+opt2:" Array",
+opt3:" Stack",
+opt4:" Queue",
+ans:"a",
+}],
+
+[{
+q:"35.Which of these interface is not a part of Java’s collection framework?     ",
+
+opt1:" List",
+opt2:" Set",
+opt3:" SortedMap",
+opt4:" SortedList",
+ans:"d",
+}],
+
+[{
+q:"36.  Which of these methods deletes all the elements from invoking collection?  ", 
+opt1:" clear()",
+opt2:" reset()",
+opt3:" delete()",
+opt4:" refresh()",
+ans:"a",
+}],
+
+[{
+q:"37.  What is Collection in Java?   ",
+
+opt1:" A group of objects",
+opt2:" A group of classes",
+opt3:" A group of interfaces",
+opt4:" None of the mentioned",
+ans:"a",
+
+}],
+
+[{
+q:"38. Which of these class object can be used to form a dynamic array?    ",
+opt1:" ArrayList",
+opt2:" Map",
+opt3:" Vector",
+opt4:" ArrayList & Vector",
+ans:"d",
+}],
+
+[{
+q:"39. Which of these are legacy classes?    ",
+opt1:" Stack",
+opt2:" Hashtable",
+opt3:" Vector",
+opt4:" All of the mentioned",
+ans:"d",
+}],
+
+[{
+q:"40.  Which of these is the interface of legacy?",
+opt1:" Map",
+opt2:" Enumeration",
+opt3:" HashMap",
+opt4:" Hashtable",
+ans:"b",
+}],
+
+[{
+q:"41.  What is the name of a data member of class Vector which is used to store a number of elements in the vector?  ",
+opt1:" length",
+opt2:" elements",
+opt3:" elementCount",
+opt4:" capacity",
+ans:"c",
+}],
+
+[{
+q:"42.  Which of these methods is used to obtain an iterator to the start of collection? ",
+opt1:" start()",
+opt2:" begin()",
+opt3:" iteratorSet()",
+opt4:" iterator()",
+ans:"d",
+}],
+
+[{
+q:"43." Which of these interface declares core method that all collections will have?", 
+opt1:" set",
+opt2:" EventListner",
+opt3:" Comparator",
+opt4:" Collection",
+ans:"d",
+}],
+
+[{
+q:"44.  Which of these interface handle sequences? ",
+opt1:" Set",
+opt2:" List",
+opt3:" Comparator",
+opt4:" Collection",
+ans:"b",
+}],
+
+[{
+q:"45.Which of this interface must contain a unique element?",
+opt1:" Set",
+opt2:" List",
+opt3:" Array",
+opt4:" Collection",
+ans:"a",
+}]
+
+[{
+q:"46.  Which of these is static variable defined in Collections?  ",
+opt1:" EMPTY_SET",
+opt2:" EMPTY_LIST",
+opt3:" EMPTY_MAP",
+opt4:" All of the mentioned",
+ans:"d",
+}],
+
+[{
+q:"47.Which of these object stores association between keys and values?    ",
+opt1:" Hash table",
+opt2:" Map",
+opt3:" Array",
+opt4:" String",
+ans:"b",
+}],
+
+[{
+q:"48.  Which of these method is used to remove all keys/values pair from the invoking map?",
+opt1:" delete()",
+opt2:" remove()",
+opt3:" clear()",
+opt4:" removeAll()",
+ans:"b",
+}],
+[{
+q:"49. Which of these methods can be used to obtain set of all keys in a map?",
+opt1:" getAll()",
+opt2:" getKeys()",
+opt3:" keyall()",
+opt4:" keySet()",
+ans:"d",
+}],
+
+[{
+q:"50. Which of these method is used add an element and corresponding key to a map?",
+opt1:" put()",
+opt2:" set()",
+opt3:" redo()",
+opt4:" add()",
+ans:"a",
+}],
+],
+
+[{rollNum:"IT2k17-51"}]]

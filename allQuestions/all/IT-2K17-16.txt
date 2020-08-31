@@ -1,0 +1,656 @@
+[{
+
+[{
+q:"1. Enumeration returned by ArrayList is"
+
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"1"
+}],
+
+[{
+q:"2. LinkedHashMap allows"
+
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"4"
+}],
+
+[{
+q:"3. Hashtable allows"
+
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"3"
+}],
+
+[{
+q:"4. How can you sort given HashMap on basis of values"
+
+opt1:"Implement Comparator interface and override its compare method",
+opt2:"It's not possible",
+opt3:"Implement Comparator interface and override its compareTo method",
+opt4:"Implement Comparator and Comparable interface",
+ans:"1"
+}],
+
+[{
+q:"5. What will be output of following code -"
+	
+"import java.util.Hashmap;"
+
+"class Employee{"
+	"private String name;"
+
+	"public Employee(String name){"
+	"this.name=name;"
+"}"
+"@Override"
+	"public int hashCode(){"
+	"return(this.name==null ? 0:" 
+"this.name.hashCode());"
+"}"
+"}"
+"public class Program2{"
+	"public static void main(String...ar){"
+	"HashMap<Employee,String> hm=new HashMap<Employee,String>();"
+	"hm.put(new Employee("a"),"emp1");"
+	"hm.put(new Employee("b"),"emp2");"
+	"hm.put(new Employee("a"),"emp1 OVERRIDDEN");"
+	"System.out.pritnln(hm.size());"
+	"System.out.pritnln(hm.get(new Employee("a")));"
+"}"
+"}"
+
+opt1:"1",
+        "null",
+opt2:"2",
+        "emp1 OVERRIDDEN",
+opt3:"2",
+        "null",
+opt4:"1",
+        "emp1 OVERRIDDEN",
+ans:"2"
+}],
+
+[{
+q:"6. What does Collections.sort internally uses when number of elements are less than 7?"
+
+opt1:"Insertion sort",
+opt2:"Merge sort,
+opt3:"Quick sort",
+opt4:"None",
+ans:"1"
+}],
+
+[{
+q:"7. What does Collections.sort internally uses when number of elements are greater than 7?"
+
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"None",
+ans:"2"
+}],
+ 
+
+ 
+[{
+q: "8.Name of the package containing all the collection classes?"
+opt1: "java.net",
+opt2: "java.awt",
+opt3: "java.lang",
+opt4: "java.util",
+ans: "4"
+ }],
+ 
+[{
+  q:"9. What is the output of this program?
+    import javopt 3: "util.*;
+    class vector {
+        public static void main(String args[]) {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            obj.removeAll(obj);
+            System.out.println(obj.isEmpty());"
+        }
+    }
+opt 1:  "0"
+opt 2:  "1"
+opt 3:  "true"
+opt 4:  "false"
+Ans : "opt 3"
+}],
+ 
+[{
+q: "10.Name of the class that is not a part of Java’s collection framework?"
+opt1: "Queue",
+opt2: "Array",
+opt3: "Stack",
+opt4: "Maps",
+ans:"1"
+ }],
+ 
+
+ 
+[{
+q: "11. Name of the interface which is not a part of Java’s collection framework?"
+opt1: "List",
+opt2: "SortedList",
+opt3: "SortedMap",
+opt4: "Set",
+ans:"2"
+ }],
+ 
+
+ 
+[{
+q: "12. Name the method that deletes all the elements from invoking collection?"
+opt1: "delete()",
+opt2: "reset()",
+opt3: "clear()",
+opt4: "refresh()",
+ans:"3"
+ }],
+ 
+
+ 
+[{
+q:"13. Define Collection in Java?"
+opt1: "A group of interfaces",
+opt2: "A group of classes",
+opt3: "A group of Instances",
+opt4: "None of the mentioned",
+ans: "3"
+ }],
+ 
+
+ 
+[{
+q:" 14. Name the interface that declares core method that all collections will have?"
+opt1: "set",
+opt2: "Event Listener",
+opt3: "Comparator",
+opt4: "Collection",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 15. What is the interesting element of LinkedHashSet?", 
+opt:1" It is anything but a substantial class", 
+opt:2" It keeps up the addition request and ensures uniqueness", 
+opt:3" It gives an approach to store key qualities with uniqueness", 
+opt:4" The components in the assortment are connected to one another", 
+ans: "2",
+ }],
+ 
+
+
+ 
+[{
+q:" 16. On the off chance that the quantity of components in the exhibit are more prominent than the quantity of components in the rundown at that point?", 
+opt1: "The elememts of rundown are overwriten by the cluster's components",  
+opt2: "Them two hold their equivalent qualities", 
+opt3: "The elememts of cluster are overwriten by the rundown's components",
+opt4: "None of these", 
+ans: "1"
+ }],
+ 
+
+ 
+[{
+q:" 17. For what reason were adhoc classes not solid?",
+opt1: "Couldn't be planned",
+opt2: "A and C",
+opt3: "Couldn't be expanded",
+opt4: "Non of above",
+ans:"2"
+ }],
+ 
+
+ 
+[{
+q:" 18. Which of these class object can be used to form a dynamic array?", 
+opt1: "ArrayList",
+opt2: "Map",
+opt3: "Vector",
+opt4: "ArrayList & Vector ",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 19.  Which of these are legacy classes?", 
+opt1: "Stack",
+opt2: "Hashtable",
+opt3: "Vector",
+opt4: "All of the mentioned",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 20.  Which of these is the interface of legacy?",
+opt1: "Map",
+opt2: "Enumeration",
+opt3: "HashMap",
+opt4: "Hashtable",
+ans: "2"
+ }],
+ 
+
+ 
+[{
+q:" 21.  What is the name of a data member of class Vector which is used to store a number of elements in the vector?",
+opt1: "length",
+opt2: "elements",
+opt3: "elementCount",
+opt4: "capacity",
+ans: "3"
+ }],
+ 
+
+ 
+[{
+q:" 22.  Which of these methods is used to add elements in vector at specific location?",
+opt1: "add()",
+opt2: "set()",
+opt3: "AddElement()",
+opt4: "addElement()",
+ans: "3"
+ }],
+ 
+
+ 
+[{
+q:" 23.  What will be the output of the following Java code?
+
+ import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            System.out.println(obj.elementAt(1));
+        }
+    }
+    ",
+opt1: "70",
+opt2: "1",
+opt3: "5",
+opt4: "2",
+ans: "4"
+ }],
+ 
+
+ 
+[{
+q:" 24.  What will be the output of the following Java code?
+
+    import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            System.out.println(obj.capacity());
+        }
+    }
+    ",
+opt1: "4",
+opt2: "10",
+opt3: "1",
+opt4: "2",
+ans: "1"
+ }],
+ 
+
+ 
+[{
+q:" 25.  What will be the output of the following Java code?
+
+        import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(6));
+            obj.insertElementAt(new Integer(8), 2);
+            System.out.println(obj);
+        }
+    } 	
+    ",
+opt1: "[3, 2, 8, 6]",
+opt2: "[3, 2, 5, 6]",
+opt3: "[3, 8, 6]",
+opt4: "[2, 8, 6]",
+ans: "1"
+ }],
+ 
+
+
+ 
+[{
+q:" 26.  What will be the output of the following Java code?
+
+         import java.util.*;
+    class vector 
+    {
+        public static void main(String args[]) 
+        {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            obj.removeAll(obj);
+            System.out.println(obj.isEmpty());
+        }
+    }
+    ",
+opt1: "0",
+opt2: "False",
+opt3: "1",
+opt4: "True",
+ans: "4"
+ }],
+ 
+
+[{
+q:" 27. Which of these class object has an engineering like that of cluster? ", 
+opt1: " Map ",
+opt2: " Bitset ",  
+opt3: " Hashtable ", 
+opt4: " All of the referenced ", 
+Ans "2 ",
+ }],
+ 
+
+[{
+q:" 28. Which of these methods is used to retrieve elements in BitSet object at specific location? ", 
+opt1: "get()","
+opt2: "Elementat()","
+opt3: "ElementAt()","
+opt4: "getProperty()","
+Ans "1 ",
+ }],
+ 
+
+[{
+q:" 29. Which of these is a method of class Date which is used to search whether object contains a date before the specified date?", 
+opt1: "after()",
+opt2: "contains()",
+opt3: "before()",
+opt4: "compareTo()",
+Ans "3 ",
+ }],
+ 
+
+[{
+q:" 30. What is Remote strategy summon (RMI)? ", 
+opt1: " RMI permits us to conjure a strategy for java object that executes parallely in same machine ", 
+opt2: " RMI permits us to conjure a strategy for java object that executes on another Thread in multithreaded programming ", 
+opt3: " RMI permits us to summon a strategy for java object that executes on another machine ",
+opt4: " None of the referenced ", 
+Ans "3 ",
+ }],
+ 
+
+
+[{
+q:" 31. Which of these package is used for all the text related modifications?",
+opt1: "java.text",
+opt2: "java.awt",
+opt3: "java.lang.text",
+opt4: "java.text.modify ",
+Ans "1 ",
+ }],
+ 
+
+ 
+[{
+q:" 32.  What will be the output of the following Java code?
+
+     import java.lang.reflect.*;
+    class Additional_packages 
+    {	 
+         public static void main(String args[]) 
+         {
+	     try 
+             {
+	         Class c = Class.forName("java.awt.Dimension");
+		 Constructor constructors[] = c.getConstructors();
+		 for (int i = 0; i < constructors.length; i++)
+		     System.out.println(constructors[i]);
+	     }
+	     catch (Exception e)
+             {
+             System.out.print("Exception");
+             }
+        }
+    }
+    ",
+opt1: "Program prints all the constructors of ‘java.awt.Dimension’ package",
+opt2: "Program prints all the possible constructors of class ‘Class’",
+opt3: "Program prints “Exception”",
+opt4: "Runtime Error",
+ans: "1"
+ }],
+ 
+
+ 
+[{
+q:" 33.  What will be the output of the following Java code?
+
+      import java.lang.reflect.*;
+    class Additional_packages 
+    {	 
+         public static void main(String args[])
+         {
+	     try 
+             {
+	         Class c = Class.forName("java.awt.Dimension");
+		 Field fields[] = c.getFields();
+		 for (int i = 0; i < fields.length; i++)
+		     System.out.println(fields[i]);
+	     }
+	     catch (Exception e)
+             {
+             System.out.print("Exception");
+             }
+        }    
+    }
+    ",
+opt1: "Program prints all the information individuals from 'java.awt.Dimension' bundle",  
+opt2: "Program prints all the techniques for 'java.awt.Dimension' bundle", 
+opt3: "Program prints all the constructors of 'java.awt.Dimension' bundle",
+opt4: "program prints all the strategies and information individual from 'java.awt.Dimension' bundle", 
+ans: "1"
+ }],
+ 
+
+[{
+q:" 34. In the event that we hit a container in hash table that is as of now filled, at that point ", 
+opt1: "hash crash happens ", 
+opt2: "hit crash happens",
+opt3: "bucket crash happens", 
+opt4: "none of these", 
+ans:"1"
+ }],
+ 
+
+[{
+q:" 35. Which articulation is valid for the class java.util.HashSet?", 
+opt1:"The components in the assortment are destined to be one of a kind.",
+opt2:"The assortment is destined to be unchanging.", 
+opt3: "The components in the assortment are requested.", 
+opt4:"The components in the assortment are gotten to utilizing a one of a kind key.", 
+ans:"1",
+ }],
+ 
+
+[{
+q:" 36."What is the connection among hashset and hashmap?", 
+opt1:"HashMap inside executes HashSet",
+opt2:"HashSet inside executes HashMap", 
+opt3:" HashMap is the interface; HashSet is the solid class", 
+opt4:"HashSet is the interface; HashMap is the solid class", 
+Ans:"2"
+ }],
+ 
+
+[{
+q:" 37.What occurs in the event that we put a key item in a HashMap which exists?", 
+opt1:"The old article is expelled from the guide",
+opt2:"The new article is disposed of", 
+opt3: "The new article replces the more established item",
+opt4:"It tosses a special case as the key as of now exists in the guide", 
+Ans:"3"
+ }],
+ 
+
+[{
+q:" 38.Which of these is valid about unmodifiableCollection() technique?", 
+opt1:"unmodifiableCollection() restores an assortment that can't be adjusted", 
+opt2:"unmodifiableCollection() is characterized in Collection class", 
+opt3:"unmodifiableCollection() technique is accessible just for List and Set",
+opt4:"none of the referenced", 
+Ans:"3"
+ }],
+ 
+
+[{
+q:" 39.Which of coming up next is valid about ListIterator and Iterator ?", 
+opt1:"Iterator can evacuate the components", 
+opt2:"Iterator can do activities like altering the things it holds.", 
+opt3:"ListIterator can navigate records in reverse bearing", 
+opt4:"ListIterator can navigate records both way", 
+Ans:"1"
+ }],
+ 
+
+[{
+q:" 40.Which choice is bogus about the last watchword?", 
+opt1: "A last class can't broaden different classes",
+opt2: "A last class can't be broadened", 
+opt3: "A last technique can't be abrogated in its subclasses", 
+opt4: "A last technique can be acquired", 
+ans:"1"
+ }],
+ 
+
+[{
+q:" 41.I don't get your meaning by anonymous instance?"," 
+opt1: "An article made by utilizing the new watchword",
+opt2: "An object of a superclass made in the subclass",
+opt3: "An article without having any name however having a reference",
+opt4: "An item that has no reference",
+ans:"4"
+ }],
+ 
+
+[{
+q:" 42.In which process, a nearby factor has a similar name as one of the occurrence factors?",
+opt1: "Serialization",
+opt2: "Multi-stringing",
+opt3: "Abstraction",
+opt4: "Variable Shadowing",
+ans:"4"
+ }],
+ 
+
+[{
+q:" 43.Name the interface that java.util.Hashtable actualizes?" 
+opt1: "Java.util.Map", 
+opt2: "Java.util.List",
+opt3: "Java.util.HashTable", 
+opt4: "Java.util.Collection", 
+ans: "1"
+ }],
+ 
+
+[{
+q:" 44.Which of these keywords is used to by the calling function to guard against the exception that is thrown by called function?", 
+opt1: "try",
+opt2: "throw",
+opt3: "throws",
+opt4: "catch",
+ans: "3"
+ }],
+ 
+
+[{
+[{q:"45.Which of the following is true?
+
+1. Iterator can traverse in both forward and backward directions.
+
+2. ListIterator can traverse in both forward and backward directions.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"Both 1&2",
+opt4:"None of the above",
+ans:"opt2"
+}],
+[{q:"46.Which of the following statement is false?
+
+1. Hashmap doesn't allow null key at all.
+
+2. Hashtable doesn't allow null key at all.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"both",
+opt4:"none",
+ans:"opt1"
+}],
+[{q:"47.Which among the following statement is/are true?
+
+1. Hastable is synchronized.
+
+2. HashMap is not synchronized.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"both",
+opt4:"none",
+ans:"opt3"
+}],
+[{q:"48.Arraylist, Linkedlist and vector are all ___________",
+opt1:"interface",
+opt2:"enums",
+opt3:"class",
+opt4:"Depends on implementation",
+ans:"opt3"
+}],
+[{q:"49.The collection",
+opt1:"extends Collections class",
+opt2:"extends Iterable interface",
+opt3:"implements Serializable interface",
+opt4:"implements Traversable interface",
+ans:"opt2"
+}],
+[{q:"50.The collection is a ____________",
+opt1:"only class",
+opt2:"framework and class",
+opt3:"only interface",
+opt4:"framework and interface",
+ans:"opt4"
+}],
+]

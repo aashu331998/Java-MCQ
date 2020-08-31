@@ -1,0 +1,494 @@
+[[
+[{
+Q:"1. Which of these is static variable defined in collections?",
+opt1:"Empty_set",
+opt2:"Empty_list",
+opt3:"Empty_map",
+opt4:"All of the mentioned",
+ans:"4"
+}],
+[{
+Q:"2. Which of these is true about unmodifiableCollection( ) method?",
+opt1:"UnmodifiableCollection( ) returns a collection cannot be modified",
+opt2:"UnmodifiableCollection( ) method is available only for list and set",
+opt3:"UnmodifiableCollection( ) is defined in collection class",
+opt4:"None of the mentioned",
+ans:"2"
+}],
+[{
+Q:"3.Which of these methods can convert an object into a list?",
+opt1:"SetList( )",
+opt2:"ConvertList( )",
+opt3:"SingletonList( )",
+opt4:"CopyList( )",
+ans:"3"
+}],
+[{
+Q:"4.Which of these methods can randomize all elements in a list?",
+opt1:"Rand( )",
+opt2:"Randomize( )",
+opt3:"Shuffle( )",
+opt4:"Ambigous( )",
+ans:"3"
+}],
+[{
+Q:"5.Which of these methods sets every element of a list to a specified object?",
+opt1:"Set( )",
+opt2:"Fill( )",
+opt3:"Complete( )",
+opt4:"Add( )",
+ans:"2"
+}],
+[{
+Q:"6.Which of these is an incorrect form of using method max() to obtain maximum element?",
+opt1:"Max(collection c)",
+opt2:"Max(collection c, comparator comp)",
+opt3:"Max(comparator comp)",
+opt4:"Max(list c)",
+ans:"3"
+}],
+[{
+Q:"7.Which of these interface declares core method that all collections will have?",
+opt1:"Set",
+opt2:"EventListner",
+opt3:"Comparator",
+opt4:"Collection",
+ans:"4"
+}],
+[{
+Q:"8.Which of these interface handle sequences?",
+opt1:"Set",
+opt2:"List",
+opt3:"Comparator",
+opt4:"Collection",
+ans:"2"
+}],
+[{
+Q:"9.Which of these interface is not a part of java's collection framework?",
+opt1:"List",
+opt2:"Set",
+opt3:"SortedMap",
+opt4:"SortedList",
+ans:"4"
+}],
+[{
+Q:"10.Which of these interface must contain a unique element?",
+opt1:"Set",
+opt2:"List",
+opt3:"Array",
+opt4:"Collection",
+ans:"1"
+}],
+[{
+Q:"11.Which of these is basic interface that all other interface inherits?",
+opt1:"Set",
+opt2:"List",
+opt3:"Array",
+opt4:"Collection",
+ans:"4"
+}],
+[{
+Q:"12.Which of these packges contain all the collection classes?",
+opt1:"java.lang",
+opt2:"java.util",
+opt3:"java.net",
+opt4:"java.awt",
+ans:"2"
+}],
+[{
+Q:"13.Which of these classes is not part of java's collection framework?",
+opt1:"Maps",
+opt2:"Array",
+opt3:"Stack",
+opt4:"Queue",
+ans:"4"
+}],
+[{
+Q:"14.Which of these methods deletes all the elements from invoking collection?",
+opt1:"Clear( )",
+opt2:"Reset( )",
+opt3:"Delete( )",
+opt4:"Refresh( )",
+ans:"1"
+}],
+[{
+Q:"15.What is collection in java?",
+opt1:"A group of objects",
+opt2:"A group of classes",
+opt3:"A group of interfaces",
+opt4:"None of the mentioned",
+ans:"1"
+}],
+[{
+Q:"16.Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?",
+opt1:"java.util.HashSet",
+opt2:"java.util.LinkedHashSet",
+opt3:"java.util.List",
+opt4:"java.util.ArrayList",
+ans:"4"
+}],
+[{
+Q:"17.You need to store elements in a collection that guarantees that no duplictes are stored and all elements can be accessed in natural order. which interface provides that capability?",
+opt1:"java.util.Map",
+opt2:"java.util.Set",
+opt3:"java.util.List",
+opt4:"java.util.Collection",
+ans:"2"
+}],
+[{
+Q:"18.Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO(first in first out) sequence?",
+opt1:"java.util.ArrayList",
+opt2:"java.util.LinkedHashMap",
+opt3:"java.util.HashMap",
+opt4:"java.util.TreeMap",
+ans:"2"
+}],
+[{
+Q:"19.Which collection class allows you to access its elements by associating a key with an element's value, and provides synchronisation?",
+opt1:"java.util.SortedMap",
+opt2:"java.util.TreeMap",
+opt3:"java.util.TreeSet",
+opt4:"java.util.HashTable",
+ans:"4"
+}],
+[{
+Q:"20.What implementation of iterator can traverse a collection in both directions?",
+opt1:"iterator",
+opt2:"ListIterator",
+opt3:"SetIterator",
+opt4:"MapIterator",
+ans:"2"
+}],
+[{
+Q:"21.what guarantees type-safety in a collection?",
+opt1:"generics",
+opt2:"abstract classes",
+opt3:"interfaces",
+opt4:"collection",
+ans:"1"
+}],
+[{
+Q:"22.nextIndex() and previousIndex() are methods of which interface?",
+opt1:"indexIterator",
+opt2:"iterator",
+opt3:"listIterator",
+opt4:"nextpreviousIterator",
+ans:"3"
+}],
+[{
+Q:"23.which does not allow to store a null value?",
+opt1:"treeset",
+opt2:"linkedHashSet",
+opt3:"hashSet",
+opt4:"none",
+ans:"1"
+}],
+[{
+Q:"23.an ordered array has a search time complexity of?",
+opt1:"O(n)",
+opt2:"O(1)",
+opt3:"O(log n)",
+opt4:"O(n-1)",
+ans:"3"
+}],
+[{
+Q:"24.which map class must be preferred in multi-threading environment to maintain natural order of keys?",
+opt1:"concurrentHashMap",
+opt2:"concurrentSkipListMap",
+opt3:"concurrentMap",
+opt4:"all",
+ans:"2"
+}],
+[{
+Q:"25.which list class must be preferring in multi-threading environment, considering performance constraint?",
+opt1:"vector",
+opt2:"copyOnWriteArrayList",
+opt3:"arrayList",
+opt4:"concurrentArrayList",
+ans:"b"
+}],
+[{
+Q:"26.which set class must be preferred in multi-threading environment, considering performance constraint?",
+opt1:"hashSet",
+opt2:"concurrentSkipListSet",
+opt3:"linkedHashSet",
+opt4:"copyOnWriteArraySet",
+ans:"2"
+}],
+[{
+Q:"27.which map class must be preferred in multi-threading environment, considering performance constraint?",
+opt1:"hashTable",
+opt2:"copyOnWriteMap",
+opt3:"concurrentHashMap",
+opt4:"concurrentMap",
+ans:"3"
+}],
+[{
+Q:"28.which allows the removal of elements from a collection?",
+opt1:"enumeration",
+opt2:"iterator",
+opt3:"both",
+opt4:"none",
+ans:"2"
+}],
+[{
+Q:"29.the comparator interface contains the method?",
+opt1:"compareWith( )",
+opt2:"compareTo()",
+opt3:"compare()",
+opt4:"",
+ans:"3"
+}],
+[{
+Q:"30.which set implementation is sorted and synchronized?",
+opt1:"linkedHashSet",
+opt2:"concurrentSkipListSet",
+opt3:"treeSet",
+opt4:"copyOnWriteArraySet",
+ans:"2"
+}],
+[{
+Q:"31.treeMap-",
+opt1:"doesn't allow null key",
+opt2:"allow many null values",
+opt3:"all",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"32.what will be the output of following code-
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+	public class HashMapTest {
+		public static void main(string args[]) {
+		Map<Integer,String> hashMap=new HashMap<Integer,String>();
+		hashMap.put(11,"a");
+		Collections.unmodifiableMap(hashMap);
+		hashMap.put(12,"b");
+		System.out.println(hashMap);
+	}
+}",
+opt1:"{11=a}",
+opt2:"{11=a,12=b}",
+opt3:"unsupportedOperationException",
+opt4:"compile time exception",
+ans:"2"
+}],
+[{
+Q:"33.what will be the output of the following code-
+import java.util.PriorityQueue;
+
+public class MyClass{
+	public static void main(string[] args) {
+		PriorityQueue<Integer> q=new PriorityQueue<Integer>();
+		q.add(1);
+		q.add(2);
+		q.add(3);
+		System.out.println(q.poll());
+		System.out.println(q.offer(4));
+		q.add(1);
+		q.remove(2);
+		System.out.println(q.peek());
+		System.out.println(q);
+	}
+}",
+opt1:"1
+         true
+         1
+         [1,3,4]",
+opt2:"3
+         true
+         1
+         [1,3,4]",
+opt3:"3
+         false
+         1
+         [1,3,4]",
+opt4:"1
+         false
+         1
+         [1,2,4]",
+ans:"1"
+}],
+[{
+Q:"34.which is sorted by natural order?",
+opt1:"linkedHashSet",
+opt2:"treeSet",
+opt3:"HashSet",
+opt4:"none",
+ans:"2"
+}],
+[{
+Q:"35.in listIterator, after a call to next() or previous(), if a call is made to set(E element) followed by add() or remove() what happens?",
+opt1:"compilation error",
+opt2:"unsupportedOperationException",
+opt3:"concurrentModificationException",
+opt4:"none",
+ans:"2"
+}],
+[{
+Q:"36.which of these is synchronised and isn't sorted by natural order?",
+opt1:"enumSet",
+opt2:"linkedSet",
+opt3:"concurrentSkipListSet",
+opt4:"vector",
+ans:"4"
+}],
+[{
+Q:"37.what will be the output of the following code-
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class LinkedHashMapBlog {
+	public static void main(string args[]) {
+		Map<Integer, Strings> m=new LinkedHashMap<Integer, Strings>();
+		m.put(11,"audi");
+		m.put(null,null);
+		m.put(11,"bmw");
+		m.put(null,"fer");
+
+		System.out.println(m.size());
+		System.out.println(m);
+	}
+}",
+opt1:"compile time exception",
+opt2:"1
+         {null=null}",
+opt3:"2
+         {11=bmw,null=fer}",
+opt4:"runtime exception",
+ans:"3"
+}],
+[{
+Q:"38.an attempt to add null key to a treeMap will result in-",
+opt1:"compile time exception",
+opt2:"error",
+opt3:"runtime -nullPointerException",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"39.what does Collections.sort internally uses when number of elements are greater than 7?",
+opt1:"Insertion sort",
+opt2:"merge sort",
+opt3:"quick sort",
+opt4:"none",
+ans:"2"
+}],
+[{
+Q:"40.what does Collections.sort internally uses when number of elements are less than 7?",
+opt1:"insertion sort",
+opt2:"merge sort",
+opt3:"quick sort",
+opt4:"none",
+ans:"1"
+}],
+[{
+Q:"41.how can you sort given HashMap on basis of values?",
+opt1:"implement comparator interface and override its compare method",
+opt2:"its not possible",
+opt3:"implement comparator interface and override its compare to method",
+opt4:"implement comparator and comparable interface",
+ans:"1"
+}],
+[{
+Q:"42.hashTable allows",
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"3"
+}],
+[{
+Q:"43.LinkedHashMap allows",
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"4"
+}],
+[{
+Q:"44.can 2 threads on same concurrentHashMap object access it concurrently",
+opt1:"we need to add additional functionality to achieve the same",
+opt2:"its not possible",
+opt3:"different threads can access different segments concurrently",
+ans:"3"
+}],
+[{
+Q:"45.what will be the output of the following code-
+import java.util.ArrayList;
+import java.util.List;
+
+public class MyClass {
+	public static void main(string[] args) {
+		List<Integer> list=new ArrayList<Integer>();
+		list.add(2);
+		list.add(3);
+		m(list);
+	}
+	public static void m(List<Number> list) {
+		System.out.println(list);
+	}
+}",
+opt1:"[2,3]",
+opt2:"runtime exception",
+opt3:"compile time exception",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"46.what will be output of following code-
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class LinkedHashSetTest {
+	public static void main(string args[]) {
+		set s=new LinkedHashSet();
+		s.add("1");
+		s.add(1);
+		s.add(3);
+		s.add(2);
+		System.out.println(s);
+	}
+}",
+opt1:"[1,1,2,3]",
+opt2:"[1,2,2,3]",
+opt3:"[1,1,3,2]",
+opt4:"[1,2,3]",
+ans:"3"
+}],
+[{
+Q:"47.which list is synchronized?",
+opt1:"vector",
+opt2:"copyOnWriteArrayList",
+opt3:"all",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"48.which set is synchronized?",
+opt1:"copyOnWriteArrayList",
+opt2:"concurrentSkipListSet",
+opt3:"all",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"49.java.util.Collections is a-",
+opt1:"class",
+opt2:"interface",
+opt3:"object",
+opt4:"none",
+ans:"1"
+}],
+[{
+Q:"50.methods such as reverse, shuffle and sort are available in-",
+opt1:"object",
+opt2:"collection",
+opt3:"collections",
+opt4:"apache commons collections",
+ans:"3"
+}],
+]]

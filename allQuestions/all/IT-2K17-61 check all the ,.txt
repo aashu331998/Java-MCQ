@@ -1,0 +1,817 @@
+[[ 
+
+[{ 
+
+q:"1. Which of these object stores association between keys and values?", 
+
+opt1:" Hash table ",
+
+opt2:" Map ",
+
+opt3:" Array ",
+
+opt4:" String ",
+
+Ans "2", 
+
+}], 
+
+[{ 
+
+q:"2. Which of these classes provide implementation of map interface?", 
+
+opt1:" ArrayList", 
+
+opt2:" HashMap", 
+
+opt3:" LinkedList", 
+
+opt4:" DynamicList", 
+
+Ans "2", 
+
+}], 
+
+  
+
+[{ 
+
+q:"3. Which of these method is used to remove all keys/values pair from the invoking map?", 
+
+opt1:" delete()", 
+
+opt2:" remove() ",
+
+opt3:" clear() ", 
+
+opt4:" removeAll() ",
+
+Ans "2 ", 
+
+}], 
+
+[{ 
+
+q:"4. Which of these method Map class is used to obtain an element in the map having specified key?", 
+
+opt1:" search() ",
+
+opt2:" get() ", 
+
+opt3:" set() ",
+
+opt4:" look() ", 
+
+Ans "2 ",
+
+}], 
+
+[{ 
+
+q:"5. Which of these methods can be used to obtain set of all keys in a map?", 
+
+opt1:" getAll() ",
+
+opt2:" getKeys() ",
+
+opt3:" keyall() ",
+
+opt4:" keySet() ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"6. Which of these method is used add an element and corresponding key to a map?", 
+
+opt1:" put() ",
+
+opt2:" set() ",
+
+opt3:" redo() ",
+
+opt4:" add() ",
+
+Ans "1 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"7. What will be the output of the following Java program?", 
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            HashMap obj = new HashMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj); 
+
+        } 
+
+    } 
+
+opt1:" {A 1, B 1, C 1} ",
+
+opt2:" {A, B, C} ",
+
+opt3:" {A-1, B-1, C-1} ",
+
+opt4:" {A=1, B=2, C=3} ",
+
+Ans" 4 ",
+
+}], 
+
+[{ 
+
+q:"8. What will be the output of the following Java program?", 
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            HashMap obj = new HashMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj.keySet()); 
+
+        } 
+
+    } 
+
+opt1:" [A, B, C] ",
+
+opt2:" {A, B, C} ",
+
+opt3:" {1, 2, 3} ",
+
+opt4:" [1, 2, 3] ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"9. What will be the output of the following Java program? ",
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            HashMap obj = new HashMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj.get("B")); 
+
+        } 
+
+    } 
+
+opt1:" 1 ",
+
+opt2:" 2 ",
+
+opt3:" 3 ",
+
+opt4:" null ",
+
+Ans "2",
+
+}], 
+
+[{ 
+
+q:"10. What will be the output of the following Java program? ",
+
+  
+
+    import java.util.*; 
+
+    class Maps  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            TreeMap obj = new TreeMap(); 
+
+            obj.put("A", new Integer(1)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(3)); 
+
+            System.out.println(obj.entrySet()); 
+
+        } 
+
+    } 
+
+opt1:" [A, B, C] ",
+
+opt2:" [1, 2, 3] ",
+
+opt3:" {A=1, B=2, C=3} ",
+
+opt4:" [A=1, B=2, C=3] ",
+
+Ans "4 ",
+
+}], 
+[{
+q:"11. Which of the following is not true?"
+opt 1:  "HashSet defines the order in which elements are stored"
+opt 2:  "HashSet extends AbstractSet"
+opt 3:  "HashSet is generic class"
+opt 4:  "HashSet implements Set"
+Ans : "opt 1"
+}],
+[{
+q:"12.Which of the following is a legacy class"
+
+opt 1: "HashMap"
+opt 2: "Queue"
+opt 3: "Stack"
+opt 4: "List"
+Ans : "opt 3"
+}],
+[{
+q:"13. Which of the following methods are not present in Iterator interface"
+
+opt 1: "public boolean hasNext()"
+opt 2: public void clear()"
+opt 3: "public void remove()"
+opt 4: "public Object next()"
+Ans : "opt 2"
+}],
+[{
+q:"14.Which of these is not synchronized?
+
+opt 1: "Stack"
+opt 2: "ArrayList"
+opt 3: "Vector"
+opt 4: "Dictionary"
+Ans : "opt 2"
+}],
+[{
+q:"15. Comparable interface is found in which package?"
+
+opt 1: "java.util"
+opt 2: "java.awt"
+opt 3: "java.io"
+opt 4: "java.lang"
+Ans : "opt 4"
+}],
+[{
+
+q:"16. Comparator interface is found in which package"
+
+opt 1: "java.util"
+opt 2: "java.io"
+opt 3: "java.lang"
+opt 4: "java.awt"
+Ans : "opt 1"
+}],
+[{
+q:"17. Which of the following is not true?"
+
+opt 1: "HashTable is a legacy class"
+opt 2: "HashTable can be traversed by enumerator"
+opt 3: "HashTable allows null key and values"
+opt 4: "HashTable inherits Dictionary class"
+Ans : "opt 3"
+}],
+[{
+q:"18. Which of the following is not true?"
+
+opt 1: "HashMap inherits AbstractMap"
+opt 2: "HashMap is internally synchronized"
+opt 3: "HashMap can be traversed by iterator"
+opt 4: "HashMap allows one null key"
+Ans : "opt 2"
+}],
+[{
+q:"19. Which method is used to insert key value pair in HashMap?"
+
+opt 1: "put()"
+opt 2: "insert()"
+opt 3: "add()"
+opt 4: "value()"
+Ans : "opt 1"
+}],
+[{
+q:"20. Which of the following method is used to get value?"
+
+opt 1: "get(K Key)"
+opt 2: "getValue(K Key)"
+opt 3: "getString(K Key)"
+opt 4: "getInt(K Key)"
+Ans : "opt 1"
+}],
+
+[{ 
+
+q:"21. Which of these class object uses the key to store value? ",
+
+opt1:" Dictionary ",
+
+opt2:" Map ",
+
+opt3:" Hashtable ",
+
+opt4:" All of the mentioned ",
+
+Ans "4 ",
+
+  
+
+}], 
+
+[{ 
+
+q:"22. Which of these method is used to insert value and its key? ",
+
+opt1:" put() ",
+
+opt2:" set() ",
+
+opt3:" insertElement() ",
+
+opt4:" addElement() ",
+
+Ans "1 ",
+
+}], 
+
+[{ 
+
+q:"23. Which of these is the interface of legacy is implemented by Hashtable and Dictionary classes? ",
+
+opt1:" Map", 
+
+opt2:" Enumeration ",
+
+opt3:" HashMap ",
+
+opt4:" Hashtable ",
+
+Ans "1", 
+
+}], 
+
+[{ 
+
+q:"24. Which of these is a class which uses String as a key to store the value in object? ",
+
+opt1:" Array", 
+
+opt2:" ArrayList ",
+
+opt3:" Dictionary ",
+
+opt4:" Properties ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"25. Which of these methods is used to retrieve the elements in properties object at specific location? ",
+
+opt1:" get()  ",
+
+opt2:" Elementat() ",
+
+opt3:" ElementAt() ",
+
+opt4:" getProperty() ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"26. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            System.out.print(obj.contains(new Integer(5))); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 1 ",
+
+opt3:" true ",
+
+opt4:" false ",
+
+Ans "4 ",
+
+}], 
+
+[{ 
+
+q:"27. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            obj.clear(); 
+
+            System.out.print(obj.size()); 
+
+        } 
+
+    } 
+
+opt1:" 0 ",
+
+opt2:" 1 ",
+
+opt3:" 2 ",
+
+opt4:" 3 ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"28. What will be the output of the following Java code? ",
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            obj.remove(new String("A")); 
+
+            System.out.print(obj); 
+
+        } 
+
+    } 
+
+opt1:" {C=8, B=2} ",
+
+opt2:" [C=8, B=2] ",
+
+opt3:" {A=3, C=8, B=2} ",
+
+opt4:" [A=3, C=8, B=2] ",
+
+Ans "1",
+
+}], 
+
+[{ 
+
+q:"29. What will be the output of the following Java code? ",
+
+  
+
+  
+
+  
+
+    import java.util.*; 
+
+    class hashtable  
+
+    { 
+
+        public static void main(String args[])  
+
+        { 
+
+            Hashtable obj = new Hashtable(); 
+
+            obj.put("A", new Integer(3)); 
+
+            obj.put("B", new Integer(2)); 
+
+            obj.put("C", new Integer(8)); 
+
+            System.out.print(obj.toString()); 
+
+        } 
+
+    } 
+
+opt1:" {C=8, B=2} ",
+
+opt2:" [C=8, B=2] ",
+
+opt3:" {A=3, C=8, B=2} ",
+
+opt4:" [A=3, C=8, B=2] ",
+
+Ans "1 ",
+
+}], 
+
+[{
+q:"30. An attempt to add null key to a TreeMap will result in:   ",
+
+opt1:"Compile time Exception",
+opt2:"Error",
+opt3:"Runtime - NullPointerException",
+opt4:"None",
+an,s:"c",
+}],
+
+[{
+q:"31. Which of these is synchronized and doesn't allow null elements?   ",
+
+opt1:"Vector",
+opt2:"CopyOnWriteArraySet",
+opt3:"CopyOnWriteArrayList",
+opt4:"ConcurrentSkipListSet",
+ans:"d",
+}],
+
+[{
+q:"32. Which of these is synchronized and isn't sorted by natural order?    ",
+
+opt1:"EnumSet",
+opt2:"LinkedList",
+opt3:"ConcurrentSkipListSet",
+opt4:"Vector",
+ans:"d",
+
+}],
+
+[{
+q:"33.  Which of these packages contain all the collection classes?   ",
+
+opt1:" javopt1:"lang",
+opt2:" javopt1:"util",
+opt3:" javopt1:"net",
+opt4:" javopt1:"awt",
+ans:"b",
+}],
+
+[{
+q:"34. Which of these classes is not part of Java’s collection framework?   ",
+
+opt1:" Maps",
+opt2:" Array",
+opt3:" Stack",
+opt4:" Queue",
+ans:"a",
+}],
+
+[{
+q:"35.Which of these interface is not a part of Java’s collection framework?     ",
+
+opt1:" List",
+opt2:" Set",
+opt3:" SortedMap",
+opt4:" SortedList",
+ans:"d",
+}],
+
+[{
+q:"36.  Which of these methods deletes all the elements from invoking collection?  ", 
+opt1:" clear()",
+opt2:" reset()",
+opt3:" delete()",
+opt4:" refresh()",
+ans:"a",
+}],
+
+[{
+q:"37.  What is Collection in Java?   ",
+
+opt1:" A group of objects",
+opt2:" A group of classes",
+opt3:" A group of interfaces",
+opt4:" None of the mentioned",
+ans:"a",
+
+}],
+
+[{
+q:"38. Which of these class object can be used to form a dynamic array?    ",
+opt1:" ArrayList",
+opt2:" Map",
+opt3:" Vector",
+opt4:" ArrayList & Vector",
+ans:"d",
+}],
+
+[{
+q:"39. Which of these are legacy classes?    ",
+opt1:" Stack",
+opt2:" Hashtable",
+opt3:" Vector",
+opt4:" All of the mentioned",
+ans:"d",
+}],
+
+[{
+q:"40.  Which of these is the interface of legacy?",
+opt1:" Map",
+opt2:" Enumeration",
+opt3:" HashMap",
+opt4:" Hashtable",
+ans:"b",
+}],
+
+[{
+q:"41.  What is the name of a data member of class Vector which is used to store a number of elements in the vector?  ",
+opt1:" length",
+opt2:" elements",
+opt3:" elementCount",
+opt4:" capacity",
+ans:"c",
+}],
+
+[{
+q:"42.  Which of these methods is used to obtain an iterator to the start of collection? ",
+opt1:" start()",
+opt2:" begin()",
+opt3:" iteratorSet()",
+opt4:" iterator()",
+ans:"d",
+}],
+
+[{
+q:"43." Which of these interface declares core method that all collections will have?", 
+opt1:" set",
+opt2:" EventListner",
+opt3:" Comparator",
+opt4:" Collection",
+ans:"d",
+}],
+
+[{
+q:"44.  Which of these interface handle sequences? ",
+opt1:" Set",
+opt2:" List",
+opt3:" Comparator",
+opt4:" Collection",
+ans:"b",
+}],
+
+[{
+q:"45.Which of this interface must contain a unique element?",
+opt1:" Set",
+opt2:" List",
+opt3:" Array",
+opt4:" Collection",
+ans:"a",
+}]
+
+[{
+q:"46.  Which of these is static variable defined in Collections?  ",
+opt1:" EMPTY_SET",
+opt2:" EMPTY_LIST",
+opt3:" EMPTY_MAP",
+opt4:" All of the mentioned",
+ans:"d",
+}],
+
+[{
+q:"47.Which of these object stores association between keys and values?    ",
+opt1:" Hash table",
+opt2:" Map",
+opt3:" Array",
+opt4:" String",
+ans:"b",
+}],
+
+[{
+q:"48.  Which of these method is used to remove all keys/values pair from the invoking map?",
+opt1:" delete()",
+opt2:" remove()",
+opt3:" clear()",
+opt4:" removeAll()",
+ans:"b",
+}],
+[{
+q:"49. Which of these methods can be used to obtain set of all keys in a map?",
+opt1:" getAll()",
+opt2:" getKeys()",
+opt3:" keyall()",
+opt4:" keySet()",
+ans:"d",
+}],
+
+[{
+q:"50. Which of these method is used add an element and corresponding key to a map?",
+opt1:" put()",
+opt2:" set()",
+opt3:" redo()",
+opt4:" add()",
+ans:"a",
+}],
+],
+
+[{rollNum:"IT2k17-61"}]]

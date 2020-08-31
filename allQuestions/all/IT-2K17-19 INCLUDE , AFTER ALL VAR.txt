@@ -1,0 +1,590 @@
+[[
+[{
+q:"01.In WeakHashMap",
+
+opt1:"An entry are automatically removed by garbage collector:",
+opt2:"Behaves normally like HashMap",
+opt3:"An entry are never removed by garbage collector",
+opt4:"None",
+ans: "a",
+}],
+
+[{
+q:"02.A EnumSet",
+opt1:"Can use enum and non enum type keys",
+opt2:"Cannot use enum type keys",
+opt3:"is specialized Set implementation for use with enum type keys only",
+opt4:"None",
+ans:"c",
+}],
+
+[{
+q:"03. Which List is synchronizeds",
+opt1:"Vector",
+opt2:"CopyOnWriteArrayList",
+opt3:"All",
+opt4:"none",
+ans:"c",
+}],
+
+[{
+q:"04. Which Set is synchronized? ",
+
+opt1:"CopyOnWriteArraySet",
+opt2:"ConcurrentSkipListSet:,
+opt3:"All",
+opt4:"none",
+ans:"c",
+}],
+
+[{
+q:"05.  What is significance of using instanceOf operator and getClass() in equals method?",
+
+opt1:"instanceOf will return true for comparing current class with its subclass as well",
+opt2:"getClass() will return true only if exactly same class is compared",
+opt3:"getClass() will return false when compared with subclass",
+opt4:"All",
+ans:"d",
+
+}],
+
+[{
+q:"06.  what should we use get operations are more?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Any",
+ans:"a",
+
+}],
+
+[{
+q:"07. What is the output of this program?"
+    import javopt 3: "util.*;
+    class vector {
+        public static void main(String args[]) {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            obj.removeAll(obj);
+            System.out.println(obj.isEmpty());
+        }
+    }
+opt 1:  "0"
+opt 2:  "1"
+opt 3:  "true"
+opt 4:  "false"
+Ans : "opt 3"
+}],
+
+
+[{
+q:"08. Vector extends which of these?"
+
+opt 1: "ArrayList"
+opt 2: "LinkedList"
+opt 3: "AbstractList"
+opt 4: "None"
+Ans :"opt 3"
+}],
+[{
+
+q:"09. Which of these packages contain all the collection classes?"
+
+opt 1: : "javopt 1: "lang"
+opt 2:  "java: "util"
+opt 3: "javopt 1: "net"
+opt 4: "javopt 1: "awt"
+Ans : "opt 2"
+}],
+
+[{
+q:"10. Which of these classes is not part of Java¡¯s collection framework?"
+
+opt 1:" Maps"
+opt 2:  "Array"
+opt 3:  "Stack"
+opt 4:  "Queue"
+Ans : "opt 1"
+
+}],
+
+[{
+q:"11. Which of these interface is not a part of Java collection framework?"
+
+opt 1:  "List"
+opt 2:  "Set"
+opt 3:  "SortedMap"
+opt 4: "SortedList"
+Ans : "opt 4"
+}],
+
+[{
+q:"12. Which of these methods deletes all the elements from invoking collection?"
+
+opt 1:  "clear()"
+opt 2:  "reset()"
+opt 3: "delete()"
+opt 4:  "refresh()"
+Ans : "opt 1"
+}],
+
+[{
+q:"13. What is difference between dequeue() and peek() function of java?"
+
+opta:"dequeue() and peek() remove and return the next time in line"
+optb:"dequeue() and peek() return the next item in line"
+optc:"dequeue() removes and returns the next item in line while peek() returns the next item in line"
+optd:"peek() removes and returns the next item in line while dequeue() returns the next item in line"
+Ans:"c"
+}],
+
+[{
+q:"14. What is the difference between Queue and Stack?"
+
+opta:"Stack is LIFO; Queue is FIFO"
+optb:"Queue is LIFO; Stack is FIFO"
+optc:"Stack and Queue is FIFO"
+optd:"Stack and Queue is LIFO"
+Ans:"a"
+}],
+
+{[
+q"15. What are the use of front and rear pointers in CircularQueue implementation?"
+
+opta:"Front pointer points to first element; rear pointer points to the last element"
+optb:"Rear pointer points to first element; front pointer points to the last element"
+optc:"Front and read pointers point to the first element"
+optd:" Front pointer points to the first element; rear pointer points to null object"
+ Ans:"c"
+}],
+
+[{
+q:"16. What is the correct method used to insert and delete items from the queue?"
+
+opta:"push and pop"
+optb:"enqueue and dequeue"
+optc:"enqueue and peek"
+optd:" add and remove"
+Ans:"b"
+}],
+
+[{
+q:"17. Which data structure is used in Breadth First Traversal of a graph?"
+
+opta:"Stack"
+optb:"Queue"                                                                                                                             baacacbbbb
+optc:"Array"
+optd:" Tree"
+Ans:"b"
+}],
+
+[{
+q:"18. Where does a new element be inserted in linked list implementation of a queue?"
+
+opta:" Head of list"
+optb:" Tail of list"
+optc:" At the centre of list"
+optd:" All the old entries are pushed and then the new element is inserted"
+Ans:"b"
+}],
+
+[{
+q:"19. If the size of the array used to implement a circular queue is MAX_SIZE. How rear moves to traverse inorder to insert an element in the queue?"
+
+opta:"rear=(rear%1)+MAX_SIZE"
+optb:"rear=(rear+1)%MAX_SIZE"
+optc:"rear=rear+(1%MAX_SIZE)"
+optd:"rear=rear%(MAX_SIZE+1)"
+ Ans:"b"
+}],
+
+[{
+q:"20. Which of these standard collection classes implements all the standard functions on list data structure?"
+
+opta:"Array"
+optb:"LinkedList"
+optc:"HashSet"
+optd:"AbstractSet"
+Ans:"a"
+}],
+
+[{
+q:"21. Which of this method is used to make all elements of an equal to specified value?"
+
+opta:"add()"
+optb:"fill()"
+optc:"all()"
+optd:"set()"
+ Ans:"b"
+ }],
+
+[{
+q:"22. Which of these method of Array class is used sort an array or its subset?"
+
+opta:" binarysort()"
+optb:"bubblesort()"
+optc:" sort()"
+optd:" insert()"
+ Ans:"c"
+ }],
+
+[{
+q:" 23.The Comparator interface contains the method?",
+opt1:"compareWith()",
+opt2:"compareTo()",
+opt3:"compare()",
+opt4:"  ",
+ans:"opt3"
+}],
+
+[{
+q:" 24.Which is more offers best performance?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"LinkedHashMap",
+opt4:"All are equal",
+ans:"opt2"
+}],
+
+[{
+q:" 25.Which of these class should be preferred to be used as a key in a HashMap?",
+opt1:"String",
+opt2:"Integer",
+opt3:"Double",
+opt4:"Any of these",
+ans:"opt4"
+}],
+
+[{
+q:" 26.What should we use when add and remove operations are more frequent than get operations?",
+opt1:"LinkedList",
+opt2:"ArrayList",
+opt3:"Vector",
+opt4:"All",
+ans:"opt1"
+}],
+
+[{
+q:" 27.Which Set implementation is sorted and synchronized?",
+opt1:"LinkedHashSet",
+opt2:"ConcurrentSkipListSet",
+opt3:"TreeSet",
+opt4:"CopyOnWriteArraySet",
+ans:"opt2"
+}],
+
+[{
+q:" 28.TreeMap -",
+opt1:"doesn't allow null key",
+opt2:"Allow many null values",
+opt3:"All",
+opt4:"None",
+ans:""
+}],
+
+[{
+q:" 29.Which Map is synchronized?",
+opt1:"Hashtable",
+opt2:"ConcurrentSkipListMap",
+opt3:"ConcurrentHashMap",
+opt4:"All",
+ans:"opt3"
+}],
+
+[{
+q:" 30.ConcurrentSkipListMap allows",
+opt1:"one null key",
+opt2:"Many null values",
+opt3:"All",
+opt4:"None",
+ans:"opt4"
+}],
+
+[{
+q:" 31.Iterator returned by HashMap on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+
+[{
+q:" 32.Iterator returned by Hashtable on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+
+
+[{
+q:"33.What will be the output of the following program?
+
+import java.util.*;
+public class GuessTheOutput {
+    public static void main(String args[]) {
+        Set<GuessTheOutput> set = new TreeSet<GuessTheOutput>();
+        set.add(new GuessTheOutput());//LINE A
+        set.add(new GuessTheOutput());//LINE B
+        set.add(new GuessTheOutput());
+        System.out.println(set);
+    }
+}"
+
+opt1:"Some output will print"
+opt2:"Compile and runs successfully but output will not produce"
+opt3:"Compilation successfully but Runtime Error will occurs"
+opt4:"Compilation Error"
+ans:"3"
+}],
+
+[{
+q:"34.What will be the output of the following program?
+
+import java.util.*;
+public class Cloning {
+    public static void main(String[] args) {
+        TreeSet tree = new TreeSet();
+        tree.add("Roots");
+        tree.add("Stem");
+        tree.add("Branchs");
+        TreeSet newtree = (TreeSet) tree.clone();
+        newtree.add("Leaves");
+        System.out.println(newtree);
+    }
+} "
+
+opt1:"[Roots, Stem, Branchs, Leaves]"
+opt2:"[Branchs, Leaves, Roots, Stem]"
+opt3:"[Roots, Stem, Branchs]"
+opt4:"Compilation Error or Runtime Error"
+
+ans:"2"
+}],
+
+[{
+q:"35.Which of these is an incorrect form of using method max() to obtain a maximum element?"
+opt1:"max(Collection c)"
+opt2:" max(Collection c, Comparator comp)"
+opt3:"max(Comparator comp)"
+opt4:"max(List c)"
+ans:"3"
+}],
+
+[{
+q:"36.Which of these methods can randomize all elements in a list?"
+opt1:"rand()"
+opt2:"randomize()"
+opt3:"shuffle()"
+opt4:"ambiguous()"
+ans:"3"
+}]
+
+[{
+q:"37.Which of these methods can convert an object into a List?"
+opt1:"SetList()"
+opt2:"ConvertList()"
+opt3:"singletonList()"
+opt4:"CopyList()"
+ans:"3"
+}],
+
+[{
+q:"38.What is the output of following Java Program?"
+import java.util.ArrayList; 
+class Demo { 
+public void show() 
+    { 
+        ArrayList<Integer> list = new ArrayList<Integer>(); 
+        list.add(4); 
+        list.add(7); 
+        list.add(1); 
+        for (int number : list) { 
+            System.out.print(number + " "); 
+        } 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+opt1:" Compilation Error"
+opt2:"4 7 1"
+opt3:"1 4 7"
+opt4:"None"
+
+ans:"2"
+}],
+
+[{
+q:"39.Why were adhoc classes not reliable?"
+opt1:"Couldn't be designed"
+opt2:"Couldn't be extended"
+opt3:"A and B"
+opt4:"None"
+
+ans:"3"
+}],
+
+[{
+q:"40.What is the one feature of Algorithms that makes it available for all Collections?"
+opt1:"They are easy to use"
+opt2:"They are reliable"
+opt3:"They are defined as static methods"
+opt4:"All the above"
+ans:"4"
+}],
+
+[{
+q:"41.What would Object[] toArray() do?"
+opt1:"Would return an array"
+opt2:"Would return an object"
+opt3:"Would return an array of objects"
+opt4:"None"
+ans:"3"
+}],
+
+[{
+q:"42.What is the output of following Java Program?
+class Demo { 
+public void show() 
+    { 
+        LinkedList<String> list = new LinkedList<String>(); 
+        list.add("Element1"); // line 6 
+        list.add("Element2"); 
+        System.out.print(list.getFirst()); // line 8 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+opt1:" Element1:"
+opt2:"Compilation Error at line 8"
+opt3:"Runtime Error"
+opt4:"None"
+
+ans:"1"
+}],
+
+[{
+q:"43.What is the Output of following Java Program?
+
+import java.util.LinkedList; 
+  
+class Demo { 
+public void show() 
+    { 
+        LinkedList<String> list = new LinkedList<String>(); 
+  
+        System.out.print(list.getFirst()); 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+opt1:"null"
+opt2:"IndexOutOfBoundException"
+opt3:"NoSuchElementException"
+opt4:"None of the above"
+
+ans:"3"
+}],
+
+[{
+q:"44.Pick the odd one out among the following:",
+opt1:"Arraylist",
+opt2:"LinkedList",
+opt3:"HashSet",
+opt4:"Hashtable",
+ans:"opt4"
+}],
+
+[{
+q:"45.Which of the following is true?"
+
+1. Iterator can traverse in both forward and backward directions.
+
+2. ListIterator can traverse in both forward and backward directions.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"Both 1&2",
+opt4:"None of the above",
+ans:"opt2"
+}],
+
+[{
+q:"46.Which of the following statement is false?"
+
+1. Hashmap doesn't allow null key at all.
+
+2. Hashtable doesn't allow null key at all.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"both",
+opt4:"none",
+ans:"opt1"
+}],
+
+[{
+q:"47.Which among the following statement is/are true?"
+
+1. Hastable is synchronized.
+
+2. HashMap is not synchronized.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"both",
+opt4:"none",
+ans:"opt3"
+}],
+
+[{
+q:"48.Arraylist, Linkedlist and vector are all ___________",
+opt1:"interface",
+opt2:"enums",
+opt3:"class",
+opt4:"Depends on implementation",
+ans:"opt3"
+}],
+
+[{
+q:"49.The collection",
+opt1:"extends Collections class",
+opt2:"extends Iterable interface",
+opt3:"implements Serializable interface",
+opt4:"implements Traversable interface",
+ans:"opt2"
+}],
+
+[{
+q:"50.The collection is a ____________",
+opt1:"only class",
+opt2:"framework and class",
+opt3:"only interface",
+opt4:"framework and interface",
+ans:"opt4"
+}],
+],
+
+[{rollNum:"IT2k17-19"}]]
+
+
+
+
+
+
+
+
+
+

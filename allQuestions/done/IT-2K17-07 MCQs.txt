@@ -1,0 +1,403 @@
+[[
+[{
+q:"1. Which of these is not a interface in the Collections Framework?",
+opt1:"Collection",
+opt2:"Group",
+opt3:"Set",
+opt4:"List",
+ans:"B"
+}],
+  [{
+q:"2. Which interface restricts duplicate elements?",
+opt1:"Set",
+opt2:"List",
+opt3:"Map",
+opt4:"(All of these)",
+ans:"A"
+}],
+[{
+q:"3. Which of these collection class has the ability to grow dynamically?",
+opt1:"Array",
+opt2:"Arrays",
+opt3:"ArrayList",
+opt4:"(None of these)",
+ans:"C"
+}],
+[{
+q:"4. The accuracy and efficiency of a HashMap can be guaranteed with:",
+opt1:"override equals method",
+opt2:"override hashCode method",
+opt3:"(None of these)",
+opt4:"(All of these)",
+ans:"D"
+}],
+[{
+q:"5. A HashMap allows the existence of:",
+opt1:"null values",
+opt2:"one null key",
+opt3:"(None of these)",
+opt4:"(All of these)",
+ans:"D"
+}],
+[{
+q:"6. What implementation of Iterator can traverse a collection in both directions?",
+opt1:"Iterator",
+opt2:"ListIterator",
+opt3:"SetIterator",
+opt4:"MapIterator",
+ans:"B"
+}],
+[{
+q:"7. The Comparable interface contains which called?",
+opt1:"toCompare",
+opt2:"compare",
+opt3:"compareTo",
+opt4:"compareWith",
+ans:"C"
+}],
+[{
+q:"8. Which is faster and uses less memory?",
+opt1:"ListEnumeration",
+opt2:"Iterator",
+opt3:"Enumeration",
+opt4:"ListIterator",
+ans:"C"
+}],
+[{
+q:"9. What Iterator can throw a ConcurrentModificationException?",
+opt1:"Fail-fast Iterators",
+opt2:"Fail-safe Iterators",
+opt3:"All of these",
+opt4:"None of these",
+ans:"A"
+}],
+[{
+q:"10. What is the default number of Partitions/segments in Concurrent Hash Map?",
+opt1:"12",
+opt2:"32",
+opt3:"4",
+opt4:"16",
+ans:"D"
+}],
+[{
+q:"11. Which is best suited to a multi-threaded environment?",
+opt1:"WeakHashMap",
+opt2:"Hashtable",
+opt3:"HashMap",
+opt4:"ConcurrentHashMap",
+ans:"D"
+}],
+[{
+q:"12. The default capacity of a Vector is:",
+opt1:"10",
+opt2:"12",
+opt3:"8",
+opt4:"16",
+ans:"A"
+}],
+[{
+q:"13. Which does NOT implement the Collection interface?",
+opt1:"List",
+opt2:"Map",
+opt3:"Set",
+opt4:"None of these",
+ans:"B"
+}],
+[{
+q:"14. The default capacity of a ArrayList is:",
+opt1:"12",
+opt2:"16",
+opt3:"1",
+opt4:"10",
+ans:"D"
+}],
+[{
+q:"15. Which provides better performance for the insertion and removal from the middle of the list?",
+opt1:"Vector",
+opt2:"ArrayList",
+opt3:"LinkedList",
+opt4:"All of these.",
+ans:"C"
+}],
+[{
+q:"16. An unordered array has a search time complexity of:",
+opt1:"O(log n)",
+opt2:"O(n)",
+opt3:"O(n + 1)",
+opt4:"O(1)",
+ans:"B"
+}],
+[{
+q:"17. The add and remove methods of TreeSet have a time complexity of:",
+opt1:"O(n)",
+opt2:"O(n + 1)",
+opt3:"O(1)",
+opt4:"O(log n)",
+ans:"D"
+}],
+[{
+q:"18. After resizing, size of ArrayList is increased by :",
+opt1:"200%",
+opt2:"50%",
+opt3:"100%",
+opt4:"None of these",
+ans:"B"
+}],
+[{
+q:"19. After resizing, size of Vector is increased by:",
+opt1:"200%",
+opt2:"100%",
+opt3:"50%",
+opt4:"None of these",
+ans:"B"
+}],
+[{
+q:"20. Deque and Queue are derived from:",
+opt1:"AbstractList",
+opt2:"Collection",
+opt3:"AbstractCollection",
+opt4:"List",
+ans:"B"
+}],
+[{
+q:"21. What guarantees type-safety in a collection?",
+opt1:"Generics",
+opt2:"Abstract classes",
+opt3:"Interfaces",
+opt4:"Collection",
+ans:"A"
+}],
+[{
+q:"22. HashSet internally uses?",
+opt1:"Set",
+opt2:"HashMap",
+opt3:"List",
+opt4:"Collection",
+ans:"B"
+}],
+[{
+q:"23. The most used interfaces from the Collection framework are?",
+opt1:"List",
+opt2:"Map",
+opt3:"Set",
+opt4:"All of these",
+ans:"D"
+}],
+[{
+q:"24. The root interface of Java Collection framework hierarchy is -",
+opt1:"Collection",
+opt2:"Root",
+opt3:"Collections",
+opt4:"List/Set",
+ans:"A"
+}],
+[{
+q:"25. Which of these is synchronized?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Vector",
+opt4:"None of these",
+ans:"C"
+}],
+[{
+q:"26. ArrayList implements which of the following?",
+opt1:"List",
+opt2:"RandomAccess",
+opt3:"Cloneable",
+opt4:"All of these",
+ans:"D"
+}],
+[{
+q:"27. Which of these allows the storage of many null values?",
+opt1:"Set",
+opt2:"List",
+opt3:"None of these",
+opt4:"All of these",
+ans:"B"
+}],
+[{
+q:"28. nextIndex() and previousIndex() are methods of which interface?",
+opt1:"IndexIterator",
+opt2:"Iterator",
+opt3:"ListIterator",
+opt4:"NextPreviousIterator",
+ans:"C"
+}],
+[{
+q:"29. Vector extends which of these?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"AbstractList",
+opt4:"None",
+ans:"C"
+}],
+[{
+q:"30. LinkedList implements?",
+opt1:"Deque",
+opt2:"List",
+opt3:"None",
+opt4:"All",
+ans:"D"
+}],
+[{
+q:"31. In Iterator, nextElement() method of Enumeration has been changed to:",
+opt1:"next()",
+opt2:"getNext()",
+opt3:"returnNext()",
+opt4:"name remains same",
+ans:"A"
+}],
+[{
+q:"32. Enumeration returned by Vector is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+opt4:"ALL",
+ans:"B"
+}],
+[{
+q:"33. From Java 5 onwards, which one of these is recommended to replace Hashtable?",
+opt1:"ConcurrentHashMap",
+opt2:"HashMap",
+opt3:"ConcurrentHashtable",
+opt4:"None",
+ans:"A"
+}],
+[{
+q:"34. Which does not allow to store a null value?",
+opt1:"TreeSet",
+opt2:"LinkedHashSet",
+opt3:"HashSet",
+opt4:"None",
+ans:"A"
+}],
+[{
+q:"35. Iterator returned by Vector is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+opt4:"all",
+ans:"A"
+}],
+[{
+q:"36. What describes how well an algorithm performs in best, average or worse case scenarios?",
+opt1:"Big-B",
+opt2:"Big-O",
+opt3:"Big-Data",
+opt4:"Big-N",
+ans:"B"
+}],
+[{
+q:"37. An ordered array has a search time complexity of?",
+opt1:"O(n)",
+opt2:"O(1)",
+opt3:"O(log n)",
+opt4:"O(n-1)",
+ans:"C"
+}],
+[{
+q:"38. Which Map class must be preferred in multi-threading environment to maintain natural order of keys?",
+opt1:"ConcurrentHashMap",
+opt2:"ConcurrentSkipListMap",
+opt3:"ConcurrentMap",
+opt4:"All",
+ans:"B"
+}],
+[{
+q:"39. TreeMap implements?",
+opt1:"Dictionary",
+opt2:"HashMap",
+opt3:"AbstractMap",
+opt4:"NavigableMap",
+ans:"D"
+}],
+[{
+q:"40. Which list class must be preferred in multi-threading environment, considering performance constraint",
+opt1:"Vector",
+opt2:"CopyOnWriteArrayList",
+opt3:"ArrayList",
+opt4:"ConcurrentArrayList",
+ans:"B"
+}],
+[{
+q:"41. Which Set class must be preferred in multi-threading environment, considering performance constraint",
+opt1:"HashSet",
+opt2:"ConcurrentSkipListSet",
+opt3:"LinkedHashSet",
+opt4:"CopyOnWriteArraySet",
+ans:"B"
+}],
+[{
+q:"42. Which Map class must be preferred in multi-threading environment, considering performance constraint",
+opt1:"Hashtable",
+opt2:"CopyOnWriteMap",
+opt3:"ConcurrentHashMap",
+opt4:"ConcurrentMap",
+ans:"C"
+}],
+[{
+q:"43. Which allows the removal of elements from a collection?",
+opt1:"Enumeration",
+opt2:"Iterator",
+opt3:"Both",
+opt4:"None",
+ans:"B"
+}],
+[{
+q:"44. The Comparator interface contains the method?",
+opt1:"compareWith()",
+opt2:"compareTo()",
+opt3:"compare()",
+opt4:"none",
+ans:"C"
+}],
+[{
+q:"45. Which of these is synchronized?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"Hashtable",
+opt4:"All",
+ans:"C"
+}],
+[{
+q:"46. Which is more offers best performance?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"LinkedHashMap",
+opt4:"All are equal",
+ans:"B"
+}],
+[{
+q:"47. Which of these class should be preferred to be used as a key in a HashMap?",
+opt1:"String",
+opt2:"Integer",
+opt3:"Double",
+opt4:"Any of these",
+ans:"D"
+}],
+[{
+q:"48. What should we use when add and remove operations are more frequent than get operations?",
+opt1:"LinkedList",
+opt2:"ArrayList",
+opt3:"Vector",
+opt4:"All",
+ans:"A"
+}],
+[{
+q:"49. Iterator returned by ArrayList is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+opt4:"all",
+ans:"A"
+}],
+[{
+q:"50. Iterator returned by LinkedList is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+opt4:"all",
+ans:"A"
+}],
+  ],
+[{rollNum:"IT2K17 - 07"}]]

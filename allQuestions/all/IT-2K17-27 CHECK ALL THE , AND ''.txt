@@ -1,0 +1,853 @@
+[[
+	[{
+	q:"1. ClassCastException is generated when:"
+
+	opt1:"When an incompatible object is added to the collection"',
+	opt2:"When an object being added is not defined",
+	opt3:"When class is not defined",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"2. Is there any method like "Object[] toArray(Object array[])"?If yes what for this method is used ? "
+
+	opt1:"Return an array containing all the elements stored in the invoking collection"',
+	opt2:"Return an array containing only those collection elements whose type matches with that of array",
+	opt3:"No such method",
+	opt4:"None of the above",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"3. In the above question,in which case ArrayStoreException will be thrown? "
+
+	opt1:"Array returned is empty"',
+	opt2:"If any collection element has a type that is not a subtype of array ",
+	opt3:"If any array element has a type that is not a sub type of collection",
+	opt4:"None of the above",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"4.UnsupportedOperationException is thrown when: "
+
+	opt1:"Operation being performed is syntactically incorrect",
+	opt2:"Operation being performed does not exists",
+	opt3:"If the collection cannot be modified",
+	opt4:"If the current java version does not support the operation",
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"5.A NullPointerException is thrown when: "
+
+	opt1:"An attempt is made to use the null object and null is not allowed in the set",
+	opt2:"Throwing null, as if it were a Throwable value.",
+	opt3:"When you try to synchronize over a null object.",
+	opt4:"All of the above",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"6.  Determine the output of the following program:
+	import java.util.SortedSet;  
+	import java.util.TreeSet;  
+	public class JavaSortedSetcomparatorExample1 {  
+   	public static void main(String[] args) {  
+       	SortedSet set = new TreeSet();   
+       	// Add the elements in the given set.  
+       	set.add("Audi");  
+       	set.add("BMW");  
+       	set.add("Mercedes");  
+       	set.add("Baleno");  
+       	System.out.println("The list of elements is given as:");  
+       	for (Object object : set) {  
+            	System.out.println(object);    
+      	 }  
+       	System.out.println("The comparator is given as: " + set.comparator());     
+     	}  
+	} "
+
+	opt1:" 
+	The list of elements is given as:
+	Audi
+	BMW
+	Baleno
+	Mercedes
+	The comparator is given as: null  
+	",
+	opt2:" It would result in an error",
+	opt3:"
+	The list of elements is given as:
+	Audi
+	BMW
+	Baleno
+	Mercedes
+	The comparator is given as: undefined
+	",
+	opt4:"None of the above",
+	ans:"opt 1 "
+
+	}],
+	[{
+	q:"7. LinkedList class extends? "
+
+	opt1:"AbstractCollection",
+	opt2:"AbstractList",
+	opt3:"AbstractSequentialList",
+	opt4:"None of the above",
+	ans:"opt 3 "
+
+	}],
+	[{
+	q:"8.Which of the following statements is/are true regarding hashing technique? "
+
+	opt1:"Allows execution time of basic operations such as add(),contains(),remove(),size() to remain constant even for large sets  ",
+	opt2:"The transformation of key into its hash code is done automatically",
+	opt3:"User's code can't directly index the hash table",
+	opt4:"All of the above",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"9.In the predefined constructor:"HashSet(int capacity,float fillRatio)",which of the statements are true regarding filRatio? "
+
+	opt1:"It determines how full the hash set can be before it is resized upwards",
+	opt2:"Fill ratio must be between 0.0 and 1.0",
+	opt3:"For constructors that don't take the fillRatio,0.75 is used",
+	opt4:"All of the above",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"10. Does HashSet guarantee the order of elements?If not,why?What can be done if sorted storage is needed? "
+
+	opt1:"No because hashing process doesn't usually lend to create sorted sets.TreeSet can be used for sorted storage",
+	opt2:"Yes",
+	opt3:"Sometimes",
+	opt4:"No because hashing process doesn't usually lend to create sorted sets.LinkedHashSet can be used for sorted storage",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"11.Which of the following statements are true regarding an iterator? "
+
+	opt1:"It is an object that implements Iterator or ListIterator interface",
+	opt2:"It enables you to cycle through a collection",
+	opt3:"Both 1 and 2",
+	opt4:"None of the above",
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"12.EmptyStackException is thrown when: "
+
+	opt1:"Call pop() when stack is empty",
+	opt2:"Stack is syntactically incorrect",
+	opt3:"Stack is called incorrectly",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"13. Which of the following statements are true regarding a dictionary?"
+
+	opt1:"It is an abstract class that represents a key/value storage repository",
+	opt2:"Operates like map thereby storing list of key/value pairs",
+	opt3:"Both 1 and 2",
+	opt4:"Map is superceded by dictionary",
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"14.Is there any difference between map and dictionary?if yes,what are they? "
+
+	opt1:"No difference at all",
+	opt2:"Same concept but dictionary is an abstract class wheras map is an interface",
+	opt3:"Two terms for the same thing:
+		"Map" is used by Java, C++
+		"Dictionary" is used by .Net, Python
+		"Associative array" is used by PHP",
+	opt4:"None of the above",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"15. What is properties?What for it is used?"
+
+	opt1:"Subclass of hashtable,used to maintain list of values in which the key is a string and the value is also a string",
+	opt2:"Constructors defined by properties:Properties(),Properties(Properties propDefault)",
+	opt3:"Constructors defined by properties:Properties() only",
+	opt4:"Both 1 and 2",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"16.Which of the following statements are true regarding properties?"
+
+	opt1:"User can specify a default property that will be returned if no value is associated with a certain key",
+	opt2:"Information contained in a properties object can be easily stored or loaded from disk using store() and load() methods",
+	opt3:"Both 1 and 2",
+	opt4:"None of the above",
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"17.Determine the output of the following code fragment:
+	import java.util.*; 
+	class PropertiesDemo 
+	{ 
+    	public static void main(String arg[]) 
+    	{ 
+        	Properties gfg = new Properties(); 
+        	Set URL; 
+        	String str; 
+          
+        	gfg.put("ide", "ide.geeksforgeeks.org"); 
+        	gfg.put("contribute", "contribute.geeksforgeeks.org"); 
+        	gfg.put("quiz", "quiz.geeksforgeeks.org"); 
+          
+        	gfg.list(System.out); 
+                 } 
+                 } "
+
+	opt1:"-- listing properties --
+		contribute=contribute.geeksforgeeks.org
+		quiz=quiz.geeksforgeeks.org
+		ide=ide.geeksforgeeks.org",
+	opt2:"It would result in an error",
+	opt3:"-- listing properties --
+		contribute:contribute.geeksforgeeks.org
+		quiz:quiz.geeksforgeeks.org
+		ide:ide.geeksforgeeks.org",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"18.Determine the output of the following code fragment:
+	import java.util.*;  
+	class Hashtable1{  
+ 	public static void main(String args[]){  
+  	Hashtable<Integer,String> hm=new Hashtable<Integer,String>();  
+  
+ 	 hm.put(100,"Amit");  
+ 	 hm.put(102,"Ravi");  
+  	hm.put(101,"Vijay");  
+  	hm.put(103,"Rahul");  
+  
+  	for(Map.Entry m:hm.entrySet()){  
+   	System.out.println(m.getKey()+" "+m.getValue());  
+  	}  
+ 	}  
+	}  
+	 "
+
+	opt1:"
+	103Rahul
+	102Ravi
+	101Vijay
+	100Amit",
+	opt2:"
+	103 Rahul
+	102 Ravi
+	101 Vijay
+	100 Amit
+	",
+	opt3:"It would result in an error",
+	opt4:"None of the above",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"19.Statement 1:Maps are perfect to use for key-value association mapping such as dictionaries. 
+	The maps are used to perform lookups by keys or when someone wants to retrieve and update elements by keys. 
+	         Statement 2:A Map cannot contain duplicate keys and each key can map to at most one value. 
+	Some implementations allow null key and null value like the HashMap and LinkedHashMap, but some do not like the TreeMap."
+
+	opt1:"Both the statements are true ",
+	opt2:"Statement 1 is true but statement 2 is false",
+	opt3:"Statement 2 is true but statement 1 is false",
+	opt4:"Both the statements are false",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"20.Statement 1:Treemap class is a member of Java Collections Framework.
+	The class implements Map interfaces including NavigableMap, SortedMap and extends AbstractMap 
+	         Statement 2:TreeMap in Java allows null keys (like Map)."
+
+	opt1:"Both the statements are true",
+	opt2:"Statement 1 is true but statement 2 is false",
+	opt3:"Statement 2 is true but statement 1 is false",
+	opt4:"Both the statements are false",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"21.Statement 1:Consider the code fragment:import java.io.*; 
+  
+	class GFG { 
+    	public static void main(String[] args) 
+    	{ 
+        	String str = "GFG"; 
+        	System.out.println(str); 
+        	int hashCode = str.hashCode(); 
+        	System.out.println(hashCode); 
+    	} 
+	} 
+	Output:
+	GFG
+	70472 
+	         Statement 2:The hashcode value of a String is calculated with the help of a formula:
+
+	         s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
+	         where:
+	         s[i] represents the ith character of the string,
+	         ^ refers to the exponential operand and
+	         n represents the length of the string"
+
+	opt1:"Statement 1 is true and statement 2 is the correct explanation of statement 1",
+	opt2:"Statement 1 is true but statement 2 is not the correct explanation of statement 1",
+	opt3:"Statement 2 is true but statement 1 is false",
+	opt4:"Both the statements are false",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"22.Which of the following statements are true regarding EnumSet in java?
+	a) It extends AbstractSet and implements Set Interface in Java.
+	b) EnumSet class is a member of the Java Collections Framework & is synchronized.
+	c) HashSet is much faster than EnumSet.
+	d) All of the elements in an enum set must come from a single enumeration type that is specified when the set is created either explicitly or implicitly."
+
+	opt1:"Only a is true",
+	opt2:"Only a and d are true",
+	opt3:"Only a,b and c are true",
+	opt4:"All the statements are true",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"23.Determine the output of the program:
+	public class GFG { 
+  
+    	public static void main(String[] args) 
+    	{ 
+       	 Set<String> setobj = new HashSet<>(); 
+        	setobj.add("Welcome"); 
+        	setobj.add("To"); 
+        	setobj.add("Geeks"); 
+        	setobj.add("For"); 
+        	setobj.add("Geeks"); 
+  
+        	System.out.println("HashSet: "
+                           + setobj); 
+        	Set<String> hashSetToTreeSet 
+           	 = new TreeSet<>(setobj);
+                 System.out.println("TreeSet: "
+                           + hashSetToTreeSet); 
+    	} 
+	}"
+
+	opt1:"HashSet: [Geeks, For, Welcome, To]
+	          TreeSet: [For, Geeks, To, Welcome]",
+	opt2:"Error",
+	opt3:"HashSet: [Geeks, For, Welcome, To]
+	          TreeSet: undefined",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"24.Consider the following statements:
+	a)ArrayList implements List interface while HashSet implements Set interface in Java.
+	b) ArrayList is backed by an Array while HashSet is backed by an HashMap.
+	c)HashSet allows duplicate values while ArrayList doesn’t allow duplicates values.
+	d)HashSet maintains the order of the object in which they are inserted while ArrayList is an unordered collection and doesn’t maintain any order."
+
+	opt1:"a,b and c are true",
+	opt2:"only a and b are true",
+	opt3:"a,b and d are true",
+	opt4:"All are true",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"25.Consider the following statements:
+	a)Both HashSet and HashMap are synchronized.
+	b)HashSet is synchronized but HashMap is not synchronized.
+	c)HashMap is synchronized but HashSet is not synchronized.
+	d)Both HashSet and HashMap are not synchronized."
+
+	opt1:"a is true",
+	opt2:"b is true",
+	opt3:"c is true",
+	opt4:"d is true",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"26.Consider the following statements:
+	a) In HashMap no concept of dummy value,
+	b)HashSet internally uses HashMap to add elements. In HashSet, the argument passed in add(Object) method serves as key K. 
+	Java internally associates dummy value for each value passed in add(Object) method."
+
+	opt1:"a is true but b is false",
+	opt2:"b is true but a is false",
+	opt3:"Both the statements are false",
+	opt4:"Both the statements are true",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"27.What among the following is true about the legacy classes?"
+	opt1:"Early versions of java did not include Collections framework. Instead it defined several classes and one interface to store objects. 
+	When collection came these classes reengineered to support the Collection interfaces. These old classes are known are legacy classes.
+ 	Following are the Legacy classes defined by Java.util package:
+	1 Dictionary
+ 	2 HashTable
+ 	3 Properties
+	Legacy interfaces include:Set interface,sortedSet interface",
+	opt2:"Early versions of java did not include Collections framework. Instead it defined several classes and one interface to store objects. 
+	When collection came these classes reengineered to support the Collection interfaces. These old classes are known are legacy classes.
+ 	Following are the Legacy classes defined by Java.util package
+ 	1 Dictionary
+ 	2 HashTable
+ 	3 Properties
+	 4 Stack
+ 	5 Vector
+	 There is only one legacy Interface called Enumeration.",
+	opt3:"Legacy classes are fully compatible with the framework. All the legacy classes are synchronized.",
+	opt4:"Both 2 and 3 are true",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"28.Statement 1:Vector is slower than ArrayList. 
+	         Statement 2:This is because it is synchronized, i.e., in a multithreading environment, it holds the other threads in runnable or non-runnable state until current 	 thread 	                         releases the lock of the object.
+	         "
+	opt1:"Both the statements are true and statement 2 is the correct explanation of statement 1",
+	opt2:"Both the statements are true and statement 2 is not the correct explanation of statement 1",
+	opt3:"Statement 1 is true but statement 2 is false",
+	opt4:"Statement 2 is true but statement 1 is false",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"29.Determine the output of the following code fragment:
+	import java.util.*;  
+	public class LinkedHashMap3 {  
+   	public static void main(String args[]) {  
+    	Map<Integer,String> map=new LinkedHashMap<Integer,String>();        
+     	map.put(101,"Amit");    
+    	 map.put(102,"Vijay");    
+    	 map.put(103,"Rahul");    
+     	System.out.println("Before invoking remove() method: "+map);     
+    	map.remove(102);  
+    	System.out.println("After invoking remove() method: "+map);    
+   	}      
+	}  
+	"
+	opt1:"It would result in an error",
+	opt2:"Before invoking remove() method: {101=Amit, 102=Vijay, 103=Rahul}
+	After invoking remove() method: {101=Amit,102=Vijay, 103=Rahul}",
+	opt3:"Before invoking remove() method: {101=Amit, 102=Vijay, 103=Rahul}
+	After invoking remove() method: {101=Amit, 103=Rahul}",
+	opt4:"None of the above",
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"30.Which of the following statements are true regarding comparable and comparator ?"
+
+	opt1:"Comparable affects the original class, i.e., the actual class is modified whereas comparator doesn't affect the original class, i.e., the actual class is not modified.",
+	opt2:"Comparable provides compare() method to sort elements whereas omparator provides compareTo() method to sort elements.",
+	opt3:"Both 1 and 2",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"31.Which of the following statements are true?
+	Statement 1:ArrayList increments 50% of current array size if the number of elements exceeds from its capacity whereas 
+	Vector increments 100% means doubles the array size if the total number of elements exceeds than its capacity.
+	Statement 2:ArrayList uses the Iterator interface to traverse the elements whereas a vector can use the Iterator interface or 
+	Enumeration interface to traverse the elements."
+
+	opt1:"Statement 1 is true but statement 2 is false",
+	opt2:"Statement 2 is true but statement 1 is false",
+	opt3:"Both are true",
+	opt4:"Both are false",
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"32..Which of the following statements are true?
+	Statement 1:IdentityHashMap uses equality operator “==” for comparing keys and values while
+	 HashMap uses equals method for comparing keys and values inside Map.
+	Statement 2Since IdentityHashMap doesn’t use equals() its comparatively faster than HashMap for object with expensive equals()."
+
+	opt1:"Statement 1 is true but statement 2 is false",
+	opt2:"Statement 2 is true but statement 1 is false",
+	opt3:"Both are true",
+	opt4:"Both are false",
+	
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"33.Statement 1:ArrayList implement RandomAccess Interface.
+	         Statement 2:RandomAccess is a marker interface used by List implementations to indicate that they support fast (constant time) random access.
+	The primary purpose of this interface is to allow generic algorithms to alter their behavior to provide good performance when applied to either random or sequential 	access lists."
+
+	opt1:"Both the statements are true and statement 2 is the correct explanation of statement 1",
+	opt2:"Both the statements are true but statement 2 is not the correct explanation of statement 1",
+	opt3:"Statement 1 is true but statement 2 is false",
+	opt4:"Statement 2 is true but statement 1 is false",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"34.Determine the output of the following code fragment:
+	import java.util.*; 
+  
+	public class GFG {  
+    	public static void main(String[] args) 
+    	{ 
+        	HashMap<String, Integer> map 
+            	= new HashMap<>(); 
+        	map.put("a", 100); 
+        	map.put("b", 300); 
+        	map.put("c", 300); 
+        	map.put("d", 400); 
+        	System.out.println("HashMap: "
+                           + map.toString());
+        	map.replace("b", 200); 
+        	System.out.println("New HashMap: "
+                           + map.toString()); 
+    	} 
+	} "
+
+	opt1:"HashMap: {a=100, b=300, c=300, d=400}
+	New HashMap: {a=100, b=200, c=300, d=400}",
+	opt2:"HashMap: {a=100, b=300, c=300, d=400}
+	New HashMap: {a=100, b=300, c=300, d=400}",
+	opt3:"Error",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"35.Determine the output of the following code fragment:
+	import java.lang.reflect.*; 
+	public class GFG { 
+  
+    	public static void main(String[] args) 
+        	throws NoSuchFieldException, 
+               SecurityException 
+    	{ 
+        	int result = Modifier.classModifiers(); 
+        	System.out.println( 
+            	"Modifiers: "
+            	+ Modifier.toString(result)); 
+    	} 
+	} 
+	"
+
+	opt1:"Modifiers: public protected private abstract static final strictfp",
+	opt2:"Error",
+	opt3:"Modifiers:",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"36.Determine the output of the following code fragment:
+	import java.util.*;      
+	class TestVector1{      
+ 	public static void main(String args[]){      
+  	Vector<String> v=new Vector<String>();//creating vector  
+  	v.add("umesh");//method of Collection  
+  	v.addElement("irfan");//method of Vector  
+ 	 v.addElement("kumar");  
+  	//traversing elements using Enumeration  
+ 	 Enumeration e=v.elements();  
+  	while(e.hasMoreElements()){  
+   	System.out.println(e.nextElement());  
+  		}  
+		 }      
+		} "
+
+	opt1:"Error",
+	opt2:"umesh
+	         irfan
+	         kumar",
+	opt3:" irfan
+	         kumar",
+	opt4:"None of the above",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"37.What is the output of the following program?If it is wrong,what is the reason behind?
+	import java.util.*; 
+	public class stack 
+	{ 
+    	public static void main(String[] args) 
+    	{ 
+        	List<String> list = new LinkedList<>(); 
+        	list.add("Geeks"); 
+        	list.add("for"); 
+        	list.add("Geeks"); 
+        	list.add("GeeksforGeeks"); 
+        	Iterator<Integer> iter = list.iterator(); 
+        	while (iter.hasNext()) 
+            	System.out.printf(iter.next() + " "); 
+        	System.out.println(); 
+    	} 
+	} "
+
+	opt1:"Geeks for Geeks GeeksforGeeks",
+	opt2:"GeeksforGeeks Geeks for Geeks",
+	opt3:"Runtime Error",
+	opt4:"Compilation Error because an iterator made for iterating over Integer cannot be used to iterate over String data type.",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"38.What is the output of the following program?
+	import java.util.*; 
+	public class linkedList 
+	{ 
+    	public static void main(String[] args) 
+    	{ 
+        	List<String> list1 = new LinkedList<>(); 
+        	list1.add("Geeks"); 
+        	list1.add("for"); 
+        	list1.add("Geeks"); 
+        	list1.add("GFG"); 
+        	list1.add("GeeksforGeeks"); 
+        	List<String> list2 = new LinkedList<>(); 
+        	list2.add("Geeks"); 
+        	list1.removeAll(list2); 
+        	for (String temp : list1) 
+            	System.out.printf(temp + " "); 
+        	System.out.println(); 
+    	} 
+	} "
+
+	opt1:"for Geeks GFG GeeksforGeeks",
+	opt2:" for GeeksforGeeks GFG",
+	opt3:"for GFG for",
+	opt4:"for GFG GeeksforGeeks",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"39.Which of the following statements are true?
+	Statement 1:Both Iterator and Enumeration allows you to traverse over elements of Collections in Java
+	Statement 2:But Enumeration also allows you to remove elements from collection during traversal but 
+	Iterator doesn't allow that, it doesn't got the remove() method.
+	Statement 3:Enumeration is also a legacy class and not all Collection supports it e.g. Vector supports Enumeration but ArrayList doesn't. 
+	On the other hand Iterator is the standard class for iteration and traversal."
+
+	opt1:"Only 1",
+	opt2:"Only 1 and 2",
+	opt3:"Only 2 and 3",
+	opt4:"Only 1 and 3",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"40.
+	Statement 1:Interpolation search vs Binary search
+	Interpolation search works better than Binary Search for a sorted and uniformly distributed array.
+	Statement 2:On average the interpolation search makes about log(log(n)) comparisons (if the elements are uniformly distributed), 
+	where n is the number of elements to be searched. In the worst case (for instance where the numerical values of the keys increase exponentially) 
+	it can make up to O(n) comparisons."
+
+	opt1:"Both the statements are true and statement 2 is the correct explanation of statement 1",
+	opt2:"Both the statements are true and statement 2 is not the correct explanation of statement 1",
+	opt3:"Statement 1 is true but statement 2 is false",
+	opt4:"Statement 2 is true but statement 1 is false",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"41. Is binary search preferred over ternary search?If yes,why so?"
+	opt1:"No,ternary search preferred over binary search",
+	opt2:"yes,because:
+	The following is recursive formula for counting comparisons in worst case of Binary Search.
+   	T(n) = T(n/2) + 2,  T(1) = 1
+	The following is recursive formula for counting comparisons in worst case of Ternary Search.
+   	T(n) = T(n/3) + 4, T(1) = 1
+	In binary search, there are 2Log2n + 1 comparisons in worst case. In ternary search, there are 4Log3n + 1 comparisons in worst case.
+	Time Complexity for Binary search = 2clog2n + O(1)
+	Time Complexity for Ternary search = 4clog3n + O(1)
+	Therefore, the comparison of Ternary and Binary Searches boils down the comparison of expressions 2Log3n and Log2n . 
+	The value of 2Log3n can be written as (2 / Log23) * Log2n . Since the value of (2 / Log23) is more than one,
+	 Ternary Search does more comparisons than Binary Search in worst case.",
+	opt3:"Sometimes,but most of the times ternary search is preffered",
+	opt4:"None of the above",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"42.Determine the output of the following program:
+	import java.util.*;
+	public class CollectionsDemo {
+   	public static void main(String[] args) {
+      	List<Character> list = new ArrayList<Character>();
+      	list.add('X');
+      	list.add('Y');
+      	System.out.println("Initial list: "+ list);
+      	Collection<Character> immutablelist = Collections.unmodifiableCollection(list);
+      	immutablelist.add('Z');      
+  	 }
+	}"
+
+	opt1:"Initial list: [X, Y]
+	Exception in thread "main" java.lang.UnsupportedOperationException",
+	opt2:"Compilation error",
+	opt3:"Initial list: [X, Y]",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"43.Which of the following statements are true about priority queue?"
+	Statement 1:PriorityQueue is an unbounded queue and grows dynamically. The default initial capacity is '11' which can be overridden 
+	using initialCapacity parameter in appropriate constructor.
+	Statement 2:It does not allow NULL objects.
+	Statement 3:Objects added to PriorityQueue MUST be comparable.
+	Statement 4:The objects of the priority queue are ordered by default in natural order.
+	A Comparator can be used for custom ordering of objects in the queue.
+	opt1:"Only 1 and 2 ",
+	opt2:"Only 2 and 3",
+	opt3:"Only 2,3,4",
+	opt4:"All are correct",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"44.Is priority queue in java thread safe?If not,is there any alternative to it?"
+
+	opt1:"Yes",
+	opt2:"No,priority queue in java is not thread safe.No alternative",
+	opt3:"PriorityQueue is not thread safe, so java provides PriorityBlockingQueue class that implements the 
+	BlockingQueue interface to use in java multithreading environment.",
+	opt4:"None of the above",
+	ans:"opt 3"
+
+	}],
+	[{
+	q:"45.What are the utilities of peek() and poll() methods in Queue?"
+
+	opt1:"peek()- This method is used to view the head of queue without removing it. It returns Null if the queue is empty.
+	poll()- This method removes and returns the head of the queue. It returns null if the queue is empty.",
+	opt2:"poll()- This method is used to view the head of queue without removing it. It returns Null if the queue is empty.
+	peek()- This method removes and returns the head of the queue. It returns null if the queue is empty",
+	opt3:"peek()- This method is used to view the head of queue without removing it. It returns Null if the queue is empty
+	poll()-This method removes and returns the head of the queue. It throws NoSuchElementException when the queue is empty.",
+	opt4:"None of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"46.Which of the following statements are true about remote interface?
+	Statement 1:Remote interface is present in java.rmi package.
+	 A remote object is an object which is stored at one machine and accessed from another machine. 
+	Statement 2:So, to make an object a remote object, we need to flag it with Remote interface.
+	Statement 3:Here, Remote interface serves to identify interfaces whose methods may be invoked from a non-local virtual machine."
+
+	opt1:"Only 1 and 2",
+	opt2:"Only 1",
+	opt3:"Only 2 and 3",
+	opt4:"All of the above",
+	ans:"opt 4"
+
+	}],
+	[{
+	q:"47.Consider the following statements:
+	Statement 1:The Consumer Interface is a part of the java.util.function package which has been introduced since Java 8,
+	 to implement functional programming in Java.
+	Statement 2:It represents a function which takes in one argument and produces a result.
+	Statement 3:These kind of functions always return a value."
+
+	opt1:"Only 1 and 2",
+	opt2:"Only 1",
+	opt3:"Only 2 and 3",
+	opt4:"All of the above",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"48.Determine the output of the following program:
+	import java.util.ArrayList; 
+	import java.util.LinkedList; 
+	import java.util.List; 
+	import java.util.function.Consumer; 
+  
+	public class Main { 
+    	public static void main(String args[]) 
+   	 {  
+        	Consumer<List<Integer> > modify = list -> 
+        	{ 
+            	for (int i = 0; i <= list.size(); i++) 
+                list.set(i, 2 * list.get(i)); 
+        	}; 
+        	Consumer<List<Integer> > 
+            	dispList = list -> list.stream().forEach(a -> System.out.print(a + " ")); 
+        	System.out.println(); 
+        	List<Integer> list = new ArrayList<Integer>(); 
+        	list.add(2); 
+        	list.add(1); 
+        	list.add(3);
+        	try { 
+            	dispList.andThen(modify).accept(list); 
+           	 ; 
+       	 } 
+        	catch (Exception e) { 
+            	System.out.println("Exception: " + e); 
+        	} 
+   	 } 
+	} "
+
+	opt1:"2 1 3",
+	opt2:"2 1 3 Exception: java.lang.IndexOutOfBoundsException: Index: 3, Size: 3",
+	opt3:"Compilation error",
+	opt4:"None of the above",
+	ans:"opt 2"
+
+	}],
+	[{
+	q:"49.Statement 1:The main characteristic of a SortedMap is that, it orders the keys by their natural ordering, or by a specified comparator.
+	         Statement 2: null key or null value are permitted."
+
+	opt1:"Statement 1 is true but statement 2 is false",
+	opt2:"Statement 2 is true but statement 1 is false",
+	opt3:"Both are true",
+	opt4:"Both are false",
+	ans:"opt 1"
+
+	}],
+	[{
+	q:"50.Consider the following statements:
+	Statement 1:The Supplier Interface is a part of the java.util.function package which has been introduced since Java 8,
+	 to implement functional programming in Java. It represents a function which does not take in any argument but produces a value of type T.
+	Statement 2:Hence this functional interface takes in only one generic namely:-
+	T: denotes the type of the result"
+
+	opt1:"Statement 1 is true but statement 2 is false",
+	opt2:"Statement 2 is true but statement 1 is false",
+	opt3:"Both are true",
+	opt4:"Both are false",
+	ans:"opt 3"
+
+	}],
+	
+
+
+]]

@@ -1,0 +1,495 @@
+[{
+1. What is the output of this program?
+    import javopt 3: "util.*;
+    class vector {
+        public static void main(String args[]) {
+            Vector obj = new Vector(4,2);
+            obj.addElement(new Integer(3));
+            obj.addElement(new Integer(2));
+            obj.addElement(new Integer(5));
+            obj.removeAll(obj);
+            System.out.println(obj.isEmpty());
+        }
+    }
+opt 1:  "0"
+opt 2:  "1"
+opt 3:  "true"
+opt 4:  "false"
+Ans : "opt 3"
+}],
+
+
+[{
+2.Vector extends which of these?
+
+opt 1: "ArrayList"
+opt 2: "LinkedList"
+opt 3: "AbstractList"
+opt 4: "None"
+Ans :"opt 3"
+}],
+[{
+
+3. Which of these packages contain all the collection classes?
+
+opt 1: : "javopt 1: "lang"
+opt 2:  "java: "util"
+opt 3: "javopt 1: "net"
+opt 4: "javopt 1: "awt"
+Ans : "opt 2"
+}],
+[{
+4. Which of these classes is not part of Java¡¯s collection framework?
+
+opt 1:" Maps"
+opt 2:  "Array"
+opt 3:  "Stack"
+opt 4:  "Queue"
+Ans : "opt 1"
+
+}],
+[{
+5. Which of these interface is not a part of Java¡¯s collection framework?
+
+opt 1:  "List"
+opt 2:  "Set"
+opt 3:  "SortedMap"
+opt 4: "SortedList"
+Ans : "opt 4"
+}],
+[{
+6. Which of these methods deletes all the elements from invoking collection?
+
+opt 1:  "clear()"
+opt 2:  "reset()"
+opt 3: "delete()"
+opt 4:  "refresh()"
+Ans : "opt 1"
+}],
+[{
+
+7. What is Collection in Java?
+
+opt 1:  "A group of objects"
+opt 2:  "A group of classes"
+opt 3:  "A group of interfaces"
+opt 4: "None of the mentioned"
+Ans : "opt 1"
+}],
+[{
+8. What is the output of this program?
+    import javopt 3: "util.*;
+    class Array {
+        public static void main(String args[]) {
+            int array[] = new int [5];
+            for (int i = 5; i > 0; i--)
+                array[5-i] = i;
+            Arrays.fill(array, 1, 4, 8);
+            for (int i = 0; i < 5 ; i++)
+                System.out.print(array[i]);
+        }
+    }
+opt 1:  "12885"
+opt 2:  "12845"
+opt 3:  "58881"
+opt 4:  "54881"
+Ans : "opt 3"
+}],
+[{
+9. What is the output of this program?
+    import javopt 3: "util.*;
+    class stack {
+        public static void main(String args[]) {
+            Stack obj = new Stack();
+            obj.push(new Integer(3));
+            obj.push(new Integer(2));
+            obj.pop();
+            obj.push(new Integer(5));
+          System.out.println(obj);
+        }
+    }
+opt 1:  "[3, 5]"
+opt 2:  "[3, 2]" 
+opt 3:  "[3, 2, 5]" 
+opt 4:  "[3, 5, 2]" 
+
+Ans : "opt 1"
+}],
+[{
+10. What is the output of this program?
+    import javopt 3: "util.*;
+    class hashtable {
+        public static void main(String args[]) {
+            Hashtable obj = new Hashtable();
+            obj.put("opt 1", new Integer(3));
+            obj.put("opt 2", new Integer(2));
+            obj.put("opt 3", new Integer(8));
+            obj.remove(new String("opt 1"));
+            System.out.print(obj);
+        }
+    }
+opt 1:  "{C=8, B=2}"
+opt 2: "[C=8, B=2] "
+opt 3:  "{A=3, C=8, B=2}"
+opt 4:  "[A=3, C=8, B=2]" 
+
+Ans : "opt 2"
+[{
+11. What is the output of this program?
+    import javopt 3: "util.*;
+    class Bitset {
+        public static void main(String args[]) {
+            BitSet obj = new BitSet(5);
+            for (int i = 0; i < 5; ++i)
+                obj.set(i);
+            obj.clear(2);
+            System.out.print(obj);
+        }
+    }
+opt 1: "{0, 1, 3, 4}"
+opt 2:  "{0, 1, 2, 4}"
+opt 3:  "{0, 1, 2, 3, 4}"
+opt 4:  "{0, 0, 0, 3, 4}"
+Ans : "opt 1"
+}],
+[{
+12.Which allows the removal of elements from a collection?
+
+opt 1: "Enumeration"
+opt 2: "Iterator"
+opt 3: "Both"
+opt 4: "None"
+Ans : "opt 2"
+}],
+[{
+13.The Comparator interface contains the method?
+
+opt 1: "compareWith()"
+opt 2: "compareTo()"
+opt 3: "compare()"
+opt 4: "
+Ans : "opt 3"
+}],
+[{
+14.Which of these is synchronized?
+
+opt 1: "TreeMap"
+opt 2: "HashMap"
+opt 3: "Hashtable"
+opt 4: "All"
+Ans : "opt 3"
+}],
+[{
+15.Which is more offers best performance?
+
+opt 1: "TreeMap"
+opt 2: "HashMap"
+opt 3: "LinkedHashMap"
+opt 4: "All are equal"
+Ans : "opt 2"
+}],
+[{
+
+16.What should we use when add and remove operations are more frequent than get operations?
+
+opt 1: "LinkedList"
+opt 2: "ArrayList"
+opt 3: "Vector"
+opt 4: "All"
+Ans : "opt 1"
+}],
+[{
+17.Iterator returned by ArrayList is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+18.Iterator returned by LinkedList is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+19.Iterator returned by CopyOnWriteArrayList is ?
+
+opt 1: "Fail-fast
+opt 2: "Fail-safe
+opt 3: "none
+Ans : "opt 2"
+}],
+[{
+20.Iterator returned by HashMap on key, value and entry is?
+
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[
+[{q:"21.Which collection allows indexed access to its elements, but its methods are not synchronized?",
+opt1:"HashSet",
+opt2:"ArrayList",
+opt3:"Vector",
+opt4:"TreeMap",
+ans:"opt2"
+}],
+[{q:"22.Elements of which of the collection can be traversed using Enumeration?",
+opt1:"ArrayList",
+opt2:"Vector",
+opt3:"HashSet",
+opt4:"TreeMap",
+ans:"opt2"
+}],
+[{q:"23. What will be the output of the following class?
+import java.util.*; 
+class A
+{
+ public static void main(String[] args)
+{
+ HashSet<String> set=new HashSet<String>();
+ set.add(null);
+ set.add("One");
+ for(String s: set)
+   System.out.println(s); 
+}
+}
+",
+opt1:"NullPointerException",
+opt2:"null,one",
+opt3:"One",
+opt4:"Two",
+ans:"opt2"
+}],
+[{q:"24.Each tree based collection assumes its elements to be of --- type?",
+opt1:"Serializable",
+opt2:"Comparable",
+opt3:"Comparator",
+opt4:"Sortable",
+ans:"opt2"
+}],
+[{q:"25.What will be the result of the following statement?
+TreeSet set = Collections.singleton("one");",
+opt1:"  A singleton set will be created. ",
+opt2:"  ClassCastException will be thrown   ",
+opt3:"The statement will not compile",
+opt4:"return a value",
+ans:"opt3"
+}],
+[{q:"26.What will be the output of the following class?
+import java.util.*; 
+class B
+{
+ public static void main(String[] args)
+{
+ ArrayList<String> list=new ArrayList<String>();
+ list.add("One");
+ list.add("Two");
+ Collections.unmodifiableList(list);
+ list.add("Three");
+ for(String s: list)
+   System.out.println(s); 
+}
+}
+",
+opt1:"UnsupportedOperationException will be thrown  ",
+opt2:"two",
+opt3:"one",
+opt4:"One, Two, Three",
+ans:"opt4"
+}],
+[{q:"27.Which method of the Iterator throws ConcurrentModificationException?",
+opt1:"hasNext() ",
+opt2:"next()",
+opt3:"remove() ",
+opt4:"return()",
+ans:"opt2"
+}],
+[{q:"28. Which of the following collection is not of Iterable type?",
+opt1:" ArrayList",
+opt2:"Vector",
+opt3:"TreeSet",
+opt4:"HashMap",
+ans:"opt4"
+}],
+[{q:"29.Which method is used by the contains() method of a list to search an element?",
+opt1:"equals()",
+opt2:"hashCode()",
+opt3:"compareTo",
+opt4:"hasNext()",
+ans:"opt1"
+}],
+[{q:"30.Can elements of a Set be traversed without using Iterator?",
+opt1:"Yes",
+opt2:"No",
+opt3:"Not always",
+opt4:"depend on method",
+ans:"opt1"
+}],
+[{q:"31.Wchich implementation of Set would you choose if the you want the iterator of set would geive you objects in the order it were inserted ?",
+opt1:"LinkedHashSet",
+opt2:"TreeSet",
+opt3:"HashSet",
+opt4:"Set",
+ans:"opt1"
+}],
+[{q:"32.Enumeration is an interface helps to iterate collection,but it can't remove any element the collection it is iterating",
+opt1:"yes",
+opt2:"no",
+ans:"opt1"
+}],
+[{q:"33.Which of the following implementation will you use if you were to insert elements at any position in the collection ?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Vector",
+opt4:"TreeSet",
+ans:"opt2"
+}],
+[{q:"34.What is the data structure that a Set uses to store its elements  ?",
+opt1:"array",
+opt2:"Object",
+opt3:"Map",
+opt4:"ArrayList",
+ans:"opt3"
+}],
+[{q:"35.Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"LinkedHashMap",
+opt4:"The answer depends on the implementation of the existing instance.",
+ans:"opt3"
+}],
+[{q:"36.Which class is not the part of collection framework",
+opt1:"SortedList",
+opt2:"TreeMap",
+opt3:"HashMap",
+opt4:"LinkedHashMap",
+ans:"opt1"
+}],
+[{q:"37.Using Comparable interface, we can sort the elements of:",
+opt1:"String objects",
+opt2:"Wrapper class objects, for example Integer, Long etc",
+opt3:"User defined custom objects",
+opt4:"all",
+ans:"opt4"
+}],
+[{q:"38.What is output-
+ArrayList<String> list = new ArrayList<>();
+ 
+list.add("E");
+list.add("A");
+list.add("C");
+list.add("B");
+list.add("D");
+ 
+Collections.sort(list);
+ 
+System.out.println(list);
+",
+opt1:"[A, B, C, D, E]",
+opt2:"[A, B, C, C, E]",
+opt3:"[A, B, B, D, E]",
+opt4:"[A, B, C, E, D]",
+ans:"opt1"
+}],
+[{q:"39.PriorityBlockingQueue Features provides",
+opt1:"It supplies blocking retrieval operations.",
+opt2:"It does not allow NULL objects.",
+opt3:"The objects of the priority queue are ordered by default in natural order.",
+opt4:"all of the above",
+ans:"opt4"
+}],
+[{q:"40.It allows the elements to be ordered in FIFO",
+opt1:"PriorityBlockingQueue",
+opt2:"ArrayBlockingQueue",
+opt3:"none",
+opt4:"Both",
+ans:"opt2"
+}],
+[{q:"41.Which of below is false for HashMap",
+opt1:"HashMap can contain duplicate keys.",
+opt2:"HashMap allows multiple null values but only one null key.",
+opt3:"HashMap is an unordered collection. It does not guarantee any specific order of the elements.",
+opt4:"A value can be retrieved only using the associated key.",
+ans:"opt1"
+}],
+[{q:"42.PriorityQueue Features",
+opt1:"It does not allow NULL objects.",
+opt2:"PriorityQueue is not thread safe",
+opt3:"he objects of the priority queue are ordered by default in natural order.",
+opt4:"all of the above",
+ans:"opt4"
+}],
+[{q:"43.Which among the following stores element as key-value pair?",
+opt1:"Arraylist",
+opt2:"LinkedHashSet",
+opt3:"TreeMap",
+opt4:"TreeSet",
+ans:"opt3"
+}],
+[{q:"44.Pick the odd one out among the following:",
+opt1:"Arraylist",
+opt2:"LinkedList",
+opt3:"HashSet",
+opt4:"Hashtable",
+ans:"opt4"
+}],
+[{q:"45.Which of the following is true?
+
+1. Iterator can traverse in both forward and backward directions.
+
+2. ListIterator can traverse in both forward and backward directions.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"Both 1&2",
+opt4:"None of the above",
+ans:"opt2"
+}],
+[{q:"46.Which of the following statement is false?
+
+1. Hashmap doesn't allow null key at all.
+
+2. Hashtable doesn't allow null key at all.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"both",
+opt4:"none",
+ans:"opt1"
+}],
+[{q:"47.Which among the following statement is/are true?
+
+1. Hastable is synchronized.
+
+2. HashMap is not synchronized.",
+opt1:"only 1",
+opt2:"only 2",
+opt3:"both",
+opt4:"none",
+ans:"opt3"
+}],
+[{q:"48.Arraylist, Linkedlist and vector are all ___________",
+opt1:"interface",
+opt2:"enums",
+opt3:"class",
+opt4:"Depends on implementation",
+ans:"opt3"
+}],
+[{q:"49.The collection",
+opt1:"extends Collections class",
+opt2:"extends Iterable interface",
+opt3:"implements Serializable interface",
+opt4:"implements Traversable interface",
+ans:"opt2"
+}],
+[{q:"50.The collection is a ____________",
+opt1:"only class",
+opt2:"framework and class",
+opt3:"only interface",
+opt4:"framework and interface",
+ans:"opt4"
+}],
+]

@@ -1,0 +1,624 @@
+﻿[[
+[{
+q: "1.Which of these packages contain all the collection classes?"
+opt1: "java.lang",
+opt2: "java.util",
+opt3: "java.net",
+opt4: "java.awt",
+ans: "2"
+}]
+]]
+[[
+[{
+q: "2.Which of these classes is not part of Java’s collection framework?"
+opt1: "Maps",
+opt2: "Array",
+opt3: "Stack",
+opt4: "Queue",
+ans:"4"
+}]
+]]
+[[
+[{
+q: "3. Which of these interface is not a part of Java’s collection framework?"
+opt1: "List",
+opt2: "Set",
+opt3: "SortedMap",
+opt4: "SortedList",
+ans:"4"
+}]
+]]
+[[
+[{
+q: "4. Which of these methods deletes all the elements from invoking collection?"
+opt1: "clear()",
+opt2: "reset()",
+opt3: "delete()",
+opt4: "refresh()",
+ans:"1"
+}]
+]]
+[[
+[{
+q:"5. What is Collection in Java?"
+opt1: "A group of objects",
+opt2: "A group of classes",
+opt3: "A group of interfaces",
+opt4: "None of the mentioned",
+ans: "1"
+}]
+]]
+[[
+[{
+q:" 6. Which of these interface declares core method that all collections will have?"
+opt1: "set",
+opt2: "Event Listener",
+opt3: "Comparator",
+opt4: "Collection",
+ans: "4"
+}]
+]]
+[[
+[{
+
+
+q: "7. Which of these interface handle sequences?"
+opt1:  "Set",
+opt2: "List",
+opt3: "Comparator",
+opt4:"Collection",
+ans: "2"
+}]
+]]
+[[
+[{
+
+
+q: "8. Which of these interface must contain a unique element?"
+opt1: "Set",
+opt2: "List",
+opt3: "Array",
+opt4: "Collection",
+ans: "1"
+}]
+]]
+[[
+[{
+
+
+q:"9. Which of these is the Basic interface that all other interface inherits?"
+opt1: "Set",
+opt2: "Array",
+opt3: "List",
+opt4: "Collection",
+ans: "4"
+
+
+}]
+]]
+[[
+[{
+
+
+q:"10. Which of these methods can randomize all elements in a list?"
+opt1: "rand()",
+opt2:"randomize()",
+opt3: "shuffle()",
+opt4:"ambiguous()",
+ans : "3"
+}]
+]]
+[[
+[{
+
+
+q:"11.In Iterator, hasMoreElements() method of Enumeration has been changed to:"
+opt1: "hasNextElement()",
+opt2: "isNext()",
+opt3: "hasNext()",
+opt4: "name remains same",
+ans : "3"
+
+
+}]
+]]
+[[
+[{
+
+
+q:"12. TreeSet maintains which order?"
+opt1: "Ascending Order",
+opt2: "Descending Order",
+opt3: "None of the above",
+ans: "1"
+}]
+]]
+[[
+[{
+
+
+q:"13. An attempt to add null key to a TreeMap will result in:"
+opt1:"Compile time Exception",
+opt2:"Error",
+opt3:"Runtime - NullPointerException",
+ans: "3"
+
+
+ }]
+]]
+[[
+[{
+
+
+q:"14.Which interface does java.util.Hashtable implement?"
+opt1: "Java.util.Map",
+opt2: "Java.util.List",
+opt3: "Java.util.HashTable",
+opt4: "Java.util.Collection",
+ans: "1"
+
+
+}]
+]]
+[[
+[{
+
+
+q:"15.Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?"
+opt1: "java.lang.String",
+opt2: "java.lang.Double",
+opt3: "java.lang.StringBuffer",
+opt4: "java.lang.Character",
+ans: "3"
+
+
+}]
+]]
+[[
+[{
+
+
+q:"16.Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?"
+opt1: "TreeMap",
+opt2: "HashMap",
+opt3: "LinkedHashMap",
+opt4:"The answer depends on the implementation of the existing instance.",
+ans: "3"
+
+
+}]
+]]
+[[
+[{
+
+
+q:"17.Which of the following are Java reserved words?"
+"run",
+"import",
+"default",
+"implement",
+
+
+opt1:"1 and 2",
+opt2: "2 and 3",
+opt3: "3 and 4",
+opt4: "2 and 4",
+ans: "2"
+}]
+]]
+[[
+[{
+
+
+q:"18.Which of the following statement is false?"
+"1. Hashmap doesn't allow null key at all.",
+"2. Hashtable doesn't allow null key at all.",
+}]
+]]
+[[
+[{
+
+
+opt1: "Only 1",
+opt2: "Only 2",
+opt3: "Both 1 & 2",
+opt4: "None of the above",
+ans: "1"
+
+
+}]
+]]
+[[
+[{
+
+
+q:"19.Is this true or false. Map interface is derived from the Collection interface.",
+opt1: "True",
+opt2: "False",
+ans: "2"
+}]
+]]
+[[
+[{
+
+
+q: "20. Which data structure does priority queue uses  "
+opt1: "stack ",
+opt2: "heap ",
+opt3: "array",
+opt4: "tree",
+ans: "2 "
+}]
+]]
+[[
+[{
+
+
+q: "21.Adding an element to a ______ slower than adding it to a  ______"
+opt1: "HashTable , Tree ",
+opt2: "TreeSet, HashTable ",
+opt3: "EnumSet, HashSet ",
+opt4: " HashMap, TreeMap",
+ans: " 2"
+}]
+]]
+[[
+[{
+
+
+q: "22.What will happen if too many elements are inserted into hash table  "
+opt1: "the number of collision with increase, retrieval performance suffers ",
+opt2: "the objects will increase resulting in increase in collision ",
+opt3: "both a and b ",
+opt4: "none of the above",
+ans: "1 "
+}]
+]]
+[[
+[{
+
+
+q: "23.which data structure will you use for finding objects quickly but it gives you no control over the order in which the elements appear "
+opt1: "TreeSet",
+opt2: "LinkedHashSet",
+opt3: "HashSet ",
+opt4: "None",
+ans: "2"
+
+
+}]
+]]
+[[
+[{
+
+
+q: "24.An integer that is generated for each object in a hash table is called "
+opt1: "MapCode ",
+opt2: "HashCode ",
+opt3: "SetCode",
+opt4: "TreeCode",
+ans: "2 "
+
+
+}]
+]]
+[[
+[{
+
+
+q: "25.A double ended queue that is implemented as a circular array "
+opt1: "Circular queue ",
+opt2: "ArrayDeque ",
+opt3: " Priority queue",
+opt4: " Deques",
+ans: "2 "
+
+
+}]
+]]
+[[
+[{
+
+
+q: "26. An unordered collection that rejects duplicates"
+opt1: "HashSet ",
+opt2: "ArrayDeque ",
+opt3: "LinkedList ",
+opt4: "ArrayQueue ",
+ans: "1 "
+}]
+]]
+[[
+[{
+
+
+q: "27. An ordered sequence that allows efficient insertion and removal at any location "
+opt1: " linkedlist",
+opt2: "circular queue ",
+opt3: "vector",
+opt4: "Arraylist ",
+ans: "1 "
+}]
+]]
+[[
+[{
+
+
+q: "28. A map in which keys are sorted "
+opt1: " hashmap",
+opt2: "treemap ",
+opt3: "enummap ",
+opt4: " nun",
+ans: "2 "
+}]
+]]
+[[
+[{
+
+
+q: " 29. A map with keys that are compared by == ,not equals"
+opt1: "identity hashmap ",
+opt2: "weakhashmap ",
+opt3: "linkedhashmap ",
+opt4: " enummap",
+ans: "1 "
+}]
+]]
+[[
+[{
+
+
+q: "30. A data structure that stores key-value associates"
+opt1: " weakhashmap",
+opt2: "treemap ",
+opt3: " hashmap",
+opt4: " emummap",
+ans: "3"
+}]
+]]
+[[
+[{
+
+
+q: "31. A map with values that can be claimed by the garbage collector if they are not used elsewhere"
+opt1: " treemap",
+opt2: "hashmap ",
+opt3: " weakhashmap",
+opt4: " linked hash map",
+ans: "3 "
+}]
+]]
+[[
+[{
+
+
+q: "32. A map that remembers the order in which entries were added  "
+opt1: "enummap ",
+opt2: " tree map",
+opt3: "linked hash map ",
+opt4: "identity map ",
+ans: "3 "
+}]
+]]
+[[
+[{
+
+
+q: " 33. A collection that allows efficient removal of the smallest element"
+opt1: "linked hash set ",
+opt2: "hashmap ",
+opt3: "tree set ",
+opt4: "priority queue ",
+ans: "4 "
+}]
+]]
+[[
+[{
+
+
+q: "34. Map in which key belongs to an enumerated type"
+opt1: " hash set",
+opt2: "enum map ",
+opt3: "treemap ",
+opt4: "weakhashmap",
+ans: "2"
+}]
+]]
+[[
+[{
+
+
+q: "35. A sorted set "
+opt1: "enum set ",
+opt2: "tree set",
+opt3: "linked hash set",
+opt4: " hashset",
+ans: "2 "
+}]
+]]
+[[
+[{
+
+
+q: "36. A list in which each link stores a reference to its predecessor "
+opt1: "arraylist ",
+opt2: "linked list ",
+opt3: "doubly linked list ",
+opt4: "none ",
+ans: "3 "
+}]
+]]
+[[
+[{
+
+
+q: "37.Which interface does collection provides that contains add method"
+opt1: "iterator ",
+opt2: " list iterator",
+opt3: "set interface ",
+opt4: "none ",
+ans: "2 "
+}]
+]]
+[[
+[{
+
+
+q: "38. a collision that occurs when a hash function returns same bucket location for two different keys"
+opt1: " hash collision",
+opt2: " tree collision ",
+opt3: "bucket collision ",
+opt4: "  key collision",
+ans: " 1"
+}]
+]]
+[[
+[{
+
+
+q: "39. which exception occurs when an iterator traverse a collection while another iterator is modifying  it"
+opt1: "MalformedURLException ",
+opt2: "FileNotFoundException",
+opt3: "ConcurrentModificationException",
+opt4: "None",
+ans: "3"
+
+
+}]
+]]
+[[
+[{
+
+
+q: "40. An indexed sequence that grows and shrinks dynamically. "
+opt1: "hashset ",
+opt2: "linkedlist ",
+opt3: " arraylist",
+opt4: "none ",
+ans: "3 "
+
+
+}]
+]]
+[[
+[{
+
+
+q: "41. Which exception occurs if we call method next () before hasNext()"
+opt1: "FileNotFoundException ",
+opt2: "ConcurrentModificationException ",
+opt3: " NoSuchElementException",
+opt4: "MalformedURLExpection ",
+ans: "3"
+}]
+]]
+[[
+[{
+
+
+q: "42.Lower method and floor method are the methods of which interface"
+opt1: "navigable set interface ",
+opt2: "collection ",
+opt3: "set interface ",
+opt4: "none ",
+ans: "1"
+}]
+]]
+[[
+[{
+
+
+q: "43., Certain Java collections are optimized to be used in specific conditions and do not support all the Collection operations (methods). 
+When an unsupported operation is called on a Collection, the Collection Implementation would throw an _____ exception"
+opt1: "FileNotFoundException ",
+opt2: "MalFormedUrlException",
+opt3: "UnsupportedOperationException",
+opt4: "ConcurrentModificationException ",
+ans: " 3"
+
+
+}]
+]]
+[[
+[{
+
+
+q: "44. Which method does Comparable interface uses"
+opt1: " compare()",
+opt2: "compareTo() ",
+opt3: " comparator ()",
+opt4: " none",
+ans: "2 "
+}]
+]]
+[[
+[{
+
+
+q: "45. Comparable and Comparator interface are implemented in which collection "
+opt1: " Hashset",
+opt2: " linkedhashset",
+opt3: " treeset",
+opt4: "map ",
+ans: "3 "
+}]
+]]
+[[
+[{
+
+
+q: "46. Which method does Comparator interface uses "
+opt1: " compare()",
+opt2: "compareTo() ",
+opt3: " comparator ()",
+opt4: " none",
+ans: "1"
+}]
+]]
+[[
+[{
+
+
+q: "47.If you want to sort a list in descending order which method will you use"
+opt1: "reverseOrder() ",
+opt2: "reverse() ",
+opt3: "descends() ",
+opt4: "descending() ",
+ans: "¹ "
+}]
+]]
+[[
+[{
+
+
+q: "48. if you have an array that you need to turn into a collection then which wrapper serves this purpose "
+opt1: "toArray() ",
+opt2: "Array.asList() ",
+opt3: "none ",
+ans: "2 "
+}]
+]]
+[[
+[{
+
+
+q: "49.The two methods of enumeration interface are"
+opt1: "hasMoreElements() and next()",
+opt2: " nextElement() and hasNext()",
+opt3: "hasMoreElements() and nextElement() ",
+opt4: " hasNext() and next()",
+ans: "3 "
+}]
+]]
+[[
+[{
+
+
+q: "50.a Java platform class that implements a property map is called "
+opt1: "Map ",
+opt2: " Properties",
+opt3: "PropertyMap ",
+opt4: "none ",
+ans: "2 "
+}]
+]]

@@ -1,0 +1,525 @@
+[[
+    [{
+        q:"1 Which of these interface declares core method that all collections will have?",
+        opt1:"set",
+        opt2:"EventListner",
+        opt3:"Comparator",
+        opt4:"Collection",
+        ans:"4",
+    }],
+
+
+    [{
+        q:"2 Which of these interface handle sequences?",
+        opt1:"Set",
+        opt2:"List",
+        opt3:"Comparator",
+        opt4:"Collection",
+        ans:"2",
+    }],
+
+    
+    [{
+        q:"3 Which of this interface must contain a unique element",
+        opt1:"Set",
+        opt2:"List",
+        opt3:"Array",
+        opt4:"Collection",
+        ans:"1",
+    }],
+
+
+    [{
+        q:"4 Which of these is a Basic interface that all other interface inherits",
+        opt1:"Set",
+        opt2:"Array",
+        opt3:"List",
+        opt4:"Collection",
+        ans:"4",
+    }],
+      
+
+    [{
+        q:"5  Which of these is static variable defined in Collections",
+        opt1:"EMPTY_SET",
+        opt2:"EMPTY_LIST",
+        opt3:"EMPTY_MAP",
+        opt4:"All of the mentioned",
+        ans:"4",
+    }],
+
+
+
+    [{
+        q:"6 Which of these is an incorrect form of using method max() to obtain a maximum element",
+        opt1:"max(Collection c)",
+        opt2:"max(Collection c, Comparator comp)",
+        opt3:"max(Comparator comp)",
+        opt4:"max(List c)",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"7 Which of these methods sets every element of a List to a specified object",
+        opt1:"set()",
+        opt2:"fill()",
+        opt3:"Complete()",
+        opt4:"add()",
+        ans:"2",
+    }],
+
+
+    [{
+        q:"8 Which of these methods can randomize all elements in a list",
+        opt1:"rand()",
+        opt2:"randomize()",
+        opt3:"shuffle()",
+        opt4:"ambiguous()",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"9 Which of these methods can convert an object into a List",
+        opt1:"SetList()",
+        opt2:"ConvertList()",
+        opt3:"singletonList()",
+        opt4:"CopyList()",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"10 Which of these is true about unmodifiableCollection() method",
+        opt1:" unmodifiableCollection() returns a collection that cannot be modified",
+        opt2:"unmodifiableCollection() method is available only for List and Set",
+        opt3:" unmodifiableCollection() is defined in Collection class",
+        opt4:"none of the mentioned",
+        ans:"2",
+    }],
+
+
+    [{
+        q:"11 Which collection class allows you to access its elements by associating a key with an elements's value, and provide synchronization ?",
+        opt1:"java.util.SortedMap",
+        opt2:"java.util.TreeMap",
+        opt3:"java.util.TreeSet",
+        opt4:"java.util.Hashtable",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"12 public static void main(String[] args){ Object obj=new Object() {public int hashCode(){return 42;}};System.out.println(obj.hashCode());};What is the result?",
+        opt1:"42",
+        opt2:"runtime exception",
+        opt3:"compile Error at object obj=new Object(){'",
+        opt4:"compile Error at '}};'",
+        ans:"4",
+    }],
+
+
+    [{
+        q:"13 which interface does java.util.HashTable implement?",
+        opt1:"Java.util.Map",
+        opt2:"Java.util.List",
+        opt3:"Java.util.HashTable,
+        opt4:"Java.util.Collection",
+        ans:"4",
+    }],
+
+
+    [{
+        q:"14 Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO sequence?",
+        opt1:"java.util.ArrayList",
+        opt2:"java.util.LinkedHashMap",
+        opt3:"java.util.HashMap",
+        opt4:"java.util.TreeMap",
+        ans:"2",
+    }],
+
+
+    [{
+        q:"15 Which of the following would be suitable for use as keys in a hashmap?",
+        opt1:"3",
+        opt2:"a'",
+        opt3:"new Object()",
+        opt4:"none",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"16 Which statement is true for the class java.util.HashSet?",
+        opt1:"The elements in the collection are ordered",
+        opt2:"The collection is gguaranteed to be immutable",
+        opt3:"The elements in the collection are guaranteed to be unique",
+        opt4:"The elements int the collection are accessed using a unique key",
+        ans:"1",
+    }],
+
+
+    [{
+        q:"17 vector class available in",
+        opt1:"java SQL PACKAGE",
+        opt2:"java.lang package",
+        opt3:"java.util package",
+        opt4:"java.io.package",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"18 Which of the following statements about the hashcode() method are incorrect? Select all incorrect statements",
+        opt1:"The value returned by hashcode is used in some collection classes to help locate objects",
+        opt2:"The hashcode() method is required to return a positive int value",
+        opt3:"Two new empty String objects will produce identical hashcodes",
+        opt4:"all of these",
+        ans:"4",
+    }],
+
+
+    [{
+        q:"19 is it possible to add and delete object from ....list as and when required",
+        opt1:"none of these",
+        opt2:"array",
+        opt3:"vector",
+        opt4:"both vector& array",
+        ans:"2",
+    }],
+
+
+    [{
+        q:"20 String is the predefined...",
+        opt1:"variable",
+        opt2:"method",
+        opt3:"class",
+        opt4:"object",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"21 All collection classes are available in ...package",
+        opt1:"java.awt",
+        opt2:"java.util",
+        opt3:"java.io",
+        opt4:"FALSE",
+        ans:"3",
+    }],
+
+
+    [{
+        q:"22 For creating dynamic array, we have to use....",
+        opt1:"none of these",
+        opt2:"array",
+        opt3:"vector",
+        opt4:"string",
+        ans:"1",
+    }],
+
+
+
+    [{
+        q:"23 Which interface provides the capability to store objects using a key-value pair?",
+        opt1:"java.util.Map",
+        opt2:"java.util.Set",
+        opt3:"java.util.List",
+        opt4:"java.util.Colection",
+        ans:"2",
+    }],
+
+
+
+    [{
+        q:"24 Given class Foo{static void alpha(){/*more code here*/} void beta(){/*more code here*/}} which statement is true?",
+        opt1:"Foo.beta() is a valid invocation of beta()",
+        opt2:"Foo.alpha() is a valid invocation of alpha()",
+        opt3:"Method alpha() can directly call method beta()",
+        opt4:"none of these",
+        ans:"1",
+    }],
+
+
+
+    [{
+        q:"25 Which collection class allows you to access its element by associating a key with an element's value, and provides synchronization?",
+        opt1:"java.util.SortedMap",
+        opt2:"java.util.TreeMap",
+        opt3:"java.utilTreeSet",
+        opt4:"java.util.Hashtable",
+        ans:"3",
+    }],
+
+
+
+    [{
+       q: "26  What is the initial capacity and load factor of HashSet in Java Collection?",
+       opt:1 ” 10,1.0",
+       opt:2 ” 32,0.75",
+       opt:3 ” 16,0.75",
+       opt:4 ” 32,1.0",
+       ans: "3",
+    }], 
+ 
+   
+    [{
+      q:" 27.  Which of these methods is used to add elements in vector at specific location?",
+      opt1: "add()",
+      opt2: "set()",
+      opt3: "AddElement()",
+      opt4: "addElement()",
+      ans: "3",
+    }],
+
+
+   [{
+     q:" 28. Which of these methods is used to retrieve elements in BitSet object at specific location? ", 
+     opt1: "get()","
+     opt2: "Elementat()","
+     opt3: "ElementAt()","
+     opt4: "getProperty()","
+     ans: "1 ",
+   }],
+
+
+
+
+   [{
+     q:"29 Which of these method is used to reduce the capacity of an ArrayList object?",
+     opt1:"trim()",
+     opt2:"trimSize()",
+     opt3:"trimTOSize()",
+     opt4:"trimToSize()",
+     ans: " 4",
+   }],
+
+
+   [{
+    q:"30 Which of these methods can be used to obtain set of all keys in a map?",
+    opt1:"getAll()",
+    opt2:"getKeys()",
+    opt3:"keyAll()",
+    opt4:"keySet()",
+    ans:" 4",
+  }],
+
+
+    [{
+      q:"31 ClassCastException is generated when:"
+      opt1:"When an incompatible object is added to the collection"',
+      opt2:"When an object being added is not defined",
+      opt3:"When class is not defined",
+      opt4:"None of the above",
+      ans:" 1",
+
+    }],
+
+
+
+    [{
+      q:"32 LinkedList class extends? "
+      opt1:"AbstractCollection",
+      opt2:"AbstractList",
+      opt3:"AbstractSequentialList",
+      opt4:"None of the above",
+      ans:"opt 3 ",
+
+    }],
+
+   [{
+     q:"33 Which of these does NOT have an index based structure?",
+     opt1:"List",
+     opt2:"Set",
+     opt3:"Map",
+     opt4:"none of these",
+     ans:"b",
+
+  }],
+
+
+
+ [{ 
+
+    q:"34 Which of these is a class which uses String as a key to store the value in object? ",
+    opt1:" Array", 
+    opt2:" ArrayList ",
+    opt3:" Dictionary ",
+    opt4:" Properties ",
+    ans:"4 ",
+
+}], 
+
+[{ 
+
+  q:"35 Which of these class object has an architecture similar to that of array? ",
+  opt1:" Bitset ",
+  opt2:" Map ",
+  opt3:" Hashtable ",
+  opt4:" All of the mentioned ",
+  ans:"1 ",
+
+}], 
+
+
+
+[{ 
+
+  q:"36 Which of these method is used to calculate number of bits required to hold the BitSet object? ",
+  opt1:" size() ",
+  opt2:" length() ",
+  opt3:" indexes() ",
+  opt4:" numberofBits() ",
+  ans:"2 ",
+
+}], 
+
+
+[{
+     q: "37 What is the premise of equality for IdentityHashMap?",
+     opt1:"Reference equality",
+     opt2:"Name equality",
+     opt3:"Hashcode equality",
+     opt4:"Length equality",
+     ans: "1",
+}], 
+    
+
+[{ 
+     q: "38 How to sort elements of ArrayList?",
+     opt:1 Collection.sort(listObj);",
+     opt:2 Collections.sort(listObj);",
+     opt:3 listObj.sort();",
+     opt:4 Sorter.sortAsc(listObj);",
+     ans: "2",
+}],
+
+
+[{ 
+    q: "39 What is the relation between hashset and hashmap?",
+    opt:1 HashSet internally implements HashMap",
+    opt:2 HashMap internally implements HashSet",
+    opt:3 HashMap is the interface; HashSet is the concrete class",
+    opt:4 HashSet is the interface; HashMap is the concrete class",
+    ans: "1", 
+}],
+
+[{
+    q: "40 A EnumSet",
+    opt1:"Can use enum and non enum type keys",
+    opt2:"Cannot use enum type keys",
+    opt3:"is specialized Set implementation for use with enum type keys only",
+    opt4:"None",
+    ans:"3",
+}],
+
+[{
+    q:"41 Which Set is synchronized?",
+    opt1:"CopyOnWriteArraySet",
+    opt2:"ConcurrentSkipListSet",
+    opt3:"All",
+    opt4:"None",
+    ans:"3",
+}],
+
+
+[{
+   q:"42 Hashtable allows",
+   opt1:"one null key",
+   opt2:"many null values",
+   opt3:"None",
+   opt4:"All",
+   ans:"3",
+}],
+
+
+
+[{
+   q:"43 The Comparator interface contains the method?",
+   opt1:"compareWith()",
+   opt2:"compareTo()",
+   opt3:"compare()",
+   opt4:"none",
+   ans:"3",
+}],
+
+[{
+   q:"44 Iterator returned by Hashtable on key, value and entry is?",
+   opt1:"Fail-fast",
+   opt2:"Fail-safe",
+   opt3:"None",
+   opt4:"1&2 ",
+   ans:"1",
+}],
+
+
+[{
+   q:"45  Which of these classes is not part of Java’s collection framework?",
+   opt1:"Maps",
+   opt2:" Array",
+   opt3:"Stack",
+   opt4:"Queue",
+   ans:"1",
+
+}],
+
+
+
+
+[{
+   q:"46 Which of these methods deletes all the elements from invoking collection?",
+   opt1:" clear()",
+   opt2:" reset()",
+   opt3:"delete()",
+   opt4:" refresh()",
+   ans:"1",
+
+}],
+
+
+[{
+  q:"47 What describes how well an algorithm performs in best, average or worse case scenarios?",
+  opt1:"Big-B",
+  opt2:"Big-O",
+  opt3:"Big-Data",
+  opt4:"Big-N",
+  ans:"2",
+
+}],
+
+
+
+[{
+  q:"48 Which Map class must be preferred in multi-threading environment to maintain natural order of keys?",
+  opt1:"ConcurrentHashMap",
+  opt2:"ConcurrentSkipListMap",
+  opt3:"ConcurrentMap",
+  opt4:"all",
+  ans:"2",
+
+}],
+
+
+
+
+ 
+[{
+  q:"49 Can 2 threads on same ConcurrentHashMap object access it concurrently?"
+  opt1:"we need to add additional functionality to achieve the same.",
+  opt2:"Its not possible",
+  opt3:"different threads can access different segments concurrently",
+  ans:"3",
+
+}],
+
+
+[{
+  q:"50 Complexity of ArrayList get method"
+  opt1:"O(n-1)",
+  opt2:"O(n)",
+  opt3:"O(1)",
+  opt4:"O(2n)",
+  ans:"3",
+
+}],

@@ -1,0 +1,387 @@
+[[
+[{
+Q:"1.which of these packages contain all the collection classes?",
+opt1:"java.awt",
+opt2:"java.net",
+opt3:"java.util",
+opt4:"java.lang",
+ans:"3"
+}],
+[{
+Q:"2.which is valid declaration of a float?",
+opt1:"float f=1F ",
+opt2:"float f=1.0 ",
+opt3:"float f="1" ",
+opt4:"float f=1.0d ",
+ans:"1"
+}],
+[{
+Q:"3.which interface provides the capability to store objects using a key value pair?",
+opt1:"java.util.map",
+opt2:"java.util.set",
+opt3:"java.util.list",
+opt4:"java.util.collection",
+ans:"1"
+}],
+[{
+Q:"4.which class does not override the equals() and hashcode() methods, inheriting them directly from class object?",
+opt1:"java.lang.string",
+opt2:"java.lang.double",
+opt3:"java.lang.stringbuffer",
+opt4:"java.lang.character",
+ans:"3"
+}],
+[{
+Q:"5.which of these methods deletes all the elements from invoking collection?",
+opt1:"clear()",
+opt2:"reset()",
+opt3:"delete()",
+opt4:"refresh()",
+ans:"1"
+}],
+[{
+Q:"6.what is collection in java?",
+opt1:"a group of objects",
+opt2:"a group of classes",
+opt3:"a group of interfaces ",
+opt4:"none of the mentioned ", 
+ans:"1"
+}],
+[{
+Q:"7.which of these is a basic interface that all other interface inherits?",
+opt1:"set",
+opt2:"array",
+opt3:"list",
+opt4:"collection ",
+ans:"4"
+}],
+[{
+Q:"8.which of these is static variable defined in collections?",
+opt1:"EMPTY_SET",
+opt2:"EMPTY_LIST",
+opt3:"EMPTY_MAP",
+opt4:"all of the mentioned",
+ans:"4"
+}],
+[{
+Q:"9.which of these standard collection classes implements all the standard functions on list data structure?",
+opt1:"array ",
+opt2:"linkedlist",
+opt3:"hashset",
+opt4:"abstractset",
+ans:"1"
+}],
+[{
+Q:"10.which of these interface declares core method that all collections will have?",
+opt1:"set",
+opt2:"eventlistner",
+opt3:"comparator",
+opt4:"collection",
+ans:"4"
+}],
+[{
+Q:"11.which of these interface handle sequences?",
+opt1:"set ",
+opt2:"list",
+opt3:"comparator",
+opt4:"collection",
+ans:"2"
+}],
+[{
+Q:"12.which of this interface must contain a unique element?",
+opt1:"set",
+opt2:"list",
+opt3:"array",
+opt4:"collection",
+ans:"1"
+}],
+[{
+Q:"13.methods such as reverse, shuffle and sort are available in?",
+opt1:"objects ",
+opt2:"collection",
+opt3:"collections ",
+opt4:"apache commons collections",
+ans:"3"
+}],
+[{
+Q:"14.which of these allows duplicate elements?",
+opt1:"set",
+opt2:"list",
+opt3:"all",
+opt4:"none",
+ans:"2"
+}],
+[{
+Q:"15.which allows the storage of a null key and many null values?",
+opt1:"hashtable",
+opt2:"hashmap",
+opt3:"both",
+opt4:"none",
+ans:"2"
+}],
+[{
+Q:"16.which interface must be implemented for sorting on basis many criterias?",
+opt1:"comparator",
+opt2:"comparable",
+opt3:"serializable",
+opt4:"none",
+ans:"1"
+}],
+[{
+Q:"17.can two threads on same concurrenthashmap object access it concurrently?",
+opt1:"we need to add additional functionality to achieve the same",
+opt2:"its impossible ",
+opt3:"different threads can access different segments concurrently",
+ans:"3"
+}],
+[{
+Q:"18.which of these provides a get(inindex) method?",
+opt1:"map",
+opt2:"set",
+opt3:"list",
+opt4:"all",
+ans:"3"
+}],
+[{
+Q:"19.linkedhashset implements:",
+opt1:"set",
+opt2:"cloneable",
+opt3:"serializable",
+opt4:"all",
+ans:"4"
+}],
+[{
+Q:"20.in weakhashmap:",
+opt1:"an entry are removed by garbage collector",
+opt2:"behaves normally like hash map",
+opt3:"an entry are never removed by garbage collector ",
+opt4:"none",
+ans:"1"
+}],
+[{
+Q:"21.a anumset:",
+opt1:"can use enum and non enum type keys",
+opt2:"cannot use enum type keys",
+opt3:"is specialized set implementation for use with enum type keys only",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"22.iterator returned by hashset is",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"23.iterator returned by copyonwritearrayset is",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"2"
+}],
+[{
+Q:"24.iterator returned by treeset is ",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"25.iterator returned by linkedhashset is ",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"26.iterator returned by concurrentskiplistset is ",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"2"
+}],
+[{
+Q:"27.which list is synchronized?"",
+opt1:"vector",
+opt2:"copyOnWriteArrayList",
+opt3:"all",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"28.which set is synchronized?",
+opt1:"copyOnWriteArraySet",
+opt2:"concurrentSkipListSet",
+opt3:"all",
+opt4:"none",
+ans:"3"
+}],
+[{
+Q:"29.what should we use when add and remove operations are more frequent than get operations?",
+opt1:"linkedList",
+opt2:"arraylist",
+opt3:"vector",
+opt4:"all",
+ans:"1"
+}],
+[{
+Q:"30.iterator returned by arrayList is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"31.iterator returned by linkedlist is ?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"32.iterator returned by copyOnWriteArrayList is ?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"2"
+}],
+[{
+Q:"33.iterator returned by hashmap on key ,value and entry is ?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"34.iterator returned by hastable on key ,value and entry is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"35.iterator returned by concurrentHashMap on key ,value and entry is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"2"
+}],
+[{
+Q:"36.iterator returned by linkedHashmap on key, value and entry is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"37.iterator returned by treemap on key, value and entry is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"1"
+}],
+[{
+Q:"38.iterator returned by concurrentSkipListMap on key, value and entry is?",
+opt1:"fail-fast",
+opt2:"fail-safe",
+opt3:"none",
+ans:"2"
+}],
+[{
+Q:"39.which set implementation is sorted and synchronized?",
+opt1:"linkedHashSet",
+opt2:"concurrentSkipListSet",
+opt3:"treeset",
+opt4:"copyOnWriteArraySet",
+ans:"2"
+}],
+[{
+Q:"40.treeMap-",
+opt1:"doesn't allow null key",
+opt2:"allow many null values",
+opt3:"all",
+opt4:"none",
+ans:"3"
+}],
+[{'
+Q:"41.which map is synchronized?",
+opt1:"hashtable",
+opt2:"concurrentSkipListMap",
+opt3:"concurrentHashMap",
+opt4:"all",
+ans:"4"
+}],
+[{
+Q:"42.concurrentSkipListMap allows ?",
+opt1:"one null key",
+opt2:''many null values ",
+opt3:"all",
+opt4:"none",
+ans:"4"
+}],
+[{
+Q:"43.which allows the removal of elements from a collection?",
+opt1:"enumeration",
+opt2:"iterator",
+opt3:"both ",
+opt4:"none",
+ans:"2"
+}],
+[{
+Q:"44.the comparator interface contains the method?",
+opt1:"compareWith()",
+opt2:"compareTo()",
+opt3:"compare()",
+opt4:"",
+ans:"3"
+}],
+[{
+Q:"45.which of these is synchronized ?",
+opt1:"treemap",
+opt2:"hashmap",
+opt3:"hashtable",
+opt4:"all",
+ans:"3"
+}],
+[{
+Q:"46.which more offers best performance?",
+opt1:"treemap",
+opt2:"hashmap",
+opt3:"linkedhashmap",
+opt4:"all are equal",
+ans:"2"
+}],
+[{
+Q:"47.which of these class should be preffered to be used as a key in hashmap?",
+opt1:"string",
+opt2:"integer",
+opt3:"double",
+opt4:"any of these",
+ans:"4"
+}],
+[{
+Q:"48.an unordered array has a search time complexity of",
+opt1:"O(log n)",
+opt2:"O(n)",
+opt3:"O(n+1)",
+opt4:"O(1)",
+ans:"2"
+}],
+[{
+Q:"49.the add and remove methods of treeset have a time complexity of",
+opt1:"O(n)",
+opt2:"O(n+1)",
+opt3:"O(1)",
+opt4:"O(log n)",
+ans:"4"
+}],
+[{
+Q:"50.after resizing, size of arrayList is increased by-",
+opt1:"200%",
+opt2:"50%",
+opt3:"100%",
+opt4:"none of these",
+ans:"2"
+}]
+]]

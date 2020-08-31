@@ -1,0 +1,396 @@
+[{
+[{
+1)Which interface must be implemented for sorting on basis many criterias
+opt 1: "Comparator"
+opt 2: "Comparable"
+opt 3: "Serializable"
+opt 4: "None"
+Ans:"opt 1"
+}]
+[{
+2)Can 2 threads on same ConcurrentHashMap object access it concurrently
+opt 1: "we need to add additional functionality to achieve the same."
+opt 2: "Its not possible"
+opt 3: "different threads can access different segments concurrently"
+Ans:"opt 1"
+}]
+[{
+3)What will be output of following code -
+ import javopt 1:util.ArrayList;
+ import javopt 1:util.list;
+ Public class MyClass
+ public static void main(String arg[])
+ {
+ 1.add("1")
+ 2.add("21")
+}
+}
+opt 1: "List l=new ArrayList();"
+opt 2: "List l=new ArrayList();"
+opt 3: "List l=new ArrayList();"
+opt 4: "List l=new ArrayList();"
+Ans:"opt 4"
+}]
+[{
+4)Which of these provides a get(in index) method?
+opt 1: "Map"
+opt 2: "Set"
+opt 3: "List"
+opt 4: "All"
+Ans:"opt 3"
+}]
+[{
+5)LinkedHashSet implements:
+opt 1: "Set"
+opt 2: "Cloneable"
+opt 3: "Serializable"
+opt 4: "All"
+Ans:"opt 4"
+}]
+[{
+6)What should we use get operations are more?
+opt 1: "ArrayList"
+opt 2: "LinkedList"
+opt 3: "Any"
+Ans:"opt 1"
+}]
+[{
+7)Complexity of ArrayList get method
+opt 1: "O(n-1)"
+opt 2: "O(n)"
+opt 3: "O(1)"
+opt 4: "O(2n)"
+Ans:"opt 3"
+}]
+[{
+8)Which is sorted by natural order?
+opt 1: "LinkedHashSet"
+opt 2: "TreeSet"
+opt 3: "HashSet"
+opt 4: "None"
+Ans:"opt 2"
+}]
+[{
+9)Which of these maintains insertion order?
+opt 1: "List"
+opt 2: "Set"
+opt 3: "All"
+opt 4: "None"
+Ans:"opt 1"
+}]
+[{
+10)Which maintains insertion order?
+opt 1: "TreeSet"
+opt 2: "HashSet"
+opt 3: "LinkedHashSet"
+opt 4: "None"
+Ans:"opt 3"
+}]
+[{
+11)concurrentSkipListMap allows
+opt 1: "one null key"
+opt 2: "many null values"
+opt 3: "all"
+opt 4: "none"
+Ans:"opt 4"
+}]
+[{
+12)In Iterator, hasMoreElements() method of Enumeration has been changed to:
+opt 1: "hasNextElement()"
+opt 2: "isNext()"
+opt 3: "hasNext()"
+opt 4: "name remains same"
+Ans:"opt 3"
+}]
+[{
+13)TreeSet internally uses which one to store elements?
+opt 1: "HashMap"
+opt 2: "LinkedHashMap"
+opt 3: "TreeMap"
+opt 4: "None"
+Ans:"opt 3"
+}]
+[{
+14)HashSet internally uses?
+opt 1: "HashMap"
+opt 2: "LinkedHashMap"
+opt 3: "TreeMap"
+opt 4: "None"
+Ans:"opt 1"
+}]
+[{
+15)An attempt to add null key to a TreeSet will result in:
+opt 1: "Will compile"
+opt 2: "Compile time Exception"
+opt 3: "Error"
+opt 4: "Runtime - NullPointerException"
+Ans:"opt 4"
+}]
+[{
+16)What is initial capacity of LinkedList?
+opt 1: "8"
+opt 2: "10"
+opt 3: "16"
+opt 4: "10"
+Ans:"opt 2"
+}]
+[{
+17)Enumeration returned by ArrayList is
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+[{
+18)LinkedHashMap allows
+opt 1: "one null key"
+opt 2: "many null values"
+opt 3: "none"
+opt 4: "all"
+Ans:"opt 4"
+}]
+[{
+19)Hashtable allows
+opt 1: "one null key"
+opt 2: "many null values"
+opt 3: "none"
+opt 4: "all"
+Ans:"opt 3"
+}]
+[{
+20)How can you sort given HashMap on basis of values
+opt 1: "Implement Comparator interface and override its compare method"
+opt 2: "It's not possible"
+opt 3: "Implement Comparator interface and override its compare To method"
+opt 4: "Implement Comparator and Comparable interface"
+Ans:"opt 1"
+}]
+[{
+21)Which of these is synchronized and doesn't allow null elements?
+opt 1: "Vector"
+opt 2: "CopyOnWriteArraySet"
+opt 3: "CopyOnWriteArrayList"
+opt 4: "ConcurrentSkipListSet"
+Ans:"opt 4"
+}]
+[{
+22)Which of these is synchronized and isn't sorted by natural order?
+opt 1: "EnumSet"
+opt 2: "LinkedList"
+opt 3: "ConcurrentSkipListSet"
+opt 4: "Vector"
+Ans:"opt 4"
+}]
+[{
+23)In ListIterator, after a call to next() or previous(), if a call is made to set(E element) followed by add() or remove() what happens?
+opt 1: "compilation error"
+opt 2: "UnsupportedOperationException"
+opt 3: "ConcurrentModificationException"
+opt 4: "none"
+Ans:"opt 2"
+}]
+[{
+24)Which interface must be implemented for sorting on basis many criterias
+opt 1: "Comparator"
+opt 2: "Comparable"
+opt 3: "Serializable"
+opt 4: "None"
+Ans:"opt 1"
+}]
+[{
+25)Can 2 threads on same ConcurrentHashMap object access it concurrently
+opt 1: "we need to add additional functionality to achieve the same."
+opt 2: "Its not possible"
+opt 3: "different threads can access different segments concurrently."
+Ans:"opt 3"
+}]
+[{
+26)Which of these provides a get(in index) method?
+opt 1: "Map"
+opt 2: "Set"
+opt 3: "List"
+opt 4: "All"
+Ans:"opt 3"
+}]
+[{
+27)LinkedHashSet implements:
+opt 1: "Set"
+opt 2: "Cloneable"
+opt 3: "Serializable"
+opt 4: "All"
+Ans:"opt 4"
+}]
+[{
+28)In WeakHashMap
+opt 1: "An entry are automatically removed by garbage collector"
+opt 2: "Behaves normally like HashMap"
+opt 3: "An entry are never removed by garbage collector"
+opt 4: "None"
+Ans:"opt 1"
+}]
+[{
+29)In WeakHashMap
+opt 1: "An entry are automatically removed by garbage collector"
+opt 2: "Behaves normally like HashMap"
+opt 3: "An entry are never removed by garbage collector"
+opt 4: "None"
+Ans:"opt 1"
+}]
+[{
+30)A EnumSet
+opt 1: "Can use enum and non enum type keys"
+opt 2: "Cannot use enum type keys"
+opt 3: "is specialized Set implementation for use with enum type keys only"
+opt 4: "None"
+Ans:"opt 3"
+}]
+[{
+31)Iterator returned by HashSet is
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+[{
+32)Iterator returned by CopyOnWriteArraySet is
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 2"
+}]
+[{
+33)Iterator returned by TreeSet is
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+[{
+34)Iterator returned by LinkedHashSet is
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+[{
+35)Iterator returned by ConcurrentSkipListSet is
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 2"
+}]
+[{
+36)Which List is synchronized?
+opt 1: "Vector"
+opt 2: "CopyOnWriteArrayList"
+opt 3: "All"
+opt 4: "none"
+Ans:"opt 3"
+}]
+[{
+37)Which Set is synchronized?
+opt 1: "CopyOnWriteArraySet"
+opt 2: "ConcurrentSkipListSet"
+opt 3: "All"
+opt 4: "none"
+Ans:"opt 3"
+}]
+[{
+38)In ConcurrentHashMap - When thread locks one segment for updation it does not block it for retrieval hence some other thread can read the same segment, but it will be able to read the data before locking?
+opt 1: "true"
+opt 2: "false"
+opt 3: "may be true/false"
+Ans:"opt 1"
+}]
+[{
+39)In ConcurrentHashMap - When thread locks one segment for updation it does not allow any other thread to perform updations in same segment until lock is not released on segment
+opt 1: "true"
+opt 2: "false"
+opt 3: "may be true/false"
+Ans:"opt 1"
+}]
+[{
+40)Which allows the removal of elements from a collection?
+opt 1: "Enumeration"
+opt 2: "Iterator"
+opt 3: "Both"
+opt 4: "None"
+Ans:"opt 2"
+}]
+[{
+41)The Comparator interface contains the method?
+opt 1: "compareWith()"
+opt 2: "compareTo()"
+opt 3: "compare()"
+opt 4: "None of these"
+Ans:"opt 3"
+}]
+[{
+42)Which of these is synchronized?
+opt 1: "TreeMap"
+opt 2: "HashMap"
+opt 3: "Hashtable"
+opt 4: "All"
+Ans:"opt 3"
+}]
+[{
+43)Which is more offers best performance?
+opt 1 :"TreeMap"
+opt 2: "HashMap"
+opt 3: "LinkedHashMap"
+opt 4: "All are equal"
+Ans:"opt 4"
+}]
+[{
+44)Which of these class should be preferred to be used as a key in a HashMap?
+opt 1: "String"
+opt 2: "Integer"
+opt 3: "Double"
+opt 4: "Any of these"
+Ans:"opt 2"
+}]
+[{
+45)What should we use when add and remove operations are more frequent than get operations?
+opt 1: "LinkedList"
+opt 2: "ArrayList"
+opt 3: "Vector"
+opt 4: "All"
+Ans:"opt 1"
+}]
+[{
+46)Iterator returned by ArrayList is?
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+[{
+47)Iterator returned by LinkedList is?
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+[{
+48)Iterator returned by CopyOnWriteArrayList is ?
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 2"
+}]
+[{
+49)Iterator returned by HashMap on key, value and entry is?
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+[{
+50)Iterator returned by Hashtable on key, value and entry is?
+opt 1:"Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans:"opt 1"
+}]
+}]
+[{IT2K17-26}]

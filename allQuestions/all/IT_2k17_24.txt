@@ -1,0 +1,709 @@
+[{q:"1)What will be the output of below program? 
+ 
+import java.util.*; 
+  
+public class priorityQueue 
+{ 
+    public static void main(String[] args) 
+    { 
+        PriorityQueue<Integer> queue = 
+                            new PriorityQueue<>(); 
+        queue.add(11); 
+        queue.add(10); 
+        queue.add(22); 
+        queue.add(5); 
+        queue.add(12); 
+        queue.add(2); 
+  
+        while (queue.isEmpty() == false) 
+            System.out.printf("%d ", queue.remove()); 
+  
+        System.out.println("\n"); 
+    } 
+}" 
+opta:"11 10 22 5 12 2"
+optb:"2 12 5 22 10 11"
+optc:"2 5 10 11 12 22"
+optd:"22 12 11 10 5 2"
+Ans:"c"
+ }]
+[{q:"2) What is the output of the following program?
+
+import java.util.*; 
+  
+public class Treeset 
+{ 
+    public static void main(String[] args) 
+    { 
+        TreeSet<String> treeSet = new TreeSet<>(); 
+  
+        treeSet.add("apple"); 
+        treeSet.add("for"); 
+        treeSet.add("life"); 
+        treeSet.add("appleforlife"); 
+  
+        for (String temp : treeSet) 
+            System.out.printf(temp + " "); 
+  
+        System.out.println("\n"); 
+    } 
+} "
+opta:"apple for life appleforlife"
+optb:"apple for appleforlife"
+optc:"for appleforlife life"
+Ans:"c"
+ }]
+[{q:"3.What is the output of the following program?
+import java.util.*; 
+  
+public class linkedList 
+{ 
+    public static void main(String[] args) 
+    { 
+        List<String> list1 = new LinkedList<>(); 
+        list1.add("like"); 
+        list1.add("for"); 
+        list1.add("like"); 
+        list1.add("lFl"); 
+        list1.add("likeforlike"); 
+  
+        List<String> list2 = new LinkedList<>(); 
+        list2.add("Geeks"); 
+  
+        list1.removeAll(list2); 
+  
+        for (String temp : list1) 
+            System.out.printf(temp + " "); 
+  
+        System.out.println(); 
+    } 
+} "
+opta:"for like lFl likeforlike"
+optb:"for likeforlike lFl"
+optc:"for lFl for"
+optd:"for lFl likeforlike"
+Ans:"d"
+ }]
+[{q:"4.Which of the given choices is a possible output ?
+import java.util.*; 
+  
+public class hashSet 
+{ 
+    public static void main(String[] args) 
+    { 
+        HashSet<String> hashSet = new HashSet<>(); 
+        hashSet.add("follow"); 
+        hashSet.add("for"); 
+        hashSet.add("follow"); 
+        hashSet.add("follwforfollow"); 
+  
+        System.out.println(hashSet); 
+  
+    } 
+} "
+opta:"[follow, for, follow, followforfollow]"
+optb:"[followforfollow, follow, for]"
+Ans:"b"
+}] 
+[{q:"5.What is the output of the following program?
+import java.util.*; 
+  
+public class stack 
+{ 
+    public static void main(String[] args) 
+    { 
+        List<String> list = new LinkedList<>(); 
+        list.add("view"); 
+        list.add("for"); 
+        list.add("view"); 
+        list.add("viewforview"); 
+        Iterator<Integer> iter = list.iterator(); 
+  
+        while (iter.hasNext()) 
+            System.out.printf(iter.next() + " "); 
+  
+        System.out.println(); 
+    } 
+} "
+opta:"viewforview viewforview"
+optb:"viewforview  view for view"
+optc:"Runtime Error"
+optd:"Compilation Error"
+Ans:"d"
+}]
+[{q:"6. What is the Output of following Java Program?
+import java.util.LinkedList; 
+  
+class Demo { 
+public void show() 
+    { 
+        LinkedList<Integer> list = new LinkedList<Integer>(); 
+        list.add(1); 
+        list.add(4); 
+        list.add(7); 
+        list.add(5); 
+        for (int i = 0; i < list.size(); i++) { 
+            System.out.print(list.get(i) + " "); 
+        } 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"Compilation Error"
+optB:"1 4 7 5"
+optC:"1 4 5 7"
+optD:"1 5 4 7"
+Ans: "B"
+}]
+[{q:"7. What is the output of following Java Program?
+import java.util.Collections; 
+import java.util.LinkedList; 
+import java.util.List; 
+  
+class Demo { 
+public void show() 
+    { 
+        List<Integer> list = new LinkedList<Integer>(); 
+        list.add(1); 
+        list.add(4); 
+        list.add(7); 
+        list.add(5); 
+        Collections.sort(list); // line 9 
+        System.out.println(list); 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"Compilation Error at line 9"
+optB:"[1, 4, 5, 7]"
+optC:"[1, 4, 7, 5]"
+optD:"[1, 5, 7, 4]"
+
+Answer: "B"
+}] 
+[{q:"8. What is the Output of following Java Program?
+import java.util.ArrayList; 
+import java.util.Collections; 
+import java.util.Iterator; 
+  
+class Demo { 
+public void show() 
+    { 
+        ArrayList<String> list = new ArrayList<String>(); 
+        list.add("banana"); 
+        list.add("apple"); 
+        Iterator itr = list.iterator(); 
+  
+        Collections.sort(list); 
+        while (itr.hasNext()) { 
+            System.out.print(itr.next() + " "); 
+        } 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"Compilation Error cannot give Collections.sort() after Iterator"
+optB:"apple banana"
+optC:"banana apple"
+optD:"runtime error"
+Ans:"B"
+}]
+[{q:"9. What is the Output of following Java Program?
+import java.util.ArrayList; 
+  
+class Demo { 
+public void show() 
+    { 
+        ArrayList<String> list = new ArrayList<String>(); 
+        ArrayList<Integer> list1 = new ArrayList<Integer>(); 
+        boolean check = (list.getClass() == list1.getClass()); 
+        System.out.println(check); 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"true"
+optB:"false"
+
+Ans:"A"
+ }]
+[{q:"10. What is the Output of following Java Program?
+import java.util.LinkedList; 
+  
+class Demo { 
+public void show() 
+    { 
+        LinkedList<String> list = new LinkedList<String>(); 
+  
+        System.out.println(list.getClass()); 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"class java.util.LinkedList
+optB:"String
+optC:"ompiler Error
+Ans: "A"
+}]
+[{q:"11. What is the output of following Java Program?
+
+import java.util.ArrayList; 
+class Demo { 
+public void show() 
+    { 
+        ArrayList<Integer> list = new ArrayList<Integer>(); 
+        list.add(4); 
+        list.add(7); 
+        list.add(1); 
+        for (int number : list) { 
+            System.out.print(number + " "); 
+        } 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+}" 
+optA:"Compilation Error"
+optB:"4 7 1"
+optC:"1 4 7"
+optD:"None"
+
+Ans:"B"
+}] 
+
+[{q:"12. What is the output of following Java Program?
+
+import java.util.LinkedList; 
+  class Demo { 
+public void show() 
+    { 
+        LinkedList<String> list = new LinkedList<String>(); 
+        list.add("Element1"); // line 6 
+        list.add("Element2"); 
+        System.out.print(list.getFirst()); // line 8 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"Element1"
+optB:"Compilation Error at line 8"
+optC:"Runtime Error"
+optD:"Element2"
+Ans: "A"
+}]
+[{q:"13. What is the output of following Java Program?
+import java.util.ArrayList; 
+class Demo { 
+public void show() 
+    { 
+        ArrayList<String> list = new ArrayList<String>(); 
+        System.out.print(list.get(0)); 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"ArrayIndexOutOfBoundException"
+optB:"IndexOutOfBoundException"
+optC:"null"
+optD:"runtime error"
+Ans:"B"
+}] 
+[{q:"14. What is the Output of following Java Program?
+import java.util.ArrayList; 
+  
+class Demo { 
+public void show() 
+    { 
+        ArrayList<String> list = new ArrayList<String>(); 
+        list.add("print_one"); // line 6 
+        list.add("print_two"); 
+        System.out.print(list.getFirst()); // line 8 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"print_one"
+optB:"Compilation Error"
+optC:"Runtime Error"
+optD:"print_two"
+Ans:"b"
+ }]
+[{q:"15. What is the Output of following Java Program?
+import java.util.LinkedList; 
+  
+class Demo { 
+public void show() 
+    { 
+        LinkedList<String> list = new LinkedList<String>(); 
+  
+        System.out.print(list.getFirst()); 
+    } 
+} public class Main { 
+public static void main(String[] args) 
+    { 
+        Demo demo = new Demo(); 
+        demo.show(); 
+    } 
+} "
+optA:"null"
+optB:"IndexOutOfBoundException"
+optC:"NoSuchElementException"
+optd:"ioException"
+Ans:"C" 
+}]
+[{q:"16. Which of these packages contain all the collection classes?"
+opta:"java.lang"
+optb:"java.util"
+optc:"java.net"
+optd:"java.awt"
+ Ans:"b"
+}]
+[{q:"17. Which of these classes is not part of Java’s collection framework?"
+opta:"Maps"
+optb:"Array"
+optc:"Stack"
+optd:"Queue"
+Ans:"a"
+}]
+[{q:"18. Which of this interface is not a part of Java’s collection framework?"
+opta:"List"
+optb:"Set"
+optc:"SortedMap"
+optd:"SortedList"
+Ans:"d"
+}]
+[{q:"19. Which of these methods deletes all the elements from invoking collection?"
+opta:"clear()"
+optb:"reset()"
+optc:"refresh()"
+optd:"remove()"
+Ans:"a"
+}]
+[{q:"20. What is Collection in Java?"
+opta:"A group of objects"
+optb:"A group of classes"
+optc:"A group of interfaces"
+optd:"None of the mentioned"
+Ans:"a"
+ }]
+[{q:"21. Which of these return type of hasNext() method of an iterator?"
+opta:"Integer"
+optb:"Double"
+optc:"Boolean"
+optd:"Collections Object"
+Ans:"c"
+}]
+[{q:"22. Which of these methods is used to obtain an iterator to the start of collection?"
+opta:"start()"
+optb:"begin()"
+optc:"iteratorSet()"
+optd:"iterator()"
+Ans:"d"
+}]
+[{q:"23. Which of these methods can be used to move to next element in a collection?"
+opta:"next()"
+optb:"move()"
+optc:"shuffle()"
+optd:"hasNext()"
+Ans:"a"
+}]
+[{q:"24. Which of these iterators can be used only with List?"
+opta:"Setiterator"
+optb:"ListIterator"                                                                                 cdabb
+optc:"Literator"
+optd:"None of the mentioned"
+Ans:"b"
+}]
+[{q:"25. Which of these is a method of ListIterator used to obtain index of previous element?"
+opta:"previous()"
+optb:"previousIndex()"
+optc:"back()"
+optd:"goBack()"
+Ans:"b"
+}]
+[{q:"26. Which of these exceptions is thrown by remover() method?"
+opta:"IOException"
+optb:"SystemException"
+optc:"ObjectNotFoundExeception"
+optd:"IllegalStateException"
+ans:"b"
+}]
+
+[{q:"27. Which of the below is not a subinterface of Queue?"
+opta:"BlockingQueue"
+optb:"BlockingEnque"
+optc:"TransferQueue"
+optd:"BlockingQueue"
+Ans:"b"
+}]
+[{q:"28. What is the remaining capacity of BlockingQueue whose intrinsic capacity is not defined?"
+opta:"Integer.MAX_VALUE"
+optb:"BigDecimal.MAX_VALUE"
+optc:"99999999"
+optd:"Integer.INFINITY"
+Ans:"a"
+}]
+[{q:"29. PriorityQueue is thread safe."
+opta:"True"
+optb:"False"
+Ans:"a"
+}]
+[{q:"30. What is difference between dequeue() and peek() function of java?"
+opta:"dequeue() and peek() remove and return the next time in line"
+optb:"dequeue() and peek() return the next item in line"
+optc:"dequeue() removes and returns the next item in line while peek() returns the next item in line"
+optd:"peek() removes and returns the next item in line while dequeue() returns the next item in line"
+Ans:"c"
+}]
+[{q:"31. What is the difference between Queue and Stack?"
+opta:"Stack is LIFO; Queue is FIFO"
+optb:"Queue is LIFO; Stack is FIFO"
+optc:"Stack and Queue is FIFO"
+optd:"Stack and Queue is LIFO"
+Ans:"a"
+}]
+{[q"32. What are the use of front and rear pointers in CircularQueue implementation?"
+opta:"Front pointer points to first element; rear pointer points to the last element"
+optb:"Rear pointer points to first element; front pointer points to the last element"
+optc:"Front and read pointers point to the first element"
+optd:" Front pointer points to the first element; rear pointer points to null object"
+ Ans:"c"
+}]
+[{q:"33. What is the correct method used to insert and delete items from the queue?"
+opta:"push and pop"
+optb:"enqueue and dequeue"
+optc:"enqueue and peek"
+optd:" add and remove"
+Ans:"b"
+}]
+[{q:"34. Which data structure is used in Breadth First Traversal of a graph?"
+opta:"Stack"
+optb:"Queue"                                                                                                                             baacacbbbb
+optc:"Array"
+optd:" Tree"
+Ans:"b"
+}]
+[{q:"35. Where does a new element be inserted in linked list implementation of a queue?"
+opta:" Head of list"
+optb:" Tail of list"
+optc:" At the centre of list"
+optd:" All the old entries are pushed and then the new element is inserted"
+Ans:"b"
+}]
+[{q:"36. If the size of the array used to implement a circular queue is MAX_SIZE. How rear moves to traverse inorder to insert an element in the queue?"
+opta:"rear=(rear%1)+MAX_SIZE"
+optb:"rear=(rear+1)%MAX_SIZE"
+optc:"rear=rear+(1%MAX_SIZE)"
+optd:"rear=rear%(MAX_SIZE+1)"
+ Ans:"b"
+}]
+[{q:"37. Which of these standard collection classes implements all the standard functions on list data structure?"
+opta:"Array"
+optb:"LinkedList"
+optc:"HashSet"
+optd:"AbstractSet"
+Ans:"a"
+}]
+[{q:"38. Which of this method is used to make all elements of an equal to specified value?"
+opta:"add()"
+optb:"fill()"
+optc:"all()"
+optd:"set()"
+ Ans:"b"
+ }] 
+[{q:"39. Which of these method of Array class is used sort an array or its subset?"
+opta:" binarysort()"
+optb:"bubblesort()"
+optc:" sort()"
+optd:" insert()"
+ Ans:"c"
+ }]
+
+[{q:"40. Which of these methods can be used to search an element in a list?"     abcd
+opt1:"find()"
+opt2:" sort()"
+opt3:" get()"
+opt4:" binaryserach()"
+Ans:   "4"
+}]
+q:"41.)What will be the output of the following program?
+
+import java.util.*;
+public class ArrayListDemo{
+	public static void main(String[] args) {
+		List<String> al = new ArrayList<String>();
+		al.add("a");
+		al.add("b");
+		ListIterator<String> li = al.listiterator();
+		while(li.hasNext())
+		{
+			System.out.println(li.next());
+			li.previous();
+		}
+	}
+}"
+
+opt1:"a
+      b
+      a
+      b"
+opt2:"a
+      b"
+opt3:"Will print a infinite times"
+opt4:"a"
+
+ans:"3"
+}]
+[{
+q:"42.Deque and Queue are derived from:"
+opt1:"AbstractList"
+opt2:"Collection"
+opt3:"AbstractCollection"
+opt4:"List"
+ans:"2"
+}]
+[{
+q:"43.Vector extends which of these"
+opt1:"ArrayList"
+opt2:"LinkedList"
+opt3:"AbstractList"
+opt4:"None"
+ans:"3"
+}]
+
+[{
+q:"44.From Java 5 onwards, which one of these is recommended to replace Hashtable?"
+opt1:"ConcurrentHashMap"
+opt2:"HashMap"
+opt3:"ConcurrentHashTable"
+opt4:"None"
+ans:"1"
+}]
+
+[{
+q:"45.)What is the output of following Java Program?"
+import java.util.HashSet; 
+class HashSetDemo { 
+public static void main(String ar[]) 
+    { 
+        Set hs = new HashSet(); 
+        hs.add("1"); 
+        hs.add(1); 
+        hs.add(null);
+	hs.add("null"); 
+	System.out.println(hs) 
+    } 
+} "
+opt1:"[null,1]"
+opt2:"[1]"
+opt3:"[null,1,1,null]"
+opt4:"Runtime Exception"
+
+ans:"3"
+}]
+
+[{
+q:"46.How can you sort given HashMap on basis of values"
+opt1:"Implement Comparator interface and override its compare method"
+opt2:"It's not possible"
+opt3:"Implement Comparator interface and override its compareTo method"
+opt4:"Implement Comparator and Comparable interface"
+
+ans:"1"
+}]
+
+[{
+q:"47.Which of these is synchronized and isn't sorted by natural order?"
+
+opt1:"EnumSet"
+opt2:"LinkedList"
+opt3:"ConcurrentSkipListSet"
+opt4:"Vector"
+ans:"4"
+}]
+[{
+q:"48.Which of these is synchronized and doesn't allow null elements?"
+
+opt1:"Vector"
+opt2:"CopyOnWriteArraySet"
+opt3:"CopyOnWriteArrayList"
+opt4:"ConcurrentSkipListSet"
+ans:"4"
+}]
+[{
+q:"49.Which of these is synchronized and doesn't allow null elements?"
+
+opt1:"Hashtable"
+opt2:"HashMap"
+opt3:"Both"
+opt4:"None"
+
+ans:"2"
+}]
+
+[{
+q:"50.What is the Output of following Java Program?
+import java.util.*;
+public class sortedset{
+	public static void main(String[] args) {
+		Collection<Integer> c = new HashSet<Integer>();
+		c.add(3);
+		c.add(1);
+		c.add(2);
+		Set<Integer> ts = new TreeSet<Integer>(collection);
+		System.out.println(ts);
+	}
+}
+
+"
+opt1:"[3,2,1]"
+opt2:"Runtime Exception- NullPointerException"
+opt3:"[1,2,3]"
+opt4:"Runtim Exception- classCastException"
+
+ans:"2"
+}]
+]]
+IT_2k17_24
+
+
+
+
+
+
+

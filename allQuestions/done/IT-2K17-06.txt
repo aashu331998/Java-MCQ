@@ -1,0 +1,553 @@
+[[
+
+[{
+
+q:"1. What should we use get operations are more?"
+
+opt1:" ArrayList",
+opt2:" LinkedList",
+opt3:" Any",
+ans:"1"
+
+}],
+
+[{
+q:"2. Complexity of ArrayList get method"
+
+opt1:"O(n-1)",
+opt2:"O(n)",
+opt3:"O(1)",
+opt4:"O(2n)",
+ans:"3"
+}],
+
+[{
+q:"3. Which is sorted by natural order?"
+
+opt1:"LinkedHashSet",
+opt2:"TreeSet",
+opt3:"HashSet",
+opt4:"None",
+ans:"2"
+}],
+
+[{
+q:"4. Which of these maintains insertion order?"
+
+opt1:"List",
+opt2:"Set",
+opt3:"All",
+opt4:"None",
+ans:"1"
+}],
+
+[{
+q:"5. Which maintains insertion order?"
+
+opt1:"TreeSet",
+opt2:"HashSet",
+opt3:"LinkedHashSet",
+opt4:"None",
+ans:"3"
+}],
+
+[{
+q:"6. In Iterator, hasMoreElements() method of Enumeration has been changed to:"
+
+opt1:"hasNextElement()",
+opt2:"isNext()",
+opt3:"hasNext()",
+opt4:"name remains same",
+ans:"3"
+}],
+
+[{
+q:"7. TreeSet internally uses which one to store elements?"
+
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans"3"
+}],
+
+[{
+q:"8. HashSet internally uses?"
+
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"1"
+}],
+
+[{
+q:"9. An attempt to add null key to a TreeSet will result in:"
+
+opt1:"Will compile",
+opt2:"Compile time Exception",
+opt3:"Error",
+opt4:"Runtime - NullPointerException",
+ans:"4"
+}],
+
+[{
+q:"10. What is initial capacity of LinkedList?"
+
+opt1:"8",
+opt2:"10",
+opt3:"16",
+opt4:"10",
+ans:"2"
+}],
+
+[{
+q:"11. Enumeration returned by ArrayList is"
+
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"1"
+}],
+
+[{
+q:"12. LinkedHashMap allows"
+
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"4"
+}],
+
+[{
+q:"13. Hashtable allows"
+
+opt1:"one null key",
+opt2:"many null values",
+opt3:"none",
+opt4:"all",
+ans:"3"
+}],
+
+[{
+q:"14. How can you sort given HashMap on basis of values"
+
+opt1:"Implement Comparator interface and override its compare method",
+opt2:"It's not possible",
+opt3:"Implement Comparator interface and override its compareTo method",
+opt4:"Implement Comparator and Comparable interface",
+ans:"1"
+}],
+
+[{
+q:"15. What will be output of following code -"
+	
+"import java.util.Hashmap;"
+
+"class Employee{"
+	"private String name;"
+
+	"public Employee(String name){"
+	"this.name=name;"
+"}"
+"@Override"
+	"public int hashCode(){"
+	"return(this.name==null ? 0:" 
+"this.name.hashCode());"
+"}"
+"}"
+"public class Program2{"
+	"public static void main(String...ar){"
+	"HashMap<Employee,String> hm=new HashMap<Employee,String>();"
+	"hm.put(new Employee("a"),"emp1");"
+	"hm.put(new Employee("b"),"emp2");"
+	"hm.put(new Employee("a"),"emp1 OVERRIDDEN");"
+	"System.out.pritnln(hm.size());"
+	"System.out.pritnln(hm.get(new Employee("a")));"
+"}"
+"}"
+
+opt1:"1",
+        "null",
+opt2:"2",
+        "emp1 OVERRIDDEN",
+opt3:"2",
+        "null",
+opt4:"1",
+        "emp1 OVERRIDDEN",
+ans:"2"
+}],
+
+[{
+q:"16. What does Collections.sort internally uses when number of elements are less than 7?"
+
+opt1:"Insertion sort",
+opt2:"Merge sort,
+opt3:"Quick sort",
+opt4:"None",
+ans:"1"
+}],
+
+[{
+q:"17. What does Collections.sort internally uses when number of elements are greater than 7?"
+
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"None",
+ans:"2"
+}],
+
+[{
+q:"18. An attempt to add null key to a TreeMap will result in:"
+
+opt1:"Compile time Exception",
+opt2:"Error",
+opt3:"Runtime - NullPointerException",
+opt4:"None",
+ans:"3"
+}],
+
+[{
+q:"19. Which of these is synchronized and doesn't allow null elements?"
+
+opt1:"Vector",
+opt2:"CopyOnWriteArraySet",
+opt3:"CopyOnWriteArrayList",
+opt4:"ConcurrentSkipListSet",
+ans:"4"
+}],
+
+[{
+q:"20. Which of these is synchronized and isn't sorted by natural order?"
+
+opt1:"EnumSet",
+opt2:"LinkedList",
+opt3:"ConcurrentSkipListSet",
+opt4:"Vector",
+ans:"4"
+}],
+
+[{
+q:"21. What will be output of following code -"
+
+	"import java.util.Iterator;
+	import java.util.Map;
+	import java.util.concurrent.ConcurrentSkipListMap;
+
+	public class ConcurrentSkipListMapTest{
+	public static void main(String arg[]){
+	Map<Integer,String> concurrentSkipListMap= new ConcurrentSkipListMap<Integer,String>();
+	concurrentSkipListMap.put(11,"audi");
+	Iterator<Integer> keyIterator= concurrentSkipListMap.keySet().iterator();
+	while(keyIterator.hasNext()){
+	System.out.println(ketIterator.next());
+	concurrentSkipListMap.put(13,"bmw");
+}
+}
+}"
+
+opt1:"11 followed by ConcurrentModificationException",
+opt2:"11",
+opt3:"ConcurrentModificationException",
+opt4:"Compile time exception",
+ans:"2"
+}],
+
+[{
+q:"22. In ListIterator, after a call to next() or previous(), if a call is made to set(E element) followed by add() or remove() what happens?"
+
+opt1:"compilation error",
+opt2:"UnsupportedOperationException",
+opt3:"ConcurrentModificationException",
+opt4:"none",
+ans:"2"
+}],
+
+[{
+q:"23. Which interface must be implemented for sorting on basis many criterias"
+
+opt1:"Comparator",
+opt2:"Comparable",
+opt3:"Serializable",
+opt4:"None",
+ans:"1"
+}],
+
+[{
+q:"24. Can 2 threads on same ConcurrentHashMap object access it concurrently"
+
+opt1:"we need to add additional functionality to achieve the same.",
+opt2:"Its not possible",
+opt3:"different threads can access different segments concurrently.",
+ans:"3"
+}],
+
+[{
+q:"25. Which of these provides a get(in index) method?"
+
+opt1:"Map",
+opt2:"Set",
+opt3:"List",
+opt4:"All",
+ans:"3"
+}],
+
+[{
+q:"26. LinkedHashSet implements:"
+
+opt1:"Set",
+opt2:"Cloneable",
+opt3:"Serializable",
+opt4:"All",
+ans:"4"
+}],
+
+[{
+q:"27. In WeakHashMap"
+
+opt1:"An entry are automatically removed by garbage collector",
+opt2:"Behaves normally like HashMap",
+opt3:"An entry are never removed by garbage collector",
+opt4:"None",
+ans:"1"
+}],
+
+[{
+q:"28. A EnumSet"
+
+opt1:"Can use enum and non enum type keys",
+opt2:"Cannot use enum type keys",
+opt3:"is specialized Set implementation for use with enum type keys only",
+opt4:"None",
+ans:"3"
+}],
+
+[{
+q:"29. Iterator returned by HashSet is"
+
+opt1:"Fail-fast"
+opt2:"Fail-safe"
+opt3:"none"
+ans:"1"
+}],
+
+[{
+q:"30. Iterator returned by CopyOnWriteArraySet is"
+
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"2"
+}],
+
+[{
+q:"31. Iterator returned by TreeSet is"
+
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"none",
+ans:"1"
+}],
+
+[{
+q:"32. Iterator returned by LinkedHashSet is"
+
+opt1:"Fail-fast"
+opt2:"Fail-safe"
+opt3:"none"
+ans:"1"
+}],
+
+[{
+q:"33. Iterator returned by ConcurrentSkipListSet is"
+
+opt1:"Fail-fast"
+opt2:"Fail-safe"
+opt3:"none"
+ans:"2"
+}],
+
+[{
+q:"34. Which List is synchronized?"
+
+opt1:"Vector"
+opt2:"CopyOnWriteArrayList"
+opt3:"All"
+opt4:"none"
+ans:"3"
+}],
+
+[{
+q:"35. Which Set is synchronized?"
+
+opt1:"CopyOnWriteArraySet"
+opt2:"ConcurrentSkipListSet"
+opt3:"All"
+opt4:"none"
+ans:"3"
+}],
+
+[{
+q:"36. What is significance of using instanceOf operator and getClass() in equals method"
+
+opt1:"instanceOf will return true for comparing current class with its subclass as well",
+opt2:"getClass() will return true only if exactly same class is compared",
+opt3:"getClass() will return false when compared with subclass",
+opt4:"All",
+ans:"4"
+}],
+
+[{
+q:"37. Which of these does NOT have an index based structure?"
+
+opt1:"List",
+opt2:"Set",
+opt3:"Map",
+opt4:" ",
+ans:"2"
+
+}],
+
+[{
+q:"38. java.util.Collections is a:"
+
+opt1:"class",
+opt2:"interface",
+opt3:"object",
+opt4:"none",
+ans:"1"
+
+}],
+
+[{
+q:"39. Methods such as reverse, shuffle and sort are available in:"
+
+opt1:"Object",
+opt2:"Collection",
+opt3:"Collections",
+opt4:"Apache Commons Collections",
+ans:"3" 
+
+}],
+
+[{
+q:"40. Which of these allows duplicate elements?"
+
+opt1:"Set",
+opt2:"List",
+opt3:"All",
+opt4:"None",
+ans:"2"
+
+}],
+
+[{
+q:"41. Which allows the storage of a null key and many null values?"
+
+opt1:"Hashtable",
+opt2:"HashMap",
+opt3:"Both",
+opt4:"None",
+ans:"2"
+}],
+
+[{
+q:"42. In ConcurrentHashMap - When thread locks one segment for updation it does not block it for retrieval hence some other thread can read the same segment, but it will be able to read the data before locking?"
+
+opt1:"true",
+opt2:"false",
+opt3:"may be true/false", 
+ans:"1"
+
+}],
+
+[{
+q:"43. In ConcurrentHashMap - When thread locks one segment for updation it does not allow any other thread to perform updations in same segment until lock is not released on segment"
+
+opt1:"true",
+opt2:"false",
+opt3:"may be true/false",
+ans:"2"
+
+}],
+
+[{
+q:"44. What guarantees type-safety in a collection?"
+
+opt1:"Generics",
+opt2:"Abstract classes",
+opt3:"Interfaces",
+opt4:"Collection",
+ans:"1"
+
+}],
+
+[{
+q:"45. HashSet internally uses?"
+
+opt1:"Set",
+opt2:"HashMap",
+opt3:"List",
+opt4:"Collection",
+ans:"2"
+
+}],
+
+[{
+q:"46. The most used interfaces from the Collection framework are?"
+
+opt1:"List",
+opt2:"Map",
+opt3:"Set",
+opt4:"(All of these)",
+ans:"4"
+
+}],
+
+[{
+q:"47. The root interface of Java Collection framework hierarchy is -"
+
+opt1:"Collection",
+opt2:"Root",
+opt3:"Collections",
+opt4:"List/Set",
+ans:"1"
+
+}],
+
+[{
+q:"48. Which of these is synchronized?"
+
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Vector",
+opt4:"(None of these)",
+ans:"3"
+
+}],
+
+[{
+q:"49. ArrayList implements which of the following?"
+
+opt1:"List"
+opt2:RandomAccess"
+opt3:"Cloneable"
+opt4:"(All of these)"
+ans:"2"
+}],
+
+[{
+q:"50. Which of these allows the storage of many null values?"
+
+opt1:"Set",
+opt2:"List",
+opt3:"(None of these)",
+opt4:"(All of these)",
+ans:"4"
+}],
+],
+
+[{rollNum:"IT-2K17-06"}]]
+

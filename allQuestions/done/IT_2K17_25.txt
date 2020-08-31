@@ -1,0 +1,408 @@
+[[
+[{
+q:" 1.Which of these does NOT have an index based structure?",
+opt1:"List",
+opt2:"Map",
+opt3:"Set",
+opt4:"Queue",
+ans:"opt2"
+}],
+[{
+q:" 2.java.util.Collections is a:",
+opt1:"class",
+opt2:"interface",
+opt3:"object",
+opt4:"none",
+ans:"opt1"
+}],
+[{
+q:" 3.Methods such as reverse, shuffle and sort are available in:",
+opt1:"Object",
+opt2:"Collection",
+opt3:"Collections",
+opt4:"Apache Commons Collections",
+ans:"opt3"
+}],
+[{
+q:" 4.Which of these allows duplicate elements?",
+opt1:"Set",
+opt2:"List",
+opt3:"All",
+opt4:"None",
+ans:"opt2"
+}],
+[{
+q:" 5.Which allows storage of a null key and many null values?",
+opt1:"Hashtable",
+opt2:"Hashmap",
+opt3:"Both",
+opt4:"None",
+ans:"opt2"
+}],
+[{
+q:" 6.In ConcurrentHashMap - When thread locks one segment for updation it does /n not block it for retrieval hence some other thread can read the same segment, /n
+but it will be able to read the data before locking?",
+opt1:"true",
+opt2:"false",
+opt3:"may be true/false",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 7.In ConcurrentHashMap - When thread locks one segment for updation it does /n not allow any other thread to perform updations in same segment until lock is not released on segment", /n
+opt1:"true",
+opt2:"false",
+opt3:"may be true/false",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 8.Which interface must be implemented for sorting on basis many criterias?",
+opt1:"Comparator",
+opt2:"Comparable",
+opt3:"Serialzable",
+opt4:"None",
+ans:"opt1"
+}],
+[{
+q:" 9.Can 2 threads on same ConcurrentHashMap object access it concurrently",
+opt1:"we need to add additional functionality to achieve the same",
+opt2:"Its not possible",
+opt3:"different threads can access different segments concurrently.",
+opt4:"  ",
+ans:"opt3"
+}],
+[{
+q:" 10.Which of these provides a get(in index) method?",
+opt1:"Map",
+opt2:"Set",
+opt3:"List",
+opt4:"All",
+ans:"opt3"
+}],
+[{
+q:" 11.LinkedHashSet implements:",
+opt1:"Set",
+opt2:"Cloneable",
+opt3:"Serialzable",
+opt4:"All",
+ans:"opt4"
+}],
+[{
+q:" 12.In WeakHAshMap ",
+opt1:"An entry are automatically removed by garbage collector",
+opt2:"Behaves normally like HashMap",
+opt3:"An entry are never removed by garbage collector",
+opt4:"None",
+ans:"opt1"
+}],
+[{
+q:" 13.A EnumSet",
+opt1:"Can use enum and non enum type keys",
+opt2:"Cannot use enum type keys",
+opt3:"is specialized Set implementation for use with enum type keys only",
+opt4:"None",
+ans:"opt3"
+}],
+[{
+q:" 14.Iterator returned by HashSet is",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 15.Iterator returned by CopyOnWriteArraySet is",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt2"
+}],
+[{
+q:" 16.Iterator returned by TreeSet is",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 17.Iterator returned by LinkedHashSet is",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 18.Iterator returned by ConcurrentSkipListSet is",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt2"
+}],
+[{
+q:" 19.Which List is synchronized?",
+opt1:"Vector",
+opt2:"CopyOnWriteArrayList",
+opt3:"All",
+opt4:"None",
+ans:"opt3"
+}],
+[{
+q:" 20.Which Set is synchronized?",
+opt1:"CopyOnWriteArraySet",
+opt2:"ConcurrentSkipListSet",
+opt3:"All",
+opt4:"None",
+ans:"opt3"
+}],
+[{
+q:" 21.What should we use get operations are more?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Any",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 22.Complexity of ArrayList get method",
+opt1:"O(n-1)",
+opt2:"O(n)",
+opt3:"O(1)",
+opt4:"O(2n)",
+ans:"opt3"
+}],
+[{
+q:" 23.Which is sorted by natural order?",
+opt1:"LinkedHashSet",
+opt2:"TreeSet",
+opt3:"HashSet",
+opt4:"None",
+ans:"opt2"
+}],
+[{
+q:" 24.Which of these maintains insertion order?",
+opt1:"List",
+opt2:"Set",
+opt3:"All",
+opt4:"None",
+ans:"opt1"
+}],
+[{
+q:" 25.Which maintains insertion order?",
+opt1:"TreeSet",
+opt2:"HashSet",
+opt3:"LinkedHashSet",
+opt4:"None",
+ans:"opt3"
+}],
+[{
+q:" 26.In Iterator, hasMoreElements() method of Enumeration has been changed to:",
+opt1:"hasNextElement()",
+opt2:"isNext()",
+opt3:"hasNext()",
+opt4:"name remains same",
+ans:"opt3"
+}],
+[{
+q:" 27.TreeSet internally uses which one to store elements?",
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"opt3"
+}],
+[{
+q:" 28.HashSet internally uses?",
+opt1:"HashMap",
+opt2:"LinkedHashMap",
+opt3:"TreeMap",
+opt4:"None",
+ans:"opt1"
+}],
+[{
+q:" 29.An attempt to add null key to a TreeSet will result in:",
+opt1:"Will compile",
+opt2:"Compile time Exception",
+opt3:"Error",
+opt4:"Runtime - NullPointerException",
+ans:"opt4"
+}],
+[{
+q:" 30.What is initial capacity of LinkedList?",
+opt1:"8",
+opt2:"10",
+opt3:"18",
+opt4:"14",
+ans:"opt2"
+}],
+[{
+q:" 31.Enumeration returned by ArrayList is ______",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 32.LinkedHashMap allows ______",
+opt1:"one null key",
+opt2:"many null values",
+opt3:"None",
+opt4:"All",
+ans:"opt4"
+}],
+[{
+q:" 33.Hashtable allows",
+opt1:"one null key",
+opt2:"many null values",
+opt3:"None",
+opt4:"All",
+ans:"opt3"
+}],
+[{
+q:" 34.How can you sort given HashMap on basis of values",
+opt1:"Implement Comparator interface and override its compare method",
+opt2:"It's not possible",
+opt3:"Implement Comparator interface and override its compareTo method",
+opt4:"Implement Comparator and Comparable interface",
+ans:"opt1"
+}],
+[{
+q:" 35.What does Collections.sort internally uses when number of elements are less than 7?",
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"None",
+ans:"opt1"
+}],
+[{
+q:" 36.What does Collections.sort internally uses when number of elements are greater than 7?",
+opt1:"Insertion sort",
+opt2:"Merge sort",
+opt3:"Quick sort",
+opt4:"None",
+ans:"opt2"
+}],
+[{
+q:" 37.Which of these is synchronized and doesn't allow null elements?",
+opt1:"Vector",
+opt2:"CopyOnWriteArraySet",
+opt3:"CopyOnWriteArrayList",
+opt4:"ConcurrentSkipListSet",
+ans:"opt4"
+}],
+[{
+q:" 38.Which of these is synchronized and isn't sorted by natural order?",
+opt1:"EnumSet",
+opt2:"LinkedList",
+opt3:"ConcurrentSkipListSet",
+opt4:"vector",
+ans:"opt4"
+}],
+[{
+q:" 39.In ListIterator, after a call to next() or previous(), if a call is made to /n set(E element) followed by add() or remove() what happens?",
+opt1:"compilation error",
+opt2:"UnsupportedOperationException",
+opt3:"ConcurrentModificationException",
+opt4:"None",
+ans:"opt2"
+}],
+[{
+q:" 40.Which allows the removal of elements from a collection?",
+opt1:"Enumeration",
+opt2:"Iterator",
+opt3:"Both",
+opt4:"none",
+ans:"opt2"
+}],
+[{
+q:" 41.The Comparator interface contains the method?",
+opt1:"compareWith()",
+opt2:"compareTo()",
+opt3:"compare()",
+opt4:"  ",
+ans:"opt3"
+}],
+[{
+q:" 42.Which is more offers best performance?",
+opt1:"TreeMap",
+opt2:"HashMap",
+opt3:"LinkedHashMap",
+opt4:"All are equal",
+ans:"opt2"
+}],
+[{
+q:" 43.Which of these class should be preferred to be used as a key in a HashMap?",
+opt1:"String",
+opt2:"Integer",
+opt3:"Double",
+opt4:"Any of these",
+ans:"opt4"
+}],
+[{
+q:" 44.What should we use when add and remove operations are more frequent than get operations?",
+opt1:"LinkedList",
+opt2:"ArrayList",
+opt3:"Vector",
+opt4:"All",
+ans:"opt1"
+}],
+[{
+q:" 45.Which Set implementation is sorted and synchronized?",
+opt1:"LinkedHashSet",
+opt2:"ConcurrentSkipListSet",
+opt3:"TreeSet",
+opt4:"CopyOnWriteArraySet",
+ans:"opt2"
+}],
+[{
+q:" 46.TreeMap -",
+opt1:"doesn't allow null key",
+opt2:"Allow many null values",
+opt3:"All",
+opt4:"None",
+ans:""
+}],
+[{
+q:" 47.Which Map is synchronized?",
+opt1:"Hashtable",
+opt2:"ConcurrentSkipListMap",
+opt3:"ConcurrentHashMap",
+opt4:"All",
+ans:"opt3"
+}],
+[{
+q:" 48.ConcurrentSkipListMap allows",
+opt1:"one null key",
+opt2:"Many null values",
+opt3:"All",
+opt4:"None",
+ans:"opt4"
+}],
+[{
+q:" 49.Iterator returned by HashMap on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+[{
+q:" 50.Iterator returned by Hashtable on key, value and entry is?",
+opt1:"Fail-fast",
+opt2:"Fail-safe",
+opt3:"None",
+opt4:"  ",
+ans:"opt1"
+}],
+],
+[{rollNum:"IT2K17-25"}]]
+
+
+
+ 

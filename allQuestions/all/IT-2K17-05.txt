@@ -1,0 +1,480 @@
+[[
+[{
+q: "1. The Java Collections Framework is a ____?",
+opt1: "group of interfaces",
+opt2: "group of classes",
+opt3: "group of interfaces and classes",
+opt4: "none of these",
+ans: "3"
+}]
+]] 
+[[
+[{
+q: "2. Class arrays provide high level methods like?",
+opt1: "method binarySearch for seraching sorted arrays",
+opt2: "method equals for comparing arrays",
+opt3: "method fill for placing values into arrays",
+opt4: "all of these",
+ans: "4"
+}]
+]]
+[[
+[{
+q: "3. What interfaces extend interface Collection?",
+opt1: "Set",
+opt2: "Queue",
+opt3: "List",
+opt4: "all of these",
+ans: "4"
+}]
+]]  
+[[
+[{
+q: "4. Key feature of Set interface?",
+opt1: "collection contains duplicate elements",
+opt2: "doesnot contain duplicate elements",
+opt3: "a and b ",
+opt4: "none of these",
+ans: "1"
+}]
+]]
+[[
+[{
+q: "5. What does queue represent?",
+opt1: "Duplicacy",
+opt2: "A waiting line",
+opt3: "both a and b",
+opt4: "none of these",
+ans: "2"
+}]
+]]
+[[
+[{
+q: "6. Key feature of List interface?",
+opt1: "Duplicacy",
+opt2: "An ordered collection",
+opt3: "Both a and b",
+opt4: "none of these",
+ans: "3"
+}]
+]] 
+[[
+[{
+q: "7. What does class collection provide?",
+opt1: "Static method that manipulates collection",
+opt2: "Implements algorithms for searching ,sorting and so on",
+opt3: "can be manipulated polymorphically",
+opt4: "all of these",
+ans: "4"
+}]
+]]  
+[[
+[{
+q: "8. List implemented via interface list through?",
+opt1: "ArrayList",
+opt2: "LinkedList",
+opt3: "Vector",
+opt4: "all of these",
+ans: "4"
+}]
+]] 
+[[
+[{
+q: "9. ArrayList behaves like _____without synchronization?",
+opt1: "Vector",
+opt2: "Queue",
+opt3: "List",
+opt4: "LinkedList",
+ans: "1"
+}]
+]]  
+[[
+[{
+q: 10. LinkedLists can be used to create?",
+opt1: "stacks",
+opt2: "Queue and deques",
+opt3: "trees",
+opt4: "all of these",
+ans: "4"
+}]
+]]  
+[[
+[{
+q: "11. What are ArrayLists capable of?",
+opt1: "demonstrate collection interface capabilities",
+opt2: "place two strings arrays in ArrayLists",
+opt3: "use iterator to remove elements in ArrayLists",
+opt4: "all of these",
+ans: "4"
+}]
+]]  
+[[
+[{
+q: "12. What are LinkedLists capable of?",
+opt1: "add elements of one List to the other",
+opt2: "convert strings to uppercase",
+opt3: "delete a range of elements",
+opt4: "all of these",
+ans: "4"
+}]
+]] 
+[[
+[{
+q: "13. static method "asList" of class Arrays has features like?",
+opt1: "view an array as a list collection",
+opt2: "any modification made to array change the list view",
+opt3: "allows programmer to manipulate the array as if it were a list",
+opt4: "all of these",
+ans: "4"
+}]
+]]  
+[[
+[{
+q: "14. Only operation permitted on the view returned by asList is?",
+opt1: "Set",
+opt2: "Queue",
+opt3: "List",
+opt4: "all of these",
+ans: "1"
+}]
+]] 
+[[
+[{
+q: "15. Passing an array that contains data to toArray can cause?",
+opt1: "complie time errors",
+opt2: "logic error",
+opt3: "reached end of the program error",
+opt4: "all of these",
+ans: "2"
+}]
+]]  
+[[
+[{
+q: "16. If the number of elements in the array are greater than the number of elements in the list then?",
+opt1: "the elememts of array are overwriten by the list's elements",
+opt2: "both of them retain their same values",
+opt3: "the elememts of list are overwriten by the array's elements",
+opt4: "none of these",
+ans: "3"
+}]
+]]   
+[[
+[{
+q: "17. ?",
+opt1: "Set",
+opt2: "Queue",
+opt3: "List",
+opt4: "all of these",
+ans: "4"
+}]
+]]  
+[[
+[{
+q: "18. What does class Vector provide?",
+opt1: "Array-like DS that can resize themeselves dynamically",
+opt2: "conatins a capacity",
+opt3: "grows by capacity increment if it requires additional space",
+opt4: "all of these",
+ans: "4"
+}]
+]] 
+[[
+[{
+q: "19. Inserting an element into a Vector whose current size is less than its capacity is a_____?",
+opt1: "relatively slow operation",
+opt2: "relatively fast operation",
+opt3: "depends on element",
+opt4: "none of these",
+ans: "2"
+}]
+]] 
+[[
+[{
+q: "20. Inserting an element into a Vector that needs to grow larger to accommodate the new element is a______ ?",
+opt1: "relatively slow operation",
+opt2: "relatively fast opertaion",
+opt3: "depends on element",
+opt4: "none of these",
+ans: "1"
+}]
+]]    
+[[
+[{
+q: "21. vector methods ________ perform linear searches of a Vector's contents?",
+opt1: "contains",
+opt2: "indesOf",
+opt3: "none of these",
+opt4: "both a and b",
+ans: "4"
+}]
+]] 
+[[
+[{
+q: "22. Which one of these is not a list algorithm?",
+opt1: "sort",
+opt2: "fill",
+opt3: "disjoint",
+opt4: "copy",
+ans: "3"
+}]
+]]  
+[[
+[{
+q: "23. Which one of these is not a collection algorithm?",
+opt1: "min",
+opt2: "reverse",
+opt3: "frequency",
+opt4: "max",
+ans: "2"
+}]
+]]
+[[
+[{
+q: "25. Sort List elememts does?",
+opt1: "pass a comparator to method sort",
+opt2: "order is determined by natural order of element's type",
+opt3: "none of these",
+opt4: "all of these",
+ans: "4"
+}]
+]] 
+[[
+[{
+q: "26. What does binarySearch do?",
+opt1: "locates object in List",
+opt2: "returns index of object in List if object exists",
+opt3: "returns negative value if the Object doesnot exist",
+opt4: "all of these",
+ans: "4"
+}]
+]]
+[[
+[{
+q: "27. How does binarySearch return negative values if Object doesnot exist ?",
+opt1: "calculate insertion point",
+opt2: "make the insertion point sign negative",
+opt3: "subtract 1 from insertion point",
+opt4: "all of these",
+ans: "4"
+}]
+]] 
+[[
+[{
+q: "28. What does stack class do?",
+opt1: "implements stack DS",
+opt2: "extends class vector",
+opt3: "stores references to objects",
+opt4: "all of these",
+ans: "4"
+}]
+]]
+[[
+[{
+q: "29. New collection interface introduced in______?",
+opt1: "J2EE",
+opt2: "J2SE 5.0",
+opt3: "J2ME",
+opt4: "none of these",
+ans: "2"
+}]
+]]  
+[[
+[{
+q: "30. ________ deletes all the elements from invoking collection?",
+opt1: "delete()",
+opt2: "refresh()",
+opt3: "clear()",
+opt4: "reset()",
+ans: "3"
+}]
+]] 
+[[
+[{
+q: "31. Collection package is contained by which one of these?",
+opt1: "java.util",
+opt2: "java.awt",
+opt3: "java.lang",
+opt4: "java.net",
+ans: "1"
+}]
+]]     
+[[
+[{
+q: "32. Which interface provides additional opertaions for inserting, removing, and inspecting elements?",
+opt1: "Set",
+opt2: "Queue",
+opt3: "List",
+opt4: "all of these",
+ans: "2"
+}]
+]] 
+[[
+[{
+q: "33. What are different implementation classes associated with map?",
+opt1: "Hashtable and HashMap",
+opt2: "TreeMap",
+opt3: "none of these",
+opt4: "all of these",
+ans: "4"
+}]
+]]  
+[[
+[{
+q: "34. By increasing the load factor in a hashtable we can get?",
+opt1: "faster program execution",
+opt2: "reduced hashing collisions",
+opt3: "better memory utilization",
+opt4: "all of these",
+ans: "3"
+}]
+]] 
+[[
+[{
+q: "35. _______ does not extend Iterable?",
+opt1: "Map",
+opt2: "Collection",
+opt3: "none of these",
+opt4: "both of these",
+ans: "1"
+}]
+]] 
+[[
+[{
+q: "36. Which of the following Collection are synchronized by their nature?",
+opt1: "Vector and SortedSet",
+opt2: "Hashtable and vector",
+opt3: "HashMap and hashtable",
+opt4: "SortedSet and hashtable",
+ans: "2"
+}]
+]]
+[[
+[{
+q: "37. Enumeration cannot remove elements of the collection it is iterating?",
+opt1: "True",
+opt2: "False",
+opt3: "none of these",
+opt4: ".",
+ans: "1"
+}]
+]]  
+[[
+[{
+q: "38. The preferable implementation used to insert elements at any position in the collection?",
+opt1: "Set",
+opt2: "Queue",
+opt3: "LinkedList",
+opt4: "Vector",
+ans: "3"
+}]
+]] 
+[[
+[{
+q: "39. Set uses which type od DS to store its elements?",
+opt1: "array",
+opt2: "ArrayList",
+opt3: "vector",
+opt4: "Map",
+ans: "4"
+}]
+]]
+[[
+[{
+q: "40. Which is a valid declaration of a float?",
+opt1: " float f = 1F",
+opt2: " float f = 1.0",
+opt3: " float f = "1" ",
+opt4: " float f = 1.0d",
+ans: "1"
+}]
+]] 
+[[
+[{
+q: "42. Which one of these is not a query operation supported by collection inetrface?",
+opt1: "int size()",
+opt2: "toArray()",
+opt3: "boolean isEmpty()",
+opt4: "Iterator iterator()",
+ans: "2"
+}]
+]] 
+[[
+[{
+q: "43. In working with________, it's imp to mention that the element at fromIndex is in it?",
+opt1: "equals()",
+opt2: "lastIndexOf()",
+opt3: "subList()",
+opt4: "none of these",
+ans: "3"
+}]
+]]
+[[
+[{
+q: "44. If you need random access without inserting or removing elements from any place ither than the end, which will offer optimal collection?",
+opt1: "ArrayList",
+opt2: "LinkedList",
+opt3: "Map",
+opt4: "none of these",
+ans: "1"
+}]
+]] 
+[[
+[{
+q: "45. Both ArrayList and LinkedList implement the _________interface?",
+opt1: "Serializable interface",
+opt2: "Cloneable interface",
+opt3: "Remote interface",
+opt4: "none of these",
+ans: "2"
+}]
+]]
+[[
+[{
+q: "46. Because the collection of keys in a map must be unique, you get a ____back?",
+opt1: "Set",
+opt2: "collection",
+opt3: "List",
+opt4: "none of these",
+ans: "1"
+}]
+]]
+[[
+[{
+q: "47. If the underlying Map is modified outside the SetValue() method of Map.Entry interface, then the set of entries ?",
+opt1: "retains original values only",
+opt2: "stores the new values",
+opt3: "becomes invalid",
+opt4: "none of these",
+ans: "3"
+}]
+]]
+[[
+[{
+q: "48. Both HashMap and TreeMap implement the _______interface?",
+opt1: "Seriliazable interface",
+opt2: "Cloneable interface",
+opt3: "Remote interface",
+opt4: "none of these",
+ans: "2"
+}]
+]] 
+[[
+[{
+q: "49. In which class the usefulness of the entry vanishes when its key is no longer reachable by any thread?",
+opt1: "WeakHashMap",
+opt2: "TreeMap",
+opt3: "HashMap",
+opt4: "none of these",
+ans: "1"
+}]
+]] 
+[[
+[{
+q: "50. Which interface provides access methods to the ends of the set as well as to subsets of the set?",
+opt1: "Hash",
+opt2: "Map",
+opt3: "List",
+opt4: "SortedSet",
+ans: "4"
+}]
+]]      

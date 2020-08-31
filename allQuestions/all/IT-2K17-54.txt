@@ -1,0 +1,373 @@
+[[
+    [{
+        q:"1 Which of those doesn't have an index based structure?",
+        opt1:"List",
+        opt2:"Set",
+        opt3:"Map",
+        ans:"2"
+    }],
+    [{
+        q:"2 java.util.Collections is a:",
+        opt1:"Class",
+        opt2:"Interface",
+        opt3:"Object",
+        opt4:"None of the Above",
+        ans:"1"
+    }],
+    [{
+        q:"3 Methods such as reverse, shuffle are offered in:",
+        opt1:"Object",
+        opt2:"Collections",
+        opt3:"Collection",
+        opt4:"Apache Commons Collections",
+        ans:"2"
+    }],
+    [{
+        q:"4 Which of those allows duplicate elements?",
+        opt1:"List",
+        opt2:"Set",
+        opt3:"All of the Above",
+        opt4:"None of the Above",
+        ans:"1"
+    }],
+    [{
+        q:"5 Which allows the storage of a null key and null values?",
+        opt1:"Hashtable",
+        opt2:"HashMap",
+        opt3:"None ofo the Above",
+        ans:"2"
+    }],
+    [{
+        q:"6 HashSet internally uses?",
+        opt1:"Set",
+        opt2:"HashMap",
+        opt3:"List",
+        opt4:"Collection",
+        ans:"1"
+    }],
+    [{
+        q:"7 The most used interfaces from the collection framework are?",
+        opt1:"List",
+        opt2:"Map",
+        opt3:"Set",
+        ans:"2"
+    }],
+    [{
+        q:"8 The root interface of Java collection framework hierarchy is -",
+        opt1:"Collection",
+        opt2:"Root",
+        opt3:"Collections",
+        opt4:"List/Set",
+        ans:"4"
+    }],
+    [{
+        q:"9 Which of those is synchronized?",
+        opt1:"ArrayList",
+        opt2:"LinkedList",
+        opt3:"Vector",
+        opt4:"None of these",
+        ans:"3"
+    }],
+    [{
+        q:"10 ArrayList implements that of the following?",
+        opt1:"List",
+        opt2:"RandomAccess",
+        opt3:"Cloneable",
+        opt4:"All of these",
+        ans:"4"
+    }],
+    [{
+        q:"11 Which of those permits the storage of the many null values?",
+        opt1:"Set",
+        opt2:"List",
+        opt3:"None of these",
+        opt4:"All of these",
+        ans:"4"
+    }],
+    [{
+        q:"12 Vector extends that of these?",
+        opt1:"ArrayList",
+        opt2:"LinkedList",
+        opt3:"AbstractList",
+        opt4:"None",
+        ans:"3"
+    }],
+    [{
+        q:"13 LinkedList implements?",
+        opt1:"Deque",
+        opt2:"List",
+        opt3:"None of the Above",
+        opt4:"All of the Above",
+        ans:"4"
+    }],
+    [{
+        q:"14 nextIndex() and previousIndex() are methods of which interface?",
+        opt1:"IndexIterator",
+        opt2:"Iterator",
+        opt3:"ListIterator",
+        opt4:"NextPreviousIterator",
+        ans:"2"
+    }],
+    [{
+        q:"15 In Iterator, nextElement() method of Enumeration has been changed to:",
+        opt1:"next()",
+        opt2:"getNext()",
+        opt3:"returnNext()",
+        opt4:"name remains same",
+        ans:"4"
+    }],
+    [{
+        q:"16 From Java five onwards, that one among these is suggested to replace Hashtable?",
+        opt1:"ConcurrentHashMap",
+        opt2:"HashMap",
+        opt3:"ConcurrentHashtable",
+        opt4:"None",
+        ans:"2"
+    }],
+    [{
+        q:"17 Which doesn't permit to store a null value?",
+        opt1:"TreeSet",
+        opt2:"LinkedHashSet",
+        opt3:"HashSet",
+        opt4:"None",
+        ans:"1"
+    }],
+    [{
+        q:"18 TreeMap implements?",
+        opt1:"Dictionary",
+        opt2:"HashMap",
+        opt3:"AbstractMap",
+        opt4:"NavigableMap",
+        ans:"4"
+    }],
+    [{
+        q:"19 Which allows the removal of elements from a collection?",
+        opt1:"Enumeration",
+        opt2:"Iterator",
+        opt3:"Both",
+        opt4:"None",
+        ans:"4"
+    }],
+    [{
+        q:"20 Which of those is synchronized?",
+        opt1:"TreeMap",
+        opt2:"HashMap",
+        opt3:"Hashtable",
+        ans:"3"
+    }],
+    [{
+        q:"21 Which offers the best performance?",
+        opt1:"TreeMap",
+        opt2:"HashMap",
+        opt3:"LinkedHashMap",
+        ans:"2"
+    }],
+    [{
+        q:"22 Which of these is the most popularly used class as a key in a HashMap?",
+        opt1:"String",
+        opt2:"Integer",
+        opt3:"Double",
+        opt4:"All of the Above",
+        ans:"2"
+    }],
+    [{
+        q:"23 What should we use when add and remove operations are more frequent than get operations",
+        opt1:"LinkedList",
+        opt2:"ArrayList",
+        opt3:"Vector",
+        ans:"1"
+    }],
+    [{
+        q:"24 Which Set implementation is sorted and synchronized?",
+        opt1:"LinkedHashSet",
+        opt2:"ConcurrentSkipListSet",
+        opt3:"TreeSet",
+        opt4:"CopyOnWriteArratSet",
+        ans:"2"
+    }],
+    [{
+        q:"25 TreeMap -",
+        opt1:"Doesn't enable nul key",
+        opt2:"Allow several null key",
+        opt3:"Both",
+        ans:"2"
+    }],
+    [{
+        q:"26 Which of these helps insert elements at a specific position in a collection?",
+        opt1:"ArrayList",
+        opt2:"LinkedList",
+        opt3:"Any",
+        ans:"2"
+    }],
+    [{
+        q:"27 Which of these is sorted by default",
+        opt1:"LinkedHashSet",
+        opt2:"TreeSet",
+        opt3:"HashSet",
+        opt4:"None",
+        ans:"2"
+    }],
+    [{
+        q:"28 Which of these maintains insertion order?",
+        opt1:"List",
+        opt2:"Set",
+        opt3:"Both",
+        ans:"1"
+    }],
+    [{
+        q:"29 An attempt to add null key to a TreeMap will result in",
+        opt1:"Compile time Error",
+        opt2:"Error",
+        opt3:"Runtime - NullPointerException",
+        ans:"3"
+    }],
+    [{
+        q:"30 LinkedHashMap permits",
+        opt1:"One null key",
+        opt2:"Many null values",
+        opt3:"Both",
+        ans:"3"
+    }],
+    [{
+        q:"31 Hashtable permits",
+        opt1:"One null key",
+        opt2:"Many null values",
+        opt3:"None",
+        ans:"3"
+    }],
+    [{
+        q:"32  TreeSet maintains which order?",
+        opt1:"Ascending Order",
+        opt2:"Descending Order",
+        opt3:"None",
+        ans:"1"
+    }],
+    [{
+        q:"33 An attempt to add the null key to a TreeSet will result in:",
+        opt1:"Will Compile",
+        opt2:"Compile time Error",
+        opt3:"Error",
+        opt4:"Runtime  - NullPointerException",
+        ans:"4"
+    }],
+    [{
+        q:"35 HashSet internally uses?",
+        opt1:"HashMap",
+        opt2:"LinkedHashMap",
+        opt3:"TreeMap",
+        ans:"1"
+    }],
+    [{
+        q:"36 TreeSet internally uses that one to store elements?",
+        opt1:"HashMap",
+        opt2:"LinkedHashMap",
+        opt3:"TreeMap",
+        ans:"3"
+    }],
+    [{
+        q:"37 In Iterator, hasMoreElements() method of Enumeration has been changed to:",
+        opt1:"hasNextElement()",
+        opt2:"isNext()",
+        opt3:"hasNext()",
+        opt4:"name remains same",
+        ans:"3"
+    }],
+    [{
+        q:"39 LinkedHashSet implements:",
+        opt1:"Set",
+        opt2:"Cloneable",
+        opt3:"Seriazable",
+        opt4:"All the Above",
+        ans:"4"
+    }],
+    [{
+        q:"40 Which of those isn't an interface within the Collections Framework?",
+        opt1:"Collection",
+        opt2:"Group",
+        opt3:"Set",
+        opt4:"List",
+        ans:"2"
+    }],
+    [{
+        q:"41 Which interface restricts duplicate elements?",
+        opt1:"Set",
+        opt2:"List",
+        opt3:"Map",
+        opt4:"None",
+        ans:"1"
+    }],
+    [{
+        q:"42  The default capacity of a Vector is:",
+        opt1:"10",
+        opt2:"12",
+        opt3:"8",
+        opt4:"16",
+        ans:"10"
+    }],
+    [{
+        q:"43 Which doesn't implement the collection interface?",
+        opt1:"List",
+        opt2:"Map",
+        opt3:"Set",
+        opt4:"None of these",
+        ans:"2"
+    }],
+    [{
+        q:"44 The default capacity of an ArrayList is:",
+        opt1:"12",
+        opt2:"16",
+        opt3:"1",
+        opt4:"10",
+        ans:"10"
+    }],
+    [{
+        q:"45 Which of the following provides higher performance for the insertion and removal from the center of the list?",
+        opt1:"Vector",
+        opt2:"ArrayList",
+        opt3:"LinkedList",
+        opt4:"None",
+        ans:"3"
+    }],
+    [{
+        q:"46 Deque and Queue are derived from:",
+        opt1:"AbstractList",
+        opt2:"Collection",
+        opt3:"AbstractCollection",
+        opt4:List"",
+        ans:"Collection"
+    }],
+    [{
+        q:"47 Which of those assortment categories has the flexibility to grow dynamically?",
+        opt1:"Array",
+        opt2:"Arrays",
+        opt3:"ArrayList",
+        opt4:"None",
+        ans:"3"
+    }],
+    [{
+        q:"48 Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?",
+        opt1:"java.util.HashSet",
+        opt2:"java.util.LinkedHashSet",
+        opt3:"java.util.List",
+        opt4:"java.util.ArrayList",
+        ans:"4"
+    }],
+    [{
+        q:"49 ou need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?",
+        opt1:"java.util.Map",
+        opt2:"java.util.Set",
+        opt3:"java.util.List",
+        opt4:"java.util.Collection",
+        ans:"2"
+    }],
+    [{
+        q:"50 Which interface provides the capability to store objects using a key-value pair?",
+        opt1:"java.util.Map",
+        opt2:"java.util.Set",
+        opt3:"java.util.List",
+        opt4:"java.util.Collection",
+        ans:"1"
+    }],
+        ],
+            [{rollNum:"IT-2K17-54"}]  
+]

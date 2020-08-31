@@ -1,0 +1,456 @@
+[{
+[{
+q:"1. Which of the following is an interface?"
+           
+opt 1:  "LinkedList"
+opt 2:  "List"
+opt 3:  "ArrayList"
+opt 4:  "Stack"
+Ans : "opt 2"
+}],
+
+[{	
+q:"2. Which of the methods are defined in Stack Class?"
+opt 1:  "toString()"
+opt 2:  "addFirst()"
+opt 3:  "addLast()"
+opt 4:  push(E element)
+Ans : "opt 4"
+}],
+[{
+q:"3. Which of the following classes define pop() method?"
+opt 1:  "List"
+opt 2:  "Queue"
+opt 3:  "Stack"
+opt 4:  "LinkedList"
+Ans : "opt 3"
+}],
+[{
+q:"4. why is Generics are used with collection classes?"
+
+opt 1: "Provides type safety"
+opt 2: "Eliminates type Casting"
+opt 3: "Enable programmers to implement generic algorithm"
+opt 4: "All of the above"
+Ans : "opt 4"
+
+}],
+[{
+q:"5. In which version of java, collection framework was introduced?"
+
+opt 1:  "JDK 1.2"
+opt 2: 	"JDK 1.5"
+opt 3:  "JDK 1.8"
+opt 4:	"JDK 1.3"
+Ans : "opt 1"
+}],
+[{
+q:"6. Which of the following statements is not true"
+
+opt 1:  TreeSet implements List
+opt 2:  Stack extends Vector
+opt 3:	HashSet implements Set
+opt 4:  ArrayList implements List
+Ans : "opt 1"
+}],
+[{
+
+q:"7. What is the return type of clear() method defined in collecion"
+
+opt 1:  "float"
+opt 2:  "int"
+opt 3:  "void"
+opt 4:  "String"
+Ans : "opt 3"
+}],
+[{
+q:"8. What is return type of isEmpty() method defined in Collection"
+opt 1:  "short"
+opt 2:  "long"
+opt 3:  "int"
+opt 4:  "boolean"
+Ans : "opt 4"
+}],
+[{
+q:"9. Which of the following is not true about LinkedList class?"
+opt 1:  "It extends AbstractSequentialList"
+opt 2:  "implements Set"
+opt 3:  "implements Deque"
+opt 4:  "implements Queue"
+
+Ans : "opt 2"
+}],
+[{
+q:"10. When ClassCastException is thrown?"
+opt 1:  "When an object is incompatible with elements of collection"
+opt 2: "When illegal argument is used "
+opt 3:  "Removing element from empty collection"
+opt 4:  "Storing null object" 
+
+Ans : "opt 1"
+[{
+q:"11. Which of the following is not true?"
+opt 1:  "HashSet defines the order in which elements are stored"
+opt 2:  "HashSet extends AbstractSet"
+opt 3:  "HashSet is generic class"
+opt 4:  "HashSet implements Set"
+Ans : "opt 1"
+}],
+[{
+q:"12.Which of the following is a legacy class"
+
+opt 1: "HashMap"
+opt 2: "Queue"
+opt 3: "Stack"
+opt 4: "List"
+Ans : "opt 3"
+}],
+[{
+q:"13. Which of the following methods are not present in Iterator interface"
+
+opt 1: "public boolean hasNext()"
+opt 2: public void clear()"
+opt 3: "public void remove()"
+opt 4: "public Object next()"
+Ans : "opt 2"
+}],
+[{
+q:"14.Which of these is not synchronized?
+
+opt 1: "Stack"
+opt 2: "ArrayList"
+opt 3: "Vector"
+opt 4: "Dictionary"
+Ans : "opt 2"
+}],
+[{
+q:"15. Comparable interface is found in which package?"
+
+opt 1: "java.util"
+opt 2: "java.awt"
+opt 3: "java.io"
+opt 4: "java.lang"
+Ans : "opt 4"
+}],
+[{
+
+q:"16. Comparator interface is found in which package"
+
+opt 1: "java.util"
+opt 2: "java.io"
+opt 3: "java.lang"
+opt 4: "java.awt"
+Ans : "opt 1"
+}],
+[{
+q:"17. Which of the following is not true?"
+
+opt 1: "HashTable is a legacy class"
+opt 2: "HashTable can be traversed by enumerator"
+opt 3: "HashTable allows null key and values"
+opt 4: "HashTable inherits Dictionary class"
+Ans : "opt 3"
+}],
+[{
+q:"18. Which of the following is not true?"
+
+opt 1: "HashMap inherits AbstractMap"
+opt 2: "HashMap is internally synchronized"
+opt 3: "HashMap can be traversed by iterator"
+opt 4: "HashMap allows one null key"
+Ans : "opt 2"
+}],
+[{
+q:"19. Which method is used to insert key value pair in HashMap?"
+
+opt 1: "put()"
+opt 2: "insert()"
+opt 3: "add()"
+opt 4: "value()"
+Ans : "opt 1"
+}],
+[{
+q:"20. Which of the following method is used to get value?"
+
+opt 1: "get(K Key)"
+opt 2: "getValue(K Key)"
+opt 3: "getString(K Key)"
+opt 4: "getInt(K Key)"
+Ans : "opt 1"
+}],
+[{
+q:"21. Which of the is not true about ArrayDeque"
+
+opt 1: "We can add or delete elements from both sides"
+opt 2: "It does not has capacity restrictions"
+opt 3: "It is faster than LinkedList and Stack"
+opt 4: "It is thread safe"
+Ans : "opt 4"
+}],
+[{
+q:"22. Default capacity of HashMap in java is"
+
+opt 1: "15"
+opt 2: "08"
+opt 3: "25"
+opt 4: "16"
+Ans : "opt 4"
+}],
+[{
+q:"23. In which edition collection frameworks was reengineered to support Generics"
+
+opt 1: "JDK 2"
+opt 2: "JDK 8"
+opt 3: "JDK 5"
+opt 4: "JDK 7"
+Ans : "opt 3"
+}],
+[{
+q:"24.Which of the following is not true about ArrayList?"
+
+opt 1: "It maintains insertion order"
+opt 2: "It is not synchronized"
+opt 3: "It cannot contain duplicate elements"
+opt 4: "It allows Random access"
+Ans : "opt 3"
+}],
+[{
+q:"25.What is the return-type of add(E e) method defined in ArrayList"
+
+opt 1: "void"
+opt 2: "int"
+opt 3: "Object"
+opt 4: "boolean"
+Ans : "opt 4"
+
+}],
+[{
+
+q:"26. Which of the following interfaces provide multiple sorting sequences?"
+
+opt 1: "Comparable"
+opt 2: "Comparator"
+opt 3: "Both"
+opt 4: "None"
+Ans : "opt 2"
+}],
+[{
+q:"27.Which of the following interfaces affects original class?"
+
+opt 1: "Comparable"
+opt 2: "Comparator"
+opt 3: "Both"
+opt 4: "None"
+Ans : "opt 1"
+}],
+[{
+q:"28. Which of the following interfaces provide compare() method to sort elements?"
+
+opt 1: "Comparable"
+opt 2: "Comparator"
+opt 3: "Both"
+opt 4: "None"
+Ans : "opt 2"
+}],
+[{
+q:"29.Which of the following is not true about LinkedHashMap"
+
+opt 1: "It maintains insertion order"
+opt 2: "It contains unique elements"
+opt 3: "It cannot have null key"
+opt 4: "It is non synchronized"
+Ans : "opt 3"
+}],
+[{
+q:"30. Which of the following is not a map class"
+
+opt 1: "AbstractMap"
+opt 2: "IdentityHashMap"
+opt 3: "WeakHashMap"
+opt 4: "StrongMap"
+Ans : "opt 4"
+}],
+[{
+q: "31.Which of the following statements is not true about TreeSet?"
+
+opt 1: "It contains only unique elements"
+opt 2: "It does not maintain order"
+opt 3: "It does not allow null values"
+opt 4: "Access and retrieval is fast"
+Ans : "opt 2"
+}],
+[{
+q:"32. Which method can be used to convert ArrayList into Array?"
+
+opt 1: "toString()"
+opt 2: "toChar()"
+opt 3: "toArray()"
+opt 4: "toInt()"
+Ans : "opt 3"
+}],
+[{
+q:"33.What is default fill ratio for a HashSet?"
+
+opt 1: "0.75"
+opt 2: "1"
+opt 3: "1.5"
+opt 4: "0"
+Ans : "opt 1"
+}],
+[{
+q:"34. A collection can be accessed in which of the following ways
+
+opt 1: "Using iterator object"
+opt 2: "using for-each loop"
+opt 3: "none of the above"
+opt 4: "both"
+Ans : "opt 4"
+}],
+[{
+q:"35.Which of the following increases its size by doubling array size?"
+
+opt 1: "Vector"
+opt 2: "ArrayList"
+opt 3: "Both"
+opt 4: "None"
+Ans : "opt 1"
+}],
+[{
+q:"36.Which of the following increases its size by 50% of array size?"
+opt 1: "Vector"
+opt 2: "ArrayList"
+opt 3: "Both"
+opt 4: "None"
+Ans : "opt 2"
+}],
+[{
+q:"37. TreeSet maintains which order"
+
+opt 1: "ascending"
+opt 2: "descending"
+opt 3: "both"
+opt 4: "none"
+Ans : "opt 1"
+}],
+[{
+q:"38. How many null values can be stored in a set?"
+opt 1: "0"
+opt 2: "1"
+opt 3: "2"
+opt 4: "3"
+Ans : "opt 2"
+}],
+[{
+q:"39. Which of the following class takes key and value pairs only in String
+
+opt 1: "Properties"
+opt 2: "Dictionary"
+opt 3: "HashMap"
+opt 4: "Map"
+
+Ans : "opt 1"
+}],
+[{
+q:"40. In which package legacy classes are defined"
+opt 1: "java.awt"
+opt 2: "java.lang"
+opt 3: "java.util"
+opt 4: "java.io"
+
+Ans : "opt 3"
+}],
+[{
+q:"41. Which of the following Class is extended by NavigableMap?"
+
+opt 1: "SortedMap"
+opt 2: "Set"
+opt 3: "SortedSet"
+opt 4: "(None of these)"
+Ans : "opt 1"
+}],
+[{
+q:"42. What is the return type of hashCode() method?
+
+opt 1: "String"
+opt 2: "long"
+opt 3: "void"
+opt 4: "int"
+Ans : "opt 4"
+}],
+[{
+q:"43.Which of the following allows efficient means of storing key-value pair in sorted order"?
+
+opt 1: "SortedMap"
+opt 2: "TreeMap"
+opt 3: "HashMap"
+opt 4: "EnumMap"
+Ans : "opt 2"
+
+}],
+[{
+q:"44. In which of the Class, entry of key/value pair is automatically removed by garbage collector when they are not referenced"
+
+opt 1: "TreeMap"
+opt 2: "WeakHashMap"
+opt 3: "IdentityHashMap"
+opt 4: "HashMap"
+Ans : "opt 1"
+}],
+[{
+q:"45.Which of the following is not true about EnumSet
+
+opt 1: "It is faster than HashSet"
+opt 2: "It is synchronized"
+opt 3: "Elements must be of single enumeration type"
+opt 4: "It extends AbstractSet"
+Ans : "opt 2"
+}],
+[{
+q:"46. "Which Exception occurs when an attempt is made to modify an unmodifiable collection?"
+
+opt 1: "UnsupportedOperationException"
+opt 2: "NullPointerException"
+opt 3: "ClassCastException"
+opt 4: "ArithmeticException"
+Ans : "opt 1"
+}],
+[{
+q:"47.Which of these are static variables defined in collections?"
+
+opt 1:"EMPTY_LIST"
+opt 2: "EMPTY_SET"
+opt 3: "EMPTY_MAP"
+opt 4: "All of the above"
+Ans : "opt 4"
+}],
+[{
+q:"48. Which map class uses reference equality when comparing elements?"
+
+opt 1: "IdentityHashMap"
+opt 2: "WeakHashMap"
+opt 3: "HashMap"
+opt 4: "TreeMap"
+Ans : "opt 1"
+}],
+[{
+q:"49.In which version NavigableMap was added in java?"
+
+opt 1: "Java SE 5"
+opt 2: "Java SE 2"
+opt 3: "Java SE 6"
+opt 4: "Java SE 3"
+Ans : "opt 3"
+}],
+[{
+q:"50.Which of the following methods are defined in Iterator?"
+
+opt 1: "void remove()"
+opt 2: "E next()"
+opt 3: "boolean hasNext()"
+opt 4: All of the above"
+Ans : "opt 4"
+}],
+]
+[{IT-2K17-46}]]
+
+

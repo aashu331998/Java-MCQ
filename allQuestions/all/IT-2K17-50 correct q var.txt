@@ -1,0 +1,487 @@
+[{
+
+[{
+1)Which allows the removal of elements from a collection?
+
+opt 1:Enumeration",
+opt 2:Iterator",
+opt 3:Both",
+opt 4:None",
+Ans:"2"
+}],
+[{
+
+2)The Comparator interface contains the method?
+
+opt 1:compareWith()",
+opt 2:compareTo()",
+opt 3:compare()",
+Ans:"3"
+}],
+[{
+
+3)Which of these is synchronized?
+
+opt 1:TreeMap",
+opt 2:HashMap",
+opt 3:Hashtable",
+opt 4:All",
+Ans:"3"
+}],
+[{
+
+4)Which is more offers best performance?
+
+opt 1:TreeMap",
+opt 2:HashMap",
+opt 3:LinkedHashMap",
+opt 4:All are equal",
+Ans:"2"
+}],
+[{
+
+5)Which of these class should be preferred to be used as a key in a HashMap?
+
+opt 1:String",
+opt 2:Integer",
+opt 3:Double",
+opt 4:Any of these",
+Ans:"4"
+}],
+[{
+
+6)What should we use when add and remove operations are more frequent than get operations?
+
+opt 1:LinkedList",
+opt 2:ArrayList",
+opt 3:Vector"
+opt 4:All,
+Ans:"1"
+}],
+[{
+
+7)Iterator returned by ArrayList is?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"1"
+}],
+[{
+
+8)Iterator returned by LinkedList is?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"1"
+}],
+[{
+
+9)Iterator returned by CopyOnWriteArrayList is ?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"2"
+}],
+[{
+
+10)Iterator returned by HashMap on key, value and entry is?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"1"
+}],
+[{
+
+11)Iterator returned by Hashtable on key, value and entry is?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"1"
+}],
+[{
+
+12)Iterator returned by ConcurrentHashMap on key, value and entry is?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"2"
+}],
+[{
+
+13)Iterator returned by LinkedHashMap on key, value and entry is?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"2"
+}],
+[{
+
+14)Iterator returned by TreeMap on key, value and entry is?
+
+opt 1:Fail-fast",
+opt 2:Fail-safe",
+opt 3:none",
+Ans:"1"
+}],
+[{
+
+15)Iterator returned by ConcurrentSkipListMap on key, value and entry is?
+opt 1:Fail-fast",
+opt 2:Fail-safe"
+opt 3:none",
+Ans:"2"
+}],
+[{
+
+16)Which Set implementation is sorted and synchronized?
+
+opt 1:LinkedHashSet",
+opt 2:ConcurrentSkipListSet",
+opt 3:TreeSet",
+opt 4:CopyOnWriteArraySet",
+Ans:"2"
+}],
+[{
+
+17)TreeMap -
+
+opt 1:doesn't allow null key",
+opt 2:allow many null values",
+opt 3:All",
+opt 4:None",
+Ans:"3"
+}],
+[{
+
+18)TreeMap implements?
+
+opt 1:Dictionary",
+opt 2:HashMap",
+opt 3:AbstractMap",
+opt 4:NavigableMap",
+Ans:"4"
+}],
+[{
+
+19)Which list class must be preferred in multi-threading environment, considering performance constraint
+
+opt 1:Vector",
+opt 2:CopyOnWriteArrayList",
+opt 3:ArrayList",
+opt 4:ConcurrentArrayList",
+Ans:"2"
+}],
+[{
+
+20)Which Set class must be preferred in multi-threading environment, considering performance constraint
+
+opt 1:HashSet",
+opt 2:ConcurrentSkipListSet",
+opt 3:LinkedHashSet",
+opt 4:CopyOnWriteArraySet",
+Ans:"2"
+}],
+[{
+
+21)Which Map class must be preferred in multi-threading environment, considering performance constraint
+
+opt 1:Hashtable",
+opt 2:CopyOnWriteMap",
+opt 3:ConcurrentHashMap",
+opt 4:ConcurrentMap",
+Ans:"3"
+}],
+[{
+
+22)What guarantees type-safety in a collection?
+
+opt 1:Generics",
+opt 2:Abstract classes",
+opt 3:Interfaces",
+opt 4:Collection",
+Ans:"1"
+}],
+[{
+
+23)HashSet internally uses?
+
+opt 1:Set",
+opt 2:HashMap",
+opt 3:List",
+opt 4:Collection",
+Ans:"2"
+}],
+[{
+
+24)The most used interfaces from the Collection framework are?
+
+opt 1:List",
+opt 2:Map",
+opt 3:Set",
+opt 4:(All of these)",
+Ans:"4"
+}],
+[{
+
+25)The root interface of Java Collection framework hierarchy is -
+
+opt 1:Collection",
+opt 2:Root",
+opt 3:Collections",
+opt 4:List/Set",
+Ans:"1"
+}],
+[{
+
+26)Which of these is synchronized?
+
+opt 1:ArrayList",
+opt 2:LinkedList",
+opt 3:Vector",
+opt 4:(None of these)",
+Ans:"3"
+}],
+[{
+
+27)ArrayList implements which of the following?
+
+opt 1:List",
+opt 2:RandomAccess",
+opt 3:Cloneable",
+opt 4:(All of these)",
+Ans:"4"
+}],
+[{
+
+28)Which of these allows the storage of many null values?
+
+opt 1:Set",
+opt 2:List",
+opt 3:(None of these)",
+opt 4:(All of these)",
+Ans:"2"
+}],
+[{
+
+29)nextIndex() and previousIndex() are methods of which interface?
+
+opt 1:IndexIterator",
+opt 2:Iterator",
+opt 3:ListIterator",
+opt 4:NextPreviousIterator",
+Ans:"3"
+}],
+[{
+
+30)Vector extends which of these?
+
+opt 1:ArrayList",
+opt 2:LinkedList",
+opt 3:AbstractList",
+opt 4:None",
+Ans:"3"
+}],
+[{
+
+31)LinkedList implements?
+
+opt 1:Deque",
+opt 2:List",
+opt 3:None",
+opt 4:All",
+Ans:"4"
+}],
+[{
+
+32)In Iterator, nextElement() method of Enumeration has been changed to:
+
+opt 1:next()",
+opt 2:getNext()",
+opt 3:returnNext()",
+opt 4:name remains same",
+Ans:"1"
+}],
+[{
+
+33)Enumeration returned by Vector is?
+
+opt 1:fail-fast",
+opt 2:fail-safe",
+opt 3:none",
+Ans:"2"
+}],
+[{
+
+34)From Java 5 onwards, which one of these is recommended to replace Hashtable?
+
+opt 1:ConcurrentHashMap",
+opt 2:HashMap",
+opt 3:ConcurrentHashtable",
+opt 4:None",
+Ans:"1"
+}],
+[{
+
+35)Which does not allow to store a null value?
+
+opt 1:TreeSet",
+opt 2:LinkedHashSet",
+opt 3:HashSet",
+opt 4:None",
+Ans:"1"
+}],
+[{
+
+36)Iterator returned by Vector is?
+
+opt 1:fail-fast",
+opt 2:fail-safe",
+opt 3:none",
+Ans:"1"
+}],
+[{
+
+37)What describes how well an algorithm performs in best, average or worse case scenarios?
+
+opt 1:Big-B",
+opt 2:Big-O",
+opt 3:Big-Data",
+opt 4:Big-N",
+Ans:"2"
+}],
+[{
+
+38)An ordered array has a search time complexity of?
+
+opt 1:O(n)",
+opt 2:O(1)",
+opt 3:O(log n)",
+opt 4:O(n-1)",
+Ans:"3"
+}],
+[{
+
+39)Which Map class must be preferred in multi-threading environment to maintain natural order of keys?
+
+opt 1:ConcurrentHashMap",
+opt 2:ConcurrentSkipListMap",
+opt 3:ConcurrentMap",
+opt 4:all",
+Ans:"2"
+}],
+[{
+
+40)An unordered array has a search time complexity of:
+
+opt 1:O(log n)",
+opt 2:O(n)",
+opt 3:O(n + 1)",
+opt 4:O(1)",
+Ans:"2"
+}],
+[{
+
+41)The add and remove methods of TreeSet have a time complexity of:
+
+opt 1:O(n)",
+opt 2:O(n + 1)",
+opt 3:O(1)",
+opt 4:O(log n)",
+Ans:"4"
+}],
+[{
+
+42)After resizing, size of ArrayList is increased by :
+
+opt 1:200%",
+opt 2:50%",
+opt 3:100%",
+opt 4:(None of these)",
+Ans:"2"
+}],
+[{
+
+43)After resizing, size of Vector is increased by:
+
+opt 1:200%",
+opt 2:100%",
+opt 3:50%",
+opt 4:(None of these)",
+Ans:"2"
+}],
+[{
+
+44)Which of these is not a interface in the Collections Framework?
+
+opt 1:Collection",
+opt 2:Group",
+opt 3:Set",
+opt 4:List",
+Ans:"2"
+}],
+[{
+
+45)Which interface restricts duplicate elements?
+
+opt 1:Set",
+opt 2:List",
+opt 3:Map",
+opt 4:(All of these)",
+Ans:"1"
+}],
+[{
+
+46)Which of these collection class has the ability to grow dynamically?
+
+opt 1:Array",
+opt 2:Arrays",
+opt 3:ArrayList",
+opt 4:(None of these)",
+Ans:"3"
+}],
+[{
+47)The accuracy and efficiency of a HashMap can be guaranteed with:
+
+opt 1:override equals method",
+opt 2:override hashCode method",
+opt 3:(None of these)",
+opt 4:(All of these)",
+Ans:"4"
+}],
+[{
+48)A HashMap allows the existence of:
+
+opt 1:null values",
+opt 2:one null key",
+opt 3:(None of these)",
+opt 4:(All of these)",
+Ans:"4"
+}],
+[{
+49)What implementation of Iterator can traverse a collection in both directions?
+
+opt 1:Iterator",
+opt 2:ListIterator",
+opt 3:SetIterator",
+opt 4:MapIterator",
+Ans:"2"
+}],
+[{
+50)The Comparable interface contains which called?
+
+opt 1:toCompare",
+opt 2:compare",
+opt 3:compareTo",
+opt 4:compareWith",
+Ans:"3"
+}],
+
+}]
+[{IT-2K17-50}]

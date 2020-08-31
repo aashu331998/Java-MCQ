@@ -1,0 +1,407 @@
+[[
+[{
+q:" 1. Wildcards with supertype bound let’s  you to______?",
+opt1:"write to a generic object",
+opt2:"read from a generic object",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"1"
+}],
+[{
+q:" 2. Wildcards with subtype bound let’s  you to______?",
+opt1:"write to a generic object",
+opt2:"read from a generic object",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"2"
+}], 
+[{
+q:" 3. Common implementations of queue interface are ?",
+opt1:"Circular array",
+opt2:"LinkedList",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"3"
+}],
+[{
+q:" 4.Which class is used when you need circular queue ?",
+opt1:"ArrayDeque",
+opt2:"CircularArrayDeque",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"1"
+}],  
+[{
+q:"5. A ____ determines when a hash table need to be rehashed.",
+opt1:"hash factor",
+opt2:"collision factor ",
+opt3:"load factor",
+opt4:"hit factor",
+ans:"3"
+}], 
+[{
+q:" 6.Which one is a bounded collection and has a limited capacity?",
+opt1:"LinkedList",
+opt2:"CircularArray",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"2"
+}], 
+[{
+q:" 7.The iterator method returns an object that implements the ____?",
+opt1:"Collection Interface",
+opt2:"Iterator interface",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"2"
+}], 
+[{
+q:" 8. In java all linked lists are actually _____?",
+opt1:"Singly linked",
+opt2:"Doubly linked",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"2"
+}], 
+[{
+q:" 9. If a linked list has n elements then there are ____ spots for adding a new element.",
+opt1:"n",
+opt2:"n-1",
+opt3:"n+1",
+opt4:"log n",
+ans:"3"
+}], 
+[{
+q:" 10.To avoid ConcurrentModificationException ,many iterators can be attached to a collection provided ____?",
+opt1:"all of them are writters",
+opt2:"all of them are modifiers",
+opt3:"all of them are readers",
+opt4:"both a and b",
+ans:"3"
+}], 
+[{
+q:" 11. If no ConcurrentModificationException occurs then mutation count of iterator and collection are  ",
+opt1:"equal",
+opt2:"reset",
+opt3:"distint",
+opt4:"comparable",
+ans:"1"
+}], 
+[{
+q:" 12.If we want to implement our own queue class then we can directly extend ______ and implement all methods of Queue interface.",
+opt1:"AbstractQueue",
+opt2:"AbstractIterator",
+opt3:"AbstractCollection",
+opt4:"none of these",
+ans:"1"
+}],
+[{ 
+q:" 13. Linkedlist are not used in the situations where elements are accessed by ",
+opt1:"integer index",
+opt2:"pointers",
+opt3:"both opt1 and opt 2",
+opt4:"none of these",
+ans:"1"
+}],
+[{ 
+q:" 14. If the no. of elements are less, then preffered data structure is  ",
+opt1:"LinkedList",
+opt2:"Sets",
+opt3:"ArrayList",
+opt4:"any one can be used",
+ans:"3"
+}],
+[{ 
+q:" 15. If random access into a collection is required then preffered data structure is ",
+opt1:"LinkedList",
+opt2:"Sets",
+opt3:"ArrayList",
+opt4:"any one can be used",
+ans:"3"
+}],
+[{ 
+q:" 16. The only reason to use linked list is ",
+opt1:"Provides random access into a collection",
+opt2:"minimum cost for insertion and deletion",
+opt3:"provides links to previous and next element",
+opt4:"both opt1 and opt 2",
+ans:"2"
+}],
+[{ 
+q:"17. In java, hash tables are implemented as ",
+opt1:"arrays of linked list",
+opt2:"multidimension array ",
+opt3:"both opt1 and opt 2",
+opt4:"none of these",
+ans:"1"
+}],
+[{ 
+q:"18. If we hit a bucket in hash table that is already filled then ",
+opt1:"hit collision occurs",
+opt2:"hash collision occurs ", 
+opt3:"bucket collision occurs",
+opt4:"none of these",
+ans:"2"
+}],
+[{ 
+q:"19. As more number of elements are added to hash table then ",
+opt1:"hash collision increases",
+opt2:"hash collision decreases",
+opt3:"retrival performance suffers",
+opt4:"both opt1 and opt3",
+ans:"4"
+}],
+[{ 
+q:" 20. Which class is used when you need Linked list queue ?",
+opt1:"LinkedListQueue",
+opt2:"LinkedList",
+opt3:"both a and b",
+opt4:"none of these",
+ans:"2"
+}],
+[{ 
+q:"21. The contains method of set checks ",
+opt1:"only the elements in one bucket",
+opt2:"all elements in the collection ",
+opt3:"both opt1 and opt 2",
+opt4:"none of these",
+ans:"1"
+}],
+[{ 
+q:"22. If a tree contains n elements then an average of ___ comparisions are required to find the correct position of the new element. ",
+opt1:"n^2",
+opt2:"n ",
+opt3:"log n",
+opt4:"n/2",
+ans:"3"
+}],
+[{ 
+q:"23. The priority queue makes use of an efficient data structure called ",
+opt1:"heap",
+opt2:"hash map ",
+opt3:"set",
+opt4:"tree set",
+ans:"1"
+}],
+[{ 
+q:"24. In Set,to look up an element you need to have an similar copy of the element to find it. ",
+opt1:"True",
+opt2:"False ",
+opt3:"",
+opt4:"",
+ans:"1"
+}],
+[{ 
+q:"25. A heap is a self organizing binary tree in which add and remove operation cause ___ to graviate from the root, without wasting time on sorting all elements. ",
+opt1:"smallest element",
+opt2:"greatest element ",
+opt3:"any element",
+opt4:"",
+ans:"1"
+}],
+[{ 
+q:"26. The hash or comparision function is applied on ",
+opt1:"only to the keys",
+opt2:"only to the values",
+opt3:"both key-values pair",
+opt4:"none of these",
+ans:"1"
+}],
+[{ 
+q:"27.The views of the map are ",
+opt1:"the set of keys",
+opt2:"the set of values ",
+opt3:"the set of  key-value pairs",
+opt4:"all of the above",
+ans:"4"
+}],
+[{ 
+q:"28. The entrySet in Map is used to get ",
+opt1:"the set of keys",
+opt2:"the set of values ",
+opt3:"the set of  key-value pairs",
+opt4:"all of the above",
+ans:"3"
+}],
+[{ 
+q:"29.EnumSet is internally implemented as a  ",
+opt1:"sequence of bits",
+opt2:"sequence of bytes ",
+opt3:"Both opt1 and opt2",
+opt4:"all of the above",
+ans:"1"
+}],
+[{ 
+q:"30. In identity Hash Map, different key objects are considered distinct, if they have ",
+opt1:"different contents",
+opt2:"equal contents",
+opt3:"",
+opt4:"",
+ans:"2"
+}],
+[{ 
+q:"31. Java SE6, introduced which interfaces which contain additional method for searching and traversal in SortedSet and Maps ?",
+opt1:"navigable set",
+opt2:"navigable map",
+opt3:"navigable collection",
+opt4:"Both opt1 and opt2",
+ans:"4"
+}],
+[{ 
+q:"32. The Collections class has method that produce "
+opt1:"modifiable view of collections",
+opt2:"unmodifiable view of collections",
+opt3:"modifiable view of interfaces",
+opt4:"Both opt1 and opt3",
+ans:"2"
+}],
+[{ 
+q:"33. To access the map from multiple threads we use "
+opt1:"SynchronisedMap method",
+opt2:"get method",
+opt3:"set method",
+opt4:"SynchroniseMap method",
+ans:"1"
+}],
+[{ 
+q:"34. A restricted view throws the _______ if you attempt an inappropriate operation."
+opt1:"UnsupportedOperationException",
+opt2:"ConcurrentModificationException",
+opt3:"NoSuchElementException",
+opt4:"none of the above",
+ans:"1"
+}],
+[{ 
+q:"35. In maps, we can restrict bulk operations to sublists and subsets by using "
+opt1:"subrange view",
+opt2:"checked view",
+opt3:"navigable view",
+opt4:"sorted view",
+ans:"1"
+}],
+[{ 
+q:"36. _____ algorithm is used in the collection library and is a bit slower than ______."
+opt1:"quick sort and merge sort",
+opt2:"binary sort and merge sort",
+opt3:"quick sort and binary sort",
+opt4:"merge sort and quick sort",
+ans:"4"
+}],
+[{ 
+q:"37. A list is modifiable only if it supports "
+opt1:"add method",
+opt2:"set method",
+opt3:"remove method",
+opt4:"Both opt1 and opt3",
+ans:"2"
+}],
+[{
+q:"38. A list is resizable only if it supports "
+opt1:"add method",
+opt2:"set method",
+opt3:"remove method",
+opt4:"Both opt1 and opt3",
+ans:"4"
+}],
+[{
+q:"39. Binary search algorithm reverts back to linear search, if you give it to "
+opt1:"Array",
+opt2:"ArrayList",
+opt3:"LinkedList",
+opt4:"Vector",
+ans:"3"
+}],
+[{
+q:"40.Multiple bounds of type variables and wild cards are seprated by "
+opt1:"comma (,) operator",
+opt2:"slash (/) operator",
+opt3:"ampersand (&) operator",
+opt4:"AND operator",
+ans:"3"
+}],
+[{
+q:"41. The declaration LinkedList(Collection<? extendsE>elements) "
+opt1:"add all elements from a collection to privious linked list",
+opt2:"constructs only a linked list",
+opt3:"constructs a linked list and adds all elements from a collection",
+opt4:"None of these",
+ans:"3"
+}],
+[{
+q:"42.Wild cards allow library builders to make methods more  "
+opt1:"reliable",
+opt2:"flexible",
+opt3:"efficient",
+opt4:"consistent",
+ans:"2"
+}],
+[{
+q:"43. Iterator <E> descendingIterator() returns an _____ that traverses the set in descending order."
+opt1:"object",
+opt2:"iterator",
+opt3:"element",
+opt4:"comparator",
+ans:"2"
+}],
+[{
+q:"44. PriorityQueue(initial capacity) constructs a priority queue for storing "
+opt1:"sorted object",
+opt2:"comparable objects",
+opt3:"synchronized objects",
+opt4:"associated objects",
+ans:"2"
+}],
+[{
+q:"45. ArrayList<E> is a subtype of "
+opt1:"List<E>",
+opt2:"Collection<E>",
+opt3:"Both opt1 and opt3",
+opt4:"none of the above",
+ans:"3"
+}],
+[{
+q:"46. stmt 1:Subtyping can be used with reference type and object type in generic declaration. \n stmt2: Subtyping can be used with parameterised types."
+opt1:"only 1",
+opt2:"only 2",
+opt3:"Both 1 and 2",
+opt4:"neither 1 and 2",
+ans:"1"
+}],
+[{
+q:"47. In Number num=new Integer(2000)"
+opt1:"Integer is a subtype of number",
+opt2:"Integer is a supertype of number",
+opt3:"Both opt1 and opt2",
+opt4:"none of the above",
+ans:"1"
+}],
+[{
+q:"48. Adding an element to a tree is  "
+opt1:"slower than array",
+opt2:"faster than array and linked list",
+opt3:"slower than hash table",
+opt4:"Both opt2 and opt3",
+ans:"4"
+}],
+[{
+q:"49. The declaration static void shuffle(List<?> elements,Random r)  shuffles the elements "
+opt1:"linearly",
+opt2:"randomly",
+opt3:"sortedly",
+opt4:"none of the above",
+ans:"2"
+}],
+[{
+q:"50. The declaration static void rotate(List<?> 1,int d) rotates n elements of the list with time complexity of "
+opt1:"O(n)",
+opt2:"O(log n)",
+opt3:"O(n^2)",
+opt4:"O(1)",
+ans:"1"
+}],
+],
+[{rollNum:"IT2k17-22"}]]
+
+
+
+ 

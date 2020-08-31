@@ -1,0 +1,312 @@
+﻿[{ 
+Q:"1. Which interface provides the capability to store objects using a key-value pair?",
+opt1:"java.util.Map",
+opt2:"java.util.Set",
+opt3:"java.util.List",
+opt4:"java.util.Collection",
+ans:"1"
+}],
+[{
+Q:"2.which of these standard collection classes implements all the standard functions on list data structure?",
+opt1:"array ",
+opt2:"linkedlist",
+opt3:"hashset",
+opt4:"abstractset",
+ans:"1"
+}],
+[{
+Q:"3.which of these interface declares core method that all collections will have?",
+opt1:"set",
+opt2:"eventlistner",
+opt3:"comparator",
+opt4:"collection",
+ans:"4"
+}],
+[{
+Q:"4.which of these interface handle sequences?",
+opt1:"set ",
+opt2:"list",
+opt3:"comparator",
+opt4:"collection",
+ans:"2"
+}],
+[{
+Q:"5.which of this interface must contain a unique element?",
+opt1:"set",
+opt2:"list",
+opt3:"array",
+opt4:"collection",
+ans:"1"
+}],
+[{
+Q:"6. Which of these is synchronized?",
+opt1:"ArrayList",
+opt2:"LinkedList",
+opt3:"Vector",
+opt4:"None of these",
+ans:"C"
+}],
+[{
+Q:"7.ArrayList implements which of the following?",
+opt1:"List",
+opt2:"RandomAccess",
+opt3:"Cloneable",
+opt4:"All of these",
+ans:"D"
+}],
+[{
+Q:"8. Which of these allows the storage of many null values?",
+opt1:"Set",
+opt2:"List",
+opt3:"None of these",
+opt4:"All of these",
+ans:"B"
+}],
+[{
+Q:"9. nextIndex() and previousIndex() are methods of which interface?",
+opt1:"IndexIterator",
+opt2:"Iterator",
+opt3:"ListIterator",
+opt4:"NextPreviousIterator",
+ans:"C"
+}],
+[{
+Q:"10 Complexity of ArrayList get method",
+opt1:"O(n-1)",
+opt2:"O(n)",
+opt3:"O(1)",
+opt4:"O(2n)",
+ans:"3"
+}],
+[{
+Q:"11 Which of these is sorted by default",
+opt1:LinkedHashSet",
+opt2:"TreeSet",
+opt3:"HashSet",
+opt4:"None of the above",
+ans:"2"
+}],
+[{
+Q:"12 Which maintains insertion order?",
+opt1:"TreeSet",
+opt2:"HashSet",
+opt3:"LinkedHashSet",
+opt4:"All of the above",
+ans:"3"
+}],
+[{
+Q:"13.In Iterator, hasMoreElements() method of Enumeration has been changed to:",
+opt1:"hasNextElement()",
+opt2:"isNext()",
+opt3:"hasNext()",
+opt4:"name remains same",
+ans:"3"
+}],
+[{
+Q:"14.Which of these method of ArrayList class is used to obtain present size of an object?",
+opt1:"Array()",
+opt2:"covertArray()",
+opt3:"toArray()",
+opt4:"covertToArray()",
+ans:"Option 3"
+}],
+[{
+Q:"15. Which of these methods sets every element of a List to a specified object?",
+opt1:"set()",
+opt2:"fill()",
+opt3:"Complete()",
+opt4:"add()",
+ans:"Option 2"
+}],
+[{
+Q:"16.Which of these methods can randomize all elements in a list?",
+opt1:"rand()",
+opt2:"randomize()",
+opt3:"shuffle()",
+opt4:"ambiguous()",
+ans:"Option 3"
+}],
+[{
+Q:"17.Which of these method can convert Object into List?",
+opt1:"SetList()",
+opt2:"ConvertList()",
+opt3:"singletonList()",
+opt4:"CopyList()",
+ans:"Option 3"
+}],
+[{
+Q:"18.LinkedHashSet implements:
+opt 1: "Set"
+opt 2: "Cloneable"
+opt 3: "Serializable"
+opt 4: "All"
+Ans:"opt 4"
+}],
+[{
+Q:"19.ConcurrentSkipListMap allows
+opt 1: "one null key"
+opt 2: "many null values"
+opt 3: "all"
+opt 4: "none"
+Ans:"opt 4"
+}],
+[{
+Q:"20.In Iterator, hasMoreElements() method of Enumeration has been changed to:
+opt 1: "hasNextElement()"
+opt 2: "isNext()"
+opt 3: "hasNext()"
+opt 4: "name remains same"
+Ans:"opt 3"
+}],
+[{
+Q:"21.TreeSet internally uses which one to store elements?
+opt 1: "HashMap"
+opt 2: "LinkedHashMap"
+opt 3: "TreeMap"
+opt 4: "None"
+Ans:"opt 3"
+}],
+[{
+Q:"22.HashSet internally uses?
+opt 1: "HashMap"
+opt 2: "LinkedHashMap"
+opt 3: "TreeMap"
+opt 4: "None"
+Ans:"opt 1"
+}],
+[{
+Q:"23.An attempt to add null key to a TreeSet will result in:
+opt 1: "Will compile"
+opt 2: "Compile time Exception"
+opt 3: "Error"
+opt 4: "Runtime - NullPointerException"
+Ans:"opt 4"
+}],
+[{
+Q:"24. Methods such as reverse, shuffle and sort are available in:"
+opt1:"Object",
+opt2:"Collection",
+opt3:"Collections",
+opt4:"Apache Commons Collections",
+ans:"3" 
+}],
+[{
+Q:"25. Which of these allows duplicate elements?"
+opt1:"Set",
+opt2:"List",
+opt3:"All",
+opt4:"None",
+ans:"2"
+}],
+[{
+Q:"26.. Which allows the storage of a null key and many null values?"
+opt1:"Hashtable",
+opt2:"HashMap",
+opt3:"Both",
+opt4:"None",
+ans:"2"
+}],
+[{
+Q:"27.In ConcurrentHashMap - When thread locks one segment for updation it does not block it for retrieval hence some other thread can read the same segment, but it will be able to read the data before locking?"
+opt1:"true",
+opt2:"false",
+opt3:"may be true/false", 
+ans:"1"
+}],
+[{
+Q:"28.Which is more offers best performance?
+opt 1: "TreeMap"
+opt 2: "HashMap"
+opt 3: "LinkedHashMap"
+opt 4: "All are equal"
+Ans : "opt 2"
+}],
+[{
+Q:"29.What should we use when add and remove operations are more frequent than get operations?
+opt 1: "LinkedList"
+opt 2: "ArrayList"
+opt 3: "Vector"
+opt 4: "All"
+Ans : "opt 1"
+}],
+[{
+Q:"30.Iterator returned by ArrayList is?
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+Q;"31.Iterator returned by LinkedList is?
+opt 1: "Fail-fast"
+opt 2: "Fail-safe"
+opt 3: "none"
+Ans : "opt 1"
+}],
+[{
+Q:"32.Iterate returned by CopyOnWriteArraySet is?
+opt1: Fail-fast,
+opt2: Fail-safe,
+opt3: none,
+ans:"opt2"
+}],
+[{
+Q:"33.Iterator returned by TreeSet is?
+opt1: Fail-fast,
+opt2: Fail-safe,
+opt3: none,
+ans:"opt1"
+}],
+[{
+Q:"34.Iterator returned by LinkedHashSet is?
+opt1: Fail-fast,
+opt2: Fail-safe,
+opt3: none,
+ans:"opt1"
+}],
+[{
+Q:"35.Iterator returned by ConcurrentSkipListSet is
+opt1: Fail-fast,
+opt2: Fail-safe,
+opt3: none,
+ans:"opt2"
+}],
+[{
+Q:"36.What should we use get operations are more?
+opt1: ArrayList,
+opt2: LinkedList,
+opt3: Any,
+ans:"opt1"
+}],
+[{
+Q:"37.Complexity of ArrayList get method
+opt1: O(n-1),
+opt2: O(n),
+opt3: O(1),
+opt4: O(2n),
+}],
+[{
+Q:"38. What is the correct method used to insert and delete items from the queue?"
+opta:"push and pop"
+optb:"enqueue and dequeue"
+optc:"enqueue and peek"
+optd:" add and remove"
+Ans:"b"
+}],
+[{
+Q:"39.Which data structure is used in Breadth First Traversal of a graph?"
+opta:"Stack"
+optb:"Queue"                                                                                                                             baacacbbbb
+optc:"Array"
+optd:" Tree"
+Ans:"b"
+}],
+[{ 
+Q:"40. Where does a new element be inserted in linked list implementation of a queue?"
+opta:" Head of list"
+optb:" Tail of list"
+optc:" At the centre of list"
+optd:" All the old entries are pushed and then the new element is inserted"
+Ans:"b"
+}]
+
